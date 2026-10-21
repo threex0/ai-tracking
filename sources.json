@@ -3,6 +3,8 @@
     { "id": "arxiv", "name": "arXiv (cs.AI/CL/CV/LG)", "category": "academic-papers", "tier": 1, "type": "arxiv", "categories": ["cs.AI", "cs.CL", "cs.CV", "cs.LG"], "max_results": 40 },
     { "id": "hf_daily_papers", "name": "Hugging Face Daily Papers", "category": "academic-papers", "tier": 1, "type": "json", "kind": "hf_papers", "url": "https://huggingface.co/api/daily_papers" },
     { "id": "deepmind", "name": "Google DeepMind Blog", "category": "frontier-labs", "tier": 1, "type": "feed", "url": "https://deepmind.google/blog/rss.xml" },
+    { "id": "openai", "name": "OpenAI Blog", "category": "frontier-labs", "tier": 1, "type": "sitemap", "url": "https://openai.com/sitemap.xml", "url_filter": "/index/", "max_items": 20 },
+    { "id": "anthropic", "name": "Anthropic Research & News", "category": "frontier-labs", "tier": 1, "type": "sitemap", "url": "https://www.anthropic.com/sitemap.xml", "url_filter": ["/research", "/news"], "max_items": 20 },
     { "id": "semianalysis", "name": "SemiAnalysis", "category": "analysis-commentary", "tier": 2, "type": "feed", "url": "https://semianalysis.com/feed" },
     { "id": "interconnects", "name": "Interconnects", "category": "analysis-commentary", "tier": 2, "type": "feed", "url": "https://www.interconnects.ai/feed" },
     { "id": "lesswrong", "name": "LessWrong", "category": "analysis-commentary", "tier": 2, "type": "feed", "url": "https://www.lesswrong.com/feed.xml" },
@@ -15,6 +17,7 @@
     { "id": "quanta", "name": "Quanta Magazine", "category": "analysis-commentary", "tier": 2, "type": "feed", "url": "https://www.quantamagazine.org/feed/" },
     { "id": "mit_tech_review", "name": "MIT Technology Review", "category": "analysis-commentary", "tier": 2, "type": "feed", "url": "https://www.technologyreview.com/feed/" },
     { "id": "simonwillison", "name": "Simon Willison", "category": "syntheses", "tier": 3, "type": "feed", "url": "https://simonwillison.net/atom/everything/" },
-    { "id": "import_ai", "name": "Import AI (Jack Clark)", "category": "syntheses", "tier": 3, "type": "feed", "url": "https://jack-clark.net/feed" }
+    { "id": "import_ai", "name": "Import AI (Jack Clark)", "category": "syntheses", "tier": 3, "type": "feed", "url": "https://jack-clark.net/feed" },
+    { "id": "deepseek_news", "name": "DeepSeek News", "category": "chinese-labs", "tier": 3, "type": "sitemap", "url": "https://api-docs.deepseek.com/sitemap.xml", "url_filter": "/news", "max_items": 10 }
   ]
 }

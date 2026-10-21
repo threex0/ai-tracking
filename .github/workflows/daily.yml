@@ -11,6 +11,8 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
+    env:
+      NOTIFY_URL: ${{ secrets.NOTIFY_URL }}
     steps:
       - uses: actions/checkout@v4
 
@@ -23,10 +25,21 @@ jobs:
           node-version: '20'
 
       - name: Restore rolling window (state + items)
+        id: cache
         uses: actions/cache@v4
         with:
           path: data
-          key: ai-tracking-data
+          key: ai-tracking-data-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            ai-tracking-data-${{ runner.os }}-
+
+      - name: Cache status
+        run: |
+          if [ "${{ steps.cache.outputs.cache-hit }}" = "true" ]; then
+            echo "rolling window restored from cache (previous state)"
+          else
+            echo "no cache — this run establishes a fresh baseline"
+          fi
 
       - name: Fetch sources
         run: python fetch.py
@@ -52,3 +65,8 @@ jobs:
           git add output/latest.json
           git commit -m "Update latest.json" || echo "no changes to commit"
           git push
+
+      - name: Notify on failure
+        if: failure() && env.NOTIFY_URL != ''
+        run: |
+          curl -fsS -X POST "$NOTIFY_URL" -d "AI Tracking daily pipeline FAILED: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

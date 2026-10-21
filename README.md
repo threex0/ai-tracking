@@ -108,6 +108,7 @@ Supported fields:
   - `"feed"` — RSS/Atom feed (`url` required)
   - `"arxiv"` — arXiv API (`categories` list + optional `max_results`)
   - `"json"` — JSON API (`kind` = `"hn"` or `"hf_papers"`)
+  - `"sitemap"` — sitemap diff for RSS-less sites (`url` = sitemap URL; optional `url_filter` — substring or list to keep; `max_items`; `lastmod_days`). Titles come from the page `<title>` (fetched politely) or the URL slug. Used for OpenAI, Anthropic, DeepSeek.
 - `keywords` — optional list; only items whose title contains one of these are kept (used to filter Hacker News)
 
 To add a source, append an entry and re-run.
@@ -143,7 +144,7 @@ It's stdlib-only (uses `urllib`), so it keeps the same no-third-party dependency
 
 Run it after `ideas.py`: `python export_json.py`.
 
-A GitHub Actions workflow (`.github/workflows/daily.yml`) runs the full pipeline daily (cron 08:00 UTC): fetch → ideas → export_json → Eleventy build, then commits `output/latest.json` back to the repo. The rolling window persists between runs via the Actions cache (`data/`). `OPENROUTER_API_KEY` must be set as a repo secret. Trigger manually with **Actions → daily-pipeline → Run workflow**.
+A GitHub Actions workflow (`.github/workflows/daily.yml`) runs the full pipeline daily (cron 08:00 UTC): fetch → ideas → export_json → Eleventy build, then commits `output/latest.json` back to the repo. The rolling window persists between runs via the Actions cache (`data/`) — the cache key is unique per run with a prefix `restore-keys`, so each run saves the updated state and restores the most recent one on the next run (a cache miss means that run establishes a fresh baseline). `OPENROUTER_API_KEY` must be set as a repo secret; optionally set `NOTIFY_URL` (e.g. a ntfy/Discord/Slack webhook) to get pinged when a run fails. Trigger manually with **Actions → daily-pipeline → Run workflow**.
 
 ## Scheduling
 

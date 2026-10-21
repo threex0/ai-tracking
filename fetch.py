@@ -11,7 +11,7 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
 from paths import (DIGEST_FILE, DIGESTS_DIR, ERROR_LOG, ITEMS_FILE, SOURCES_FILE,
@@ -30,6 +30,8 @@ MAX_ITEMS = 4000
 TITLE_SIM = 0.4
 RETRIES = 2
 MAX_WORKERS = 6
+SITEMAP_MAX_DEPTH = 3
+SITEMAP_TITLE_DELAY = 1.2
 STOPWORDS = set(
     "a an and are as at be but by for from had has have he her him his i if in is it its "
     "may might more most must no not of on or our so that the their them they this those to "
@@ -211,6 +213,105 @@ def fetch_arxiv(src):
             it["guid"] = aid
             it["link"] = f"https://arxiv.org/abs/{aid}"
             items.append(it)
+    return items
+
+
+def fetch_sitemap(url, depth=0, seen=None):
+    """Fetch a sitemap (urlset or sitemapindex), recursing into child sitemaps.
+    Returns a list of {"loc": url, "lastmod": iso string or None}."""
+    if seen is None:
+        seen = set()
+    if depth > SITEMAP_MAX_DEPTH or url in seen:
+        return []
+    seen.add(url)
+    try:
+        root = ET.fromstring(http_get(url))
+    except Exception:
+        return []
+    if local(root.tag) == "sitemapindex":
+        out = []
+        for node in root.iter():
+            if local(node.tag) != "sitemap":
+                continue
+            loc = None
+            for child in node:
+                if local(child.tag) == "loc":
+                    loc = (child.text or "").strip()
+            if loc:
+                out.extend(fetch_sitemap(loc, depth + 1, seen))
+        return out
+    out = []
+    for node in root.iter():
+        if local(node.tag) != "url":
+            continue
+        loc = lastmod = None
+        for child in node:
+            t = local(child.tag)
+            if t == "loc":
+                loc = (child.text or "").strip()
+            elif t == "lastmod":
+                lastmod = (child.text or "").strip()
+        if loc:
+            out.append({"loc": loc, "lastmod": lastmod})
+    return out
+
+
+def fetch_page_title(url):
+    try:
+        text = http_get(url).decode("utf-8", "replace")
+    except Exception:
+        return None
+    m = re.search(r"<title[^>]*>(.*?)</title>", text, re.IGNORECASE | re.DOTALL)
+    return clean(m.group(1)) if m else None
+
+
+def slug_title(url):
+    seg = urllib.parse.urlparse(url).path.rstrip("/").rsplit("/", 1)[-1]
+    return re.sub(r"[-_]+", " ", seg).strip() or url
+
+
+def _matches_filter(url, url_filter):
+    if not url_filter:
+        return True
+    if isinstance(url_filter, str):
+        return url_filter in url
+    return any(f in url for f in url_filter)
+
+
+def fetch_sitemap_source(src, seen):
+    entries = fetch_sitemap(src["url"])
+    url_filter = src.get("url_filter")
+    lastmod_days = src.get("lastmod_days", 14)
+    max_items = src.get("max_items", 20)
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=lastmod_days)).timestamp() if lastmod_days else None
+
+    candidates = []
+    for e in entries:
+        if not _matches_filter(e["loc"], url_filter):
+            continue
+        if cutoff is not None and e.get("lastmod"):
+            p = parse_date(e.get("lastmod"))
+            if p and p.timestamp() < cutoff:
+                continue
+        candidates.append(e)
+    candidates.sort(key=lambda e: e.get("lastmod") or "", reverse=True)
+
+    items = []
+    for e in candidates:
+        guid = f"sitemap:{e['loc']}"
+        if seen and guid in seen:
+            continue
+        title = fetch_page_title(e["loc"]) or slug_title(e["loc"])
+        items.append({
+            "guid": guid,
+            "title": title,
+            "link": e["loc"],
+            "published": parse_date(e.get("lastmod")),
+            "summary": "",
+        })
+        if len(items) >= max_items:
+            break
+        time.sleep(SITEMAP_TITLE_DELAY)
     return items
 
 
@@ -526,10 +627,13 @@ def log_errors(errors, log_file=ERROR_LOG):
             f.write(f"{sid}: {err}\n")
 
 
-def fetch_source(src, meta):
+def fetch_source(src, meta, seen=None):
     sid = src["id"]
     if src["type"] == "arxiv":
         items = fetch_arxiv(src)
+        return items, meta
+    if src["type"] == "sitemap":
+        items = fetch_sitemap_source(src, seen)
         return items, meta
     if src["type"] == "feed":
         data, etag, last_mod = http_get_with_meta(src["url"], meta.get("etag"), meta.get("last_modified"))
@@ -571,7 +675,8 @@ def main():
     def process(src):
         sid = src["id"]
         try:
-            items, new_meta = fetch_source(src, state_meta.get(sid, {}))
+            items, new_meta = fetch_source(src, state_meta.get(sid, {}),
+                                           set(seen_by_source.get(sid, [])))
             return items, new_meta, None
         except Exception as exc:
             return [], {}, exc

@@ -20,22 +20,16 @@ cadence, no scoring/triggers, no alerts, no week-over-week view, silent errors.
 
 ---
 
-## Phase 0 — Stabilize & close coverage gaps (this week)
+## Phase 0 — Stabilize & close coverage gaps (complete 2026-10-21)
 
-Highest value-per-effort; mostly small, mostly independent.
+All Phase 0 items are done — the table is retired.
+Done (2026-10-21):
+- Reddit switched to Old Reddit RSS (`.rss`) — no OAuth, no 403s.
+- **0.1** Sitemap-diff scrapers: OpenAI, Anthropic, DeepSeek wired via `type: "sitemap"` (sitemapindex recursion, `url_filter`, polite title fetch, dedup-before-title). Qwen/Meta/PwC have no usable sitemap and are skipped (may need scraping).
+- **0.2–0.4** Persistent `data/errors.log` + `fetch.py --strict`; `ideas.py` skip-when-unchanged (fingerprint + `--force`) and retry/backoff with truncation retry.
+- **0.5** CI cache uses a per-run key + `restore-keys` (rolling window persists), cache-hit status step, and opt-in `NOTIFY_URL` failure webhook.
 
-| # | Item | Why | Effort |
-|---|------|-----|--------|
-| 0.1 | **Sitemap-diff scrapers** for OpenAI, Anthropic, Meta AI, Papers with Code, Qwen, DeepSeek | The strategy's "don't miss" tier-1 sources have no RSS and are absent entirely | M |
-| 0.5 | **CI hardening**: cache `data/` with a mutable key + cache-hit awareness; add a run-failure notification | Makes the daily pipeline self-monitoring | S–M |
-
-Done (2026-10-21): Reddit switched to Old Reddit RSS (`.rss`) — no OAuth, no 403s;
-persistent `data/errors.log` + `fetch.py --strict` exit code; `ideas.py`
-skip-when-unchanged (fingerprint + `--force`) and retry/backoff with
-truncation-retry (`finish_reason=length`). Tests: 44 stdlib cases.
-
-Exit criteria: tier-1 RSS-less labs covered, failed runs are loud,
-ideas step is idempotent/cost-aware.
+Exit criteria: tier-1 RSS-less labs covered (OpenAI/Anthropic), failed runs are loud (webhook + strict + error log), ideas step is idempotent/cost-aware.
 
 ---
 

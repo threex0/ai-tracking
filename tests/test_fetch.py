@@ -237,5 +237,68 @@ class HttpTest(unittest.TestCase):
             fetch.http_get_with_meta("https://x.com/nope")
 
 
+SITEMAP_XML = """<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.anthropic.com/news/a</loc><lastmod>2026-10-20</lastmod></url>
+  <url><loc>https://www.anthropic.com/research/b</loc></url>
+</urlset>"""
+
+SITEMAP_INDEX_XML = """<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>https://x.com/s1.xml</loc></sitemap>
+  <sitemap><loc>https://x.com/s2.xml</loc></sitemap>
+</sitemapindex>"""
+
+CHILD_XML = """<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://openai.com/index/a/</loc><lastmod>2026-10-20</lastmod></url>
+</urlset>"""
+
+
+class SitemapTest(unittest.TestCase):
+    @mock.patch("fetch.http_get")
+    def test_urlset(self, m_get):
+        m_get.return_value = SITEMAP_XML.encode()
+        out = fetch.fetch_sitemap("https://x.com/sitemap.xml")
+        self.assertEqual(len(out), 2)
+        self.assertEqual(out[0]["loc"], "https://www.anthropic.com/news/a")
+        self.assertEqual(out[0]["lastmod"], "2026-10-20")
+
+    @mock.patch("fetch.http_get")
+    def test_index_recursion(self, m_get):
+        def side_effect(url):
+            if url == "https://x.com/sitemap.xml":
+                return SITEMAP_INDEX_XML.encode()
+            return CHILD_XML.encode()
+        m_get.side_effect = side_effect
+        out = fetch.fetch_sitemap("https://x.com/sitemap.xml")
+        self.assertEqual(len(out), 2)
+
+    def test_matches_filter(self):
+        self.assertTrue(fetch._matches_filter("https://a.com/news/x", "/news"))
+        self.assertTrue(fetch._matches_filter("https://a.com/x", ["/news", "/x"]))
+        self.assertFalse(fetch._matches_filter("https://a.com/other", "/news"))
+        self.assertTrue(fetch._matches_filter("https://a.com/x", None))
+
+    def test_slug_title(self):
+        self.assertEqual(fetch.slug_title("https://a.com/news/my-post-title/"), "my post title")
+
+    @mock.patch("fetch.time.sleep")
+    @mock.patch("fetch.fetch_page_title")
+    @mock.patch("fetch.fetch_sitemap")
+    def test_source_skips_seen(self, m_sitemap, m_title, m_sleep):
+        m_sitemap.return_value = [
+            {"loc": "https://a.com/news/old", "lastmod": "2026-10-01"},
+            {"loc": "https://a.com/news/new", "lastmod": "2026-10-21"},
+        ]
+        m_title.return_value = "TITLE"
+        items = fetch.fetch_sitemap_source(
+            {"url": "https://a.com/sitemap.xml", "url_filter": "/news", "lastmod_days": None},
+            seen={"sitemap:https://a.com/news/old"})
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]["guid"], "sitemap:https://a.com/news/new")
+        self.assertEqual(items[0]["title"], "TITLE")
+
+
 if __name__ == "__main__":
     unittest.main()
