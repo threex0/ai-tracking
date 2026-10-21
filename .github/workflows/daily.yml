@@ -1,0 +1,54 @@
+name: daily-pipeline
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Restore rolling window (state + items)
+        uses: actions/cache@v4
+        with:
+          path: data
+          key: ai-tracking-data
+
+      - name: Fetch sources
+        run: python fetch.py
+
+      - name: Synthesize ideas (DeepSeek via OpenRouter)
+        run: python ideas.py
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+
+      - name: Export JSON artifact
+        run: python export_json.py
+
+      - name: Build static site
+        run: |
+          cd site
+          npm ci
+          npm run build
+
+      - name: Commit artifact
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/latest.json
+          git commit -m "Update latest.json" || echo "no changes to commit"
+          git push

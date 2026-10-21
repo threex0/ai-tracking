@@ -3,7 +3,8 @@ __pycache__/
 *.pyc
 node_modules/
 data/
-output/
+output/*
+!output/latest.json
 site/node_modules/
 site/src/content/
 graphify-out/

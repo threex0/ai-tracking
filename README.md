@@ -121,6 +121,23 @@ python ideas.py --print    # print to stdout instead of writing files
 
 It's stdlib-only (uses `urllib`), so it keeps the same no-third-party dependency rule as `fetch.py`. Run it *after* `fetch.py` so the window is fresh.
 
+## Machine-readable artifact & CI
+
+`export_json.py` writes a single JSON artifact, `output/latest.json`, that downstream consumers (e.g. vramdb) can fetch without scraping the markdown:
+
+```jsonc
+{
+  "generated_at": "...", "window_days": 14,
+  "items":   [{ "title", "url", "source_id", "source_name", "date", "tier", "tags", "summary" }],
+  "stories": [{ "title", "discovery", "sources", "items", "links": [{ "url", "source_name" }] }],
+  "ideas":   [{ "title", "section", "body", "signal" }]
+}
+```
+
+Run it after `ideas.py`: `python export_json.py`.
+
+A GitHub Actions workflow (`.github/workflows/daily.yml`) runs the full pipeline daily (cron 08:00 UTC): fetch → ideas → export_json → Eleventy build, then commits `output/latest.json` back to the repo. The rolling window persists between runs via the Actions cache (`data/`). `OPENROUTER_API_KEY` must be set as a repo secret. Trigger manually with **Actions → daily-pipeline → Run workflow**.
+
 ## Scheduling
 
 Run it on a timer so the rolling window fills, clusters form, and the site stays fresh.
@@ -160,11 +177,13 @@ Covers the parsers (RSS/Atom, HN, Reddit, HF), URL/token normalization, clusteri
 sources.json               active source config (what fetch.py reads)
 fetch.py                   the fetcher (concurrent, conditional GET, keyword tags)
 ideas.py                   LLM opportunity synthesizer (uses .env OPENROUTER_API_KEY)
+export_json.py             writes output/latest.json (the machine-readable artifact)
 paths.py                   shared path config (data/, output/, references/, site/)
 run.ps1                    full-pipeline runner (fetch.py + ideas.py + site) for the scheduler
+.github/workflows/         daily cron pipeline (fetch -> ideas -> export -> site -> commit)
 references/                human reference: *.csv source lists + sites.txt
 data/                      state.json + items.json (generated; don't edit)
-output/                    digest.md / stories.md / ideas.md + dated archives + site/
+output/                    digest.md / stories.md / ideas.md + dated archives + latest.json + site/
 site/                      Eleventy project (site build; npm run build)
 tests/                     stdlib unit tests
 docs/                      monitoring-strategy.md, improvements.md
