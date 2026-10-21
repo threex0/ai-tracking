@@ -80,6 +80,7 @@ Done (2026-10-21): **1.3** — token stemmer, IDF-weighted similarity (replaces 
 Done (2026-10-21): **1.4** — `ideas.py` writes `data/watch.json` (Watch items + keywords, 7-day expiry, `--clear-watch`); `fetch.py` merges those keywords into community-source filters.
 Done (2026-10-21): **1.5** — `TAXONOMY_RE` word-boundary regex layer on top of the keyword taxonomy; story tag aggregation (top-5 member tags, shown in `stories.md`); `fetch.py --retag` recomputes tags+scores on the window.
 Tests: 70 stdlib cases.
+Done (2026-10-21): **artifact enrichment (3.2-lite)** — `latest.json` is now additive on the original contract: items gain `score` (always numeric) + sparse `points`/`comments`; stories gain `trigger` + `tags`; top-level gains structured `watch`. Backward compatible (all original fields/names unchanged); vramdb's types just need the new fields marked optional. Tests: 72.
 
 ---
 

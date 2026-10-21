@@ -589,13 +589,8 @@ def build_stories(items):
     return stories
 
 
-def build_high_signal(stories, items):
-    """High-signal digest lines: triggered stories + un-storied high-score community items."""
-    lines = []
-    for st in stories:
-        if st.get("trigger"):
-            names = " · ".join(f"[{clean(m['title'])}]({m['link']})" for m in st["members"][:3])
-            lines.append(f"- **{st['trigger']}**: {names}")
+def watch_items(stories, items, limit=WATCH_MAX):
+    """Structured watch candidates: high-score community items not yet in any story."""
     in_story = set()
     for st in stories:
         for m in st["members"]:
@@ -605,8 +600,19 @@ def build_high_signal(stories, items):
              and (it.get("score") or 0) >= WATCH_MIN_SCORE
              and it.get("key") not in in_story]
     watch.sort(key=lambda it: it.get("score") or 0, reverse=True)
-    for it in watch[:WATCH_MAX]:
-        lines.append(f"- **watch**: [{clean(it['title'])}]({it['link']}) (score {it.get('score')})")
+    return [{"title": it.get("title") or "", "url": it.get("link") or "", "score": it.get("score") or 0.0}
+            for it in watch[:limit]]
+
+
+def build_high_signal(stories, items):
+    """High-signal digest lines: triggered stories + un-storied high-score community items."""
+    lines = []
+    for st in stories:
+        if st.get("trigger"):
+            names = " · ".join(f"[{clean(m['title'])}]({m['link']})" for m in st["members"][:3])
+            lines.append(f"- **{st['trigger']}**: {names}")
+    for w in watch_items(stories, items):
+        lines.append(f"- **watch**: [{clean(w['title'])}]({w['url']}) (score {w['score']})")
     return lines
 
 

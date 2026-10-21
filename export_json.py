@@ -24,7 +24,7 @@ SECTION_RE = re.compile(r"^\d+\.\s+(.*)$")
 def export_items(items):
     out = []
     for it in items:
-        out.append({
+        e = {
             "title": it.get("title") or "",
             "url": it.get("link") or "",
             "source_id": it.get("source_id") or "",
@@ -33,13 +33,19 @@ def export_items(items):
             "tier": it.get("tier"),
             "tags": it.get("tags") or [],
             "summary": (it.get("summary") or "")[:SUMMARY_CHARS],
-        })
+            "score": it.get("score") or 0.0,
+        }
+        if it.get("points") is not None:
+            e["points"] = it["points"]
+        if it.get("comments") is not None:
+            e["comments"] = it["comments"]
+        out.append(e)
     return out
 
 
-def export_stories(items):
+def export_stories(stories):
     out = []
-    for st in fetch.build_stories(items):
+    for st in stories:
         links, seen = [], set()
         for m in st["members"]:
             url = m.get("link")
@@ -52,6 +58,8 @@ def export_stories(items):
         out.append({
             "title": st["title"],
             "discovery": st["tag"],
+            "trigger": st.get("trigger"),
+            "tags": st.get("tags") or [],
             "sources": len(st["sources"]),
             "items": len(st["members"]),
             "links": links,
@@ -109,18 +117,20 @@ def main():
         print("No items in the rolling window. Run fetch.py first.", file=sys.stderr)
         sys.exit(1)
 
+    stories = fetch.build_stories(items)
     artifact = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "window_days": WINDOW_DAYS,
         "items": export_items(items),
-        "stories": export_stories(items),
+        "stories": export_stories(stories),
         "ideas": export_ideas(),
+        "watch": fetch.watch_items(stories, items),
     }
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     LATEST_FILE.write_text(json.dumps(artifact, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Wrote {LATEST_FILE} "
           f"({len(artifact['items'])} items, {len(artifact['stories'])} stories, "
-          f"{len(artifact['ideas'])} ideas)")
+          f"{len(artifact['ideas'])} ideas, {len(artifact['watch'])} watch)")
 
 
 if __name__ == "__main__":

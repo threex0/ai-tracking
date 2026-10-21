@@ -138,11 +138,14 @@ It's stdlib-only (uses `urllib`), so it keeps the same no-third-party dependency
 ```jsonc
 {
   "generated_at": "...", "window_days": 14,
-  "items":   [{ "title", "url", "source_id", "source_name", "date", "tier", "tags", "summary" }],
-  "stories": [{ "title", "discovery", "sources", "items", "links": [{ "url", "source_name" }] }],
-  "ideas":   [{ "title", "section", "body", "signal" }]
+  "items":   [{ "title", "url", "source_id", "source_name", "date", "tier", "tags", "summary", "score", "points"?, "comments"? }],
+  "stories": [{ "title", "discovery", "trigger"?, "tags", "sources", "items", "links": [{ "url", "source_name" }] }],
+  "ideas":   [{ "title", "section", "body", "signal" }],
+  "watch":   [{ "title", "url", "score" }]
 }
 ```
+
+Newer fields (`score`, `points`/`comments`, story `trigger`/`tags`, top-level `watch`) are **additive** — the original contract fields are unchanged, so existing consumers keep working. `score` is always a number (0.0 when unknown); `points`/`comments` only appear on items that have engagement data (HN); story `trigger` is `"discovery"`/`"opportunity"` or `null`.
 
 Run it after `ideas.py`: `python export_json.py`.
 
