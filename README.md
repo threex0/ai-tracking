@@ -40,6 +40,10 @@ State files (created automatically — don't edit by hand):
 |------|---------|
 | `data/state.json` | Per-source dedup markers, ETag/Last-Modified cursors, last-run timestamp |
 | `data/items.json` | Rolling 14-day window of items (with keyword tags) used to build stories |
+| `data/errors.log` | Append-only log of per-source fetch errors (also shown in the digest) |
+| `data/ideas_state.json` | Fingerprint of the last ideas run (drives skip-when-unchanged) |
+
+**Flags.** `fetch.py --strict` exits non-zero if any source failed to fetch (for CI/watchdogs); by default partial failures are logged and tolerated. `ideas.py --force` regenerates even when nothing has changed.
 
 ## Static site
 
@@ -117,7 +121,10 @@ python ideas.py            # uses DeepSeek v4 Pro
 python ideas.py --flash    # cheaper/faster Flash model
 python ideas.py --days 7   # only items from the last week
 python ideas.py --print    # print to stdout instead of writing files
+python ideas.py --force    # regenerate even if nothing changed
 ```
+
+If nothing changed since the last run, `ideas.py` skips the LLM call (it fingerprints the item window + stories; pass `--force` to override). `--print` always runs and prints to stdout. Transient API errors are retried with backoff, and a truncated response (`finish_reason=length`) retries once with a smaller context.
 
 It's stdlib-only (uses `urllib`), so it keeps the same no-third-party dependency rule as `fetch.py`. Run it *after* `fetch.py` so the window is fresh.
 

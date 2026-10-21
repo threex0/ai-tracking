@@ -1,8 +1,10 @@
+import argparse
 import collections
 import html
 import json
 import re
 import ssl
+import sys
 import time
 import urllib.error
 import urllib.parse
@@ -12,8 +14,8 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
-from paths import (DIGEST_FILE, DIGESTS_DIR, ITEMS_FILE, SOURCES_FILE, STATE_FILE,
-                   STORIES_DIR, STORY_FILE, ensure_dirs)
+from paths import (DIGEST_FILE, DIGESTS_DIR, ERROR_LOG, ITEMS_FILE, SOURCES_FILE,
+                   STATE_FILE, STORIES_DIR, STORY_FILE, ensure_dirs)
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
@@ -514,6 +516,16 @@ def write_outputs(digest_md, stories_md):
     (STORIES_DIR / f"{run_date}.md").write_text(stories_md, encoding="utf-8")
 
 
+def log_errors(errors, log_file=ERROR_LOG):
+    if not errors:
+        return
+    log_file.parent.mkdir(parents=True, exist_ok=True)
+    with log_file.open("a", encoding="utf-8") as f:
+        f.write(f"---- {datetime.now(timezone.utc).isoformat()} ----\n")
+        for sid, err in errors:
+            f.write(f"{sid}: {err}\n")
+
+
 def fetch_source(src, meta):
     sid = src["id"]
     if src["type"] == "arxiv":
@@ -540,6 +552,11 @@ def fetch_source(src, meta):
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Fetch AI/ML sources and build the digest + stories.")
+    parser.add_argument("--strict", action="store_true",
+                        help="Exit non-zero if any source failed to fetch.")
+    args = parser.parse_args()
+
     ensure_dirs()
     sources = load_sources()
     state = load_state()
@@ -603,8 +620,14 @@ def main():
     else:
         print(f"{total} new item(s) across {len(new_by_source)} source(s).")
     print(f"{len(stories)} multi-source story/stories; {len(store)} items in rolling window.")
+    if errors:
+        log_errors(errors)
+        print(f"{len(errors)} error(s) appended to {ERROR_LOG}")
     for sid, err in errors:
         print(f"  ERROR {sid}: {err}")
+    if args.strict and errors:
+        print(f"--strict: {len(errors)} source(s) failed; exiting 1.", file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == "__main__":

@@ -1,11 +1,15 @@
 import argparse
+import hashlib
 import json
 import os
 import sys
+import time
+import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 
-from paths import ENV_FILE, IDEAS_DIR, IDEAS_FILE, ITEMS_FILE, STORY_FILE, ensure_dirs
+from paths import (ENV_FILE, IDEAS_DIR, IDEAS_FILE, IDEAS_STATE_FILE, ITEMS_FILE,
+                   STORY_FILE, ensure_dirs)
 
 MODEL_PRO = "deepseek/deepseek-v4-pro-0813"
 MODEL_FLASH = "deepseek/deepseek-v4-flash-0731"
@@ -62,7 +66,7 @@ def item_line(it):
     return line
 
 
-def build_context(items, days):
+def build_context(items, days, max_items=MAX_ITEMS):
     now = datetime.now(timezone.utc)
     cutoff = None
     if days:
@@ -87,17 +91,25 @@ def build_context(items, days):
     lines = []
     total = 0
     for cat, group in buckets.items():
-        if total >= MAX_ITEMS:
+        if total >= max_items:
             break
         lines.append(f"## {cat} ({len(group)} items)")
         lines.append("")
         for it in group[:PER_CATEGORY]:
             lines.append(item_line(it))
             total += 1
-            if total >= MAX_ITEMS:
+            if total >= max_items:
                 break
         lines.append("")
     return "\n".join(lines)
+
+
+def build_prompt(context, stories):
+    prompt = PROMPT
+    if stories:
+        prompt += "\n### Cross-source stories (clusters)\n\n" + stories + "\n\n"
+    prompt += "### Items by category\n\n" + context
+    return prompt
 
 
 def load_stories():
@@ -105,6 +117,34 @@ def load_stories():
         text = STORY_FILE.read_text(encoding="utf-8")
         return text.strip()
     return ""
+
+
+def compute_fingerprint(items, stories, days=None):
+    h = hashlib.sha256()
+    h.update(f"{days}|{len(items)}|".encode())
+    fetched = [it.get("fetched_at") or "" for it in items if it.get("fetched_at")]
+    if fetched:
+        h.update(max(fetched).encode())
+    h.update("|".encode())
+    h.update((stories or "").encode())
+    return h.hexdigest()
+
+
+def load_fingerprint():
+    if IDEAS_STATE_FILE.exists():
+        try:
+            return json.loads(IDEAS_STATE_FILE.read_text(encoding="utf-8")).get("fingerprint")
+        except (json.JSONDecodeError, OSError):
+            return None
+    return None
+
+
+def save_fingerprint(fp):
+    IDEAS_STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    IDEAS_STATE_FILE.write_text(json.dumps({
+        "fingerprint": fp,
+        "last_run": datetime.now(timezone.utc).isoformat(),
+    }, indent=2), encoding="utf-8")
 
 
 PROMPT = """You are an AI research strategist. Below is a snapshot of recent AI/ML research and news pulled automatically from arXiv, Hugging Face, frontier-lab blogs, industry press, and community discussions.
@@ -129,7 +169,11 @@ Snapshot:
 """
 
 
-def call_llm(prompt, model, api_key):
+class TruncatedError(RuntimeError):
+    """Raised when the model output was cut off (finish_reason=length)."""
+
+
+def call_llm(prompt, model, api_key, max_tokens=20000):
     body = json.dumps({
         "model": model,
         "messages": [
@@ -137,7 +181,7 @@ def call_llm(prompt, model, api_key):
             {"role": "user", "content": prompt},
         ],
         "temperature": 0.7,
-        "max_tokens": 20000,
+        "max_tokens": max_tokens,
     }).encode("utf-8")
     req = urllib.request.Request(
         API_URL,
@@ -159,8 +203,47 @@ def call_llm(prompt, model, api_key):
     content = message.get("content")
     if not content:
         reason = data["choices"][0].get("finish_reason")
-        raise RuntimeError(f"Empty content finish_reason={reason} (reasoning model likely exhausted max_tokens). Raw: {json.dumps(data)[:400]}")
+        if reason == "length":
+            raise TruncatedError("finish_reason=length (output cut off)")
+        raise RuntimeError(f"Empty content finish_reason={reason}. Raw: {json.dumps(data)[:400]}")
     return content
+
+
+def _is_retryable(exc):
+    if isinstance(exc, urllib.error.HTTPError):
+        return exc.code == 429 or exc.code >= 500
+    if isinstance(exc, urllib.error.URLError):
+        return True
+    return False
+
+
+def call_llm_with_retries(prompt, model, api_key, retries=3):
+    last = None
+    for attempt in range(retries):
+        try:
+            return call_llm(prompt, model, api_key)
+        except TruncatedError:
+            raise
+        except Exception as exc:
+            if not _is_retryable(exc) or attempt == retries - 1:
+                raise
+            last = exc
+            wait = 2 ** attempt
+            print(f"  retrying in {wait}s after: {exc}", file=sys.stderr)
+            time.sleep(wait)
+    raise last
+
+
+def generate(items, stories, model, api_key, days, max_items=MAX_ITEMS, include_stories=True):
+    context = build_context(items, days, max_items=max_items)
+    prompt = build_prompt(context, stories if include_stories else "")
+    try:
+        return call_llm_with_retries(prompt, model, api_key)
+    except TruncatedError:
+        print("  output truncated; retrying once with a smaller context", file=sys.stderr)
+        context = build_context(items, days, max_items=max_items // 2)
+        prompt = build_prompt(context, "" if include_stories else "")
+        return call_llm_with_retries(prompt, model, api_key)
 
 
 def write_outputs(markdown):
@@ -182,6 +265,7 @@ def main():
     parser.add_argument("--flash", action="store_true", help="Use the cheaper/faster DeepSeek Flash model.")
     parser.add_argument("--model", default=None, help="Override the OpenRouter model id.")
     parser.add_argument("--days", type=int, default=None, help="Restrict to items from the last N days.")
+    parser.add_argument("--force", action="store_true", help="Regenerate even if nothing has changed since the last run.")
     parser.add_argument("--print", dest="print_only", action="store_true", help="Print to stdout instead of writing files.")
     args = parser.parse_args()
 
@@ -199,22 +283,23 @@ def main():
         print("No items in the rolling window yet. Run fetch.py first.", file=sys.stderr)
         sys.exit(1)
 
-    context = build_context(items, args.days)
     stories = load_stories()
+    fp = compute_fingerprint(items, stories, days=args.days)
 
-    prompt = PROMPT
-    if stories:
-        prompt += "\n### Cross-source stories (clusters)\n\n" + stories + "\n\n"
-    prompt += "### Items by category\n\n" + context
+    if not args.print_only and not args.force and fp == load_fingerprint():
+        print("Nothing new since the last ideas run; skipping (use --force to regenerate).")
+        return
 
     print(f"Building prompt from {len(items)} items (model={model})...")
-    markdown = call_llm(prompt, model, api_key)
+    markdown = generate(items, stories, model, api_key, args.days)
 
     if args.print_only:
         print(markdown)
     else:
         full = write_outputs(markdown)
-        print(f"Wrote {IDEAS_FILE} and {IDEAS_DIR}/{datetime.now(timezone.utc).astimezone().strftime('%Y-%m-%d')}.md")
+        save_fingerprint(fp)
+        run_date = datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d")
+        print(f"Wrote {IDEAS_FILE} and {IDEAS_DIR}/{run_date}.md")
 
 
 if __name__ == "__main__":

@@ -27,12 +27,12 @@ Highest value-per-effort; mostly small, mostly independent.
 | # | Item | Why | Effort |
 |---|------|-----|--------|
 | 0.1 | **Sitemap-diff scrapers** for OpenAI, Anthropic, Meta AI, Papers with Code, Qwen, DeepSeek | The strategy's "don't miss" tier-1 sources have no RSS and are absent entirely | M |
-| 0.2 | **Persistent error log** + exit-code on partial failure | Today fetch errors go to stdout + digest tail only; a silent cron failure is invisible | S |
-| 0.3 | **`ideas.py` skip-when-unchanged** (fingerprint digest of window/stories) | Each daily run spends LLM tokens even when nothing changed | S |
-| 0.4 | **Retry/backoff + `finish_reason=length` handling in `ideas.py`** | Prevents failed/truncated idea runs and wasted cost | S |
 | 0.5 | **CI hardening**: cache `data/` with a mutable key + cache-hit awareness; add a run-failure notification | Makes the daily pipeline self-monitoring | S–M |
 
-Done (2026-10-21): Reddit switched to Old Reddit RSS (`.rss`) — no OAuth, no 403s.
+Done (2026-10-21): Reddit switched to Old Reddit RSS (`.rss`) — no OAuth, no 403s;
+persistent `data/errors.log` + `fetch.py --strict` exit code; `ideas.py`
+skip-when-unchanged (fingerprint + `--force`) and retry/backoff with
+truncation-retry (`finish_reason=length`). Tests: 44 stdlib cases.
 
 Exit criteria: tier-1 RSS-less labs covered, failed runs are loud,
 ideas step is idempotent/cost-aware.
