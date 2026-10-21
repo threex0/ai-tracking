@@ -22,3 +22,8 @@ STORIES_DIR = OUTPUT_DIR / "stories"
 IDEAS_DIR = OUTPUT_DIR / "ideas"
 
 SITE_OUTPUT = OUTPUT_DIR / "site"
+
+
+def ensure_dirs():
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

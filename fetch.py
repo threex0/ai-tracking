@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
 from paths import (DIGEST_FILE, DIGESTS_DIR, ITEMS_FILE, SOURCES_FILE, STATE_FILE,
-                   STORIES_DIR, STORY_FILE)
+                   STORIES_DIR, STORY_FILE, ensure_dirs)
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
@@ -558,6 +558,7 @@ def fetch_source(src, meta):
 
 
 def main():
+    ensure_dirs()
     sources = load_sources()
     state = load_state()
     is_baseline = not state.get("last_run")

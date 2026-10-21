@@ -1,7 +1,41 @@
 {
-  "generated_at": "2026-10-21T03:21:44.635346+00:00",
+  "generated_at": "2026-10-21T03:25:54.260852+00:00",
   "window_days": 14,
   "items": [
+    {
+      "title": "Democrats think cracking down on AI could give them an edge",
+      "url": "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-19",
+      "tier": 2,
+      "tags": [],
+      "summary": "Democrats could win back control of Congress this November, and if they do, they'll need to decide how to approach one of the country's newest and thorniest political issues: AI. Polls predict Democrats will flip at least one chamber of Congress in the midterm elections, which would put committee le"
+    },
+    {
+      "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
+      "url": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-19",
+      "tier": 2,
+      "tags": [
+        "safety"
+      ],
+      "summary": "Today, I’m talking with Illinois Gov. JB Pritzker, who has a lot of thoughts about AI, tech, and privacy. If you’ve been listening to the show, you know that one of my running theories is that those issues are driving a big and maybe kind of unexpected political realignment — and with the midterms c"
+    },
+    {
+      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-19",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. C"
+    },
     {
       "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
       "url": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
@@ -83,30 +117,140 @@
       "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive. Read more"
     },
     {
-      "title": "Publish fake stats, get cited in LLMs",
-      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
+      "title": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
+      "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
       "date": "2026-10-20",
       "tier": 2,
       "tags": [],
-      "summary": "315 points, 180 comments"
+      "summary": "Adobe announced yesterday that the mobile version of Lightroom, available for iOS, iPadOS, and Android, can now open closed eyes in photos using generative AI with just a single tap. When the app detects a person, or a group of people, have their eyes closed in a photo it will automatically present "
     },
     {
-      "title": "VPD's Evaluation Adversary Finds Systematic Defects in the Released Decomposition",
-      "url": "https://www.lesswrong.com/posts/tGdKJPmyaiHnqkLem/vpd-s-evaluation-adversary-finds-systematic-defects-in-the",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
+      "title": "The fossil fuel comeback is here",
+      "url": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-19",
+      "tier": 2,
+      "tags": [],
+      "summary": "The US is building more fossil fuel infrastructure than it has in a decade while renewable energy growth slows down, a new report shows. Electricity demand is also climbing faster than it has in more than a decade with more data centers, factories, and electric vehicles plugging into the grid. Despi"
+    },
+    {
+      "title": "CoreWeave&#8217;s debt is becoming the whole AI industry&#8217;s problem",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
       "date": "2026-10-20",
       "tier": 2,
       "tags": [
-        "reasoning",
+        "policy"
+      ],
+      "summary": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds. Last Tuesday Chamath \"SPAC King\" Palihapitiya noticed the distressed debt, and also asked whether the"
+    },
+    {
+      "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
+      "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday that says Spotify has also made changes to its recommendation system to highlight more music made by human artists."
+    },
+    {
+      "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
+      "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc say they found more than 6,800 Muse links t"
+    },
+    {
+      "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+      "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-19",
+      "tier": 2,
+      "tags": [
         "evals",
         "safety",
-        "hardware",
+        "policy"
+      ],
+      "summary": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology."
+    },
+    {
+      "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+      "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-19",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic."
+    },
+    {
+      "title": "Otter AI raises $320M from General Catalyst’s growth fund for its meeting tool",
+      "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [
         "funding"
       ],
-      "summary": "TL;DR: adVersarial Parameter Decomposition (VPD) decomposes model weights into simple components and assigns labels that specify whether a component is needed for a given input. A core aspiration of VPD is robust mechanistic faithfulness - the property that switching off any set of unneeded componen"
+      "summary": "Otter.ai said that it will use these funds for enterprise growth, go-to-market strategy, international expansion, and product innovation."
+    },
+    {
+      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [
+        "policy"
+      ],
+      "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands."
+    },
+    {
+      "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-19",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year."
+    },
+    {
+      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [
+        "policy"
+      ],
+      "summary": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear "
+    },
+    {
+      "title": "Google’s more personalized Gemini AI is heading to your car",
+      "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini abou"
     },
     {
       "title": "Anthropic logged net loss of over $80B in first half of 2026",
@@ -116,7 +260,7 @@
       "date": "2026-10-20",
       "tier": 2,
       "tags": [],
-      "summary": "88 points, 48 comments"
+      "summary": "119 points, 54 comments"
     },
     {
       "title": "Claude designed protein binders against scorpion neurotoxins",
@@ -126,7 +270,7 @@
       "date": "2026-10-20",
       "tier": 2,
       "tags": [],
-      "summary": "87 points, 61 comments"
+      "summary": "98 points, 64 comments"
     },
     {
       "title": "Show HN: Penmentor – Claude marks up your handwritten math like a teacher",
@@ -136,38 +280,180 @@
       "date": "2026-10-20",
       "tier": 2,
       "tags": [],
-      "summary": "52 points, 6 comments"
+      "summary": "57 points, 7 comments"
     },
     {
-      "title": "What to sort out before the money lands",
-      "url": "https://www.lesswrong.com/posts/6KuEywqzBDmFayRpQ/what-to-sort-out-before-the-money-lands",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
+      "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+      "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "The U.S. has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns."
+    },
+    {
+      "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
+      "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "Eka Robotics may be the first robotic arm that is actually good at picking up a wide range of objects, and it is so smooth and human-like, it is wowing the industry."
+    },
+    {
+      "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+      "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences."
+    },
+    {
+      "title": "Figma co-founder Dylan Field thinks MCP is not a perfect protocol",
+      "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "Figma said it plans to support as many standards as possible without exposing all of its data."
+    },
+    {
+      "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
+      "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "Electric Plant has built an AI-powered translator to help humans listen to what plants are saying with the subtle electricity coursing through their stems."
+    },
+    {
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
       "date": "2026-10-20",
       "tier": 2,
       "tags": [
-        "reasoning",
-        "evals",
-        "policy",
-        "funding"
+        "safety",
+        "policy"
       ],
-      "summary": "Two philanthropic advisers on how sudden wealth affects you, and the three things to set up now. Right now, an unusually large number of people in tech are on the edge of an extreme wealth event. Through a tender offer, IPO, acquisition, or vesting equity, they will go from a salary to tens or hundr"
+      "summary": "The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge."
     },
     {
-      "title": "Agent Action Steering",
-      "url": "https://www.lesswrong.com/posts/foyyX4y9eGYYfELoH/agent-action-steering",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
+      "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+      "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "Before you share the Netflix documentary \"AI Gone Rogue\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate."
+    },
+    {
+      "title": "Anthropic’s cloud partnerships are getting messy",
+      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [
+        "hardware",
+        "funding"
+      ],
+      "summary": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO."
+    },
+    {
+      "title": "SpaceX’s AI business is beating expectations",
+      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine."
+    },
+    {
+      "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+      "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results."
+    },
+    {
+      "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+      "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs."
+    },
+    {
+      "title": "ChatGPT now lets you lock your chats",
+      "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat."
+    },
+    {
+      "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+      "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "Eric Schmidt’s fortune is about to get even bigger."
+    },
+    {
+      "title": "Meta’s Muse hits 10M US downloads in 40 days, a milestone reached by only 11 other apps",
+      "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "New data also shows Muse is retaining users at higher rates than its AI rivals."
+    },
+    {
+      "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
+      "url": "https://research.poh.org/bot-benchmarking-2026/",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
       "date": "2026-10-20",
       "tier": 2,
       "tags": [
         "agents",
-        "safety",
-        "open-source",
-        "hardware",
-        "speech-audio"
+        "evals"
       ],
-      "summary": "Background The Linear Representation Hypothesis [1] has allowed for many remarkable steering experiments. Anthropic famously demonstrated Golden Gate Claude, where they first extracted a feature associated with the Golden Gate Bridge using an SAE and clamped this feature to a high value to compel th"
+      "summary": "33 points, 2 comments"
+    },
+    {
+      "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in its LEGO era’",
+      "url": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "It’s the moment everyone is waiting for — the ChatGPT moment for robotics, Amulya Vishwanath explained to TechCrunch’s Equity."
     },
     {
       "title": "ACS Infra: free access to large base models for LLM psychology research",
@@ -184,6 +470,16 @@
         "funding"
       ],
       "summary": "TL;DR: We're opening a platform serving large open base models to researchers and tinkerers working on LLM psychology and adjacent areas. It's free and comes with logprobs, activation harvesting and steering, a browser workbench, and a loom. Read here what research we’d like to see and apply for acc"
+    },
+    {
+      "title": "Anthropic recorded a staggering $80B net loss in the first half of 2026",
+      "url": "https://twitter.com/Polymarket/status/2112634886070919426",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "27 points, 15 comments"
     },
     {
       "title": "A brief(ish) introduction to LM psychology",
@@ -277,6 +573,19 @@
       "summary": "Introduction This post introduces updatelessness to readers who are familiar with evidential and causal decision theory (EDT and CDT). Roughly, an updateless agent follows the policy that she would have wanted to commit to before learning which situation she is in, even if a different action seems b"
     },
     {
+      "title": "Tsinghua started an AI-safety residency",
+      "url": "https://www.lesswrong.com/posts/bgTP2SrFcTYBSwbxa/tsinghua-started-an-ai-safety-residency",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-21",
+      "tier": 2,
+      "tags": [
+        "evals",
+        "safety"
+      ],
+      "summary": "Applications are open for the Spring 2027 cohort of the Beijing AI Safety Residency, hosted at the Beijing AI Safety Hub affiliated with Tsinghua University. There is also an autumn residency that has already begun. Key details from the FAQ and application form : The hub is co-directed by Sören Mind"
+    },
+    {
       "title": "Anthropic Does Not Understand Why Its Draft Bill Was Unacceptable and Troubling",
       "url": "https://www.lesswrong.com/posts/qxAroimgs4BvBHz2i/anthropic-does-not-understand-why-its-draft-bill-was",
       "source_id": "lesswrong",
@@ -296,171 +605,1310 @@
       "summary": "Anthony Cimino offered the closest thing to an official response we have seen on the leaked Anthropic draft bill I covered on Saturday. His response indicates that Anthropic address specific concerns on the margin. But he does not understand, or at least does not acknowledge, what was centrally wron"
     },
     {
-      "title": "State World Models: Execute the Rules, Generate the Pixels",
-      "url": "https://huggingface.co/papers/2610.26811",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-18",
-      "tier": 1,
-      "tags": [
-        "agents",
-        "evals",
-        "funding"
-      ],
-      "summary": "Existing world models can generate action-conditioned video from a single image. Many focus on camera movement, allowing users to explore the generated scene. However, navigation alone does not ensure that an action follows persistent rules when its outcome depends on state that is invisible in the "
+      "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
+      "url": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-10",
+      "tier": 2,
+      "tags": [],
+      "summary": "After a few long years of finding time to document my lessons from training open models, my post-training book is done!"
     },
     {
-      "title": "InfiniDream: Open-Ended Photorealistic 3D Worlds Through Procedural Generation",
-      "url": "https://huggingface.co/papers/2610.26853",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-18",
-      "tier": 1,
+      "title": "Lessons from the hacks",
+      "url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-09",
+      "tier": 2,
       "tags": [
-        "multimodal",
-        "evals",
+        "safety"
+      ],
+      "summary": "Musings on model alignment, what determines safety, and where we go from here."
+    },
+    {
+      "title": "Introducing our Artifacts Hub and Adoption Dashboard",
+      "url": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-03",
+      "tier": 2,
+      "tags": [],
+      "summary": "Scaling our curation and measurement of the open ecosystem."
+    },
+    {
+      "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-02",
+      "tier": 2,
+      "tags": [],
+      "summary": "Capacity to train strong models is proliferating."
+    },
+    {
+      "title": "Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next",
+      "url": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-07-22",
+      "tier": 2,
+      "tags": [
         "synthetic-data",
-        "funding"
-      ],
-      "summary": "Procedural generation plays a key role in synthetic data creation and game development, offering greater controllability, editability, and diversity than static mesh representations. However, VLM-based code generation often produces relatively simple 3D assets, while sophisticated photorealistic pro"
-    },
-    {
-      "title": "Competing Learning in Hybrid Architectures",
-      "url": "https://huggingface.co/papers/2610.26830",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-18",
-      "tier": 1,
-      "tags": [
-        "reasoning",
-        "evals"
-      ],
-      "summary": "Many modern language models have adopted hybrid architectures that incorporate both linear-time recurrence and softmax attention. Modern recurrence layers provide a highly expressive mixing mechanism while ensuring high throughput by compressing contextual information into a fixed-size state, but un"
-    },
-    {
-      "title": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
-      "url": "https://huggingface.co/papers/2610.26549",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-18",
-      "tier": 1,
-      "tags": [
-        "reasoning",
-        "evals",
-        "funding"
-      ],
-      "summary": "Human egocentric experience offers a rich foundation for learning how the world is organized and how it changes through interaction. Realizing this potential at scale requires turning growing volumes of recordings into learning resources that connect scene structure, object semantics, and interactio"
-    },
-    {
-      "title": "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
-      "url": "https://huggingface.co/papers/2610.25736",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-18",
-      "tier": 1,
-      "tags": [
-        "evals",
-        "policy"
-      ],
-      "summary": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to me"
-    },
-    {
-      "title": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
-      "url": "https://huggingface.co/papers/2610.26802",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-18",
-      "tier": 1,
-      "tags": [
-        "multimodal",
-        "evals",
         "open-source",
         "speech-audio"
       ],
-      "summary": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and l"
+      "summary": "A podcast with Florian Brand."
     },
     {
-      "title": "HSPR: Recovering Software-Agent Benchmark Scores via Hierarchical Posterior Inference",
-      "url": "https://huggingface.co/papers/2610.24611",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-16",
-      "tier": 1,
+      "title": "Kimi K3: The open-weights escalation",
+      "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-07-20",
+      "tier": 2,
+      "tags": [
+        "open-source"
+      ],
+      "summary": "The global implications on the AI ecosystem."
+    },
+    {
+      "title": "Open-Source AI & Open Models Reading List",
+      "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-11",
+      "tier": 2,
+      "tags": [
+        "open-source"
+      ],
+      "summary": "How to get up to speed on open models and their implications."
+    },
+    {
+      "title": "One resignation turned the embers of AI fear into a wildfire",
+      "url": "https://www.interconnects.ai/p/one-resignation-turned-the-embers",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-10",
+      "tier": 2,
+      "tags": [],
+      "summary": "Some quick notes on a truly weird week."
+    },
+    {
+      "title": "When will average people feel AI’s impact?",
+      "url": "https://www.interconnects.ai/p/when-will-average-people-feel-ais",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-09",
+      "tier": 2,
+      "tags": [],
+      "summary": "We’re <5 years into a compounding revolution which could take a century, and how the AI industry should manage this."
+    },
+    {
+      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-08",
+      "tier": 2,
+      "tags": [],
+      "summary": "The open model ecosystem continues to expand in its breadth"
+    },
+    {
+      "title": "Teaching Everyone to Fish for Tokens",
+      "url": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-17",
+      "tier": 2,
+      "tags": [],
+      "summary": "Nvidia wants you building your own model, not buying from Anthropic/OpenAI."
+    },
+    {
+      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-14",
+      "tier": 2,
+      "tags": [
+        "synthetic-data"
+      ],
+      "summary": "Hint: It’s really not a distillation story."
+    },
+    {
+      "title": "I wrote an AI textbook — how long until AI can do it better?",
+      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-12",
+      "tier": 2,
+      "tags": [],
+      "summary": "Reflections on AI's writing ability and how AI models get more capable."
+    },
+    {
+      "title": "Why I still haven’t bought into true RSI",
+      "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-19",
+      "tier": 2,
+      "tags": [],
+      "summary": "An “AI moderate’s” view on recent events and the trajectory of frontier models."
+    },
+    {
+      "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
+      "url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-22",
+      "tier": 2,
+      "tags": [],
+      "summary": "Podcast #19"
+    },
+    {
+      "title": "The current balance of power in open models",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-21",
+      "tier": 2,
+      "tags": [],
+      "summary": "The expanded form of a testimony I prepared for Congress."
+    },
+    {
+      "title": "I expect rapid progress but not towards general superintelligence",
+      "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-10-09",
+      "tier": 2,
+      "tags": [],
+      "summary": "I’ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn’t really know why I doubted it."
+    },
+    {
+      "title": "The Cyber Risk Discourse is Broken",
+      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-10-06",
+      "tier": 2,
+      "tags": [
+        "open-source"
+      ],
+      "summary": "Open-weights, ideology, and acknowledging trade-offs."
+    },
+    {
+      "title": "These guys on the Alibaba AI engine team had an agent in RL training escape its sandbox and mine crypto, in 2025",
+      "url": "https://www.lesswrong.com/posts/ufPibs8Afq2ZqrAPs/these-guys-on-the-alibaba-ai-engine-team-had-an-agent-in-rl",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-21",
+      "tier": 2,
       "tags": [
         "agents",
+        "safety"
+      ],
+      "summary": "Random footnote on this otherwise not very famous paper. (I say 2025 since the arXiv was last updated on 4 Jan 2026; technically this event could've happened in 2026.) The cryptocurrency mining seems to have been on the training server, so it didn't need to hack any other systems in order to achieve"
+    },
+    {
+      "title": "Organizing a Van to EA Global",
+      "url": "https://www.lesswrong.com/posts/738SxMnHtbf6CccjD/organizing-a-van-to-ea-global",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-21",
+      "tier": 2,
+      "tags": [
+        "reasoning",
+        "evals",
+        "hardware"
+      ],
+      "summary": "Last weekend I organized a van down from Boston to NYC for EA Global : I'm very happy I did this, and would definitely do it again. Being able to talk with folks both ways was like a bonus 8hr of the conference [1] and I had a very interesting ride each way. Julia and I had been planning to drive do"
+    },
+    {
+      "title": "Meta shakes up the frontiers, open and closed",
+      "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-10-17",
+      "tier": 2,
+      "tags": [
+        "open-source"
+      ],
+      "summary": "US open weights are back!"
+    },
+    {
+      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "Western open models strike back"
+    },
+    {
+      "title": "Start building with Gemini 3",
+      "url": "https://deepmind.google/blog/start-building-with-gemini-3/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2025-11-18",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "We’re expanding our presence in Singapore to advance AI in the Asia-Pacific region",
+      "url": "https://deepmind.google/blog/were-expanding-our-presence-in-singapore-to-advance-ai-in-the-asia-pacific-region/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2025-11-18",
+      "tier": 1,
+      "tags": [],
+      "summary": "Google DeepMind opens a new Singapore research lab, accelerating AI progress in the Asia-Pacific region."
+    },
+    {
+      "title": "A new era of intelligence with Gemini 3",
+      "url": "https://deepmind.google/blog/a-new-era-of-intelligence-with-gemini-3/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2025-11-18",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Measuring progress toward AGI: A cognitive framework",
+      "url": "https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-03-17",
+      "tier": 1,
+      "tags": [
         "evals",
         "funding"
       ],
-      "summary": "Evaluating software agents on a full benchmark is expensive. A small task subset can preserve agent rankings while yielding inaccurate scores. Historical responses provide useful structure, but tasks with identical source responses can have different outcomes for a new target agent. We introduce Hie"
+      "summary": "We’re introducing a framework to measure progress toward AGI, and launching a Kaggle hackathon to build the relevant evaluations."
     },
     {
-      "title": "AdaExploreBench: Benchmarking LLM Agents for Proactive Exploration and Test-time Adaptation in Evolving Environments",
-      "url": "https://huggingface.co/papers/2610.25950",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-18",
+      "title": "From games to biology and beyond: 10 years of AlphaGo’s impact",
+      "url": "https://deepmind.google/blog/10-years-of-alphago/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-03-09",
       "tier": 1,
-      "tags": [
-        "agents",
-        "reasoning",
-        "evals"
-      ],
-      "summary": "Large Language Model (LLM) agents are increasingly deployed in unfamiliar and evolving environments, requiring them to proactively explore, understand, and adapt to environmental dynamics. However, existing benchmarks rarely test whether agents can proactively discover how an environment works and a"
+      "tags": [],
+      "summary": "Ten years since AlphaGo, we explore how it is catalyzing scientific discovery and paving a path to AGI."
     },
     {
-      "title": "AffordanceWAM: Affordance-Aware Joint World-Action Modeling for Robot Manipulation",
-      "url": "https://huggingface.co/papers/2609.22332",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-17",
+      "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-03-03",
+      "tier": 1,
+      "tags": [],
+      "summary": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet."
+    },
+    {
+      "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
+      "url": "https://deepmind.google/blog/nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-02-26",
       "tier": 1,
       "tags": [
         "multimodal"
       ],
-      "summary": "Generalizable robot manipulation requires predicting how a scene will evolve, identifying where interactions are feasible, and determining how to act. Action-labeled robot videos directly supervise control but are costly and limited in diversity, whereas egocentric human videos capture diverse inter"
+      "summary": "Our latest image generation model offers advanced world knowledge, production ready specs, subject consistency and more, all at Flash speed."
     },
     {
-      "title": "Vision-Language-Delta-Action: Learning Compact Deltas as Actionable Transition Interfaces for Robotic Manipulation",
-      "url": "https://huggingface.co/papers/2610.25874",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-18",
+      "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+      "url": "https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-02-19",
+      "tier": 1,
+      "tags": [],
+      "summary": "3.1 Pro is designed for tasks where a simple answer isn’t enough."
+    },
+    {
+      "title": "A new way to express yourself: Gemini can now create music",
+      "url": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-02-18",
+      "tier": 1,
+      "tags": [],
+      "summary": "The Gemini app now features our most advanced music generation model Lyria 3, empowering anyone to make 30-second tracks using text or images."
+    },
+    {
+      "title": "Accelerating discovery in India through AI-powered science and education",
+      "url": "https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-02-17",
+      "tier": 1,
+      "tags": [],
+      "summary": "Google DeepMind brings National Partnerships for AI initiative to India, scaling AI for science and education"
+    },
+    {
+      "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
+      "url": "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-02-12",
       "tier": 1,
       "tags": [
-        "multimodal",
-        "open-source"
+        "reasoning"
       ],
-      "summary": "Robotic manipulation is not merely observation-to-action generation, but the realization of task-specified state changes in the physical world. Existing vision-language-action (VLA) methods directly learn observation-to-action mappings, imposing a substantial learning burden due to the gap between s"
+      "summary": "Our most specialized reasoning mode is now updated to solve modern science, research and engineering challenges."
     },
     {
-      "title": "HandsOn: A Large-Scale Simulation Benchmark for Generalizable Dexterous Manipulation",
-      "url": "https://huggingface.co/papers/2610.26765",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-18",
+      "title": "Accelerating Mathematical and Scientific Discovery with Gemini Deep Think",
+      "url": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-02-09",
+      "tier": 1,
+      "tags": [],
+      "summary": "Research papers point to the growing impact of Deep Think across fields"
+    },
+    {
+      "title": "Project Genie: Experimenting with infinite, interactive worlds",
+      "url": "https://deepmind.google/blog/project-genie-experimenting-with-infinite-interactive-worlds/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-01-29",
+      "tier": 1,
+      "tags": [],
+      "summary": "Google AI Ultra subscribers in the U.S. can try out Project Genie, an experimental research prototype that lets you create and explore worlds."
+    },
+    {
+      "title": "D4RT: Teaching AI to see the world in four dimensions",
+      "url": "https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-01-16",
+      "tier": 1,
+      "tags": [],
+      "summary": "D4RT: Unified, efficient 4D reconstruction and tracking up to 300x faster than prior methods."
+    },
+    {
+      "title": "Veo 3.1 Ingredients to Video: More consistency, creativity and control",
+      "url": "https://deepmind.google/blog/veo-3-1-ingredients-to-video-more-consistency-creativity-and-control/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-01-13",
       "tier": 1,
       "tags": [
-        "multimodal",
-        "evals",
+        "multimodal"
+      ],
+      "summary": "Our latest Veo update generates lively, dynamic clips that feel natural and engaging — and supports vertical video generation."
+    },
+    {
+      "title": "Google's year in review: 8 areas with research breakthroughs in 2025",
+      "url": "https://deepmind.google/blog/googles-year-in-review-8-areas-with-research-breakthroughs-in-2025/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2025-12-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "Google 2025 recap: Research breakthroughs of the year"
+    },
+    {
+      "title": "Gemini 3 Flash: frontier intelligence built for speed",
+      "url": "https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2025-12-17",
+      "tier": 1,
+      "tags": [],
+      "summary": "Gemini 3 Flash offers frontier intelligence built for speed at a fraction of the cost."
+    },
+    {
+      "title": "Gemma Scope 2: helping the AI safety community deepen understanding of complex language model behavior",
+      "url": "https://deepmind.google/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2025-12-16",
+      "tier": 1,
+      "tags": [
+        "safety"
+      ],
+      "summary": "Open interpretability tools for language models are now available across the entire Gemma 3 family with the release of Gemma Scope 2."
+    },
+    {
+      "title": "Improved Gemini audio models for powerful voice experiences",
+      "url": "https://deepmind.google/blog/improved-gemini-audio-models-for-powerful-voice-experiences/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2025-12-12",
+      "tier": 1,
+      "tags": [
+        "speech-audio"
+      ],
+      "summary": ""
+    },
+    {
+      "title": "Deepening our partnership with the UK AI Security Institute",
+      "url": "https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2025-12-11",
+      "tier": 1,
+      "tags": [
+        "safety"
+      ],
+      "summary": "Google DeepMind and UK AI Security Institute (AISI) strengthen collaboration on critical AI safety and security research"
+    },
+    {
+      "title": "Strengthening our partnership with the UK government to support prosperity and security in the AI era",
+      "url": "https://deepmind.google/blog/strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2025-12-10",
+      "tier": 1,
+      "tags": [
         "policy"
       ],
-      "summary": "General-purpose manipulation requires reliable behavior across embodiments, objects, and task demands. We introduce HandsOn, a composable simulation platform and benchmark for cross-embodiment dexterous manipulation. It supports five robotic arms, six dexterous hands, and approximately 200 rigid, ar"
+      "summary": "Deepening our partnership with the UK government to support prosperity and security in the AI era"
     },
     {
-      "title": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
-      "url": "https://huggingface.co/papers/2610.06830",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-04",
+      "title": "FACTS Benchmark Suite: Systematically evaluating the factuality of large language models",
+      "url": "https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2025-12-09",
+      "tier": 1,
+      "tags": [
+        "evals"
+      ],
+      "summary": "Systematically evaluating the factuality of large language models with the FACTS Benchmark Suite."
+    },
+    {
+      "title": "Engineering more resilient crops for a warming climate",
+      "url": "https://deepmind.google/blog/engineering-more-resilient-crops-for-a-warming-climate/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2025-12-04",
+      "tier": 1,
+      "tags": [],
+      "summary": "Scientists are using AlphaFold to strengthen a photosynthesis enzyme for resilient, heat-tolerant crops."
+    },
+    {
+      "title": "AlphaFold: Five years of impact",
+      "url": "https://deepmind.google/blog/alphafold-five-years-of-impact/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2025-11-25",
+      "tier": 1,
+      "tags": [],
+      "summary": "Explore how AlphaFold has accelerated science and fueled a global wave of biological discovery."
+    },
+    {
+      "title": "Revealing a key protein behind heart disease",
+      "url": "https://deepmind.google/blog/revealing-a-key-protein-behind-heart-disease/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2025-11-25",
+      "tier": 1,
+      "tags": [],
+      "summary": "AlphaFold has revealed the structure of a key protein behind heart disease"
+    },
+    {
+      "title": "Google DeepMind supports U.S. Department of Energy on Genesis: a national mission to accelerate innovation and scientific discovery",
+      "url": "https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2025-11-24",
+      "tier": 1,
+      "tags": [],
+      "summary": "Google DeepMind and the DOE partner on Genesis, a new effort to accelerate science with AI."
+    },
+    {
+      "title": "How we’re bringing AI image verification to the Gemini app",
+      "url": "https://deepmind.google/blog/how-were-bringing-ai-image-verification-to-the-gemini-app/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2025-11-20",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Build with Nano Banana Pro, our Gemini 3 Pro Image model",
+      "url": "https://deepmind.google/blog/build-with-nano-banana-pro-our-gemini-3-pro-image-model/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2025-11-20",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Introducing Nano Banana Pro",
+      "url": "https://deepmind.google/blog/introducing-nano-banana-pro/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2025-11-20",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-04-13",
       "tier": 1,
       "tags": [
         "agents",
-        "rl",
-        "multimodal",
-        "evals",
+        "reasoning"
+      ],
+      "summary": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics."
+    },
+    {
+      "title": "Gemma 4: Byte for byte, the most capable open models",
+      "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-04-02",
+      "tier": 1,
+      "tags": [
+        "agents",
+        "reasoning"
+      ],
+      "summary": "Gemma 4: Our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows."
+    },
+    {
+      "title": "Reimagining the mouse pointer for the AI era",
+      "url": "https://deepmind.google/blog/ai-pointer/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-03-29",
+      "tier": 1,
+      "tags": [],
+      "summary": "Google DeepMind is transforming the mouse pointer into a context-aware AI partner. Move beyond the friction of traditional prompting with intuitive AI collaboration in Chrome and beyond."
+    },
+    {
+      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-03-26",
+      "tier": 1,
+      "tags": [
+        "speech-audio"
+      ],
+      "summary": "Our latest voice model has improved precision and lower latency to make voice interactions more fluid, natural and precise."
+    },
+    {
+      "title": "Protecting people from harmful manipulation",
+      "url": "https://deepmind.google/blog/protecting-people-from-harmful-manipulation/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-03-25",
+      "tier": 1,
+      "tags": [
+        "safety"
+      ],
+      "summary": "Google DeepMind researches AI's harmful manipulation risks across areas like finance and health, leading to new safety measures."
+    },
+    {
+      "title": "Lyria 3 Pro: Create longer tracks in more",
+      "url": "https://deepmind.google/blog/lyria-3-pro-create-longer-tracks-in-more/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-03-25",
+      "tier": 1,
+      "tags": [],
+      "summary": "Introducing Lyria 3 Pro, which unlocks longer tracks with structural awareness. We’re also bringing Lyria to more Google products and surfaces."
+    },
+    {
+      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+      "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-06-09",
+      "tier": 1,
+      "tags": [
+        "speech-audio"
+      ],
+      "summary": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet."
+    },
+    {
+      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-06-09",
+      "tier": 1,
+      "tags": [
+        "multimodal"
+      ],
+      "summary": ""
+    },
+    {
+      "title": "Powering the future of robotics in Europe",
+      "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-06-09",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
+      "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-06-08",
+      "tier": 1,
+      "tags": [],
+      "summary": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning."
+    },
+    {
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-05-21",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-05-18",
+      "tier": 1,
+      "tags": [],
+      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells."
+    },
+    {
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-05-17",
+      "tier": 1,
+      "tags": [],
+      "summary": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View."
+    },
+    {
+      "title": "Introducing Gemini Omni",
+      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-05-17",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Introducing Google Antigravity 2.0",
+      "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-05-17",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
+      "url": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-05-17",
+      "tier": 1,
+      "tags": [],
+      "summary": "A collection of science tools and experiments to expand the scale and precision of scientific exploration."
+    },
+    {
+      "title": "Making it easier to understand how content was created and edited",
+      "url": "https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-05-17",
+      "tier": 1,
+      "tags": [],
+      "summary": "We're expanding our tools to help you understand how content was created and edited across the web."
+    },
+    {
+      "title": "Strengthening Singapore’s AI Future: A New National Partnership",
+      "url": "https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-05-16",
+      "tier": 1,
+      "tags": [],
+      "summary": "Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more."
+    },
+    {
+      "title": "Finding the molecular switches behind new infectious diseases",
+      "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-05-16",
+      "tier": 1,
+      "tags": [],
+      "summary": "Clare Bryant uses Co-Scientist to identify genetic triggers in emerging infectious diseases."
+    },
+    {
+      "title": "Opening new paths in aging research",
+      "url": "https://deepmind.google/blog/opening-new-paths-in-aging-research/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-05-16",
+      "tier": 1,
+      "tags": [],
+      "summary": "Calico Life Sciences uses Co-Scientist to connect scattered findings and generate new leads in aging research."
+    },
+    {
+      "title": "Accelerating discovery of liver disease mechanisms",
+      "url": "https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-05-16",
+      "tier": 1,
+      "tags": [],
+      "summary": "Filippo Menolascina uses Co-Scientist to identify new liver disease treatments and explain why existing drugs only help certain patients."
+    },
+    {
+      "title": "Uniting biological toolkits for a new approach to ALS",
+      "url": "https://deepmind.google/blog/uniting-biological-toolkits-for-a-new-approach-to-als/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-05-16",
+      "tier": 1,
+      "tags": [],
+      "summary": "Co-Scientist unites Boston Children’s Hospital and MIT’s labs to explore new RNA-based treatments for ALS."
+    },
+    {
+      "title": "Uncovering repurposed medicines to fight liver fibrosis",
+      "url": "https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-05-16",
+      "tier": 1,
+      "tags": [],
+      "summary": "Stanford geneticist uses Co-Scientist to help find new treatments for chronic liver disease and liver fibrosis."
+    },
+    {
+      "title": "How WeatherNext helped the National Hurricane Center better predict Hurricane Melissa’s historic landfall in Jamaica",
+      "url": "https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-05-16",
+      "tier": 1,
+      "tags": [],
+      "summary": "Learn how our WeatherNext AI model help forecasters give communities unprecedented time to prepare ahead of the historic Hurricane Melissa."
+    },
+    {
+      "title": "Gemini 3.5: frontier intelligence with action",
+      "url": "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-05-15",
+      "tier": 1,
+      "tags": [
+        "agents"
+      ],
+      "summary": "Gemini 3.5 is built to help you execute complex, agentic workflows."
+    },
+    {
+      "title": "Co-Scientist: A multi-agent AI partner to accelerate research",
+      "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-05-12",
+      "tier": 1,
+      "tags": [
+        "agents"
+      ],
+      "summary": "Introducing Co-Scientist, a collaborative AI partner built with Gemini to help researchers accelerate scientific breakthroughs."
+    },
+    {
+      "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-05-06",
+      "tier": 1,
+      "tags": [
+        "agents"
+      ],
+      "summary": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science."
+    },
+    {
+      "title": "Enabling a new model for healthcare with AI co-clinician",
+      "url": "https://deepmind.google/blog/ai-co-clinician/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-04-30",
+      "tier": 1,
+      "tags": [],
+      "summary": "Researching the path to AI-augmented care and development of an AI co-clinician."
+    },
+    {
+      "title": "Announcing our partnership with the Republic of Korea",
+      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-04-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models"
+    },
+    {
+      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+      "url": "https://deepmind.google/blog/decoupled-diloco/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-04-22",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Partnering with industry leaders to accelerate AI transformation",
+      "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-04-21",
+      "tier": 1,
+      "tags": [],
+      "summary": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world."
+    },
+    {
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-04-15",
+      "tier": 1,
+      "tags": [
+        "speech-audio"
+      ],
+      "summary": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation."
+    },
+    {
+      "title": "Our approach to bioresilience",
+      "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-07-16",
+      "tier": 1,
+      "tags": [],
+      "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models."
+    },
+    {
+      "title": "Empowering India’s next generation of innovators with ATL Saathi",
+      "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-07-13",
+      "tier": 1,
+      "tags": [],
+      "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs."
+    },
+    {
+      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+      "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-07-03",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-06-30",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-06-24",
+      "tier": 1,
+      "tags": [
+        "agents",
+        "hardware"
+      ],
+      "summary": ""
+    },
+    {
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-06-16",
+      "tier": 1,
+      "tags": [
         "policy"
       ],
-      "summary": "Memory has become integral to the LLM agent ecosystem, supporting information retention and reuse across interactions. However, most existing agent memory systems construct memory in a query-agnostic manner, which can incur unnecessary preprocessing cost and discard details that later prove essentia"
+      "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions."
+    },
+    {
+      "title": "Securing the future of AI agents",
+      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-06-16",
+      "tier": 1,
+      "tags": [
+        "agents"
+      ],
+      "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring."
+    },
+    {
+      "title": "DiffusionGemma: 4x faster text generation",
+      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-06-10",
+      "tier": 1,
+      "tags": [
+        "multimodal"
+      ],
+      "summary": ""
+    },
+    {
+      "title": "Investing in multi-agent AI safety research",
+      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-06-10",
+      "tier": 1,
+      "tags": [
+        "agents",
+        "safety",
+        "funding"
+      ],
+      "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research."
+    },
+    {
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-09-15",
+      "tier": 1,
+      "tags": [
+        "reasoning"
+      ],
+      "summary": ""
+    },
+    {
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-09-08",
+      "tier": 1,
+      "tags": [],
+      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome."
+    },
+    {
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-09-03",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-09-02",
+      "tier": 1,
+      "tags": [
+        "policy"
+      ],
+      "summary": ""
+    },
+    {
+      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-09-02",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Introducing agentic video understanding with Gemini",
+      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-09-01",
+      "tier": 1,
+      "tags": [
+        "agents"
+      ],
+      "summary": ""
+    },
+    {
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-08-27",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-08-27",
+      "tier": 1,
+      "tags": [
+        "evals",
+        "funding"
+      ],
+      "summary": "Piloting the world's first double-blind AI evaluations"
+    },
+    {
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-08-26",
+      "tier": 1,
+      "tags": [
+        "speech-audio"
+      ],
+      "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe."
+    },
+    {
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-08-21",
+      "tier": 1,
+      "tags": [],
+      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay."
+    },
+    {
+      "title": "Introducing Gemini 3.7 Flash",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-08-13",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Putting sign language AI into users’ hands",
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-08-12",
+      "tier": 1,
+      "tags": [],
+      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users."
+    },
+    {
+      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-08-06",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-07-30",
+      "tier": 1,
+      "tags": [],
+      "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications."
+    },
+    {
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-07-29",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-07-28",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-07-22",
+      "tier": 1,
+      "tags": [],
+      "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission"
+    },
+    {
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-07-21",
+      "tier": 1,
+      "tags": [],
+      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber."
+    },
+    {
+      "title": "Introducing Gemini 3.5 Flash Cyber",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-07-17",
+      "tier": 1,
+      "tags": [],
+      "summary": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities."
+    },
+    {
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-10-14",
+      "tier": 1,
+      "tags": [
+        "policy"
+      ],
+      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress."
+    },
+    {
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-10-13",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Gemini 4 Argon for Robotics",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-10-13",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-10-13",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-10-06",
+      "tier": 1,
+      "tags": [
+        "multimodal"
+      ],
+      "summary": ""
+    },
+    {
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-09-30",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Introducing SynthID Bio",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-09-30",
+      "tier": 1,
+      "tags": [],
+      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function."
+    },
+    {
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-09-24",
+      "tier": 1,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-09-23",
+      "tier": 1,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI."
+    },
+    {
+      "title": "Gemini 3.8 text-to-speech says hello",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-09-23",
+      "tier": 1,
+      "tags": [
+        "speech-audio"
+      ],
+      "summary": ""
     },
     {
       "title": "Kronecker Delta Rule for Long Context Linear Attention",
@@ -474,88 +1922,6 @@
         "open-source"
       ],
       "summary": "We propose KronLSTM, a linear attention architecture based on the Kronecker Delta Rule, a novel update rule for associative matrix memories. KronLSTM extends the xLSTM family with a memory-revision mechanism that corrects targeted associations while modifying the memory only along a single direction"
-    },
-    {
-      "title": "BlenderWorld: Benchmarking Visual Agents for 3D Creation from Real-World References",
-      "url": "https://huggingface.co/papers/2610.23986",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-13",
-      "tier": 1,
-      "tags": [
-        "agents",
-        "multimodal",
-        "evals",
-        "funding"
-      ],
-      "summary": "Recent advances in multimodal large language models (MLLMs) have enabled them to act as autonomous agents, creating and editing 3D models via code or direct software manipulation. In practical workflows, these models must infer object shapes, materials, spatial layouts, and lighting from diverse ref"
-    },
-    {
-      "title": "SpecMRL: Redesign Matryoshka Representation Learning within Parametric Spectrum",
-      "url": "https://huggingface.co/papers/2610.26824",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-18",
-      "tier": 1,
-      "tags": [
-        "evals"
-      ],
-      "summary": "Matryoshka Representation Learning (MRL) is designed to support flexible representation sizes by jointly optimizing nested prefixes. While effective, this design lacks an explicit constraint to ensure that the leading portion provides a suitable compact encoding. To address this, we propose SpecMRL,"
-    },
-    {
-      "title": "Text-to-Image Generative Modeling Without Language Pretraining",
-      "url": "https://huggingface.co/papers/2610.26863",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-18",
-      "tier": 1,
-      "tags": [
-        "multimodal",
-        "open-source",
-        "hardware"
-      ],
-      "summary": "Modern text-to-image (T2I) systems use internet-scale language pretraining for text-conditioned image generation. We ask whether language pretraining is necessary for strong T2I generation. We introduce Halcyon, a family of early-fusion multimodal autoregressive models pretrained entirely from scrat"
-    },
-    {
-      "title": "Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models",
-      "url": "https://huggingface.co/papers/2610.09496",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-06",
-      "tier": 1,
-      "tags": [
-        "multimodal",
-        "policy"
-      ],
-      "summary": "Vision-Language-Action (VLA) models have shown strong generalization in robotic manipulation by leveraging rich representations from pretrained vision-language models. However, their deployment in real-world environments remains limited by recurring unreliable behaviors. In this work, we study state"
-    },
-    {
-      "title": "LIBERO-Industry: Benchmarking Robotic Manipulation under Industrial Process Constraints",
-      "url": "https://huggingface.co/papers/2610.16782",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-14",
-      "tier": 1,
-      "tags": [
-        "multimodal",
-        "evals",
-        "funding"
-      ],
-      "summary": "Industrial manipulation in flexible manufacturing, e.g., high-mix, low-volume (HMLV) electronics assembly, requires robot policies to adapt to changing products and production conditions. Such settings impose industrial process constraints, including product variants, moving material flows, finite e"
-    },
-    {
-      "title": "Evidence-First Agentic Verification",
-      "url": "https://huggingface.co/papers/2610.17724",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-12",
-      "tier": 1,
-      "tags": [
-        "agents",
-        "evals",
-        "funding"
-      ],
-      "summary": "Long-horizon, semi-verifiable agentic tasks often rely on rubric-based evaluation, but the evidence needed to assess these tasks can be spread across the environment state and the execution trace. A judge may overlook this evidence or accept unsupported claims, including an agent's own reports of su"
     },
     {
       "title": "FineSplat: Fine Patches, Local Groups, Detailed Splats",
@@ -591,31 +1957,6 @@
         "speech-audio"
       ],
       "summary": "Unified audio-video creation requires a single model capable of text-conditioned joint synthesis, bidirectional cross-modal generation, and instruction-guided editing across both modalities. Existing methods rely heavily on paired corpora, which are scarce for joint generation and even rarer for edi"
-    },
-    {
-      "title": "Policy Is Not Capability: Some Safety Benchmarks Measure Which Definition of \"Unsafe\" You Trained On",
-      "url": "https://huggingface.co/papers/2610.25060",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-17",
-      "tier": 1,
-      "tags": [
-        "evals",
-        "safety",
-        "policy",
-        "funding"
-      ],
-      "summary": "A guardrail classifier is reported as if unsafe were a property of text. It is not: it is a property of a policy, and the policy enters the model through its labels. We exploit an accident of an industrial deployment in which the same ~53k prompts were labelled twice, under two operational definitio"
-    },
-    {
-      "title": "A Conditional No-Hair Theorem for Transformers: How Language Models Forget Their Prompt",
-      "url": "https://huggingface.co/papers/2610.24133",
-      "source_id": "hf_daily_papers",
-      "source_name": "Hugging Face Daily Papers",
-      "date": "2026-10-15",
-      "tier": 1,
-      "tags": [],
-      "summary": "We ask how much an autoregressive transformer retains of its prompt after generating t tokens. Consider two different prompts followed by the same continuation text, so that any difference in their hidden states comes from the prompt alone, and we find that the distance between their hidden states d"
     },
     {
       "title": "MemT-1.0: Towards Memory-Native Evolution",
@@ -655,6 +1996,41 @@
         "policy"
       ],
       "summary": "In this paper, we systematically investigate the mechanisms, scaling behavior, and generalization of physical Recursive self-improvement. We introduce PhysRSI-eval to quantify physical RSI through a five-axis metric: First-Attempt Performance, Efficiency, Success, Budget and Improvement from failure"
+    },
+    {
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-10-15",
+      "tier": 1,
+      "tags": [],
+      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science."
+    },
+    {
+      "title": "Policy Is Not Capability: Some Safety Benchmarks Measure Which Definition of \"Unsafe\" You Trained On",
+      "url": "https://huggingface.co/papers/2610.25060",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-17",
+      "tier": 1,
+      "tags": [
+        "evals",
+        "safety",
+        "policy",
+        "funding"
+      ],
+      "summary": "A guardrail classifier is reported as if unsafe were a property of text. It is not: it is a property of a policy, and the policy enters the model through its labels. We exploit an accident of an industrial deployment in which the same ~53k prompts were labelled twice, under two operational definitio"
+    },
+    {
+      "title": "A Conditional No-Hair Theorem for Transformers: How Language Models Forget Their Prompt",
+      "url": "https://huggingface.co/papers/2610.24133",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-15",
+      "tier": 1,
+      "tags": [],
+      "summary": "We ask how much an autoregressive transformer retains of its prompt after generating t tokens. Consider two different prompts followed by the same continuation text, so that any difference in their hidden states comes from the prompt alone, and we find that the distance between their hidden states d"
     },
     {
       "title": "Harnessing Textual Refusal Directions for Multimodal Safety",
@@ -974,6 +2350,569 @@
         "policy"
       ],
       "summary": "Coding agents keep working on runs that will fail verification, and asking a frontier model to watch for this is expensive in its own right. We introduce StopLoss, a small external monitor that learns failure recognition from completed trajectories and their verifier outcomes. The name is inspired b"
+    },
+    {
+      "title": "HumanSkill-4D: Training-Free Language Querying of Animatable Gaussian Avatars in Space and Time",
+      "url": "https://huggingface.co/papers/2610.24452",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-16",
+      "tier": 1,
+      "tags": [
+        "multimodal",
+        "evals",
+        "hardware"
+      ],
+      "summary": "We introduce avatar referring segmentation, which selects regions of animatable Gaussian avatars from language queries. A query can also specify a pose or motion to select matching intervals. This lets users interact with avatars for local editing and motion inspection. However, making these selecti"
+    },
+    {
+      "title": "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
+      "url": "https://huggingface.co/papers/2610.28578",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-19",
+      "tier": 1,
+      "tags": [
+        "agents"
+      ],
+      "summary": "In this report, we introduce Sage-A1.5, a 35B Mixture-of-Experts agentic model that builds on A1 to advance long-horizon problem solving through adaptive capability composition. Compared with A1, Sage-A1.5 learns not only to solve individual tasks, but also to organize work and revise its approach d"
+    },
+    {
+      "title": "SolarRenderer: Few-Step Generative Reference Rendering",
+      "url": "https://huggingface.co/papers/2610.28630",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-19",
+      "tier": 1,
+      "tags": [
+        "agents",
+        "evals",
+        "synthetic-data"
+      ],
+      "summary": "Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, ne"
+    },
+    {
+      "title": "Focused Omni-Modal GUI Agents",
+      "url": "https://huggingface.co/papers/2610.26203",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-18",
+      "tier": 1,
+      "tags": [
+        "agents",
+        "multimodal",
+        "funding",
+        "speech-audio"
+      ],
+      "summary": "Graphical User Interface (GUI) agents increasingly act over streaming omni-modal observations spanning screenshots, audio, video, interaction history, and device states. However, exposing this complete context uniformly at every step ignores that relevance is transient and sparse: the signal determi"
+    },
+    {
+      "title": "PhysSkin++: Real-Time and Generalizable Physics-Based Animation via Self-Supervised Neural Skinning",
+      "url": "https://huggingface.co/papers/2610.26067",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-18",
+      "tier": 1,
+      "tags": [],
+      "summary": "Generalizing real-time physics-based animation across diverse 3D shapes and spatial discretizations remains challenging. In this paper, we introduce PhysSkin++, a physics-informed framework that learns continuous neural skinning fields from static geometries to construct compact deformation subspace"
+    },
+    {
+      "title": "EMBER: Predicting TCR--pMHC Binding Without a Docked Complex",
+      "url": "https://huggingface.co/papers/2610.27334",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-18",
+      "tier": 1,
+      "tags": [
+        "evals",
+        "funding"
+      ],
+      "summary": "We propose EMBER, a structure-based framework for TCR--pMHC binding prediction that eliminates the need for a predicted docked complex, and with it the placement error that dominates such predictions. Traditional structure-based predictors utilize the co-folded complex structure of the receptor and "
+    },
+    {
+      "title": "MMEnterprise-Bench: Evaluating Enterprise Agents over Evolving Multimodal Records",
+      "url": "https://huggingface.co/papers/2610.27911",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-19",
+      "tier": 1,
+      "tags": [
+        "agents",
+        "multimodal",
+        "reasoning",
+        "evals",
+        "open-source"
+      ],
+      "summary": "Enterprise agents answer questions over workplace records that evolve through team collaboration. As information is shared, corrected, and revised across documents, chats, and figures, multiple versions of the same information accumulate in the workspace. Reliable question answering therefore requir"
+    },
+    {
+      "title": "TRACE: Tracking Multimodal Clinical Trajectories for Inpatient Risk Prediction",
+      "url": "https://huggingface.co/papers/2610.25765",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-18",
+      "tier": 1,
+      "tags": [
+        "multimodal",
+        "evals"
+      ],
+      "summary": "Accurate inpatient risk prediction requires modeling heterogeneous clinical evidence that accumulates irregularly over time. This challenge spans in-hospital mortality, prolonged length of stay, and readmission, each with task-specific observation windows. Existing multimodal approaches combine stru"
+    },
+    {
+      "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+      "url": "https://huggingface.co/papers/2610.26855",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-18",
+      "tier": 1,
+      "tags": [
+        "agents",
+        "multimodal",
+        "evals",
+        "synthetic-data",
+        "policy",
+        "funding"
+      ],
+      "summary": "World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation "
+    },
+    {
+      "title": "Large Flow Language Models",
+      "url": "https://huggingface.co/papers/2610.28559",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-19",
+      "tier": 1,
+      "tags": [
+        "multimodal",
+        "reasoning",
+        "evals"
+      ],
+      "summary": "Continuous flow language models offer a path to parallel generation with tools for control and acceleration unavailable to discrete diffusion, yet effective techniques for building them at the billion-parameter scale remain less established. We present Lafa (Large flow language model), a fast, high-"
+    },
+    {
+      "title": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds",
+      "url": "https://huggingface.co/papers/2610.27999",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-19",
+      "tier": 1,
+      "tags": [
+        "agents",
+        "multimodal",
+        "hardware"
+      ],
+      "summary": "Moving from controllable videos to genuinely playable worlds requires persistent world state, executable game rules, and low-latency interaction. We outline a roadmap for the next generation of Matrix-Game that separates game execution from visual generation through an executable game harness, and i"
+    },
+    {
+      "title": "Correction Training for Diffusion Models",
+      "url": "https://huggingface.co/papers/2610.14136",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-13",
+      "tier": 1,
+      "tags": [
+        "multimodal",
+        "reasoning",
+        "evals",
+        "hardware"
+      ],
+      "summary": "Iterative sampling in diffusion models can lead to error accumulation due to exposure bias. The denoiser is trained on real images interpolated with noise, but at inference its inputs are constructed from its own imperfect predictions from the earlier steps, something it has never seen at training t"
+    },
+    {
+      "title": "SWIFT: Self-guided Weak-to-strong dIFfusion models via Target extrapolation",
+      "url": "https://huggingface.co/papers/2610.25844",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-18",
+      "tier": 1,
+      "tags": [
+        "multimodal",
+        "reasoning",
+        "hardware"
+      ],
+      "summary": "Training high-quality diffusion models is computationally expensive, and inference-time guidance often adds further sampling cost. In this work, we introduce Swift, a simple yet effective self-guided training method that uses a frozen weak denoiser to improve a stronger model without adding inferenc"
+    },
+    {
+      "title": "From Short Clips to Real-Time Streams: Identity-Aware Supervision and Context-Efficient Generation for Video Face Swapping",
+      "url": "https://huggingface.co/papers/2610.26681",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-18",
+      "tier": 1,
+      "tags": [
+        "evals",
+        "hardware",
+        "funding"
+      ],
+      "summary": "Video face swapping transfers the reference identity to a target video while preserving its other attributes and motion. Despite recent progress in reference-guided flow-based methods, jointly achieving faithful identity transfer, high fidelity, and real-time generation over long video streams remai"
+    },
+    {
+      "title": "VLA-Rolling: Fewer Denoising Steps, Better Control via Adaptive Action Reuse",
+      "url": "https://huggingface.co/papers/2610.25043",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-17",
+      "tier": 1,
+      "tags": [
+        "multimodal",
+        "evals"
+      ],
+      "summary": "Flow-matching vision-language-action (VLA) models generate an action chunk by iteratively denoising Gaussian noise, but typically execute only a short prefix before replanning with updated observations. Under this receding-horizon paradigm, the unexecuted remainder---the action tail---is discarded, "
+    },
+    {
+      "title": "EdgeKernelBench: Unified LLM-Driven Kernel Generation for Edge Backends",
+      "url": "https://huggingface.co/papers/2610.24648",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-16",
+      "tier": 1,
+      "tags": [
+        "agents",
+        "evals",
+        "hardware",
+        "funding"
+      ],
+      "summary": "Recent works show that LLMs can generate kernels with strong performance on server GPUs. Edge deployment presents distinct challenges because the hardware is heterogeneous, the software stacks are fragmented, and the resource budgets are tight. LLM kernel generation across diverse edge backends has "
+    },
+    {
+      "title": "HybridResearcher: Bridging the Structured-Unstructured Boundary for Deep Research Agents",
+      "url": "https://huggingface.co/papers/2610.24899",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-16",
+      "tier": 1,
+      "tags": [
+        "agents",
+        "rl",
+        "reasoning",
+        "evals",
+        "open-source",
+        "hardware",
+        "funding"
+      ],
+      "summary": "While LLM agents are increasingly capable of gathering and synthesizing evidence from a single homogeneous source, such as structured tables or unstructured data, real-world analytical questions frequently span heterogeneous sources. For example, answering one enterprise question may require both a "
+    },
+    {
+      "title": "EvaOmni: An Evidence-Grounded Benchmark for Audio-Visual Reasoning",
+      "url": "https://huggingface.co/papers/2610.28444",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-19",
+      "tier": 1,
+      "tags": [
+        "reasoning",
+        "evals",
+        "open-source",
+        "funding",
+        "speech-audio"
+      ],
+      "summary": "Omni LLMs can naturally locate key audio and visual evidence and integrate information across modalities for audiovisual reasoning. Existing audio-visual reasoning benchmarks that mainly rely on multiple-choice questions usually score models solely based on answer correctness, making it difficult to"
+    },
+    {
+      "title": "Publish fake stats, get cited in LLMs",
+      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "315 points, 180 comments"
+    },
+    {
+      "title": "VPD's Evaluation Adversary Finds Systematic Defects in the Released Decomposition",
+      "url": "https://www.lesswrong.com/posts/tGdKJPmyaiHnqkLem/vpd-s-evaluation-adversary-finds-systematic-defects-in-the",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [
+        "reasoning",
+        "evals",
+        "safety",
+        "hardware",
+        "funding"
+      ],
+      "summary": "TL;DR: adVersarial Parameter Decomposition (VPD) decomposes model weights into simple components and assigns labels that specify whether a component is needed for a given input. A core aspiration of VPD is robust mechanistic faithfulness - the property that switching off any set of unneeded componen"
+    },
+    {
+      "title": "What to sort out before the money lands",
+      "url": "https://www.lesswrong.com/posts/6KuEywqzBDmFayRpQ/what-to-sort-out-before-the-money-lands",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [
+        "reasoning",
+        "evals",
+        "policy",
+        "funding"
+      ],
+      "summary": "Two philanthropic advisers on how sudden wealth affects you, and the three things to set up now. Right now, an unusually large number of people in tech are on the edge of an extreme wealth event. Through a tender offer, IPO, acquisition, or vesting equity, they will go from a salary to tens or hundr"
+    },
+    {
+      "title": "Agent Action Steering",
+      "url": "https://www.lesswrong.com/posts/foyyX4y9eGYYfELoH/agent-action-steering",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [
+        "agents",
+        "safety",
+        "open-source",
+        "hardware",
+        "speech-audio"
+      ],
+      "summary": "Background The Linear Representation Hypothesis [1] has allowed for many remarkable steering experiments. Anthropic famously demonstrated Golden Gate Claude, where they first extracted a feature associated with the Golden Gate Bridge using an SAE and clamped this feature to a high value to compel th"
+    },
+    {
+      "title": "State World Models: Execute the Rules, Generate the Pixels",
+      "url": "https://huggingface.co/papers/2610.26811",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-18",
+      "tier": 1,
+      "tags": [
+        "agents",
+        "evals",
+        "funding"
+      ],
+      "summary": "Existing world models can generate action-conditioned video from a single image. Many focus on camera movement, allowing users to explore the generated scene. However, navigation alone does not ensure that an action follows persistent rules when its outcome depends on state that is invisible in the "
+    },
+    {
+      "title": "InfiniDream: Open-Ended Photorealistic 3D Worlds Through Procedural Generation",
+      "url": "https://huggingface.co/papers/2610.26853",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-18",
+      "tier": 1,
+      "tags": [
+        "multimodal",
+        "evals",
+        "synthetic-data",
+        "funding"
+      ],
+      "summary": "Procedural generation plays a key role in synthetic data creation and game development, offering greater controllability, editability, and diversity than static mesh representations. However, VLM-based code generation often produces relatively simple 3D assets, while sophisticated photorealistic pro"
+    },
+    {
+      "title": "Competing Learning in Hybrid Architectures",
+      "url": "https://huggingface.co/papers/2610.26830",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-18",
+      "tier": 1,
+      "tags": [
+        "reasoning",
+        "evals"
+      ],
+      "summary": "Many modern language models have adopted hybrid architectures that incorporate both linear-time recurrence and softmax attention. Modern recurrence layers provide a highly expressive mixing mechanism while ensuring high throughput by compressing contextual information into a fixed-size state, but un"
+    },
+    {
+      "title": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
+      "url": "https://huggingface.co/papers/2610.26549",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-18",
+      "tier": 1,
+      "tags": [
+        "reasoning",
+        "evals",
+        "funding"
+      ],
+      "summary": "Human egocentric experience offers a rich foundation for learning how the world is organized and how it changes through interaction. Realizing this potential at scale requires turning growing volumes of recordings into learning resources that connect scene structure, object semantics, and interactio"
+    },
+    {
+      "title": "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
+      "url": "https://huggingface.co/papers/2610.25736",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-18",
+      "tier": 1,
+      "tags": [
+        "evals",
+        "policy"
+      ],
+      "summary": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to me"
+    },
+    {
+      "title": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+      "url": "https://huggingface.co/papers/2610.26802",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-18",
+      "tier": 1,
+      "tags": [
+        "multimodal",
+        "evals",
+        "open-source",
+        "speech-audio"
+      ],
+      "summary": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and l"
+    },
+    {
+      "title": "HSPR: Recovering Software-Agent Benchmark Scores via Hierarchical Posterior Inference",
+      "url": "https://huggingface.co/papers/2610.24611",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-16",
+      "tier": 1,
+      "tags": [
+        "agents",
+        "evals",
+        "funding"
+      ],
+      "summary": "Evaluating software agents on a full benchmark is expensive. A small task subset can preserve agent rankings while yielding inaccurate scores. Historical responses provide useful structure, but tasks with identical source responses can have different outcomes for a new target agent. We introduce Hie"
+    },
+    {
+      "title": "AdaExploreBench: Benchmarking LLM Agents for Proactive Exploration and Test-time Adaptation in Evolving Environments",
+      "url": "https://huggingface.co/papers/2610.25950",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-18",
+      "tier": 1,
+      "tags": [
+        "agents",
+        "reasoning",
+        "evals"
+      ],
+      "summary": "Large Language Model (LLM) agents are increasingly deployed in unfamiliar and evolving environments, requiring them to proactively explore, understand, and adapt to environmental dynamics. However, existing benchmarks rarely test whether agents can proactively discover how an environment works and a"
+    },
+    {
+      "title": "AffordanceWAM: Affordance-Aware Joint World-Action Modeling for Robot Manipulation",
+      "url": "https://huggingface.co/papers/2609.22332",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-17",
+      "tier": 1,
+      "tags": [
+        "multimodal"
+      ],
+      "summary": "Generalizable robot manipulation requires predicting how a scene will evolve, identifying where interactions are feasible, and determining how to act. Action-labeled robot videos directly supervise control but are costly and limited in diversity, whereas egocentric human videos capture diverse inter"
+    },
+    {
+      "title": "Vision-Language-Delta-Action: Learning Compact Deltas as Actionable Transition Interfaces for Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2610.25874",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-18",
+      "tier": 1,
+      "tags": [
+        "multimodal",
+        "open-source"
+      ],
+      "summary": "Robotic manipulation is not merely observation-to-action generation, but the realization of task-specified state changes in the physical world. Existing vision-language-action (VLA) methods directly learn observation-to-action mappings, imposing a substantial learning burden due to the gap between s"
+    },
+    {
+      "title": "HandsOn: A Large-Scale Simulation Benchmark for Generalizable Dexterous Manipulation",
+      "url": "https://huggingface.co/papers/2610.26765",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-18",
+      "tier": 1,
+      "tags": [
+        "multimodal",
+        "evals",
+        "policy"
+      ],
+      "summary": "General-purpose manipulation requires reliable behavior across embodiments, objects, and task demands. We introduce HandsOn, a composable simulation platform and benchmark for cross-embodiment dexterous manipulation. It supports five robotic arms, six dexterous hands, and approximately 200 rigid, ar"
+    },
+    {
+      "title": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
+      "url": "https://huggingface.co/papers/2610.06830",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-04",
+      "tier": 1,
+      "tags": [
+        "agents",
+        "rl",
+        "multimodal",
+        "evals",
+        "policy"
+      ],
+      "summary": "Memory has become integral to the LLM agent ecosystem, supporting information retention and reuse across interactions. However, most existing agent memory systems construct memory in a query-agnostic manner, which can incur unnecessary preprocessing cost and discard details that later prove essentia"
+    },
+    {
+      "title": "BlenderWorld: Benchmarking Visual Agents for 3D Creation from Real-World References",
+      "url": "https://huggingface.co/papers/2610.23986",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-13",
+      "tier": 1,
+      "tags": [
+        "agents",
+        "multimodal",
+        "evals",
+        "funding"
+      ],
+      "summary": "Recent advances in multimodal large language models (MLLMs) have enabled them to act as autonomous agents, creating and editing 3D models via code or direct software manipulation. In practical workflows, these models must infer object shapes, materials, spatial layouts, and lighting from diverse ref"
+    },
+    {
+      "title": "SpecMRL: Redesign Matryoshka Representation Learning within Parametric Spectrum",
+      "url": "https://huggingface.co/papers/2610.26824",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-18",
+      "tier": 1,
+      "tags": [
+        "evals"
+      ],
+      "summary": "Matryoshka Representation Learning (MRL) is designed to support flexible representation sizes by jointly optimizing nested prefixes. While effective, this design lacks an explicit constraint to ensure that the leading portion provides a suitable compact encoding. To address this, we propose SpecMRL,"
+    },
+    {
+      "title": "Text-to-Image Generative Modeling Without Language Pretraining",
+      "url": "https://huggingface.co/papers/2610.26863",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-18",
+      "tier": 1,
+      "tags": [
+        "multimodal",
+        "open-source",
+        "hardware"
+      ],
+      "summary": "Modern text-to-image (T2I) systems use internet-scale language pretraining for text-conditioned image generation. We ask whether language pretraining is necessary for strong T2I generation. We introduce Halcyon, a family of early-fusion multimodal autoregressive models pretrained entirely from scrat"
+    },
+    {
+      "title": "Sparse Feature Policy Unlearning Mitigates State Hallucination in Vision-Language-Action Models",
+      "url": "https://huggingface.co/papers/2610.09496",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-06",
+      "tier": 1,
+      "tags": [
+        "multimodal",
+        "policy"
+      ],
+      "summary": "Vision-Language-Action (VLA) models have shown strong generalization in robotic manipulation by leveraging rich representations from pretrained vision-language models. However, their deployment in real-world environments remains limited by recurring unreliable behaviors. In this work, we study state"
+    },
+    {
+      "title": "LIBERO-Industry: Benchmarking Robotic Manipulation under Industrial Process Constraints",
+      "url": "https://huggingface.co/papers/2610.16782",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-14",
+      "tier": 1,
+      "tags": [
+        "multimodal",
+        "evals",
+        "funding"
+      ],
+      "summary": "Industrial manipulation in flexible manufacturing, e.g., high-mix, low-volume (HMLV) electronics assembly, requires robot policies to adapt to changing products and production conditions. Such settings impose industrial process constraints, including product variants, moving material flows, finite e"
+    },
+    {
+      "title": "Evidence-First Agentic Verification",
+      "url": "https://huggingface.co/papers/2610.17724",
+      "source_id": "hf_daily_papers",
+      "source_name": "Hugging Face Daily Papers",
+      "date": "2026-10-12",
+      "tier": 1,
+      "tags": [
+        "agents",
+        "evals",
+        "funding"
+      ],
+      "summary": "Long-horizon, semi-verifiable agentic tasks often rely on rubric-based evaluation, but the evidence needed to assess these tasks can be spread across the environment state and the execution trace. A judge may overlook this evidence or accept unsupported claims, including an agent's own reports of su"
     },
     {
       "title": "Nested Shared-Operator Recursion on ARC-AGI-1: An Empirical Study of HRM, TRM and URM",
@@ -2941,92 +4880,6 @@
       "summary": "My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to play . I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\"."
     },
     {
-      "title": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
-      "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [],
-      "summary": "Adobe announced yesterday that the mobile version of Lightroom, available for iOS, iPadOS, and Android, can now open closed eyes in photos using generative AI with just a single tap. When the app detects a person, or a group of people, have their eyes closed in a photo it will automatically present "
-    },
-    {
-      "title": "The fossil fuel comeback is here",
-      "url": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-19",
-      "tier": 2,
-      "tags": [],
-      "summary": "The US is building more fossil fuel infrastructure than it has in a decade while renewable energy growth slows down, a new report shows. Electricity demand is also climbing faster than it has in more than a decade with more data centers, factories, and electric vehicles plugging into the grid. Despi"
-    },
-    {
-      "title": "CoreWeave&#8217;s debt is becoming the whole AI industry&#8217;s problem",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [
-        "policy"
-      ],
-      "summary": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds. Last Tuesday Chamath \"SPAC King\" Palihapitiya noticed the distressed debt, and also asked whether the"
-    },
-    {
-      "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
-      "url": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-19",
-      "tier": 2,
-      "tags": [
-        "safety"
-      ],
-      "summary": "Today, I’m talking with Illinois Gov. JB Pritzker, who has a lot of thoughts about AI, tech, and privacy. If you’ve been listening to the show, you know that one of my running theories is that those issues are driving a big and maybe kind of unexpected political realignment — and with the midterms c"
-    },
-    {
-      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-19",
-      "tier": 2,
-      "tags": [
-        "agents"
-      ],
-      "summary": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. C"
-    },
-    {
-      "title": "Democrats think cracking down on AI could give them an edge",
-      "url": "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-19",
-      "tier": 2,
-      "tags": [],
-      "summary": "Democrats could win back control of Congress this November, and if they do, they'll need to decide how to approach one of the country's newest and thorniest political issues: AI. Polls predict Democrats will flip at least one chamber of Congress in the midterm elections, which would put committee le"
-    },
-    {
-      "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
-      "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [],
-      "summary": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday that says Spotify has also made changes to its recommendation system to highlight more music made by human artists."
-    },
-    {
-      "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
-      "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [],
-      "summary": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc say they found more than 6,800 Muse links t"
-    },
-    {
       "title": "It’s a bird, it’s a plane … it’s a robo-puffin?",
       "url": "https://www.technologyreview.com/2026/10/20/1145205/its-a-bird-its-a-plane-its-a-robo-puffin/",
       "source_id": "mit_tech_review",
@@ -3143,32 +4996,6 @@
       "summary": "eMudhra Intermediate CA Compromise This is very, very bad news: The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores. Any software that bundles a"
     },
     {
-      "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
-      "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-19",
-      "tier": 2,
-      "tags": [
-        "evals",
-        "safety",
-        "policy"
-      ],
-      "summary": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology."
-    },
-    {
-      "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
-      "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-19",
-      "tier": 2,
-      "tags": [
-        "agents"
-      ],
-      "summary": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic."
-    },
-    {
       "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
       "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
       "source_id": "techcrunch_ai",
@@ -3179,214 +5006,6 @@
         "hardware"
       ],
       "summary": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own."
-    },
-    {
-      "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
-      "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [],
-      "summary": "The U.S. has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns."
-    },
-    {
-      "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
-      "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [],
-      "summary": "Eka Robotics may be the first robotic arm that is actually good at picking a wide range of objects up, and it is so smooth and human-like, it is wowing the industry."
-    },
-    {
-      "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
-      "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [
-        "funding"
-      ],
-      "summary": "Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst’s Customer Value Fund (CVF), which provides capital to startups without diluting equity and gets returns on the results of marketing spend. Otter.ai said that it will use these funds for ente"
-    },
-    {
-      "title": "Yelp can now call on your behalf to check wait times at a restaurant",
-      "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [],
-      "summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences."
-    },
-    {
-      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
-      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [
-        "policy"
-      ],
-      "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands."
-    },
-    {
-      "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
-      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-19",
-      "tier": 2,
-      "tags": [
-        "hardware"
-      ],
-      "summary": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year."
-    },
-    {
-      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [
-        "policy"
-      ],
-      "summary": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear "
-    },
-    {
-      "title": "Google’s more personalized Gemini AI is heading to your car",
-      "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [],
-      "summary": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini abou"
-    },
-    {
-      "title": "Figma co-founder Dylan Field thinks MCP is not a perfect protocol",
-      "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [],
-      "summary": "Figma said it plans to support as many standards as possible without exposing all of its data."
-    },
-    {
-      "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
-      "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [],
-      "summary": "Electric Plant has built an AI-powered translator to help humans listen to what plants are saying with the subtle electricity coursing through their stems."
-    },
-    {
-      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [
-        "safety",
-        "policy"
-      ],
-      "summary": "The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge."
-    },
-    {
-      "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
-      "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [],
-      "summary": "Before you share the Netflix documentary \"AI Gone Rogue\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate."
-    },
-    {
-      "title": "Anthropic’s cloud partnerships are getting messy",
-      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [
-        "hardware",
-        "funding"
-      ],
-      "summary": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO."
-    },
-    {
-      "title": "SpaceX’s AI business is beating expectations",
-      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [],
-      "summary": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine."
-    },
-    {
-      "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
-      "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [
-        "agents"
-      ],
-      "summary": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results."
-    },
-    {
-      "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
-      "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [
-        "hardware"
-      ],
-      "summary": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs."
-    },
-    {
-      "title": "ChatGPT now lets you lock your chats",
-      "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [],
-      "summary": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat."
-    },
-    {
-      "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
-      "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [],
-      "summary": "The former Google CEO owns about 1% stake in the leading AI lab, Bloomberg reported."
-    },
-    {
-      "title": "Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
-      "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [],
-      "summary": "Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads. New data also shows Muse is retaining users at higher rates than its AI rivals."
     },
     {
       "title": "Another Giant Leap: The Rubin CPX Specialized Accelerator & Rack",
@@ -3491,222 +5110,6 @@
         "funding"
       ],
       "summary": "Meta’s shocking purchase of 49% of Scale AI at a ~$30B valuation shows that money is of no concern for the $100B annual cashflow ad machine. Despite seemingly unlimited resources, Meta has been falling behind foundation labs in model performance."
-    },
-    {
-      "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
-      "url": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-10",
-      "tier": 2,
-      "tags": [],
-      "summary": "After a few long years of finding time to document my lessons from training open models, my post-training book is done!"
-    },
-    {
-      "title": "Lessons from the hacks",
-      "url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-09",
-      "tier": 2,
-      "tags": [
-        "safety"
-      ],
-      "summary": "Musings on model alignment, what determines safety, and where we go from here."
-    },
-    {
-      "title": "Introducing our Artifacts Hub and Adoption Dashboard",
-      "url": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-03",
-      "tier": 2,
-      "tags": [],
-      "summary": "Scaling our curation and measurement of the open ecosystem."
-    },
-    {
-      "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-02",
-      "tier": 2,
-      "tags": [],
-      "summary": "Capacity to train strong models is proliferating."
-    },
-    {
-      "title": "Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next",
-      "url": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-07-22",
-      "tier": 2,
-      "tags": [
-        "synthetic-data",
-        "open-source",
-        "speech-audio"
-      ],
-      "summary": "A podcast with Florian Brand."
-    },
-    {
-      "title": "Kimi K3: The open-weights escalation",
-      "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-07-20",
-      "tier": 2,
-      "tags": [
-        "open-source"
-      ],
-      "summary": "The global implications on the AI ecosystem."
-    },
-    {
-      "title": "Open-Source AI & Open Models Reading List",
-      "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-11",
-      "tier": 2,
-      "tags": [
-        "open-source"
-      ],
-      "summary": "How to get up to speed on open models and their implications."
-    },
-    {
-      "title": "One resignation turned the embers of AI fear into a wildfire",
-      "url": "https://www.interconnects.ai/p/one-resignation-turned-the-embers",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-10",
-      "tier": 2,
-      "tags": [],
-      "summary": "Some quick notes on a truly weird week."
-    },
-    {
-      "title": "When will average people feel AI’s impact?",
-      "url": "https://www.interconnects.ai/p/when-will-average-people-feel-ais",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-09",
-      "tier": 2,
-      "tags": [],
-      "summary": "We’re <5 years into a compounding revolution which could take a century, and how the AI industry should manage this."
-    },
-    {
-      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-08",
-      "tier": 2,
-      "tags": [],
-      "summary": "The open model ecosystem continues to expand in its breadth"
-    },
-    {
-      "title": "Teaching Everyone to Fish for Tokens",
-      "url": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-17",
-      "tier": 2,
-      "tags": [],
-      "summary": "Nvidia wants you building your own model, not buying from Anthropic/OpenAI."
-    },
-    {
-      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
-      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-14",
-      "tier": 2,
-      "tags": [
-        "synthetic-data"
-      ],
-      "summary": "Hint: It’s really not a distillation story."
-    },
-    {
-      "title": "I wrote an AI textbook — how long until AI can do it better?",
-      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-12",
-      "tier": 2,
-      "tags": [],
-      "summary": "Reflections on AI's writing ability and how AI models get more capable."
-    },
-    {
-      "title": "Why I still haven’t bought into true RSI",
-      "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-19",
-      "tier": 2,
-      "tags": [],
-      "summary": "An “AI moderate’s” view on recent events and the trajectory of frontier models."
-    },
-    {
-      "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
-      "url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-22",
-      "tier": 2,
-      "tags": [],
-      "summary": "Podcast #19"
-    },
-    {
-      "title": "The current balance of power in open models",
-      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-21",
-      "tier": 2,
-      "tags": [],
-      "summary": "The expanded form of a testimony I prepared for Congress."
-    },
-    {
-      "title": "Meta shakes up the frontiers, open and closed",
-      "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-10-17",
-      "tier": 2,
-      "tags": [
-        "open-source"
-      ],
-      "summary": "US open weights are back!"
-    },
-    {
-      "title": "I expect rapid progress but not towards general superintelligence",
-      "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-10-09",
-      "tier": 2,
-      "tags": [],
-      "summary": "I’ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn’t really know why I doubted it."
-    },
-    {
-      "title": "The Cyber Risk Discourse is Broken",
-      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-10-06",
-      "tier": 2,
-      "tags": [
-        "open-source"
-      ],
-      "summary": "Open-weights, ideology, and acknowledging trade-offs."
-    },
-    {
-      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [],
-      "summary": "Western open models strike back"
     },
     {
       "title": "xAI’s Colossus 2 – First Gigawatt Datacenter In The World, Unique RL Methodology, Capital Raise",
@@ -4500,1079 +5903,6 @@
       "summary": "The most serious test to date of open source AI’s viability is happening right now."
     },
     {
-      "title": "Start building with Gemini 3",
-      "url": "https://deepmind.google/blog/start-building-with-gemini-3/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2025-11-18",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "We’re expanding our presence in Singapore to advance AI in the Asia-Pacific region",
-      "url": "https://deepmind.google/blog/were-expanding-our-presence-in-singapore-to-advance-ai-in-the-asia-pacific-region/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2025-11-18",
-      "tier": 1,
-      "tags": [],
-      "summary": "Google DeepMind opens a new Singapore research lab, accelerating AI progress in the Asia-Pacific region."
-    },
-    {
-      "title": "A new era of intelligence with Gemini 3",
-      "url": "https://deepmind.google/blog/a-new-era-of-intelligence-with-gemini-3/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2025-11-18",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-04-13",
-      "tier": 1,
-      "tags": [
-        "agents",
-        "reasoning"
-      ],
-      "summary": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics."
-    },
-    {
-      "title": "Gemma 4: Byte for byte, the most capable open models",
-      "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-04-02",
-      "tier": 1,
-      "tags": [
-        "agents",
-        "reasoning"
-      ],
-      "summary": "Gemma 4: Our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows."
-    },
-    {
-      "title": "Reimagining the mouse pointer for the AI era",
-      "url": "https://deepmind.google/blog/ai-pointer/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-03-29",
-      "tier": 1,
-      "tags": [],
-      "summary": "Google DeepMind is transforming the mouse pointer into a context-aware AI partner. Move beyond the friction of traditional prompting with intuitive AI collaboration in Chrome and beyond."
-    },
-    {
-      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
-      "url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-03-26",
-      "tier": 1,
-      "tags": [
-        "speech-audio"
-      ],
-      "summary": "Our latest voice model has improved precision and lower latency to make voice interactions more fluid, natural and precise."
-    },
-    {
-      "title": "Protecting people from harmful manipulation",
-      "url": "https://deepmind.google/blog/protecting-people-from-harmful-manipulation/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-03-25",
-      "tier": 1,
-      "tags": [
-        "safety"
-      ],
-      "summary": "Google DeepMind researches AI's harmful manipulation risks across areas like finance and health, leading to new safety measures."
-    },
-    {
-      "title": "Lyria 3 Pro: Create longer tracks in more",
-      "url": "https://deepmind.google/blog/lyria-3-pro-create-longer-tracks-in-more/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-03-25",
-      "tier": 1,
-      "tags": [],
-      "summary": "Introducing Lyria 3 Pro, which unlocks longer tracks with structural awareness. We’re also bringing Lyria to more Google products and surfaces."
-    },
-    {
-      "title": "Measuring progress toward AGI: A cognitive framework",
-      "url": "https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-03-17",
-      "tier": 1,
-      "tags": [
-        "evals",
-        "funding"
-      ],
-      "summary": "We’re introducing a framework to measure progress toward AGI, and launching a Kaggle hackathon to build the relevant evaluations."
-    },
-    {
-      "title": "From games to biology and beyond: 10 years of AlphaGo’s impact",
-      "url": "https://deepmind.google/blog/10-years-of-alphago/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-03-09",
-      "tier": 1,
-      "tags": [],
-      "summary": "Ten years since AlphaGo, we explore how it is catalyzing scientific discovery and paving a path to AGI."
-    },
-    {
-      "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
-      "url": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-03-03",
-      "tier": 1,
-      "tags": [],
-      "summary": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet."
-    },
-    {
-      "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
-      "url": "https://deepmind.google/blog/nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-02-26",
-      "tier": 1,
-      "tags": [
-        "multimodal"
-      ],
-      "summary": "Our latest image generation model offers advanced world knowledge, production ready specs, subject consistency and more, all at Flash speed."
-    },
-    {
-      "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
-      "url": "https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-02-19",
-      "tier": 1,
-      "tags": [],
-      "summary": "3.1 Pro is designed for tasks where a simple answer isn’t enough."
-    },
-    {
-      "title": "A new way to express yourself: Gemini can now create music",
-      "url": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-02-18",
-      "tier": 1,
-      "tags": [],
-      "summary": "The Gemini app now features our most advanced music generation model Lyria 3, empowering anyone to make 30-second tracks using text or images."
-    },
-    {
-      "title": "Accelerating discovery in India through AI-powered science and education",
-      "url": "https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-02-17",
-      "tier": 1,
-      "tags": [],
-      "summary": "Google DeepMind brings National Partnerships for AI initiative to India, scaling AI for science and education"
-    },
-    {
-      "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
-      "url": "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-02-12",
-      "tier": 1,
-      "tags": [
-        "reasoning"
-      ],
-      "summary": "Our most specialized reasoning mode is now updated to solve modern science, research and engineering challenges."
-    },
-    {
-      "title": "Accelerating Mathematical and Scientific Discovery with Gemini Deep Think",
-      "url": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-02-09",
-      "tier": 1,
-      "tags": [],
-      "summary": "Research papers point to the growing impact of Deep Think across fields"
-    },
-    {
-      "title": "Project Genie: Experimenting with infinite, interactive worlds",
-      "url": "https://deepmind.google/blog/project-genie-experimenting-with-infinite-interactive-worlds/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-01-29",
-      "tier": 1,
-      "tags": [],
-      "summary": "Google AI Ultra subscribers in the U.S. can try out Project Genie, an experimental research prototype that lets you create and explore worlds."
-    },
-    {
-      "title": "D4RT: Teaching AI to see the world in four dimensions",
-      "url": "https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-01-16",
-      "tier": 1,
-      "tags": [],
-      "summary": "D4RT: Unified, efficient 4D reconstruction and tracking up to 300x faster than prior methods."
-    },
-    {
-      "title": "Veo 3.1 Ingredients to Video: More consistency, creativity and control",
-      "url": "https://deepmind.google/blog/veo-3-1-ingredients-to-video-more-consistency-creativity-and-control/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-01-13",
-      "tier": 1,
-      "tags": [
-        "multimodal"
-      ],
-      "summary": "Our latest Veo update generates lively, dynamic clips that feel natural and engaging — and supports vertical video generation."
-    },
-    {
-      "title": "Google's year in review: 8 areas with research breakthroughs in 2025",
-      "url": "https://deepmind.google/blog/googles-year-in-review-8-areas-with-research-breakthroughs-in-2025/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2025-12-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "Google 2025 recap: Research breakthroughs of the year"
-    },
-    {
-      "title": "Gemini 3 Flash: frontier intelligence built for speed",
-      "url": "https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2025-12-17",
-      "tier": 1,
-      "tags": [],
-      "summary": "Gemini 3 Flash offers frontier intelligence built for speed at a fraction of the cost."
-    },
-    {
-      "title": "Gemma Scope 2: helping the AI safety community deepen understanding of complex language model behavior",
-      "url": "https://deepmind.google/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2025-12-16",
-      "tier": 1,
-      "tags": [
-        "safety"
-      ],
-      "summary": "Open interpretability tools for language models are now available across the entire Gemma 3 family with the release of Gemma Scope 2."
-    },
-    {
-      "title": "Improved Gemini audio models for powerful voice experiences",
-      "url": "https://deepmind.google/blog/improved-gemini-audio-models-for-powerful-voice-experiences/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2025-12-12",
-      "tier": 1,
-      "tags": [
-        "speech-audio"
-      ],
-      "summary": ""
-    },
-    {
-      "title": "Deepening our partnership with the UK AI Security Institute",
-      "url": "https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2025-12-11",
-      "tier": 1,
-      "tags": [
-        "safety"
-      ],
-      "summary": "Google DeepMind and UK AI Security Institute (AISI) strengthen collaboration on critical AI safety and security research"
-    },
-    {
-      "title": "Strengthening our partnership with the UK government to support prosperity and security in the AI era",
-      "url": "https://deepmind.google/blog/strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2025-12-10",
-      "tier": 1,
-      "tags": [
-        "policy"
-      ],
-      "summary": "Deepening our partnership with the UK government to support prosperity and security in the AI era"
-    },
-    {
-      "title": "FACTS Benchmark Suite: Systematically evaluating the factuality of large language models",
-      "url": "https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2025-12-09",
-      "tier": 1,
-      "tags": [
-        "evals"
-      ],
-      "summary": "Systematically evaluating the factuality of large language models with the FACTS Benchmark Suite."
-    },
-    {
-      "title": "Engineering more resilient crops for a warming climate",
-      "url": "https://deepmind.google/blog/engineering-more-resilient-crops-for-a-warming-climate/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2025-12-04",
-      "tier": 1,
-      "tags": [],
-      "summary": "Scientists are using AlphaFold to strengthen a photosynthesis enzyme for resilient, heat-tolerant crops."
-    },
-    {
-      "title": "AlphaFold: Five years of impact",
-      "url": "https://deepmind.google/blog/alphafold-five-years-of-impact/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2025-11-25",
-      "tier": 1,
-      "tags": [],
-      "summary": "Explore how AlphaFold has accelerated science and fueled a global wave of biological discovery."
-    },
-    {
-      "title": "Revealing a key protein behind heart disease",
-      "url": "https://deepmind.google/blog/revealing-a-key-protein-behind-heart-disease/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2025-11-25",
-      "tier": 1,
-      "tags": [],
-      "summary": "AlphaFold has revealed the structure of a key protein behind heart disease"
-    },
-    {
-      "title": "Google DeepMind supports U.S. Department of Energy on Genesis: a national mission to accelerate innovation and scientific discovery",
-      "url": "https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2025-11-24",
-      "tier": 1,
-      "tags": [],
-      "summary": "Google DeepMind and the DOE partner on Genesis, a new effort to accelerate science with AI."
-    },
-    {
-      "title": "How we’re bringing AI image verification to the Gemini app",
-      "url": "https://deepmind.google/blog/how-were-bringing-ai-image-verification-to-the-gemini-app/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2025-11-20",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Build with Nano Banana Pro, our Gemini 3 Pro Image model",
-      "url": "https://deepmind.google/blog/build-with-nano-banana-pro-our-gemini-3-pro-image-model/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2025-11-20",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Introducing Nano Banana Pro",
-      "url": "https://deepmind.google/blog/introducing-nano-banana-pro/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2025-11-20",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Our approach to bioresilience",
-      "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-07-16",
-      "tier": 1,
-      "tags": [],
-      "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models."
-    },
-    {
-      "title": "Empowering India’s next generation of innovators with ATL Saathi",
-      "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-07-13",
-      "tier": 1,
-      "tags": [],
-      "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs."
-    },
-    {
-      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
-      "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-07-03",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-06-30",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Introducing computer use in Gemini 3.5 Flash",
-      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-06-24",
-      "tier": 1,
-      "tags": [
-        "agents",
-        "hardware"
-      ],
-      "summary": ""
-    },
-    {
-      "title": "Unlocking UK house-building with AI-accelerated planning",
-      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-06-16",
-      "tier": 1,
-      "tags": [
-        "policy"
-      ],
-      "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions."
-    },
-    {
-      "title": "Securing the future of AI agents",
-      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-06-16",
-      "tier": 1,
-      "tags": [
-        "agents"
-      ],
-      "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring."
-    },
-    {
-      "title": "DiffusionGemma: 4x faster text generation",
-      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-06-10",
-      "tier": 1,
-      "tags": [
-        "multimodal"
-      ],
-      "summary": ""
-    },
-    {
-      "title": "Investing in multi-agent AI safety research",
-      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-06-10",
-      "tier": 1,
-      "tags": [
-        "agents",
-        "safety",
-        "funding"
-      ],
-      "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research."
-    },
-    {
-      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
-      "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-06-09",
-      "tier": 1,
-      "tags": [
-        "speech-audio"
-      ],
-      "summary": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet."
-    },
-    {
-      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
-      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-06-09",
-      "tier": 1,
-      "tags": [
-        "multimodal"
-      ],
-      "summary": ""
-    },
-    {
-      "title": "Powering the future of robotics in Europe",
-      "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-06-09",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
-      "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-06-08",
-      "tier": 1,
-      "tags": [],
-      "summary": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning."
-    },
-    {
-      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
-      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-05-21",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Fast-tracking genetic leads to reverse cellular aging",
-      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-05-18",
-      "tier": 1,
-      "tags": [],
-      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells."
-    },
-    {
-      "title": "Simulate real-world places with Project Genie and Street View",
-      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-05-17",
-      "tier": 1,
-      "tags": [],
-      "summary": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View."
-    },
-    {
-      "title": "Introducing Gemini Omni",
-      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-05-17",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Introducing Google Antigravity 2.0",
-      "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-05-17",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
-      "url": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-05-17",
-      "tier": 1,
-      "tags": [],
-      "summary": "A collection of science tools and experiments to expand the scale and precision of scientific exploration."
-    },
-    {
-      "title": "Making it easier to understand how content was created and edited",
-      "url": "https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-05-17",
-      "tier": 1,
-      "tags": [],
-      "summary": "We're expanding our tools to help you understand how content was created and edited across the web."
-    },
-    {
-      "title": "Strengthening Singapore’s AI Future: A New National Partnership",
-      "url": "https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-05-16",
-      "tier": 1,
-      "tags": [],
-      "summary": "Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more."
-    },
-    {
-      "title": "Finding the molecular switches behind new infectious diseases",
-      "url": "https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-05-16",
-      "tier": 1,
-      "tags": [],
-      "summary": "Clare Bryant uses Co-Scientist to identify genetic triggers in emerging infectious diseases."
-    },
-    {
-      "title": "Opening new paths in aging research",
-      "url": "https://deepmind.google/blog/opening-new-paths-in-aging-research/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-05-16",
-      "tier": 1,
-      "tags": [],
-      "summary": "Calico Life Sciences uses Co-Scientist to connect scattered findings and generate new leads in aging research."
-    },
-    {
-      "title": "Accelerating discovery of liver disease mechanisms",
-      "url": "https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-05-16",
-      "tier": 1,
-      "tags": [],
-      "summary": "Filippo Menolascina uses Co-Scientist to identify new liver disease treatments and explain why existing drugs only help certain patients."
-    },
-    {
-      "title": "Uniting biological toolkits for a new approach to ALS",
-      "url": "https://deepmind.google/blog/uniting-biological-toolkits-for-a-new-approach-to-als/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-05-16",
-      "tier": 1,
-      "tags": [],
-      "summary": "Co-Scientist unites Boston Children’s Hospital and MIT’s labs to explore new RNA-based treatments for ALS."
-    },
-    {
-      "title": "Uncovering repurposed medicines to fight liver fibrosis",
-      "url": "https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-05-16",
-      "tier": 1,
-      "tags": [],
-      "summary": "Stanford geneticist uses Co-Scientist to help find new treatments for chronic liver disease and liver fibrosis."
-    },
-    {
-      "title": "How WeatherNext helped the National Hurricane Center better predict Hurricane Melissa’s historic landfall in Jamaica",
-      "url": "https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-05-16",
-      "tier": 1,
-      "tags": [],
-      "summary": "Learn how our WeatherNext AI model help forecasters give communities unprecedented time to prepare ahead of the historic Hurricane Melissa."
-    },
-    {
-      "title": "Gemini 3.5: frontier intelligence with action",
-      "url": "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-05-15",
-      "tier": 1,
-      "tags": [
-        "agents"
-      ],
-      "summary": "Gemini 3.5 is built to help you execute complex, agentic workflows."
-    },
-    {
-      "title": "Co-Scientist: A multi-agent AI partner to accelerate research",
-      "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-05-12",
-      "tier": 1,
-      "tags": [
-        "agents"
-      ],
-      "summary": "Introducing Co-Scientist, a collaborative AI partner built with Gemini to help researchers accelerate scientific breakthroughs."
-    },
-    {
-      "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
-      "url": "https://deepmind.google/blog/alphaevolve-impact/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-05-06",
-      "tier": 1,
-      "tags": [
-        "agents"
-      ],
-      "summary": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science."
-    },
-    {
-      "title": "Enabling a new model for healthcare with AI co-clinician",
-      "url": "https://deepmind.google/blog/ai-co-clinician/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-04-30",
-      "tier": 1,
-      "tags": [],
-      "summary": "Researching the path to AI-augmented care and development of an AI co-clinician."
-    },
-    {
-      "title": "Announcing our partnership with the Republic of Korea",
-      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-04-27",
-      "tier": 1,
-      "tags": [],
-      "summary": "Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models"
-    },
-    {
-      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
-      "url": "https://deepmind.google/blog/decoupled-diloco/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-04-22",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Partnering with industry leaders to accelerate AI transformation",
-      "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-04-21",
-      "tier": 1,
-      "tags": [],
-      "summary": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world."
-    },
-    {
-      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
-      "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-04-15",
-      "tier": 1,
-      "tags": [
-        "speech-audio"
-      ],
-      "summary": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation."
-    },
-    {
-      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-09-15",
-      "tier": 1,
-      "tags": [
-        "reasoning"
-      ],
-      "summary": ""
-    },
-    {
-      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-09-08",
-      "tier": 1,
-      "tags": [],
-      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome."
-    },
-    {
-      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-09-03",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Proactive cyber defense for governments and enterprises",
-      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-09-02",
-      "tier": 1,
-      "tags": [
-        "policy"
-      ],
-      "summary": ""
-    },
-    {
-      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-09-02",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Introducing agentic video understanding with Gemini",
-      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-09-01",
-      "tier": 1,
-      "tags": [
-        "agents"
-      ],
-      "summary": ""
-    },
-    {
-      "title": "Gemini Omni 1.1 Flash lets you build with more control",
-      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-08-27",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Piloting the world's first double-blind AI evaluations",
-      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-08-27",
-      "tier": 1,
-      "tags": [
-        "evals",
-        "funding"
-      ],
-      "summary": "Piloting the world's first double-blind AI evaluations"
-    },
-    {
-      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
-      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-08-26",
-      "tier": 1,
-      "tags": [
-        "speech-audio"
-      ],
-      "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe."
-    },
-    {
-      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-08-21",
-      "tier": 1,
-      "tags": [],
-      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay."
-    },
-    {
-      "title": "Introducing Gemini 3.7 Flash",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-08-13",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Putting sign language AI into users’ hands",
-      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-08-12",
-      "tier": 1,
-      "tags": [],
-      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users."
-    },
-    {
-      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
-      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-08-06",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-07-30",
-      "tier": 1,
-      "tags": [],
-      "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications."
-    },
-    {
-      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
-      "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-07-29",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
-      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-07-28",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
-      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-07-22",
-      "tier": 1,
-      "tags": [],
-      "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission"
-    },
-    {
-      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-07-21",
-      "tier": 1,
-      "tags": [],
-      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber."
-    },
-    {
-      "title": "Introducing Gemini 3.5 Flash Cyber",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-07-17",
-      "tier": 1,
-      "tags": [],
-      "summary": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities."
-    },
-    {
-      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-10-15",
-      "tier": 1,
-      "tags": [],
-      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science."
-    },
-    {
-      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-10-14",
-      "tier": 1,
-      "tags": [
-        "policy"
-      ],
-      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress."
-    },
-    {
-      "title": "Developing Gemini 4 Argon responsibly and safely",
-      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-10-13",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Gemini 4 Argon for Robotics",
-      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-10-13",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-10-13",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-10-06",
-      "tier": 1,
-      "tags": [
-        "multimodal"
-      ],
-      "summary": ""
-    },
-    {
-      "title": "Gemini 4 Argon: our next era of frontier intelligence",
-      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-09-30",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Introducing SynthID Bio",
-      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-09-30",
-      "tier": 1,
-      "tags": [],
-      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function."
-    },
-    {
-      "title": "Introducing Gemini 3.8 Live with Live Avatar",
-      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-09-24",
-      "tier": 1,
-      "tags": [],
-      "summary": ""
-    },
-    {
-      "title": "Advancing Private AI Compute with secure, server-side memory",
-      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-09-23",
-      "tier": 1,
-      "tags": [
-        "hardware"
-      ],
-      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI."
-    },
-    {
-      "title": "Gemini 3.8 text-to-speech says hello",
-      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2026-09-23",
-      "tier": 1,
-      "tags": [
-        "speech-audio"
-      ],
-      "summary": ""
-    },
-    {
       "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
       "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
       "source_id": "mit_tech_review",
@@ -5652,6 +5982,22 @@
         },
         {
           "url": "https://arxiv.org/abs/2610.26860",
+          "source_name": "arXiv (cs.AI/CL/CV/LG)"
+        }
+      ]
+    },
+    {
+      "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+      "discovery": "corroborated",
+      "sources": 2,
+      "items": 2,
+      "links": [
+        {
+          "url": "https://huggingface.co/papers/2610.26855",
+          "source_name": "Hugging Face Daily Papers"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.26855",
           "source_name": "arXiv (cs.AI/CL/CV/LG)"
         }
       ]
@@ -5844,6 +6190,22 @@
         },
         {
           "url": "https://arxiv.org/abs/2610.26754",
+          "source_name": "arXiv (cs.AI/CL/CV/LG)"
+        }
+      ]
+    },
+    {
+      "title": "From Short Clips to Real-Time Streams: Identity-Aware Supervision and Context-Efficient Generation for Video Face Swapping",
+      "discovery": "corroborated",
+      "sources": 2,
+      "items": 2,
+      "links": [
+        {
+          "url": "https://huggingface.co/papers/2610.26681",
+          "source_name": "Hugging Face Daily Papers"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.26681",
           "source_name": "arXiv (cs.AI/CL/CV/LG)"
         }
       ]

@@ -5,7 +5,7 @@ import sys
 import urllib.request
 from datetime import datetime, timezone
 
-from paths import ENV_FILE, IDEAS_DIR, IDEAS_FILE, ITEMS_FILE, STORY_FILE
+from paths import ENV_FILE, IDEAS_DIR, IDEAS_FILE, ITEMS_FILE, STORY_FILE, ensure_dirs
 
 MODEL_PRO = "deepseek/deepseek-v4-pro-0813"
 MODEL_FLASH = "deepseek/deepseek-v4-flash-0731"
@@ -185,6 +185,7 @@ def main():
     parser.add_argument("--print", dest="print_only", action="store_true", help="Print to stdout instead of writing files.")
     args = parser.parse_args()
 
+    ensure_dirs()
     env = load_env()
     api_key = env.get("OPENROUTER_API_KEY")
     if not api_key:
