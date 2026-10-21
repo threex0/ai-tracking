@@ -48,6 +48,40 @@ Make the output more discriminating before adding more surface area.
 Exit criteria: digest/story output ranks the obvious "must-reads" first; clusters
 survive title paraphrase; watch items become tracked sources.
 
+### Phase 1 implementation spec
+
+**1.1 — Scoring + trigger flags (`fetch.py`)**
+- Structured engagement: `parse_hn` emits `points` / `comments` as real fields (instead of only in the summary string); stored on items.
+- `compute_score(tier, published, points, comments)` = `tier_weight × (1 + engagement_boost) × freshness_decay`, where tier_weight {1:3, 2:2, 3:1}, boost = `log1p(points)/10 + log1p(comments)/50`, decay = `exp(-age_hours/48)`. Stored as `score` on every item (serialize + one-time backfill for existing window items).
+- `story_trigger(categories, latest)`: `discovery` when academic-papers + (frontier|analysis|community), `opportunity` when industry-news + (frontier|community|benchmark), both gated to `latest` within 7 days. Set as `trigger` on stories in `build_stories`.
+- Digest "High Signal" section (top): triggered story links + `watch` = high-score community items (`score ≥ 2.5`) not yet present in any story (deterministic proxy for the strategy's contrarian/watch signal; full disagreement-detection deferred).
+- Build order dependency: none.
+
+**1.2 — Tiered cadence (`fetch.py`, `sources.json`)**
+- `cadence` per source (`hourly|daily|weekly`, default daily); `state["meta"][sid]["fetched_at"]` updated per fetch.
+- In `main()`, skip sources not yet due (`last + cadence > now`); `--all` forces every source. Enables an extra hourly cron for tier-1 without re-polling slow sources.
+- Dependency: none (can pair with 1.1 in the same fetch run).
+
+**1.3 — Clustering quality (`fetch.py` `cluster_items`/`tokenize`/`canonical_url`)**
+- `tokenize`: tiny stemmer (strip `-ing/-ed/-es/-s`) + drop pure-digit tokens; weight tokens by **IDF** across the window; replace plain Jaccard with a weighted similarity (cosine) retuned against `TITLE_SIM`.
+- `canonical_url`: strip only tracking params (`utm_*`, `fbclid`, `gclid`, `ref`), keep meaningful queries; treat no-query ≠ query as distinct keys.
+- Scale guard: cap the token-pair index (skip tokens shared by >N items) to bound the O(n²) pair set.
+- Dependency: none; guarded by paraphrase-clustering tests.
+
+**1.4 — Watch-item loop (`ideas.py` → `fetch.py`)**
+- Reuse the ideas section parser to emit `data/watch.json` (`[{title, keywords}]`) from the "Watch items" section.
+- `fetch.py` merges watch keywords into the HN/community keyword filter, with 7-day expiry (`data/watch.json` stores `added_at`). `ideas.py --clear-watch` resets.
+- Dependency: 1.1 (watch candidates already highlighted in the digest).
+
+**1.5 — Taxonomy v2 (`fetch.py` TAXONOMY)**
+- TAXONOMY becomes `tag → {keywords, weight}` with regex support and per-tag confidence (kept only if ≥1 strong or ≥2 weak matches). Aggregate member tags onto stories; add `tags` to story entries.
+- One-time `--retag` pass over the existing window.
+- Dependency: 1.1/1.3 outputs settled (tags feed scoring and cluster tags).
+
+**Build order:** 1.1 → 1.2 → 1.4 → 1.3 → 1.5 (1.3 and 1.4 are independent).
+
+Done (2026-10-21): **1.1** — item `score` (tier × engagement × freshness, backfilled for existing window items), structured HN `points`/`comments`, `trigger` on stories (fresh discovery/opportunity), digest **High Signal** section (triggered stories + watch candidates). Tests: 60 stdlib cases.
+
 ---
 
 ## Phase 2 — Depth & browsing (weeks 4–6)

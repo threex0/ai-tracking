@@ -2,6 +2,7 @@ import argparse
 import collections
 import html
 import json
+import math
 import re
 import ssl
 import sys
@@ -32,6 +33,11 @@ RETRIES = 2
 MAX_WORKERS = 6
 SITEMAP_MAX_DEPTH = 3
 SITEMAP_TITLE_DELAY = 1.2
+TIER_WEIGHT = {1: 3.0, 2: 2.0, 3: 1.0}
+FRESHNESS_HALF_LIFE_HOURS = 48
+TRIGGER_MAX_DAYS = 7
+WATCH_MIN_SCORE = 2.5
+WATCH_MAX = 5
 STOPWORDS = set(
     "a an and are as at be but by for from had has have he her him his i if in is it its "
     "may might more most must no not of on or our so that the their them they this those to "
@@ -179,6 +185,8 @@ def parse_hn(obj):
             "link": url,
             "published": parse_date(h.get("created_at")),
             "summary": f"{h.get('points') or 0} points, {h.get('num_comments') or 0} comments",
+            "points": h.get("points") or 0,
+            "comments": h.get("num_comments") or 0,
         })
     return items
 
@@ -320,6 +328,20 @@ def clean(text):
     text = html.unescape(text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
+
+
+def compute_score(tier, published, points=None, comments=None):
+    """score = source_weight x (1 + engagement_boost) x freshness_decay."""
+    sw = TIER_WEIGHT.get(tier, 1.0)
+    boost = 0.0
+    if points or comments:
+        boost = (math.log1p(points or 0) / 10) + (math.log1p(comments or 0) / 50)
+    decay = 1.0
+    if published:
+        age_h = (datetime.now(timezone.utc) - published).total_seconds() / 3600
+        if age_h > 0:
+            decay = math.exp(-age_h / FRESHNESS_HALF_LIFE_HOURS)
+    return round(sw * (1 + boost) * decay, 3)
 
 
 def match_keywords(title, keywords):
@@ -470,6 +492,20 @@ def story_tag(categories, sources):
     return "story"
 
 
+def story_trigger(categories, latest):
+    """Return a high-signal trigger for a fresh multi-source story, or None."""
+    if latest is None:
+        return None
+    age_days = (datetime.now(timezone.utc) - latest).total_seconds() / 86400
+    if age_days > TRIGGER_MAX_DAYS:
+        return None
+    if "academic-papers" in categories and (categories & {"frontier-labs", "analysis-commentary", "communities"}):
+        return "discovery"
+    if "industry-news" in categories and (categories & {"frontier-labs", "communities", "benchmarks"}):
+        return "opportunity"
+    return None
+
+
 def build_stories(items):
     stories = []
     for cluster in cluster_items(items):
@@ -482,6 +518,7 @@ def build_stories(items):
         stories.append({
             "title": canonical_title(cluster),
             "tag": story_tag(categories, sources),
+            "trigger": story_trigger(categories, latest),
             "sources": sources,
             "categories": categories,
             "latest": latest,
@@ -491,6 +528,27 @@ def build_stories(items):
                                 min((m.get("tier") or 9) for m in s["members"]),
                                 -(s["latest"].timestamp() if s["latest"] else 0)))
     return stories
+
+
+def build_high_signal(stories, items):
+    """High-signal digest lines: triggered stories + un-storied high-score community items."""
+    lines = []
+    for st in stories:
+        if st.get("trigger"):
+            names = " · ".join(f"[{clean(m['title'])}]({m['link']})" for m in st["members"][:3])
+            lines.append(f"- **{st['trigger']}**: {names}")
+    in_story = set()
+    for st in stories:
+        for m in st["members"]:
+            in_story.add(m.get("key"))
+    watch = [it for it in items
+             if it.get("category") == "communities"
+             and (it.get("score") or 0) >= WATCH_MIN_SCORE
+             and it.get("key") not in in_story]
+    watch.sort(key=lambda it: it.get("score") or 0, reverse=True)
+    for it in watch[:WATCH_MAX]:
+        lines.append(f"- **watch**: [{clean(it['title'])}]({it['link']}) (score {it.get('score')})")
+    return lines
 
 
 def render_stories(stories):
@@ -514,7 +572,7 @@ def render_stories(stories):
 
 
 def serialize_item(it, src):
-    return {
+    out = {
         "key": it["key"],
         "source_id": src["id"],
         "source_name": src["name"],
@@ -525,8 +583,24 @@ def serialize_item(it, src):
         "published": it["published"].isoformat() if it["published"] else None,
         "summary": it.get("summary") or "",
         "tags": tag_item(it["title"], it.get("summary") or ""),
+        "score": compute_score(src["tier"], it["published"], it.get("points"), it.get("comments")),
         "fetched_at": datetime.now(timezone.utc).isoformat(),
     }
+    if it.get("points") is not None:
+        out["points"] = it["points"]
+    if it.get("comments") is not None:
+        out["comments"] = it["comments"]
+    return out
+
+
+def backfill_score(item):
+    """Assign a score to items stored before scoring existed (uses the item's own fields)."""
+    if "score" in item:
+        return item
+    item["score"] = compute_score(
+        item.get("tier"), parse_date(item.get("published")),
+        item.get("points"), item.get("comments"))
+    return item
 
 
 def load_items():
@@ -563,7 +637,7 @@ def load_state():
     return {"last_run": None, "seen": {}}
 
 
-def render_digest(sources, new_by_source, snapshot_by_source, is_baseline, errors):
+def render_digest(sources, new_by_source, snapshot_by_source, is_baseline, errors, high_signal=None):
     lines = []
     if is_baseline:
         lines.append("# AI News - Initial Snapshot")
@@ -577,6 +651,12 @@ def render_digest(sources, new_by_source, snapshot_by_source, is_baseline, error
         if not any(new_by_source.values()):
             lines.append("No new items since the last run.")
         data = new_by_source
+
+    if high_signal:
+        lines.append("## High Signal")
+        lines.append("")
+        lines.extend(high_signal)
+        lines.append("")
 
     for tier in (1, 2, 3):
         tier_srcs = [s for s in sources if s["tier"] == tier and s["id"] in data and data[s["id"]]]
@@ -711,11 +791,12 @@ def main():
     state["last_run"] = datetime.now(timezone.utc).isoformat()
     STATE_FILE.write_text(json.dumps(state, indent=2), encoding="utf-8")
 
-    store = prune_items(list(store_by_key.values()))
+    store = [backfill_score(x) for x in prune_items(list(store_by_key.values()))]
     save_items(store)
 
-    digest_md = render_digest(sources, new_by_source, snapshot_by_source, is_baseline, errors)
     stories = build_stories(store)
+    high_signal = build_high_signal(stories, store)
+    digest_md = render_digest(sources, new_by_source, snapshot_by_source, is_baseline, errors, high_signal)
     stories_md = render_stories(stories)
     write_outputs(digest_md, stories_md)
 

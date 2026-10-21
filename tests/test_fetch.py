@@ -300,5 +300,80 @@ class SitemapTest(unittest.TestCase):
         self.assertEqual(items[0]["title"], "TITLE")
 
 
+class ScoreTest(unittest.TestCase):
+    def test_tier_weight(self):
+        now = datetime.now(timezone.utc)
+        self.assertGreater(fetch.compute_score(1, now), fetch.compute_score(3, now))
+
+    def test_engagement_boost(self):
+        now = datetime.now(timezone.utc)
+        self.assertGreater(fetch.compute_score(2, now, 100, 50),
+                           fetch.compute_score(2, now, 0, 0))
+
+    def test_freshness_decay(self):
+        old = datetime.now(timezone.utc) - timedelta(days=10)
+        fresh = datetime.now(timezone.utc) - timedelta(hours=1)
+        self.assertGreater(fetch.compute_score(1, fresh, 0, 0),
+                           fetch.compute_score(1, old, 0, 0))
+
+    def test_hn_has_points(self):
+        items = fetch.parse_hn(HN_JSON)
+        self.assertEqual(items[0]["points"], 120)
+        self.assertEqual(items[0]["comments"], 45)
+
+    def test_serialize_includes_score(self):
+        it = {"key": "a::1", "title": "T", "link": "https://x.com", "guid": "1",
+              "published": datetime.now(timezone.utc), "points": 5}
+        src = {"id": "a", "name": "A", "category": "communities", "tier": 2}
+        out = fetch.serialize_item(it, src)
+        self.assertIn("score", out)
+        self.assertEqual(out["points"], 5)
+
+    def test_backfill(self):
+        it = {"tier": 1, "published": datetime.now(timezone.utc).isoformat()}
+        out = fetch.backfill_score(it)
+        self.assertIn("score", out)
+
+
+class TriggerTest(unittest.TestCase):
+    def test_discovery_fresh(self):
+        latest = datetime.now(timezone.utc) - timedelta(hours=2)
+        self.assertEqual(fetch.story_trigger({"academic-papers", "communities"}, latest), "discovery")
+
+    def test_opportunity_fresh(self):
+        latest = datetime.now(timezone.utc) - timedelta(hours=2)
+        self.assertEqual(fetch.story_trigger({"industry-news", "communities"}, latest), "opportunity")
+
+    def test_stale_none(self):
+        latest = datetime.now(timezone.utc) - timedelta(days=30)
+        self.assertIsNone(fetch.story_trigger({"academic-papers", "communities"}, latest))
+
+    def test_no_match_none(self):
+        latest = datetime.now(timezone.utc)
+        self.assertIsNone(fetch.story_trigger({"communities"}, latest))
+
+
+class HighSignalTest(unittest.TestCase):
+    def test_triggered_story_and_watch(self):
+        story = {
+            "trigger": "discovery",
+            "members": [
+                {"title": "Big Paper", "link": "https://a.com/1", "key": "s::1"},
+                {"title": "Big Paper", "link": "https://b.com/2", "key": "s::2"},
+            ],
+        }
+        hot = {"key": "h::1", "title": "Hot HN thread", "link": "https://h.com",
+               "category": "communities", "score": 3.0}
+        warm = {"key": "s::1", "title": "in story", "link": "https://a.com/1",
+                "category": "communities", "score": 5.0}
+        lines = fetch.build_high_signal([story], [hot, warm])
+        text = "\n".join(lines)
+        self.assertIn("discovery", text)
+        self.assertIn("Big Paper", text)
+        self.assertIn("watch", text)
+        self.assertIn("Hot HN thread", text)
+        self.assertNotIn("in story", text)
+
+
 if __name__ == "__main__":
     unittest.main()
