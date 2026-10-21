@@ -1,23 +1,207 @@
 {
-  "sources": [
-    { "id": "arxiv", "name": "arXiv (cs.AI/CL/CV/LG)", "category": "academic-papers", "tier": 1, "type": "arxiv", "categories": ["cs.AI", "cs.CL", "cs.CV", "cs.LG"], "max_results": 40 },
-    { "id": "hf_daily_papers", "name": "Hugging Face Daily Papers", "category": "academic-papers", "tier": 1, "type": "json", "kind": "hf_papers", "url": "https://huggingface.co/api/daily_papers" },
-    { "id": "deepmind", "name": "Google DeepMind Blog", "category": "frontier-labs", "tier": 1, "type": "feed", "url": "https://deepmind.google/blog/rss.xml" },
-    { "id": "openai", "name": "OpenAI Blog", "category": "frontier-labs", "tier": 1, "type": "sitemap", "url": "https://openai.com/sitemap.xml", "url_filter": "/index/", "max_items": 20 },
-    { "id": "anthropic", "name": "Anthropic Research & News", "category": "frontier-labs", "tier": 1, "type": "sitemap", "url": "https://www.anthropic.com/sitemap.xml", "url_filter": ["/research", "/news"], "max_items": 20 },
-    { "id": "semianalysis", "name": "SemiAnalysis", "category": "analysis-commentary", "tier": 2, "type": "feed", "url": "https://semianalysis.com/feed" },
-    { "id": "interconnects", "name": "Interconnects", "category": "analysis-commentary", "tier": 2, "type": "feed", "url": "https://www.interconnects.ai/feed" },
-    { "id": "lesswrong", "name": "LessWrong", "category": "analysis-commentary", "tier": 2, "type": "feed", "url": "https://www.lesswrong.com/feed.xml" },
-    { "id": "hackernews", "name": "Hacker News", "category": "communities", "tier": 2, "type": "json", "kind": "hn", "url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&hitsPerPage=50&numericFilters=points%3E20", "keywords": ["LLM", "GPT", "Claude", "Gemini", "OpenAI", "Anthropic", "DeepMind", "diffusion", "transformer", "neural", "agent", "machine learning", "language model"] },
-    { "id": "reddit_localllama", "name": "r/LocalLLaMA", "category": "communities", "tier": 2, "type": "feed", "url": "https://www.reddit.com/r/LocalLLaMA/.rss" },
-    { "id": "reddit_ml", "name": "r/MachineLearning", "category": "communities", "tier": 2, "type": "feed", "url": "https://www.reddit.com/r/MachineLearning/.rss" },
-    { "id": "techcrunch_ai", "name": "TechCrunch AI", "category": "industry-news", "tier": 2, "type": "feed", "url": "https://techcrunch.com/category/artificial-intelligence/feed/" },
-    { "id": "venturebeat_ai", "name": "VentureBeat AI", "category": "industry-news", "tier": 2, "type": "feed", "url": "https://venturebeat.com/category/ai/feed/" },
-    { "id": "theverge_ai", "name": "The Verge AI", "category": "industry-news", "tier": 2, "type": "feed", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml" },
-    { "id": "quanta", "name": "Quanta Magazine", "category": "analysis-commentary", "tier": 2, "type": "feed", "url": "https://www.quantamagazine.org/feed/" },
-    { "id": "mit_tech_review", "name": "MIT Technology Review", "category": "analysis-commentary", "tier": 2, "type": "feed", "url": "https://www.technologyreview.com/feed/" },
-    { "id": "simonwillison", "name": "Simon Willison", "category": "syntheses", "tier": 3, "type": "feed", "url": "https://simonwillison.net/atom/everything/" },
-    { "id": "import_ai", "name": "Import AI (Jack Clark)", "category": "syntheses", "tier": 3, "type": "feed", "url": "https://jack-clark.net/feed" },
-    { "id": "deepseek_news", "name": "DeepSeek News", "category": "chinese-labs", "tier": 3, "type": "sitemap", "url": "https://api-docs.deepseek.com/sitemap.xml", "url_filter": "/news", "max_items": 10 }
-  ]
+ "sources": [
+  {
+   "id": "arxiv",
+   "name": "arXiv (cs.AI/CL/CV/LG)",
+   "category": "academic-papers",
+   "tier": 1,
+   "type": "arxiv",
+   "categories": [
+    "cs.AI",
+    "cs.CL",
+    "cs.CV",
+    "cs.LG"
+   ],
+   "max_results": 40,
+   "cadence": "daily"
+  },
+  {
+   "id": "hf_daily_papers",
+   "name": "Hugging Face Daily Papers",
+   "category": "academic-papers",
+   "tier": 1,
+   "type": "json",
+   "kind": "hf_papers",
+   "url": "https://huggingface.co/api/daily_papers",
+   "cadence": "daily"
+  },
+  {
+   "id": "deepmind",
+   "name": "Google DeepMind Blog",
+   "category": "frontier-labs",
+   "tier": 1,
+   "type": "feed",
+   "url": "https://deepmind.google/blog/rss.xml",
+   "cadence": "hourly"
+  },
+  {
+   "id": "openai",
+   "name": "OpenAI Blog",
+   "category": "frontier-labs",
+   "tier": 1,
+   "type": "sitemap",
+   "url": "https://openai.com/sitemap.xml",
+   "url_filter": "/index/",
+   "max_items": 20,
+   "cadence": "hourly"
+  },
+  {
+   "id": "anthropic",
+   "name": "Anthropic Research & News",
+   "category": "frontier-labs",
+   "tier": 1,
+   "type": "sitemap",
+   "url": "https://www.anthropic.com/sitemap.xml",
+   "url_filter": [
+    "/research",
+    "/news"
+   ],
+   "max_items": 20,
+   "cadence": "hourly"
+  },
+  {
+   "id": "semianalysis",
+   "name": "SemiAnalysis",
+   "category": "analysis-commentary",
+   "tier": 2,
+   "type": "feed",
+   "url": "https://semianalysis.com/feed",
+   "cadence": "daily"
+  },
+  {
+   "id": "interconnects",
+   "name": "Interconnects",
+   "category": "analysis-commentary",
+   "tier": 2,
+   "type": "feed",
+   "url": "https://www.interconnects.ai/feed",
+   "cadence": "daily"
+  },
+  {
+   "id": "lesswrong",
+   "name": "LessWrong",
+   "category": "analysis-commentary",
+   "tier": 2,
+   "type": "feed",
+   "url": "https://www.lesswrong.com/feed.xml",
+   "cadence": "daily"
+  },
+  {
+   "id": "hackernews",
+   "name": "Hacker News",
+   "category": "communities",
+   "tier": 2,
+   "type": "json",
+   "kind": "hn",
+   "url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&hitsPerPage=50&numericFilters=points%3E20",
+   "keywords": [
+    "LLM",
+    "GPT",
+    "Claude",
+    "Gemini",
+    "OpenAI",
+    "Anthropic",
+    "DeepMind",
+    "diffusion",
+    "transformer",
+    "neural",
+    "agent",
+    "machine learning",
+    "language model"
+   ],
+   "cadence": "daily"
+  },
+  {
+   "id": "reddit_localllama",
+   "name": "r/LocalLLaMA",
+   "category": "communities",
+   "tier": 2,
+   "type": "feed",
+   "url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+   "cadence": "daily"
+  },
+  {
+   "id": "reddit_ml",
+   "name": "r/MachineLearning",
+   "category": "communities",
+   "tier": 2,
+   "type": "feed",
+   "url": "https://www.reddit.com/r/MachineLearning/.rss",
+   "cadence": "daily"
+  },
+  {
+   "id": "techcrunch_ai",
+   "name": "TechCrunch AI",
+   "category": "industry-news",
+   "tier": 2,
+   "type": "feed",
+   "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "cadence": "hourly"
+  },
+  {
+   "id": "venturebeat_ai",
+   "name": "VentureBeat AI",
+   "category": "industry-news",
+   "tier": 2,
+   "type": "feed",
+   "url": "https://venturebeat.com/category/ai/feed/",
+   "cadence": "hourly"
+  },
+  {
+   "id": "theverge_ai",
+   "name": "The Verge AI",
+   "category": "industry-news",
+   "tier": 2,
+   "type": "feed",
+   "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "cadence": "hourly"
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "category": "analysis-commentary",
+   "tier": 2,
+   "type": "feed",
+   "url": "https://www.quantamagazine.org/feed/",
+   "cadence": "daily"
+  },
+  {
+   "id": "mit_tech_review",
+   "name": "MIT Technology Review",
+   "category": "analysis-commentary",
+   "tier": 2,
+   "type": "feed",
+   "url": "https://www.technologyreview.com/feed/",
+   "cadence": "daily"
+  },
+  {
+   "id": "simonwillison",
+   "name": "Simon Willison",
+   "category": "syntheses",
+   "tier": 3,
+   "type": "feed",
+   "url": "https://simonwillison.net/atom/everything/",
+   "cadence": "weekly"
+  },
+  {
+   "id": "import_ai",
+   "name": "Import AI (Jack Clark)",
+   "category": "syntheses",
+   "tier": 3,
+   "type": "feed",
+   "url": "https://jack-clark.net/feed",
+   "cadence": "weekly"
+  },
+  {
+   "id": "deepseek_news",
+   "name": "DeepSeek News",
+   "category": "chinese-labs",
+   "tier": 3,
+   "type": "sitemap",
+   "url": "https://api-docs.deepseek.com/sitemap.xml",
+   "url_filter": "/news",
+   "max_items": 10,
+   "cadence": "weekly"
+  }
+ ]
 }

@@ -43,7 +43,7 @@ State files (created automatically — don't edit by hand):
 | `data/errors.log` | Append-only log of per-source fetch errors (also shown in the digest) |
 | `data/ideas_state.json` | Fingerprint of the last ideas run (drives skip-when-unchanged) |
 
-**Flags.** `fetch.py --strict` exits non-zero if any source failed to fetch (for CI/watchdogs); by default partial failures are logged and tolerated. `ideas.py --force` regenerates even when nothing has changed.
+**Flags.** `fetch.py --strict` exits non-zero if any source failed to fetch (for CI/watchdogs); `fetch.py --all` ignores per-source cadence and fetches everything (by default, sources not yet due are skipped — sources that previously failed are retried every run). `ideas.py --force` regenerates even when nothing has changed.
 
 ## Static site
 
@@ -110,6 +110,7 @@ Supported fields:
   - `"json"` — JSON API (`kind` = `"hn"` or `"hf_papers"`)
   - `"sitemap"` — sitemap diff for RSS-less sites (`url` = sitemap URL; optional `url_filter` — substring or list to keep; `max_items`; `lastmod_days`). Titles come from the page `<title>` (fetched politely) or the URL slug. Used for OpenAI, Anthropic, DeepSeek.
 - `keywords` — optional list; only items whose title contains one of these are kept (used to filter Hacker News)
+- `cadence` — `"hourly"`, `"daily"` (default), or `"weekly"`; a source is only fetched when its cadence + last-fetched time is due, so an hourly cron can re-poll tier-1 sources without hammering slow ones. `fetch.py --all` forces everything.
 
 To add a source, append an entry and re-run.
 

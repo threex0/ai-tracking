@@ -81,6 +81,7 @@ survive title paraphrase; watch items become tracked sources.
 **Build order:** 1.1 → 1.2 → 1.4 → 1.3 → 1.5 (1.3 and 1.4 are independent).
 
 Done (2026-10-21): **1.1** — item `score` (tier × engagement × freshness, backfilled for existing window items), structured HN `points`/`comments`, `trigger` on stories (fresh discovery/opportunity), digest **High Signal** section (triggered stories + watch candidates). Tests: 60 stdlib cases.
+Done (2026-10-21): **1.2** — per-source `cadence` (hourly/daily/weekly) + `fetched_at` in `state.json["meta"]`; `main()` skips sources not yet due; `--all` forces. Failed sources are retried every run (no timestamp set on error). Tests: 66 stdlib cases.
 
 ---
 

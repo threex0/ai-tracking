@@ -375,5 +375,30 @@ class HighSignalTest(unittest.TestCase):
         self.assertNotIn("in story", text)
 
 
+class CadenceTest(unittest.TestCase):
+    def test_due_when_no_last(self):
+        self.assertTrue(fetch.is_due({"cadence": "daily"}, {}))
+
+    def test_not_due_when_recent(self):
+        meta = {"fetched_at": (datetime.now(timezone.utc) - timedelta(hours=1)).isoformat()}
+        self.assertFalse(fetch.is_due({"cadence": "daily"}, meta))
+
+    def test_due_when_old(self):
+        meta = {"fetched_at": (datetime.now(timezone.utc) - timedelta(hours=30)).isoformat()}
+        self.assertTrue(fetch.is_due({"cadence": "daily"}, meta))
+
+    def test_weekly_not_due_after_a_day(self):
+        meta = {"fetched_at": (datetime.now(timezone.utc) - timedelta(days=1)).isoformat()}
+        self.assertFalse(fetch.is_due({"cadence": "weekly"}, meta))
+
+    def test_weekly_due_after_8_days(self):
+        meta = {"fetched_at": (datetime.now(timezone.utc) - timedelta(days=8)).isoformat()}
+        self.assertTrue(fetch.is_due({"cadence": "weekly"}, meta))
+
+    def test_default_daily(self):
+        meta = {"fetched_at": (datetime.now(timezone.utc) - timedelta(hours=30)).isoformat()}
+        self.assertTrue(fetch.is_due({}, meta))
+
+
 if __name__ == "__main__":
     unittest.main()

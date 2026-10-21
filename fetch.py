@@ -38,6 +38,7 @@ FRESHNESS_HALF_LIFE_HOURS = 48
 TRIGGER_MAX_DAYS = 7
 WATCH_MIN_SCORE = 2.5
 WATCH_MAX = 5
+CADENCE_SECONDS = {"hourly": 3600, "daily": 86400, "weekly": 604800}
 STOPWORDS = set(
     "a an and are as at be but by for from had has have he her him his i if in is it its "
     "may might more most must no not of on or our so that the their them they this those to "
@@ -637,6 +638,20 @@ def load_state():
     return {"last_run": None, "seen": {}}
 
 
+def is_due(src, meta):
+    """True if a source should be fetched now, based on its cadence + last fetch."""
+    cadence = CADENCE_SECONDS.get(src.get("cadence", "daily"), 86400)
+    last = (meta or {}).get("fetched_at")
+    if not last:
+        return True
+    try:
+        last_dt = datetime.fromisoformat(last)
+    except ValueError:
+        return True
+    age = (datetime.now(timezone.utc) - last_dt).total_seconds()
+    return age >= cadence
+
+
 def render_digest(sources, new_by_source, snapshot_by_source, is_baseline, errors, high_signal=None):
     lines = []
     if is_baseline:
@@ -739,6 +754,8 @@ def main():
     parser = argparse.ArgumentParser(description="Fetch AI/ML sources and build the digest + stories.")
     parser.add_argument("--strict", action="store_true",
                         help="Exit non-zero if any source failed to fetch.")
+    parser.add_argument("--all", action="store_true",
+                        help="Fetch every source, ignoring per-source cadence.")
     args = parser.parse_args()
 
     ensure_dirs()
@@ -761,16 +778,20 @@ def main():
         except Exception as exc:
             return [], {}, exc
 
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
-        results = list(pool.map(process, sources))
+    due = [s for s in sources if args.all or is_due(s, state_meta.get(s["id"], {}))]
+    skipped = [s for s in sources if s not in due]
 
-    for src, (items, new_meta, exc) in zip(sources, results):
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+        results = list(pool.map(process, due))
+
+    for src, (items, new_meta, exc) in zip(due, results):
         sid = src["id"]
         if exc is not None:
             errors.append((sid, str(exc)))
             continue
-        if new_meta:
-            state_meta[sid] = new_meta
+        meta = dict(new_meta or {})
+        meta["fetched_at"] = datetime.now(timezone.utc).isoformat()
+        state_meta[sid] = meta
 
         seen = set(seen_by_source.get(sid, []))
         items = [it for it in items if it.get("title") and it.get("link") and it.get("guid")]
@@ -806,6 +827,8 @@ def main():
     else:
         print(f"{total} new item(s) across {len(new_by_source)} source(s).")
     print(f"{len(stories)} multi-source story/stories; {len(store)} items in rolling window.")
+    if skipped:
+        print(f"{len(skipped)} source(s) skipped (not due; use --all to force).")
     if errors:
         log_errors(errors)
         print(f"{len(errors)} error(s) appended to {ERROR_LOG}")
