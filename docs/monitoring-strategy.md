@@ -61,8 +61,8 @@ Prefer **RSS/Atom and JSON APIs** over HTML scraping (more robust, respects rate
 | TechCrunch AI | RSS | `https://techcrunch.com/category/artificial-intelligence/feed/` |
 | VentureBeat AI | RSS | `https://venturebeat.com/category/ai/feed/` |
 | The Verge AI | RSS | `https://www.theverge.com/rss/ai-artificial-intelligence/index.xml` |
-| r/LocalLLaMA | JSON API | `https://www.reddit.com/r/LocalLLaMA/new.json` (set a real User-Agent, respect rate limits) |
-| r/MachineLearning | JSON API | `https://www.reddit.com/r/MachineLearning/new.json` |
+| r/LocalLLaMA | RSS | `https://www.reddit.com/r/LocalLLaMA/.rss` (no OAuth needed; JSON API 403s unauthenticated) |
+| r/MachineLearning | RSS | `https://www.reddit.com/r/MachineLearning/.rss` |
 
 ### Tier 3
 | Source | Method | Endpoint / notes |

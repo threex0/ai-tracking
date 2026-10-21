@@ -103,7 +103,7 @@ Supported fields:
 - `type` — one of:
   - `"feed"` — RSS/Atom feed (`url` required)
   - `"arxiv"` — arXiv API (`categories` list + optional `max_results`)
-  - `"json"` — JSON API (`kind` = `"hn"`, `"reddit"`, or `"hf_papers"`)
+  - `"json"` — JSON API (`kind` = `"hn"` or `"hf_papers"`)
 - `keywords` — optional list; only items whose title contains one of these are kept (used to filter Hacker News)
 
 To add a source, append an entry and re-run.
@@ -166,7 +166,7 @@ Covers the parsers (RSS/Atom, HN, Reddit, HF), URL/token normalization, clusteri
 
 ## Troubleshooting
 
-- **Reddit shows `403 Blocked`** — Reddit's JSON API blocks unauthenticated datacenter IPs. Everything else still works. (OAuth support is a planned fix; the entries are wired and ready.)
+- **Reddit** — r/LocalLLaMA and r/MachineLearning are fetched via Old Reddit's RSS feeds (`.rss`), which need no OAuth. (The JSON API 403s unauthenticated; RSS returns the ~25 most recent posts per subreddit and can be throttled occasionally.)
 - **`certificate verify failed` / `429 Too Many Requests`** — the fetcher retries once and falls back to an unverified TLS context for public news sites; these resolve automatically.
 - **Re-running the same day** overwrites that day's dated archive (built for a daily cadence, not multiple runs/day).
 - **Sparse stories early on** — clusters need the 14-day window to fill. Expect mostly `corroborated` for the first few days.

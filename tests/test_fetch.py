@@ -37,12 +37,6 @@ HN_JSON = {
     ]
 }
 
-REDDIT_JSON = {"data": {"children": [
-    {"data": {"name": "t3_abc123", "id": "abc123", "title": "Reddit post about LLM",
-              "permalink": "/r/LocalLLaMA/comments/abc123/x/", "created_utc": 1760918400,
-              "score": 200, "subreddit": "LocalLLaMA"}}
-]}}
-
 HF_JSON = [{"id": "1234", "title": "HF Paper Title", "publishedAt": "2025-10-20T08:00:00Z",
             "summary": "A paper about X.", "paper": {"id": "1234", "title": "HF Paper Title"}}]
 
@@ -80,15 +74,6 @@ class ParseJsonTest(unittest.TestCase):
         self.assertEqual(items[0]["summary"], "120 points, 45 comments")
         self.assertIsNotNone(items[0]["published"])
         self.assertTrue(items[1]["link"].startswith("https://news.ycombinator.com/"))
-
-    def test_reddit(self):
-        items = fetch.parse_reddit(REDDIT_JSON)
-        self.assertEqual(len(items), 1)
-        it = items[0]
-        self.assertEqual(it["guid"], "t3_abc123")
-        self.assertEqual(it["link"], "https://www.reddit.com/r/LocalLLaMA/comments/abc123/x/")
-        self.assertIn("score 200", it["summary"])
-        self.assertIsNotNone(it["published"])
 
     def test_hf(self):
         items = fetch.parse_hf(HF_JSON)

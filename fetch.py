@@ -179,22 +179,6 @@ def parse_hn(obj):
     return items
 
 
-def parse_reddit(obj):
-    items = []
-    for child in obj.get("data", {}).get("children", []):
-        d = child.get("data", {})
-        permalink = d.get("permalink", "")
-        link = ("https://www.reddit.com" + permalink) if permalink else (d.get("url") or "")
-        items.append({
-            "guid": d.get("name") or str(d.get("id")),
-            "title": (d.get("title") or "").strip(),
-            "link": link,
-            "published": parse_date(d.get("created_utc")),
-            "summary": f"score {d.get('score')} | r/{d.get('subreddit', '')}",
-        })
-    return items
-
-
 def parse_hf(obj):
     items = []
     for it in obj:
@@ -544,8 +528,6 @@ def fetch_source(src, meta):
         obj = json.loads(data.decode("utf-8", "replace")) if data else {}
         if kind == "hn":
             items = parse_hn(obj)
-        elif kind == "reddit":
-            items = parse_reddit(obj)
         elif kind == "hf_papers":
             items = parse_hf(obj)
         else:
