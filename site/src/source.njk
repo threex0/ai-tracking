@@ -1,0 +1,20 @@
+---
+layout: base
+pagination:
+  data: stats.bySource
+  size: 1
+  alias: src
+permalink: /sources/{{ src.id | slug }}/
+eleventyExcludeFromCollections: true
+---
+<h1>{{ src.name }} <span class="count">({{ src.count }} items)</span></h1>
+<ul class="items">
+  {% for it in items %}
+    {% if it.source_id == src.id %}
+      <li class="item">
+        <a href="{{ it.link }}">{{ it.title }}</a>
+        <div class="meta">{{ it.category }} · {{ it.published | fmtDate }}{% for t in it.tags %} <a class="tag" href="/tags/{{ t | slug }}/">{{ t }}</a>{% endfor %}</div>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

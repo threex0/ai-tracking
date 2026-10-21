@@ -1,0 +1,171 @@
+# AI Tracking
+
+A tool that checks a curated set of AI/ML sources, reports what's new, rolls related items across sources into "stories", synthesizes opportunities with an LLM, and publishes everything as a static site.
+
+## Requirements
+
+- Python 3.12+ (fetcher and ideas generator: standard library only)
+- Node.js 18+ (static-site build via Eleventy, in `site/`)
+
+## Quick start
+
+```powershell
+python fetch.py            # fetch new items + build cross-source stories
+python ideas.py            # synthesize ideas/opportunities (run after fetch.py)
+# or the whole pipeline in one shot (fetch -> ideas -> static site):
+./run.ps1
+# build only the site from existing data:
+cd site; npm run build
+```
+
+`python fetch.py` on the **first run** establishes a baseline (shows the latest items per source). On **every later run** it shows only what's *new* since the last run. `run.ps1` runs fetch → ideas → site build in sequence, which is what the scheduled task uses.
+
+## What it produces
+
+All generated files live under `output/`; all state under `data/`.
+
+| File | Purpose |
+|------|---------|
+| `output/digest.md` | New items since last run, grouped by tier → source (overwritten each run) |
+| `output/stories.md` | Cross-source clusters — the "relationships" view (overwritten each run) |
+| `output/ideas.md` | LLM-generated opportunities/directions from the rolling window (via `ideas.py`) |
+| `output/digests/YYYY-MM-DD.md` | Dated archive of each day's digest |
+| `output/stories/YYYY-MM-DD.md` | Dated archive of each day's stories |
+| `output/ideas/YYYY-MM-DD.md` | Dated archive of each day's ideas |
+| `output/site/` | Static HTML site built by Eleventy from the above |
+
+State files (created automatically — don't edit by hand):
+
+| File | Purpose |
+|------|---------|
+| `data/state.json` | Per-source dedup markers, ETag/Last-Modified cursors, last-run timestamp |
+| `data/items.json` | Rolling 14-day window of items (with keyword tags) used to build stories |
+
+## Static site
+
+`site/` is an [Eleventy](https://www.11ty.dev/) project that turns the pipeline output into a browsable site:
+
+- **Home** — latest reports, top tags, recent items
+- **Digests / Stories / Ideas** — archive lists plus one page per dated report
+- **Items** — everything in the rolling window
+- **Tags** — a page per keyword-taxonomy tag, listing matching items
+- **Sources** — a page per source, listing its items
+
+`site/sync.mjs` copies the generated markdown reports into `site/src/content/` (adding frontmatter) before Eleventy runs, so `npm run build` is all you need after a fetch. Output goes to `output/site/` — serve it with any static host (`python -m http.server output/site`, or `npm run serve` for a live-reload dev server).
+
+## Reading `digest.md`
+
+Items are listed as `[title](link) - date -- summary`, ordered by tier (1 = core signal, 2 = opportunities, 3 = blind spots), then by source. Sources that failed to fetch appear at the bottom under `## Errors`.
+
+Items are also tagged with a keyword taxonomy — `agents`, `rl`, `multimodal`, `reasoning`, `evals`, `synthetic-data`, `safety`, `open-source`, `hardware`, `policy`, `funding`, `speech-audio` — shown as `[tags: ...]`. The tags are stored on each item in `data/items.json` and fed into the ideas step.
+
+## Reading `stories.md`
+
+Each entry is one story seen across multiple sources:
+
+```
+## [discovery] <title>  (2 sources, 3 items)
+- arXiv (...) - date - [title](link)
+- Hacker News (...) - date - [title](link)
+```
+
+The tag tells you *why* it matters:
+
+| Tag | Meaning |
+|-----|---------|
+| `discovery` | Research + frontier-lab/community echo — a new paper gaining traction |
+| `opportunity` | Industry news + frontier-lab/community — market signal |
+| `corroborated` | Same story in 2+ sources (validation) |
+| `story` | 2+ items, single source (low signal) |
+
+Tags fill in over time: a paper typically appears on arXiv (day 0), then HF/HN (day 1-3). Run daily and the `discovery`/`opportunity` clusters accumulate.
+
+## Configuration
+
+The fetcher reads `sources.json` (the `.csv` files in `references/` are the human reference; `sources.json` is what actually runs). Each source:
+
+```json
+{
+  "id": "deepmind",
+  "name": "Google DeepMind Blog",
+  "category": "frontier-labs",
+  "tier": 1,
+  "type": "feed",
+  "url": "https://deepmind.google/blog/rss.xml"
+}
+```
+
+Supported fields:
+
+- `id` — unique identifier
+- `name`, `category` — display labels
+- `tier` — 1, 2, or 3 (affects ordering in the digest)
+- `type` — one of:
+  - `"feed"` — RSS/Atom feed (`url` required)
+  - `"arxiv"` — arXiv API (`categories` list + optional `max_results`)
+  - `"json"` — JSON API (`kind` = `"hn"`, `"reddit"`, or `"hf_papers"`)
+- `keywords` — optional list; only items whose title contains one of these are kept (used to filter Hacker News)
+
+To add a source, append an entry and re-run.
+
+## Generating ideas & opportunities
+
+`ideas.py` reads the rolling research window (`data/items.json`) plus the cross-source clusters (`output/stories.md`) and asks DeepSeek (via OpenRouter, using the key in `.env`) to synthesize non-obvious opportunities: research gaps, product/startup ideas, contrarian bets, and watch items. It writes `output/ideas.md` and `output/ideas/YYYY-MM-DD.md`.
+
+```powershell
+python ideas.py            # uses DeepSeek v4 Pro
+python ideas.py --flash    # cheaper/faster Flash model
+python ideas.py --days 7   # only items from the last week
+python ideas.py --print    # print to stdout instead of writing files
+```
+
+It's stdlib-only (uses `urllib`), so it keeps the same no-third-party dependency rule as `fetch.py`. Run it *after* `fetch.py` so the window is fresh.
+
+## Scheduling
+
+Run it on a timer so the rolling window fills, clusters form, and the site stays fresh.
+
+**Windows (Task Scheduler), daily 8am** (runs fetch → ideas → site build):
+
+```powershell
+schtasks /Create /TN "AI Tracking" /TR "powershell -NoProfile -ExecutionPolicy Bypass -File C:\Dev\kitch\ai-tracking\run.ps1" /SC DAILY /ST 08:00
+```
+
+**macOS/Linux (cron), daily 8am:**
+
+```
+0 8 * * * cd /path/to/ai-tracking && python fetch.py && python ideas.py && cd site && npm run build
+```
+
+## Testing
+
+Tests use the standard library only (`unittest`):
+
+```powershell
+python -m unittest discover -s tests -t .
+```
+
+Covers the parsers (RSS/Atom, HN, Reddit, HF), URL/token normalization, clustering/dedup, story tags, keyword taxonomy, and the HTTP retry/conditional-GET logic.
+
+## Troubleshooting
+
+- **Reddit shows `403 Blocked`** — Reddit's JSON API blocks unauthenticated datacenter IPs. Everything else still works. (OAuth support is a planned fix; the entries are wired and ready.)
+- **`certificate verify failed` / `429 Too Many Requests`** — the fetcher retries once and falls back to an unverified TLS context for public news sites; these resolve automatically.
+- **Re-running the same day** overwrites that day's dated archive (built for a daily cadence, not multiple runs/day).
+- **Sparse stories early on** — clusters need the 14-day window to fill. Expect mostly `corroborated` for the first few days.
+
+## File map
+
+```
+sources.json               active source config (what fetch.py reads)
+fetch.py                   the fetcher (concurrent, conditional GET, keyword tags)
+ideas.py                   LLM opportunity synthesizer (uses .env OPENROUTER_API_KEY)
+paths.py                   shared path config (data/, output/, references/, site/)
+run.ps1                    full-pipeline runner (fetch.py + ideas.py + site) for the scheduler
+references/                human reference: *.csv source lists + sites.txt
+data/                      state.json + items.json (generated; don't edit)
+output/                    digest.md / stories.md / ideas.md + dated archives + site/
+site/                      Eleventy project (site build; npm run build)
+tests/                     stdlib unit tests
+docs/                      monitoring-strategy.md, improvements.md
+```

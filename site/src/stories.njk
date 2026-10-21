@@ -1,0 +1,11 @@
+---
+layout: base
+title: Stories
+---
+<h1>Stories</h1>
+<p class="lead">Cross-source clusters — the same story seen across multiple sources.</p>
+<ul class="archive">
+  {% for s in collections.stories %}
+    <li><a href="{{ s.url }}">{{ s.data.date | fmtDate }}</a> — {{ s.data.title }}</li>
+  {% endfor %}
+</ul>

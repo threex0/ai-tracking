@@ -1,0 +1,11 @@
+---
+layout: base
+title: Tags
+---
+<h1>Tags</h1>
+<p class="lead">Keyword taxonomy applied to every item.</p>
+<div class="chips">
+  {% for t in stats.byTag %}
+    <a class="chip" href="/tags/{{ t.tag | slug }}/">{{ t.tag }} <span class="count">{{ t.count }}</span></a>
+  {% endfor %}
+</div>

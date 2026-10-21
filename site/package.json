@@ -1,0 +1,13 @@
+{
+  "name": "ai-tracking-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static site built from the AI Tracking pipeline outputs.",
+  "scripts": {
+    "build": "node sync.mjs && eleventy",
+    "serve": "node sync.mjs && eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

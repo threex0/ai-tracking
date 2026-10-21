@@ -1,0 +1,10 @@
+---
+layout: base
+title: Sources
+---
+<h1>Sources <span class="count">({{ stats.bySource | length }})</span></h1>
+<ul class="archive">
+  {% for s in stats.bySource %}
+    <li><a href="/sources/{{ s.id | slug }}/">{{ s.name }}</a> <span class="count">({{ s.count }} items)</span></li>
+  {% endfor %}
+</ul>

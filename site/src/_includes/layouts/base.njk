@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if title %}{{ title }} · {% endif %}AI Tracking</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">AI Tracking</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/digests/">Digests</a>
+      <a href="/stories/">Stories</a>
+      <a href="/ideas/">Ideas</a>
+      <a href="/items/">Items</a>
+      <a href="/tags/">Tags</a>
+      <a href="/sources/">Sources</a>
+    </nav>
+  </header>
+  <main class="wrap">
+    {{ content | safe }}
+  </main>
+  <footer class="site-footer wrap">
+    <span>AI Tracking — rolling 14-day window, generated daily.</span>
+  </footer>
+</body>
+</html>

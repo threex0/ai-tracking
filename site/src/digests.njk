@@ -1,0 +1,11 @@
+---
+layout: base
+title: Digests
+---
+<h1>Digests</h1>
+<p class="lead">New items since the last run, grouped by tier then source.</p>
+<ul class="archive">
+  {% for d in collections.digests %}
+    <li><a href="{{ d.url }}">{{ d.data.date | fmtDate }}</a> — {{ d.data.title }}</li>
+  {% endfor %}
+</ul>

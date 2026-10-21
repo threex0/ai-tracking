@@ -1,0 +1,20 @@
+ArXiv (cs.AI, cs.CL, cs.CV, cs.LG)
+Hugging Face Daily Papers
+GitHub Trending (Python, Jupyter Notebooks, C++)
+Google DeepMind Blog
+OpenAI Research & Engineering Blog
+Anthropic Research
+Meta AI Blog
+MIT Technology Review
+Quanta Magazine
+r/LocalLLaMA
+r/MachineLearning
+Hacker News
+SemiAnalysis
+Interconnects (Nathan Lambert)
+The Batch (DeepLearning.AI)
+Stanford HAI (Human-Centered AI)
+BAIR Blog (Berkeley AI Research)
+distill.pub
+Papers with Code
+LessWrong AI Section

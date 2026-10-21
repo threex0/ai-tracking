@@ -1,0 +1,20 @@
+---
+layout: base
+pagination:
+  data: stats.byTag
+  size: 1
+  alias: tag
+permalink: /tags/{{ tag.tag | slug }}/
+eleventyExcludeFromCollections: true
+---
+<h1>#{{ tag.tag }} <span class="count">({{ tag.count }} items)</span></h1>
+<ul class="items">
+  {% for it in items %}
+    {% if it.tags and tag.tag in it.tags %}
+      <li class="item">
+        <a href="{{ it.link }}">{{ it.title }}</a>
+        <div class="meta">{{ it.source_name }} · {{ it.published | fmtDate }}{% for t in it.tags %} <a class="tag" href="/tags/{{ t | slug }}/">{{ t }}</a>{% endfor %}</div>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

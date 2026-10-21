@@ -1,0 +1,44 @@
+---
+layout: base
+title: Research Radar
+---
+<div class="hero">
+  <h1>AI Research Radar</h1>
+  <p>{{ stats.total }} items in the rolling 14-day window across {{ stats.bySource.length }} sources, clustered into stories and synthesized into ideas.</p>
+</div>
+
+<section>
+  <h2>Latest reports</h2>
+  <div class="grid3">
+    <div class="card"><div class="label">Digest</div>
+      <div class="value"><a href="{{ collections.digests[0].url }}">{{ collections.digests[0].data.date | fmtDate }}</a></div>
+    </div>
+    <div class="card"><div class="label">Stories</div>
+      <div class="value"><a href="{{ collections.stories[0].url }}">{{ collections.stories[0].data.date | fmtDate }}</a></div>
+    </div>
+    <div class="card"><div class="label">Ideas</div>
+      <div class="value"><a href="{{ collections.ideas[0].url }}">{{ collections.ideas[0].data.date | fmtDate }}</a></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Top tags</h2>
+  <div class="chips">
+    {% for t in stats.byTag | slice(0, 12) %}
+      <a class="chip" href="/tags/{{ t.tag | slug }}/">{{ t.tag }} <span class="count">{{ t.count }}</span></a>
+    {% endfor %}
+  </div>
+</section>
+
+<section>
+  <h2>Recent items</h2>
+  <ul class="items">
+    {% for it in stats.recent %}
+      <li class="item">
+        <a href="{{ it.link }}">{{ it.title }}</a>
+        <div class="meta">{{ it.source_name }} · {{ it.published | fmtDate }}{% for t in it.tags %} <a class="tag" href="/tags/{{ t | slug }}/">{{ t }}</a>{% endfor %}</div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

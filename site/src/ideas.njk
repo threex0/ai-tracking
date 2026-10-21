@@ -1,0 +1,11 @@
+---
+layout: base
+title: Ideas
+---
+<h1>Ideas &amp; Opportunities</h1>
+<p class="lead">LLM-synthesized research directions, product opportunities, contrarian bets, and watch items.</p>
+<ul class="archive">
+  {% for i in collections.ideas %}
+    <li><a href="{{ i.url }}">{{ i.data.date | fmtDate }}</a> — {{ i.data.title }}</li>
+  {% endfor %}
+</ul>
