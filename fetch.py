@@ -16,7 +16,7 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
 from paths import (DIGEST_FILE, DIGESTS_DIR, ERROR_LOG, ITEMS_FILE, SOURCES_FILE,
-                   STATE_FILE, STORIES_DIR, STORY_FILE, ensure_dirs)
+                   STATE_FILE, STORIES_DIR, STORY_FILE, WATCH_FILE, ensure_dirs)
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
@@ -39,6 +39,9 @@ TRIGGER_MAX_DAYS = 7
 WATCH_MIN_SCORE = 2.5
 WATCH_MAX = 5
 CADENCE_SECONDS = {"hourly": 3600, "daily": 86400, "weekly": 604800}
+TRACKING_PARAMS = {"utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
+                   "fbclid", "gclid", "gclsrc", "mc_cid", "mc_eid", "igshid", "ref_src", "ref_url"}
+PAIR_CAP = 200
 STOPWORDS = set(
     "a an and are as at be but by for from had has have he her him his i if in is it its "
     "may might more most must no not of on or our so that the their them they this those to "
@@ -59,6 +62,21 @@ TAXONOMY = [
     ("funding", ["funding", "raise", "raised", "valuation", "series a", "series b", "acquisition", "merger", "ipo"]),
     ("speech-audio", ["speech", "audio", "voice", "tts", "asr", "speaker"]),
 ]
+
+TAXONOMY_RE = [
+    ("agents", r"\bmulti-?agent\b|\bagentic\b|\btool use\b|\bcomputer use\b"),
+    ("rl", r"\breinforcement learning\b|\brlhf\b|\breward model"),
+    ("multimodal", r"\btext-to-image\b|\bimage generation\b|\bvideo generation\b|\bdiffusion\b|\bt2i\b|\bvlm\b"),
+    ("reasoning", r"\bchain[- ]of[- ]thought\b|\btest[- ]time\b|\binference[- ]time\b"),
+    ("evals", r"\bbenchmark\w*\b|\bleaderboard\b"),
+    ("synthetic-data", r"\bsynthetic data\b|\bdata curation\b"),
+    ("safety", r"\balignment\b|\binterpretability\b|\bred team|\bjailbreak\b|\bguardrail\b|\bsteering\b"),
+    ("open-source", r"\bopen[- ]?weights?\b|\bopen source\b|\bllama\b|\bqwen\b|\bmistral\b"),
+    ("hardware", r"\b(gpu|tpu|chip|silicon|datacenter|cluster|compute)\b"),
+    ("policy", r"\bregulation\b|\bpolicy\b|\blawsuit\b|\bcopyright\b|\blegislation\b"),
+    ("funding", r"\bfunding\b|\bvaluation\b|\bacquisition\b|\bmerger\b|\bipo\b"),
+]
+TAXONOMY_RE = [(t, re.compile(p)) for t, p in TAXONOMY_RE]
 
 
 def local(tag):
@@ -354,7 +372,11 @@ def match_keywords(title, keywords):
 
 def tag_item(title, summary):
     text = f"{title} {summary}".lower()
-    return [tag for tag, kws in TAXONOMY if any(k in text for k in kws)]
+    tags = [tag for tag, kws in TAXONOMY if any(k in text for k in kws)]
+    for tag, pat in TAXONOMY_RE:
+        if pat.search(text) and tag not in tags:
+            tags.append(tag)
+    return tags
 
 
 def fmt_dt(dt):
@@ -370,7 +392,11 @@ def canonical_url(url):
         return ""
     u = url.strip().lower()
     u = re.sub(r"#.*$", "", u)
-    u = "?".join(u.split("?")[:1])
+    if "?" in u:
+        base, q = u.split("?", 1)
+        kept = [kv for kv in q.split("&")
+                if kv.split("=", 1)[0] not in TRACKING_PARAMS]
+        u = base + (("?" + "&".join(kept)) if kept else "")
     u = re.sub(r"^https?://", "", u)
     u = re.sub(r"^www\.", "", u)
     return u.rstrip("/")
@@ -387,7 +413,16 @@ def extract_arxiv_id(url):
 
 def tokenize(text):
     t = re.sub(r"[^a-z0-9\s]", " ", (text or "").lower())
-    return {w for w in t.split() if w and w not in STOPWORDS and not w.isdigit()}
+    return {_stem(w) for w in t.split() if w and w not in STOPWORDS and not w.isdigit()}
+
+
+def _stem(w):
+    if len(w) <= 4:
+        return w
+    for suf in ("ing", "ed", "es", "s"):
+        if w.endswith(suf) and len(w) - len(suf) >= 3:
+            return w[: -len(suf)]
+    return w
 
 
 def jaccard(a, b):
@@ -396,7 +431,15 @@ def jaccard(a, b):
     return len(a & b) / len(a | b)
 
 
-def items_linked(a, b):
+def weighted_sim(a, b, idf):
+    if not a or not b:
+        return 0.0
+    inter = sum(idf.get(t, 1.0) for t in a & b)
+    union = sum(idf.get(t, 1.0) for t in a | b)
+    return inter / union if union else 0.0
+
+
+def items_linked(a, b, idf=None):
     if a.get("url_key") and a["url_key"] == b.get("url_key"):
         return True
     if a.get("arxiv_ids") and b.get("arxiv_ids") and (a["arxiv_ids"] & b["arxiv_ids"]):
@@ -404,9 +447,11 @@ def items_linked(a, b):
     if a.get("source_id") and a["source_id"] == b.get("source_id"):
         return False
     ta, tb = a.get("tokens"), b.get("tokens")
-    if ta and tb and len(ta) >= 4 and len(tb) >= 4 and jaccard(ta, tb) >= TITLE_SIM:
-        return True
-    return False
+    if not (ta and tb and len(ta) >= 4 and len(tb) >= 4):
+        return False
+    if idf is None:
+        return jaccard(ta, tb) >= TITLE_SIM
+    return weighted_sim(ta, tb, idf) >= TITLE_SIM
 
 
 def cluster_items(items):
@@ -447,14 +492,21 @@ def cluster_items(items):
     for i, it in enumerate(items):
         for tok in it["tokens"]:
             token_index[tok].add(i)
+
+    idf = {}
+    for tok, idxs in token_index.items():
+        idf[tok] = math.log((n + 1) / (len(idxs) + 1)) + 1.0
+
     pairs = set()
-    for idxs in token_index.values():
+    for tok, idxs in token_index.items():
         idxs = list(idxs)
+        if len(idxs) > PAIR_CAP:
+            continue
         for a in range(len(idxs)):
             for b in range(a + 1, len(idxs)):
                 pairs.add((idxs[a], idxs[b]) if idxs[a] < idxs[b] else (idxs[b], idxs[a]))
     for i, j in pairs:
-        if find(i) != find(j) and items_linked(items[i], items[j]):
+        if find(i) != find(j) and items_linked(items[i], items[j], idf):
             union(i, j)
 
     groups = collections.defaultdict(list)
@@ -516,10 +568,16 @@ def build_stories(items):
         if len(sources) < 2:
             continue
         cluster.sort(key=lambda m: (m.get("tier") if m.get("tier") is not None else 9, m.get("published") or ""))
+        tag_counts = collections.Counter()
+        for m in cluster:
+            for t in m.get("tags") or []:
+                tag_counts[t] += 1
+        story_tags = [t for t, _ in tag_counts.most_common(5)]
         stories.append({
             "title": canonical_title(cluster),
             "tag": story_tag(categories, sources),
             "trigger": story_trigger(categories, latest),
+            "tags": story_tags,
             "sources": sources,
             "categories": categories,
             "latest": latest,
@@ -563,7 +621,9 @@ def render_stories(stories):
     for st in stories:
         srcs = len(st["sources"])
         cnt = len(st["members"])
-        lines.append(f"## [{st['tag']}] {st['title']}  ({srcs} sources, {cnt} items)")
+        prefix = "HIGH-SIGNAL " if st.get("trigger") else ""
+        tags = f" -- tags: {', '.join(st['tags'])}" if st.get("tags") else ""
+        lines.append(f"## {prefix}[{st['tag']}] {st['title']}  ({srcs} sources, {cnt} items){tags}")
         lines.append("")
         for m in st["members"]:
             lines.append(f"- {m['source_name']} ({m['category']}) - {fmt_dt(parse_date(m.get('published')))} - "
@@ -602,6 +662,16 @@ def backfill_score(item):
         item.get("tier"), parse_date(item.get("published")),
         item.get("points"), item.get("comments"))
     return item
+
+
+def retag_items():
+    items = load_items()
+    for it in items:
+        it["tags"] = tag_item(it.get("title") or "", it.get("summary") or "")
+        it["score"] = compute_score(it.get("tier"), parse_date(it.get("published")),
+                                    it.get("points"), it.get("comments"))
+    save_items(items)
+    print(f"Retagged {len(items)} item(s).")
 
 
 def load_items():
@@ -650,6 +720,25 @@ def is_due(src, meta):
         return True
     age = (datetime.now(timezone.utc) - last_dt).total_seconds()
     return age >= cadence
+
+
+def load_watch_keywords(days=7):
+    """Watch keywords from ideas.py's data/watch.json, within the expiry window."""
+    if not WATCH_FILE.exists():
+        return []
+    try:
+        watch = json.loads(WATCH_FILE.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return []
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    kws = set()
+    for w in watch:
+        if (w.get("added_at") or "") < cutoff:
+            continue
+        for k in w.get("keywords") or []:
+            if k:
+                kws.add(k.lower())
+    return sorted(kws)
 
 
 def render_digest(sources, new_by_source, snapshot_by_source, is_baseline, errors, high_signal=None):
@@ -756,7 +845,13 @@ def main():
                         help="Exit non-zero if any source failed to fetch.")
     parser.add_argument("--all", action="store_true",
                         help="Fetch every source, ignoring per-source cadence.")
+    parser.add_argument("--retag", action="store_true",
+                        help="Recompute tags + scores on the stored rolling window and exit.")
     args = parser.parse_args()
+
+    if args.retag:
+        retag_items()
+        return
 
     ensure_dirs()
     sources = load_sources()
@@ -780,6 +875,7 @@ def main():
 
     due = [s for s in sources if args.all or is_due(s, state_meta.get(s["id"], {}))]
     skipped = [s for s in sources if s not in due]
+    watch_kws = load_watch_keywords()
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
         results = list(pool.map(process, due))
@@ -794,8 +890,11 @@ def main():
         state_meta[sid] = meta
 
         seen = set(seen_by_source.get(sid, []))
+        effective = src.get("keywords") or []
+        if src.get("category") == "communities":
+            effective = effective + watch_kws
         items = [it for it in items if it.get("title") and it.get("link") and it.get("guid")]
-        items = [it for it in items if match_keywords(it["title"], src.get("keywords"))]
+        items = [it for it in items if match_keywords(it["title"], effective)]
         for it in items:
             it["key"] = f"{sid}::{it['guid']}"
             store_by_key[it["key"]] = serialize_item(it, src)

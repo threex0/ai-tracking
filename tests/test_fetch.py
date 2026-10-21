@@ -99,11 +99,29 @@ class UrlAndTokenTest(unittest.TestCase):
 
     def test_tokenize(self):
         toks = fetch.tokenize("Fine-tuning Mamba-2 models!")
-        self.assertEqual(toks, {"fine", "tuning", "mamba", "models"})
+        self.assertEqual(toks, {"fine", "tun", "mamba", "model"})
+
+    def test_stem(self):
+        self.assertEqual(fetch._stem("models"), "model")
+        self.assertEqual(fetch._stem("tuning"), "tun")
+        self.assertEqual(fetch._stem("apple"), "apple")
 
     def test_jaccard(self):
         self.assertEqual(fetch.jaccard({"a", "b"}, {"b", "c"}), 1 / 3)
         self.assertEqual(fetch.jaccard(set(), {"a"}), 0.0)
+
+    def test_weighted_sim_low_for_common_only(self):
+        idf = {"model": 1.0, "ai": 1.0, "x": 2.0, "y": 2.0}
+        sim = fetch.weighted_sim({"model", "ai"}, {"model", "ai"}, idf)
+        self.assertEqual(sim, 1.0)
+        low = fetch.weighted_sim({"model", "x"}, {"model", "y"}, idf)
+        self.assertLess(low, 0.5)
+
+    def test_canonical_url_keeps_real_query(self):
+        self.assertEqual(fetch.canonical_url("https://example.com/a?utm_source=x&id=5"),
+                         "example.com/a?id=5")
+        self.assertEqual(fetch.canonical_url("https://example.com/a?fbclid=1"),
+                         "example.com/a")
 
 
 class LinkingTest(unittest.TestCase):
@@ -144,6 +162,14 @@ class ClusterTest(unittest.TestCase):
         groups = fetch.cluster_items(items)
         sizes = sorted(len(g) for g in groups)
         self.assertEqual(sizes, [1, 2])
+
+    def test_clusters_paraphrased_titles(self):
+        items = [
+            {"title": "Mamba-2 is a Hybrid Linear Attention Transformer", "summary": "", "link": "https://a.com/1", "source_id": "arxiv"},
+            {"title": "Mamba-2 as a Hybrid Linear Attention Model", "summary": "", "link": "https://b.com/2", "source_id": "hn"},
+        ]
+        groups = fetch.cluster_items(items)
+        self.assertEqual(len(groups), 1)
 
     def test_build_stories(self):
         items = [

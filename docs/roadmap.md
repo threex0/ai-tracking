@@ -37,15 +37,9 @@ Exit criteria: tier-1 RSS-less labs covered (OpenAI/Anthropic), failed runs are 
 
 Make the output more discriminating before adding more surface area.
 
-| # | Item | Why | Effort |
-|---|------|-----|--------|
-| 1.1 | **Item scoring + trigger flags** (implements `monitoring-strategy.md:103-114`) — `score = source_weight × (1+engagement) × freshness`, then `discovery`/`opportunity`/`watch` flags | Tags already exist; this is the highest signal multiplier still missing | M |
-| 1.2 | **Tiered cadence** (`cadence` field per source + last-fetched in state) | Honors the strategy's sub-hour/daily/weekly table; reduces load on slow sources; enables faster polling of frontier labs | M |
-| 1.3 | **Clustering quality**: stem/weight tokens, fix `canonical_url` query handling, cap token-pair index | Better stories (the core "relationships" feature) | M |
-| 1.4 | **Watch-item loop** — promote `ideas.py` "watch items" back into source keyword filters / new sources | Closes the loop; the tool starts tracking what it told you to watch | M |
-| 1.5 | **Taxonomy v2**: synonyms, per-tag keywords on sources, tag confidence | Cleaner tags → better scoring (1.1) and site browse | S–M |
+Phase 1 is complete — all five items shipped (see the done list below); the table is retired.
 
-Exit criteria: digest/story output ranks the obvious "must-reads" first; clusters
+Exit criteria (met): digest/story output ranks the obvious "must-reads" first; clusters
 survive title paraphrase; watch items become tracked sources.
 
 ### Phase 1 implementation spec
@@ -82,6 +76,10 @@ survive title paraphrase; watch items become tracked sources.
 
 Done (2026-10-21): **1.1** — item `score` (tier × engagement × freshness, backfilled for existing window items), structured HN `points`/`comments`, `trigger` on stories (fresh discovery/opportunity), digest **High Signal** section (triggered stories + watch candidates). Tests: 60 stdlib cases.
 Done (2026-10-21): **1.2** — per-source `cadence` (hourly/daily/weekly) + `fetched_at` in `state.json["meta"]`; `main()` skips sources not yet due; `--all` forces. Failed sources are retried every run (no timestamp set on error). Tests: 66 stdlib cases.
+Done (2026-10-21): **1.3** — token stemmer, IDF-weighted similarity (replaces plain Jaccard), `canonical_url` strips only tracking params, token-pair index capped at 200. Story count stable on real data (35).
+Done (2026-10-21): **1.4** — `ideas.py` writes `data/watch.json` (Watch items + keywords, 7-day expiry, `--clear-watch`); `fetch.py` merges those keywords into community-source filters.
+Done (2026-10-21): **1.5** — `TAXONOMY_RE` word-boundary regex layer on top of the keyword taxonomy; story tag aggregation (top-5 member tags, shown in `stories.md`); `fetch.py --retag` recomputes tags+scores on the window.
+Tests: 70 stdlib cases.
 
 ---
 

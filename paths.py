@@ -14,6 +14,7 @@ STATE_FILE = DATA_DIR / "state.json"
 ITEMS_FILE = DATA_DIR / "items.json"
 ERROR_LOG = DATA_DIR / "errors.log"
 IDEAS_STATE_FILE = DATA_DIR / "ideas_state.json"
+WATCH_FILE = DATA_DIR / "watch.json"
 
 DIGEST_FILE = OUTPUT_DIR / "digest.md"
 STORY_FILE = OUTPUT_DIR / "stories.md"

@@ -2,6 +2,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -9,7 +10,9 @@ import urllib.request
 from datetime import datetime, timezone
 
 from paths import (ENV_FILE, IDEAS_DIR, IDEAS_FILE, IDEAS_STATE_FILE, ITEMS_FILE,
-                   STORY_FILE, ensure_dirs)
+                   STORY_FILE, WATCH_FILE, ensure_dirs)
+
+from export_json import parse_ideas
 
 MODEL_PRO = "deepseek/deepseek-v4-pro-0813"
 MODEL_FLASH = "deepseek/deepseek-v4-flash-0731"
@@ -260,14 +263,49 @@ def write_outputs(markdown):
     return full
 
 
+WATCH_STOPWORDS = set(
+    "the a an and or but of in on for to is are was were be will it its this that with "
+    "about from into over under as at by do does did not no yes how what when where which "
+    "who why claim claims watch whether".split()
+)
+
+
+def watch_keywords(title):
+    words = re.findall(r"[a-z0-9]+", (title or "").lower())
+    return sorted({w for w in words
+                   if w not in WATCH_STOPWORDS and len(w) >= 5 and not w.isdigit()})
+
+
+def write_watch_items():
+    """Extract the 'Watch items' section into data/watch.json so fetch.py can
+    surface related community discussion. Entries expire after 7 days."""
+    if not IDEAS_FILE.exists():
+        return
+    ideas = parse_ideas(IDEAS_FILE.read_text(encoding="utf-8"))
+    watch = [{"title": i["title"], "keywords": watch_keywords(i["title"]),
+              "added_at": datetime.now(timezone.utc).isoformat()}
+             for i in ideas if "watch" in i["section"].lower()]
+    WATCH_FILE.parent.mkdir(parents=True, exist_ok=True)
+    WATCH_FILE.write_text(json.dumps(watch, indent=2, ensure_ascii=False), encoding="utf-8")
+    if watch:
+        print(f"Wrote {len(watch)} watch item(s) to {WATCH_FILE}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Generate ideas/opportunities from the AI research digest.")
     parser.add_argument("--flash", action="store_true", help="Use the cheaper/faster DeepSeek Flash model.")
     parser.add_argument("--model", default=None, help="Override the OpenRouter model id.")
     parser.add_argument("--days", type=int, default=None, help="Restrict to items from the last N days.")
     parser.add_argument("--force", action="store_true", help="Regenerate even if nothing has changed since the last run.")
+    parser.add_argument("--clear-watch", action="store_true", help="Clear the watch-item keywords file.")
     parser.add_argument("--print", dest="print_only", action="store_true", help="Print to stdout instead of writing files.")
     args = parser.parse_args()
+
+    if args.clear_watch:
+        ensure_dirs()
+        WATCH_FILE.write_text("[]", encoding="utf-8")
+        print(f"Cleared {WATCH_FILE}")
+        return
 
     ensure_dirs()
     env = load_env()
@@ -297,6 +335,7 @@ def main():
         print(markdown)
     else:
         full = write_outputs(markdown)
+        write_watch_items()
         save_fingerprint(fp)
         run_date = datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d")
         print(f"Wrote {IDEAS_FILE} and {IDEAS_DIR}/{run_date}.md")

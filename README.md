@@ -43,7 +43,7 @@ State files (created automatically — don't edit by hand):
 | `data/errors.log` | Append-only log of per-source fetch errors (also shown in the digest) |
 | `data/ideas_state.json` | Fingerprint of the last ideas run (drives skip-when-unchanged) |
 
-**Flags.** `fetch.py --strict` exits non-zero if any source failed to fetch (for CI/watchdogs); `fetch.py --all` ignores per-source cadence and fetches everything (by default, sources not yet due are skipped — sources that previously failed are retried every run). `ideas.py --force` regenerates even when nothing has changed.
+**Flags.** `fetch.py --strict` exits non-zero if any source failed to fetch (for CI/watchdogs); `fetch.py --all` ignores per-source cadence and fetches everything (by default, sources not yet due are skipped — sources that previously failed are retried every run); `fetch.py --retag` recomputes tags + scores on the stored rolling window and exits. `ideas.py --force` regenerates even when nothing has changed.
 
 ## Static site
 
@@ -124,9 +124,10 @@ python ideas.py --flash    # cheaper/faster Flash model
 python ideas.py --days 7   # only items from the last week
 python ideas.py --print    # print to stdout instead of writing files
 python ideas.py --force    # regenerate even if nothing changed
+python ideas.py --clear-watch  # clear the watch-item keywords
 ```
 
-If nothing changed since the last run, `ideas.py` skips the LLM call (it fingerprints the item window + stories; pass `--force` to override). `--print` always runs and prints to stdout. Transient API errors are retried with backoff, and a truncated response (`finish_reason=length`) retries once with a smaller context.
+If nothing changed since the last run, `ideas.py` skips the LLM call (it fingerprints the item window + stories; pass `--force` to override). `--print` always runs and prints to stdout. Transient API errors are retried with backoff, and a truncated response (`finish_reason=length`) retries once with a smaller context. On a successful write run, the **Watch items** section is extracted to `data/watch.json` (keywords expire after 7 days), and `fetch.py` merges those keywords into the HN/Reddit filters so the tool starts tracking what it told you to watch.
 
 It's stdlib-only (uses `urllib`), so it keeps the same no-third-party dependency rule as `fetch.py`. Run it *after* `fetch.py` so the window is fresh.
 
