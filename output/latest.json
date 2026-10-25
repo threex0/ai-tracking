@@ -1,208 +1,7 @@
 {
-  "generated_at": "2026-10-24T08:18:09.233439+00:00",
+  "generated_at": "2026-10-25T08:18:18.139101+00:00",
   "window_days": 14,
   "items": [
-    {
-      "title": "We can do impossible things",
-      "url": "https://www.technologyreview.com/2026/10/21/1146053/editor-letter-we-can-do-impossible-things/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-21",
-      "tier": 2,
-      "tags": [],
-      "summary": "I’d wager everyone has a rehearsed response to what’s absolutely one of the world’s worst interview questions: “What’s your biggest weakness?” Whenever I’ve gotten it, I take a slow—even pensive—breath and rattle off my line: “I say no to myself too much.” I won’t lie. It’s a bit shameless—a definit",
-      "score": 0.453
-    },
-    {
-      "title": "The Download: introducing the Impossible issue",
-      "url": "https://www.technologyreview.com/2026/10/21/1147573/the-download-introducing-impossible-issue/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-21",
-      "tier": 2,
-      "tags": [],
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Impossible issue We wanted our last print edition of 2026 to include a slate of stories that check in on impossible ideas. Why? Because it’s fun ",
-      "score": 0.484
-    },
-    {
-      "title": "AI’s hidden storage bill: What inference leaves behind",
-      "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-22",
-      "tier": 2,
-      "tags": [
-        "hardware",
-        "speech-audio"
-      ],
-      "summary": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from ",
-      "score": 0.742
-    },
-    {
-      "title": "Three things you should know about permafrost",
-      "url": "https://www.technologyreview.com/2026/10/22/1147591/permafrost-primer/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-22",
-      "tier": 2,
-      "tags": [],
-      "summary": "How much do you know about permafrost? Maybe, like me, you’ve been aware that this layer of frozen soil is thawing, that it’s important in the global puzzle of climate change … and that’s about the extent of it. The great news for both of us is that my colleague James Temple just published two…",
-      "score": 0.762
-    },
-    {
-      "title": "Making the case for context-aware AI",
-      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-22",
-      "tier": 2,
-      "tags": [],
-      "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies",
-      "score": 0.762
-    },
-    {
-      "title": "The Download: computing’s next leap and permafrost’s climate threat",
-      "url": "https://www.technologyreview.com/2026/10/22/1147612/the-download-computing-next-leap-permafrost-climate-threat/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-22",
-      "tier": 2,
-      "tags": [],
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How far can we push computing? On a December evening in 1959, the physicist Richard Feynman gave a lecture called “There’s Plenty of Room at the Bottom.” There is",
-      "score": 0.798
-    },
-    {
-      "title": "The Foundations of Scalable AI",
-      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-22",
-      "tier": 2,
-      "tags": [
-        "agents"
-      ],
-      "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how",
-      "score": 0.916
-    },
-    {
-      "title": "Designing an AI serving harness built to last",
-      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-22",
-      "tier": 2,
-      "tags": [
-        "agents",
-        "reasoning",
-        "evals"
-      ],
-      "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows,",
-      "score": 0.964
-    },
-    {
-      "title": "In the biotech world, you can’t see everything",
-      "url": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [],
-      "summary": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new inform",
-      "score": 1.231
-    },
-    {
-      "title": "The Download: testing six tech promises and biotech’s blind spots",
-      "url": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [],
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too good to give up on. Decoding a pet’s yowls and yips? Absolutely",
-      "score": 1.315
-    },
-    {
-      "title": "How Do Fungi Keep the Planet Healthy?",
-      "url": "https://www.quantamagazine.org/how-do-fungi-keep-the-planet-healthy-20261015/",
-      "source_id": "quanta",
-      "source_name": "Quanta Magazine",
-      "date": "2026-10-15",
-      "tier": 2,
-      "tags": [],
-      "summary": "Evolutionary biologist Toby Kiers explains how fungal networks in soil trade nutrients with plants, help keep carbon underground, and strike bargains without having a brain. The post How Do Fungi Keep the Planet Healthy? first appeared on Quanta Magazine",
-      "score": 0.025
-    },
-    {
-      "title": "He Wants AI Benchmarking To Be a Science, Not a Dark Art",
-      "url": "https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016/",
-      "source_id": "quanta",
-      "source_name": "Quanta Magazine",
-      "date": "2026-10-16",
-      "tier": 2,
-      "tags": [
-        "evals"
-      ],
-      "summary": "Moritz Hardt, author of a new book on benchmarks, believes these “standardized tests” for artificial intelligence are fundamentally broken — but not unfixable. The post He Wants AI Benchmarking To Be a Science, Not a Dark Art first appeared on Quanta Magazine",
-      "score": 0.041
-    },
-    {
-      "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
-      "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
-      "source_id": "quanta",
-      "source_name": "Quanta Magazine",
-      "date": "2026-10-19",
-      "tier": 2,
-      "tags": [],
-      "summary": "Unlike other recent AI proofs, this one has been unpacked by human experts. The implications, one mathematician said, are “staggering.” The post AI Proved the Quasi-Riemann Hypothesis. What Happens Now? first appeared on Quanta Magazine",
-      "score": 0.191
-    },
-    {
-      "title": "See Inside Cells Like Never Before in These Vivid Microscopic Images",
-      "url": "https://www.quantamagazine.org/see-inside-cells-like-never-before-in-these-vivid-microscopic-images-20261021/",
-      "source_id": "quanta",
-      "source_name": "Quanta Magazine",
-      "date": "2026-10-21",
-      "tier": 2,
-      "tags": [],
-      "summary": "Winning entries in the 2026 Nikon Small World competitions reveal the hidden interactions that govern everyday life. The post See Inside Cells Like Never Before in These Vivid Microscopic Images first appeared on Quanta Magazine",
-      "score": 0.503
-    },
-    {
-      "title": "Malaria Parasite Caught in the Act of Breaking and Entering",
-      "url": "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/",
-      "source_id": "quanta",
-      "source_name": "Quanta Magazine",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [],
-      "summary": "To invade red blood cells, the deadly protist creates a temporary molecular portal that disappears behind it — a door we can now see in fine detail. The post Malaria Parasite Caught in the Act of Breaking and Entering first appeared on Quanta Magazine",
-      "score": 1.392
-    },
-    {
-      "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [
-        "hardware",
-        "funding"
-      ],
-      "summary": "Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merger! The degree to which you find this merger compelling likely has to do with the degree ",
-      "score": 1.296
-    },
-    {
-      "title": "Meta turns Muse sharing back on",
-      "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-22",
-      "tier": 2,
-      "tags": [],
-      "summary": "Meta has re-enabled Muse sharing after security researchers had reported that public conversation links could be easy to find. The researchers said they had been able to find Muse pages like a marketing company's internal revenue review and a small business owner's loan application. Researchers at C",
-      "score": 0.95
-    },
     {
       "title": "Meta&#8217;s AI could still scrape news sites, legal experts say",
       "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
@@ -212,7 +11,7 @@
       "tier": 2,
       "tags": [],
       "summary": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to restrict the 'associated with your products or services' [lang",
-      "score": 0.949
+      "score": 0.576
     },
     {
       "title": "Canva’s first AI image model plans designs before generating them",
@@ -225,7 +24,7 @@
         "multimodal"
       ],
       "summary": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precis",
-      "score": 0.977
+      "score": 0.592
     },
     {
       "title": "Retro gaming is being overrun with AI",
@@ -236,7 +35,7 @@
       "tier": 2,
       "tags": [],
       "summary": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new ",
-      "score": 1.362
+      "score": 0.826
     },
     {
       "title": "Meta delays new business terms after publisher pushback on AI scraping",
@@ -249,7 +48,7 @@
         "funding"
       ],
       "summary": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on",
-      "score": 1.389
+      "score": 0.842
     },
     {
       "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
@@ -262,7 +61,7 @@
         "policy"
       ],
       "summary": "Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features. The update, spotted by Android Authority, adds an exception to its promise about not using your Drive, Gmail, or Google Photos for per",
-      "score": 1.451
+      "score": 0.88
     },
     {
       "title": "The iPhone Duo should have been an iPad",
@@ -273,7 +72,7 @@
       "tier": 2,
       "tags": [],
       "summary": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David and Nilay […]",
-      "score": 1.454
+      "score": 0.882
     },
     {
       "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
@@ -284,7 +83,7 @@
       "tier": 2,
       "tags": [],
       "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan",
-      "score": 1.533
+      "score": 0.93
     },
     {
       "title": "OpenAI now trains its frontier AI models with no internet access",
@@ -295,51 +94,31 @@
       "tier": 2,
       "tags": [],
       "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external",
-      "score": 1.587
+      "score": 0.962
     },
     {
-      "title": "Meta says Muse has over 10M users, with shopping a top activity",
-      "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-21",
+      "title": "Pennsylvania will require labels on AI-generated ads",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-24",
       "tier": 2,
-      "tags": [],
-      "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during its Q3 earnings call. The AI app now has over 10M users.",
-      "score": 0.584
+      "tags": [
+        "speech-audio"
+      ],
+      "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artifi",
+      "score": 1.502
     },
     {
-      "title": "TechCrunch Founder Summit 2026: Everything you need to know",
-      "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-21",
+      "title": "Blue Planet III is keeping the rough edges in the age of AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-24",
       "tier": 2,
       "tags": [],
-      "summary": "TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies.",
-      "score": 0.585
-    },
-    {
-      "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
-      "url": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-21",
-      "tier": 2,
-      "tags": [],
-      "summary": "The social media giant is planning a new stock strategy to help power its broad investments in AI models and services.",
-      "score": 0.603
-    },
-    {
-      "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
-      "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-21",
-      "tier": 2,
-      "tags": [],
-      "summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
-      "score": 0.604
+      "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished ",
+      "score": 1.597
     },
     {
       "title": "DeepSeek reportedly raises $15B days after US restrictions",
@@ -352,7 +131,7 @@
         "funding"
       ],
       "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the U.S. ordered federal agencies to remove its technology over national security concerns.",
-      "score": 0.815
+      "score": 0.494
     },
     {
       "title": "Nirva raises $33M for a pendant that only listens to you",
@@ -365,7 +144,7 @@
         "funding"
       ],
       "summary": "Nirva will ship its $249 ambient AI pendant by the end of the year.",
-      "score": 0.819
+      "score": 0.497
     },
     {
       "title": "Claude Duet app is Anthropic’s bet on agents",
@@ -378,7 +157,7 @@
         "agents"
       ],
       "summary": "Claude Duet is available through waitlist for Pro and Max plan users.",
-      "score": 0.827
+      "score": 0.501
     },
     {
       "title": "Spotify’s current AI bet is about being the music service that agents choose",
@@ -391,7 +170,7 @@
         "agents"
       ],
       "summary": "Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service.",
-      "score": 0.847
+      "score": 0.514
     },
     {
       "title": "Uber puts all 30,000 employees on ChatGPT Work",
@@ -404,7 +183,7 @@
         "agents"
       ],
       "summary": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
-      "score": 0.864
+      "score": 0.524
     },
     {
       "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
@@ -417,7 +196,7 @@
         "agents"
       ],
       "summary": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
-      "score": 0.878
+      "score": 0.533
     },
     {
       "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
@@ -428,18 +207,7 @@
       "tier": 2,
       "tags": [],
       "summary": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself.",
-      "score": 0.914
-    },
-    {
-      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-22",
-      "tier": 2,
-      "tags": [],
-      "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
-      "score": 0.92
+      "score": 0.555
     },
     {
       "title": "Canva releases its first image generation model",
@@ -452,7 +220,18 @@
         "multimodal"
       ],
       "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
-      "score": 0.92
+      "score": 0.558
+    },
+    {
+      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-22",
+      "tier": 2,
+      "tags": [],
+      "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+      "score": 0.558
     },
     {
       "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
@@ -465,7 +244,7 @@
         "agents"
       ],
       "summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
-      "score": 0.922
+      "score": 0.559
     },
     {
       "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
@@ -478,7 +257,7 @@
         "funding"
       ],
       "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
-      "score": 0.982
+      "score": 0.595
     },
     {
       "title": "Left alone with nothing to do, AI agents started playing",
@@ -491,7 +270,7 @@
         "agents"
       ],
       "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
-      "score": 1.037
+      "score": 0.629
     },
     {
       "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
@@ -502,7 +281,7 @@
       "tier": 2,
       "tags": [],
       "summary": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
-      "score": 1.109
+      "score": 0.673
     },
     {
       "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
@@ -513,7 +292,7 @@
       "tier": 2,
       "tags": [],
       "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs",
-      "score": 1.519
+      "score": 0.922
     },
     {
       "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
@@ -526,7 +305,7 @@
         "speech-audio"
       ],
       "summary": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
-      "score": 1.613
+      "score": 0.979
     },
     {
       "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
@@ -537,681 +316,141 @@
       "tier": 2,
       "tags": [],
       "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
-      "score": 1.651
+      "score": 1.001
     },
     {
-      "title": "Built a home for 5 local companions on Gemma 4 26B: 3D rooms, journals, a D&D campaign, and they can text me on Discord",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xduy84/built_a_home_for_5_local_companions_on_gemma_4/",
-      "source_id": "reddit_localllama",
-      "source_name": "r/LocalLLaMA",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
       "date": "2026-10-24",
-      "tier": 2,
-      "tags": [
-        "speech-audio"
-      ],
-      "summary": "I've been building a companion app that runs fully local: LM Studio serving Gemma 4 26B (QAT), with a small Python server per companion and a three.js page for each one's room. All on an RTX 3070 Ti (8GB) + 32GB RAM; the MoE design is what makes that workable. I'm not a coder and I'm less than a mon",
-      "score": 1.708
-    },
-    {
-      "title": "Some benchmarks on mini-AGI (dynamic continual learning model) after training it completely from scratch for a month on a 8GB VRAM GPU.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xds6ts/some_benchmarks_on_miniagi_dynamic_continual/",
-      "source_id": "reddit_localllama",
-      "source_name": "r/LocalLLaMA",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [
-        "evals",
-        "hardware",
-        "funding"
-      ],
-      "summary": "The most important part is a difference between \"forzen\" and \"best effort\" attempts where we allow the model to specialize on the task as it goes through the evaluation dataset. Clearly showcasing the power of continual learning regime simply unavailable for any other typical LLM. Full code of the p",
-      "score": 1.633
-    },
-    {
-      "title": "Models on 5 algorithmic tasks on 16GB VRAM 32GB Ram V2",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe2cyy/models_on_5_algorithmic_tasks_on_16gb_vram_32gb/",
-      "source_id": "reddit_localllama",
-      "source_name": "r/LocalLLaMA",
-      "date": "2026-10-24",
-      "tier": 2,
-      "tags": [
-        "open-source",
-        "hardware"
-      ],
-      "summary": "Posted a bech I did here before: https://www.reddit.com/r/LocalLLaMA/comments/1x8qlvw/nine_models_five_coding_tasks_one_16gb_gpu/ Now I've done V2, tightened up the tasks a bit and a different lineup, plus a github repo now for anyone wanting to run this as well. https://github.com/Tako88/coding-ben",
-      "score": 1.968
-    },
-    {
-      "title": "everything will be local eventually",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdcpxb/everything_will_be_local_eventually/",
-      "source_id": "reddit_localllama",
-      "source_name": "r/LocalLLaMA",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [
-        "evals",
-        "hardware"
-      ],
-      "summary": "I know current llms like opus 5.5 are in a league of their own. but we all know they're losing a shti ton of money with their subscriptions. ALSO we all know how tasks like OCR, segmentation etc are getting solved by single digit B parameter models. I'm not saying llms are a gimmick but I'm saying t",
-      "score": 1.325
-    },
-    {
-      "title": "Models disappearing from Huggingface",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd7ptj/models_disappearing_from_huggingface/",
-      "source_id": "reddit_localllama",
-      "source_name": "r/LocalLLaMA",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [],
-      "summary": "I've been noticing a lot of my downloads stopping suddenly and being unable to resume. When I checked the models it seemed like they were gone. Here's the ones I can see are missing: dealignai/MiMo-V2.6-Pro-RL-UNCENSORED audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber huihui-ai/Huihui-Kimi-K2",
-      "score": 1.2
-    },
-    {
-      "title": "Sam Altman: OpenAI's best model \"can't responsibly be open-sourced\" until the world builds better cyberdefense and bio-security",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe0ioz/sam_altman_openais_best_model_cant_responsibly_be/",
-      "source_id": "reddit_localllama",
-      "source_name": "r/LocalLLaMA",
-      "date": "2026-10-24",
-      "tier": 2,
-      "tags": [
-        "reasoning",
-        "safety",
-        "open-source",
-        "hardware"
-      ],
-      "summary": "OpenAI co-founder and CEO Sam Altman recently sat down for an in-depth conversation at Stanford Graduate School of Business's \"View from the Top\" series, covering AI's development trajectory, safety challenges, organizational transformation, and personal growth. Altman admitted that OpenAI originall",
-      "score": 1.894
-    },
-    {
-      "title": "Dessa: Conversation Model trained only on speech",
-      "url": "https://block.xyz/dessa",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [
-        "speech-audio"
-      ],
-      "summary": "370 points, 134 comments",
-      "score": 2.571,
-      "points": 370,
-      "comments": 134
-    },
-    {
-      "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
-      "url": "https://corgi.computer/",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
-      "date": "2026-10-23",
       "tier": 2,
       "tags": [
         "agents"
       ],
-      "summary": "76 points, 20 comments",
-      "score": 2.304,
-      "points": 76,
-      "comments": 20
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "score": 1.366
     },
     {
-      "title": "Securing our frontier model training environment",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [],
-      "summary": "102 points, 104 comments",
-      "score": 2.402,
-      "points": 102,
-      "comments": 104
-    },
-    {
-      "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
-      "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
       "date": "2026-10-24",
       "tier": 2,
       "tags": [],
-      "summary": "60 points, 9 comments",
-      "score": 2.768,
-      "points": 60,
-      "comments": 9
+      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+      "score": 1.395
     },
     {
-      "title": "Gradient Routing Generalizes to Unrouted Hack Types",
-      "url": "https://www.lesswrong.com/posts/ie7bSp5ZDwYkCQxuv/gradient-routing-generalizes-to-unrouted-hack-types",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
-      "date": "2026-10-23",
+      "title": "Block’s new voice model sounds eerily human",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-24",
       "tier": 2,
       "tags": [
-        "agents",
-        "reasoning",
+        "speech-audio"
+      ],
+      "summary": "Block said that the voice model can run locally on a MacBook M4 Max",
+      "score": 1.424
+    },
+    {
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-24",
+      "tier": 2,
+      "tags": [],
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "score": 1.516
+    },
+    {
+      "title": "Frontier models are bad at hearing ASMR: 8 judges vs human labels on 480 clips [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xcbqdm/frontier_models_are_bad_at_hearing_asmr_8_judges/",
+      "source_id": "reddit_ml",
+      "source_name": "r/MachineLearning",
+      "date": "2026-10-22",
+      "tier": 2,
+      "tags": [
+        "speech-audio"
+      ],
+      "summary": "I'm training text2asmr, a text-to-ASMR model (whispering plus trigger sounds like tapping, crinkling, brushing). The generator needs every training clip tagged with the sounds in it, and there are about 126k recordings, so I tried frontier models as labellers. They were much worse than I expected, s",
+      "score": 0.436
+    },
+    {
+      "title": "We shrank our steerable small TTS to 11.84 MB. WER is unchanged, UTMOS drops ~0.1 [p]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xcum4s/we_shrank_our_steerable_small_tts_to_1184_mb_wer/",
+      "source_id": "reddit_ml",
+      "source_name": "r/MachineLearning",
+      "date": "2026-10-22",
+      "tier": 2,
+      "tags": [
         "evals",
         "safety",
-        "open-source",
-        "hardware",
-        "funding"
+        "speech-audio"
       ],
-      "summary": "TLDR: I lightly extend Ward, Hu et al (2026) to measure how well gradient routing generalizes. I route gradients on one type of reward hack (e.g. ones that reason in English) and check whether this suppresses other types at test time (e.g. ones that reason in French), despite the model being trained",
-      "score": 1.545
+      "summary": "A while back I posted SteerTTS v1, a small English TTS you steer with numbers ( https://huggingface.co/WhissleAI/steer-tts ). Today I am releasing the edge variant: https://huggingface.co/WhissleAI/steer-tts-edge Size: everything an app has to ship (weights, voices, text front end and Python runtime",
+      "score": 0.581
     },
     {
-      "title": "The Hackening",
-      "url": "https://www.lesswrong.com/posts/iqgZaJMnmyDCYfnuC/the-hackening-1",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [
-        "agents",
-        "multimodal",
-        "reasoning",
-        "synthetic-data",
-        "safety",
-        "open-source",
-        "hardware",
-        "policy"
-      ],
-      "summary": "Last week at a small conference, there was talk about a future event referred to as The Hackening. As in, within 6-12 months, many predicted that due to advanced AIs and AI agents the internet would become a severely hostile place. Some worried that this could rise to the level of ‘assume any phone ",
-      "score": 1.592
-    },
-    {
-      "title": "The AGI Chronicles",
-      "url": "https://www.lesswrong.com/posts/x2ZAgjs7XoHvJ4YpN/the-agi-chronicles",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
-      "date": "2026-10-23",
+      "title": "Carbon-X is an open 14.8B model trained jointly on DNA and text [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xchayq/carbonx_is_an_open_148b_model_trained_jointly_on/",
+      "source_id": "reddit_ml",
+      "source_name": "r/MachineLearning",
+      "date": "2026-10-22",
       "tier": 2,
       "tags": [
         "reasoning",
+        "evals",
         "hardware"
       ],
-      "summary": "Book Review: The AGI Chronicles: The Inside Story of the Race to Create an Artificial Superintelligence, by Kevin Roose. This is a story of AI as seen through the eyes of the people who are creating it. My first impression of Roose was of his famous conversation with Sydney. I guessed that he got Sy",
-      "score": 1.609
+      "summary": "Carbon-X is a 14.8B parameter decoder-only model that takes raw DNA in a normal chat and answers in English. It shares one token stream for text and DNA, using 6-mer tokens, and was mid-trained on 302B tokens. Hugging Face reports a 66.7% average across five DNA benchmarks with thinking disabled, ve",
+      "score": 0.488
     },
     {
-      "title": "Simulated Control Evaluations",
-      "url": "https://www.lesswrong.com/posts/uXiqyoKwpfjWfQXk5/simulated-control-evaluations",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
+      "title": "I just came across Next-Concept Modeling and the idea is fascinating[R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xd7bsu/i_just_came_across_nextconcept_modeling_and_the/",
+      "source_id": "reddit_ml",
+      "source_name": "r/MachineLearning",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [
+        "multimodal",
+        "evals"
+      ],
+      "summary": "I've been learning how language models work, especially next-token prediction, and came across this paper on Next-Concept Modeling (NCM). The interesting part is how it generates text. Instead of predicting tokens one by one, NCM learns a hierarchy of discrete codes. It generates the coarse level fi",
+      "score": 0.722
+    },
+    {
+      "title": "[R] The Hive Mind is a Single Reinforcement Learning Agent: Deriving the Exact Equivalence Between Swarm Dynamics and Multi-Armed Bandits",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdhf7r/r_the_hive_mind_is_a_single_reinforcement/",
+      "source_id": "reddit_ml",
+      "source_name": "r/MachineLearning",
       "date": "2026-10-23",
       "tier": 2,
       "tags": [
         "agents",
         "rl",
-        "reasoning",
-        "evals",
-        "safety",
-        "hardware",
-        "policy",
-        "funding"
-      ],
-      "summary": "We’ve released a paper on simulated control evaluations (SCEs). They’re a method for testing whether the monitors AI developers use to oversee their agents would catch a model deliberately trying to cause harm, under conditions much closer to real deployment than current tests allow. Developers have",
-      "score": 1.623
-    },
-    {
-      "title": "Maybe You Suck at Relationships Because You’re Not Even Trying",
-      "url": "https://www.lesswrong.com/posts/uCH8iRd7TuAy5c6qD/maybe-you-suck-at-relationships-because-you-re-not-even",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
-      "date": "2026-10-24",
-      "tier": 2,
-      "tags": [
-        "reasoning",
-        "evals",
-        "policy",
-        "funding"
-      ],
-      "summary": "The average person, presumably, just stumbles along in their relationships, without ever studying the science behind what makes them work. Imagine this : would you want a man, who didn’t go to medical school and doesn’t have a medical license, to perform surgery on you? What if, now hear me out, he’",
-      "score": 1.684
-    },
-    {
-      "title": "LoReFT GRAFT Better at Preventing RL Grift",
-      "url": "https://www.lesswrong.com/posts/B7LnjyJQnkgwKdtTx/loreft-graft-better-at-preventing-rl-grift",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
-      "date": "2026-10-24",
-      "tier": 2,
-      "tags": [
-        "safety",
-        "open-source",
-        "hardware",
         "policy"
       ],
-      "summary": "tl;dr. I show that the recently introduced GRAFT method can be improved upon by using a single layer rank 1 Low-rank Linear Subspace Representation Fine Tuning (LoReFT) adapter as the FORGET adapter, using only 0.029% of the parameters of the one used in the GRAFT paper. This approach achieves an eq",
-      "score": 1.727
+      "summary": "TL;DR We prove a mathematical equivalence between collective decision-making via local imitation (such as honey bees choosing a nest site via the waggle dance) and single-agent Reinforcement Learning (RL) in a multi-armed bandit setting. Even when individual members have no learning capability and m",
+      "score": 0.857
     },
     {
-      "title": "Testing Gemini’s Ability to Hold a Human Persona",
-      "url": "https://www.lesswrong.com/posts/u5skMKr9pP5btaHze/testing-gemini-s-ability-to-hold-a-human-persona",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
-      "date": "2026-10-24",
+      "title": "memt-1.0 architecture breakdown gated deltanet-2, mixture-of-storage, and 66x smaller storage footprint for agent memory [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xeu0ht/memt10_architecture_breakdown_gated_deltanet2/",
+      "source_id": "reddit_ml",
+      "source_name": "r/MachineLearning",
+      "date": "2026-10-25",
       "tier": 2,
       "tags": [
         "agents",
-        "reasoning",
-        "evals",
-        "safety",
-        "hardware",
-        "policy"
+        "reasoning"
       ],
-      "summary": "It's been quite a while since I have roleplayed with an LLM. Typically I spend all day chatting with LLMs to learn new topics, analyze ideas and approaches on a project, or simply ask about random occurring questions in my head. It was today after having my first ever can of Red Bull and an entire s",
-      "score": 1.806
-    },
-    {
-      "title": "Exploring the data landscape via metagradient descent",
-      "url": "https://www.lesswrong.com/posts/iduSpeG2Y6kAf4uHk/exploring-the-data-landscape-via-metagradient-descent",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
-      "date": "2026-10-24",
-      "tier": 2,
-      "tags": [
-        "evals",
-        "safety",
-        "hardware",
-        "funding"
-      ],
-      "summary": "This project was done as part of the Iliad Fellowship. L.J. did this work while at EleutherAI. From functions to data That we can learn efficiently from our environment at all tells us something about (1) the world and (2) ourselves: (1) Regularities in the world are simple enough to be picked up fr",
-      "score": 1.817
-    },
-    {
-      "title": "Societal Impacts Research on AI (SIRA)",
-      "url": "https://www.lesswrong.com/posts/MgD6mDeGzydo7Xgnb/societal-impacts-research-on-ai-sira",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
-      "date": "2026-10-24",
-      "tier": 2,
-      "tags": [
-        "safety",
-        "hardware",
-        "policy",
-        "speech-audio"
-      ],
-      "summary": "TL;DR: I'm launching Societal Impacts Research on AI (SIRA) , a mentored research fellowship to bring more social science talent into AI safety. We're looking for our first cohort of 15-20 social scientists, from undergrads to postdocs, to work on societal impact problems within AI safety. The first",
-      "score": 1.822
-    },
-    {
-      "title": "Self-reward can elicit diverse model personas",
-      "url": "https://www.lesswrong.com/posts/LBKjnyKDEwEJ45Wjf/self-reward-can-elicit-diverse-model-personas",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
-      "date": "2026-10-24",
-      "tier": 2,
-      "tags": [
-        "reasoning",
-        "evals",
-        "open-source",
-        "hardware",
-        "funding"
-      ],
-      "summary": "Epistemic status: This is mostly a toy project rather than a thorough scientific investigation. Most design choices are not ablated. We list some caveats at the end of the post. We let Qwen3.5-2B choose its own reward during GRPO on introspection-adjacent prompts, and this ends up eliciting quite di",
-      "score": 1.946
-    },
-    {
-      "title": "Kimi K3: The open-weights escalation",
-      "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-07-20",
-      "tier": 2,
-      "tags": [
-        "open-source"
-      ],
-      "summary": "The global implications on the AI ecosystem.",
-      "score": 0.0
-    },
-    {
-      "title": "Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next",
-      "url": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-07-22",
-      "tier": 2,
-      "tags": [
-        "synthetic-data",
-        "open-source",
-        "speech-audio"
-      ],
-      "summary": "A podcast with Florian Brand.",
-      "score": 0.0
-    },
-    {
-      "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-02",
-      "tier": 2,
-      "tags": [],
-      "summary": "Capacity to train strong models is proliferating.",
-      "score": 0.0
-    },
-    {
-      "title": "Introducing our Artifacts Hub and Adoption Dashboard",
-      "url": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-03",
-      "tier": 2,
-      "tags": [],
-      "summary": "Scaling our curation and measurement of the open ecosystem.",
-      "score": 0.0
-    },
-    {
-      "title": "Lessons from the hacks",
-      "url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-09",
-      "tier": 2,
-      "tags": [
-        "safety"
-      ],
-      "summary": "Musings on model alignment, what determines safety, and where we go from here.",
-      "score": 0.0
-    },
-    {
-      "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
-      "url": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-10",
-      "tier": 2,
-      "tags": [],
-      "summary": "After a few long years of finding time to document my lessons from training open models, my post-training book is done!",
-      "score": 0.0
-    },
-    {
-      "title": "I wrote an AI textbook — how long until AI can do it better?",
-      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-12",
-      "tier": 2,
-      "tags": [],
-      "summary": "Reflections on AI's writing ability and how AI models get more capable.",
-      "score": 0.0
-    },
-    {
-      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
-      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-14",
-      "tier": 2,
-      "tags": [
-        "synthetic-data"
-      ],
-      "summary": "Hint: It’s really not a distillation story.",
-      "score": 0.0
-    },
-    {
-      "title": "Teaching Everyone to Fish for Tokens",
-      "url": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-17",
-      "tier": 2,
-      "tags": [],
-      "summary": "Nvidia wants you building your own model, not buying from Anthropic/OpenAI.",
-      "score": 0.0
-    },
-    {
-      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-08",
-      "tier": 2,
-      "tags": [],
-      "summary": "The open model ecosystem continues to expand in its breadth",
-      "score": 0.0
-    },
-    {
-      "title": "When will average people feel AI’s impact?",
-      "url": "https://www.interconnects.ai/p/when-will-average-people-feel-ais",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-09",
-      "tier": 2,
-      "tags": [],
-      "summary": "We’re <5 years into a compounding revolution which could take a century, and how the AI industry should manage this.",
-      "score": 0.0
-    },
-    {
-      "title": "One resignation turned the embers of AI fear into a wildfire",
-      "url": "https://www.interconnects.ai/p/one-resignation-turned-the-embers",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-10",
-      "tier": 2,
-      "tags": [],
-      "summary": "Some quick notes on a truly weird week.",
-      "score": 0.0
-    },
-    {
-      "title": "Open-Source AI & Open Models Reading List",
-      "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-11",
-      "tier": 2,
-      "tags": [
-        "open-source"
-      ],
-      "summary": "How to get up to speed on open models and their implications.",
-      "score": 0.0
-    },
-    {
-      "title": "Why I still haven’t bought into true RSI",
-      "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-19",
-      "tier": 2,
-      "tags": [],
-      "summary": "An “AI moderate’s” view on recent events and the trajectory of frontier models.",
-      "score": 0.0
-    },
-    {
-      "title": "The current balance of power in open models",
-      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-21",
-      "tier": 2,
-      "tags": [],
-      "summary": "The expanded form of a testimony I prepared for Congress.",
-      "score": 0.0
-    },
-    {
-      "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
-      "url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-22",
-      "tier": 2,
-      "tags": [],
-      "summary": "Podcast #19",
-      "score": 0.0
-    },
-    {
-      "title": "The Cyber Risk Discourse is Broken",
-      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-10-06",
-      "tier": 2,
-      "tags": [
-        "open-source"
-      ],
-      "summary": "Open-weights, ideology, and acknowledging trade-offs.",
-      "score": 0.0
-    },
-    {
-      "title": "I expect rapid progress but not towards general superintelligence",
-      "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-10-09",
-      "tier": 2,
-      "tags": [],
-      "summary": "I’ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn’t really know why I doubted it.",
-      "score": 0.001
-    },
-    {
-      "title": "Meta shakes up the frontiers, open and closed",
-      "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-10-17",
-      "tier": 2,
-      "tags": [
-        "open-source"
-      ],
-      "summary": "US open weights are back!",
-      "score": 0.068
-    },
-    {
-      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [],
-      "summary": "Western open models strike back",
-      "score": 0.325
-    },
-    {
-      "title": "Meta Superintelligence – Leadership Compute, Talent, and Data",
-      "url": "https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-07-11",
-      "tier": 2,
-      "tags": [
-        "hardware",
-        "funding"
-      ],
-      "summary": "Meta’s shocking purchase of 49% of Scale AI at a ~$30B valuation shows that money is of no concern for the $100B annual cashflow ad machine. Despite seemingly unlimited resources, Meta has been falling behind foundation labs in model performance.",
-      "score": 0.0
-    },
-    {
-      "title": "Intel 18A Details & Cost, Future of DRAM 4F2 vs 3D, Backside Power Adoption (or Not), China’s FlipFET, Digital Twins from Atoms to Fabs, and More",
-      "url": "https://semianalysis.com/2025/07/21/vlsi2025/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-07-21",
-      "tier": 2,
-      "tags": [
-        "hardware"
-      ],
-      "summary": "Long time readers will recall that SemiAnalysis covers more than just datacenters and AMD. Today we’re back to semiconductors with a tech-focused roundup of the best from this year’s VLSI conference, the premiere design and integration. That includes the latest in chips manufacturing: fab digital tw",
-      "score": 0.0
-    },
-    {
-      "title": "Robotics Levels of Autonomy",
-      "url": "https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-07-30",
-      "tier": 2,
-      "tags": [],
-      "summary": "Robots have powered manufacturing for decades, yet they stayed single-purpose and thrived only in perfect settings. Previous attempts at intelligent machines overpromised and underdelivered. But they were too early. Today, modern AI paradigms convert most robot roadblocks into data problems and push",
-      "score": 0.0
-    },
-    {
-      "title": "Scaling the Memory Wall: The Rise and Roadmap of HBM",
-      "url": "https://semianalysis.com/2025/08/12/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-08-12",
-      "tier": 2,
-      "tags": [],
-      "summary": "The first portion of this report will explain HBM, the manufacturing process, dynamics between vendors, KVCache offload, disaggregated prefill decode, and wide / high-rank EP. The rest of the report will dive deeply into the future of HBM. We will cover the revolutionary change coming to HBM4 with c",
-      "score": 0.0
-    },
-    {
-      "title": "GPT-5 Set the Stage for Ad Monetization and the SuperApp",
-      "url": "https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-08-13",
-      "tier": 2,
-      "tags": [],
-      "summary": "To many power users (Pro and Plus), GPT5 was a disappointing release. But with closer inspection, the real release is focused on the vast majority of ChatGPT’s users, which is the 700m+ free userbase that is growing rapidly. Power users should be disappointed; this release wasn’t for them. The real ",
-      "score": 0.0
-    },
-    {
-      "title": "H100 vs GB200 NVL72 Training Benchmarks – Power, TCO, and Reliability Analysis, Software Improvement Over Time",
-      "url": "https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-08-20",
-      "tier": 2,
-      "tags": [
-        "evals",
-        "hardware"
-      ],
-      "summary": "Frontier model training has pushed GPUs and AI systems to their absolute limits, making cost, efficiency, power, performance per TCO, and reliability central to the discussion on effective training. The Hopper vs Blackwell comparisons are not as simple as Nvidia would have you believe. In this repor",
-      "score": 0.0
-    },
-    {
-      "title": "Amazon’s AI Resurgence: AWS & Anthropic’s Multi-Gigawatt Trainium Expansion",
-      "url": "https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-09-03",
-      "tier": 2,
-      "tags": [
-        "hardware"
-      ],
-      "summary": "Two-and-a-half years ago, we flagged a looming “cloud crisis” at AWS. Today, the evidence has mounted. AWS is the crown jewel of the Amazon empire, generating ~60% of group profits, and dominating the lucrative Cloud Computing market. But it struggles to translate this strength into the new GPU/XPU ",
-      "score": 0.0
-    },
-    {
-      "title": "Huawei Ascend Production Ramp: Die Banks, TSMC Continued Production, HBM is The Bottleneck",
-      "url": "https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-09-08",
-      "tier": 2,
-      "tags": [
-        "hardware"
-      ],
-      "summary": "Compute is the lifeblood of AI. He who controls the spice controls the universe the compute will control the production of tokens and reap the benefits of AI. Without compute you do not have a seat at the table. The United States technology community is all in on compute and AI as the next platform ",
-      "score": 0.0
-    },
-    {
-      "title": "Another Giant Leap: The Rubin CPX Specialized Accelerator & Rack",
-      "url": "https://semianalysis.com/2025/09/10/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-09-10",
-      "tier": 2,
-      "tags": [
-        "hardware"
-      ],
-      "summary": "Nvidia announced the Rubin CPX, a solution that is specifically designed to be optimized for the prefill phase, with the single-die Rubin CPX heavily emphasizing compute FLOPS over memory bandwidth. This is a game changer for inference, and its significance is surpassed only by the March 2024 announ",
-      "score": 0.0
-    },
-    {
-      "title": "xAI’s Colossus 2 – First Gigawatt Datacenter In The World, Unique RL Methodology, Capital Raise",
-      "url": "https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-09-16",
-      "tier": 2,
-      "tags": [
-        "hardware",
-        "funding"
-      ],
-      "summary": "Much has been written about xAI’s Colossus 1. The Memphis build belongs in the history books: the largest AI training cluster, erected from scratch in 122 days. With roughly 200,000 H100/H200s and ~30,000 GB200 NVL72, it remains, today, the largest fully operational, single-coherent cluster (setting",
-      "score": 0.0
+      "summary": "been digesting the details behind memt-1.0's memory-native architecture recently, and the engineering tradeoffs between full context kv caching and internalized parametric memory are pretty wild. instead of using append-only prompt stacking or external rag pipelines, memt-1.0 bakes memory directly i",
+      "score": 1.888
     },
     {
       "title": "Evaluating feature steering \\ Anthropic",
@@ -1225,7 +464,7 @@
         "safety"
       ],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "What 81,000 people told us about AI economics \\ Anthropic",
@@ -1236,7 +475,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "Project Vend: Can Claude run a small shop? \\ Anthropic",
@@ -1247,7 +486,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "Measuring AI agent autonomy in practice \\ Anthropic",
@@ -1260,7 +499,7 @@
         "agents"
       ],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "How Claude performs on robotics tasks \\ Anthropic",
@@ -1271,7 +510,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "Claude Mythos Preview's cybersecurity capabilities \\ Anthropic",
@@ -1282,7 +521,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "Anthropic Economic Index report: Cadences \\ Anthropic",
@@ -1293,7 +532,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "Discovering cryptographic weaknesses with Claude \\ Anthropic",
@@ -1304,7 +543,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "Claude does cyber competitions \\ Anthropic",
@@ -1315,7 +554,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "AI to defend critical infrastructure \\ Anthropic",
@@ -1326,7 +565,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "Cyber evaluations of Claude 4 \\ Anthropic",
@@ -1340,7 +579,7 @@
         "funding"
       ],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "LLMs and biorisk \\ Anthropic",
@@ -1351,7 +590,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "Reverse engineering Claude's CVE-2026-2796 exploit \\ Anthropic",
@@ -1362,7 +601,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "AI models on realistic cyber ranges \\ Anthropic",
@@ -1373,7 +612,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "Cyber toolkits for LLMs \\ Anthropic",
@@ -1384,7 +623,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "AI agents find smart contract exploits \\ Anthropic",
@@ -1397,7 +636,7 @@
         "agents"
       ],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "Finding bugs with Claude and property-based testing \\ Anthropic",
@@ -1408,7 +647,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "Project Vend: Phase two \\ Anthropic",
@@ -1419,7 +658,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "Developing nuclear safeguards for AI \\ Anthropic",
@@ -1430,7 +669,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
       "title": "LLM-discovered 0 days \\ Anthropic",
@@ -1441,163 +680,192 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.368
+      "score": 1.436
     },
     {
-      "title": "gpt 6 astra next generation work",
-      "url": "https://openai.com/index/gpt-6-astra-next-generation-work/",
+      "title": "ted taylor restaurant",
+      "url": "https://openai.com/index/ted-taylor-restaurant/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
       "date": "2026-10-24",
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.839
+      "score": 2.337
     },
     {
-      "title": "sharing the latest model spec",
-      "url": "https://openai.com/index/sharing-the-latest-model-spec/",
+      "title": "introducing the stateful runtime environment for agents in amazon bedrock",
+      "url": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-24",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 2.864
-    },
-    {
-      "title": "how chatgpt adoption has expanded",
-      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded/",
-      "source_id": "openai",
-      "source_name": "OpenAI Blog",
-      "date": "2026-10-24",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 2.876
-    },
-    {
-      "title": "introducing workspace agents in chatgpt",
-      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
-      "source_id": "openai",
-      "source_name": "OpenAI Blog",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "tier": 1,
       "tags": [
         "agents"
       ],
       "summary": "",
-      "score": 2.877
+      "score": 2.552
     },
     {
-      "title": "scaling social science research",
-      "url": "https://openai.com/index/scaling-social-science-research/",
+      "title": "devday 2026",
+      "url": "https://openai.com/index/devday-2026/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.882
+      "score": 2.553
     },
     {
-      "title": "how countries can end the capability overhang",
-      "url": "https://openai.com/index/how-countries-can-end-the-capability-overhang/",
+      "title": "accelerating science gpt 5",
+      "url": "https://openai.com/index/accelerating-science-gpt-5/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.888
+      "score": 2.557
     },
     {
-      "title": "chatgpt ads expands 26 new countries",
-      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries/",
+      "title": "gpt 4o system card",
+      "url": "https://openai.com/index/gpt-4o-system-card/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.89
+      "score": 2.633
     },
     {
-      "title": "mapping ai jobs transition eu",
-      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu/",
+      "title": "instruction following",
+      "url": "https://openai.com/index/instruction-following/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.904
+      "score": 2.664
     },
     {
-      "title": "anima",
-      "url": "https://openai.com/index/anima/",
+      "title": "sora system card",
+      "url": "https://openai.com/index/sora-system-card/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.911
+      "score": 2.664
     },
     {
-      "title": "decisions api",
-      "url": "https://openai.com/index/decisions-api/",
+      "title": "expanding on how voice engine works and our safety research",
+      "url": "https://openai.com/index/expanding-on-how-voice-engine-works-and-our-safety-research/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
+      "tier": 1,
+      "tags": [
+        "safety",
+        "speech-audio"
+      ],
+      "summary": "",
+      "score": 2.664
+    },
+    {
+      "title": "finding gpt4s mistakes with gpt 4",
+      "url": "https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-25",
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.914
+      "score": 2.664
     },
     {
-      "title": "uber chatgpt work rollout",
-      "url": "https://openai.com/index/uber-chatgpt-work-rollout/",
+      "title": "red teaming network",
+      "url": "https://openai.com/index/red-teaming-network/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "tier": 1,
-      "tags": [],
+      "tags": [
+        "safety"
+      ],
       "summary": "",
-      "score": 2.914
-    },
-    {
-      "title": "scaling storage one billion users part two",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two/",
-      "source_id": "openai",
-      "source_name": "OpenAI Blog",
-      "date": "2026-10-24",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 2.921
+      "score": 2.664
     },
     {
       "title": "forward deployed engineering means",
       "url": "https://openai.com/index/forward-deployed-engineering-means/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.932
+      "score": 2.692
+    },
+    {
+      "title": "scaling storage one billion users part two",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-25",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.721
+    },
+    {
+      "title": "coordinated disclosure of critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-25",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.82
+    },
+    {
+      "title": "anima",
+      "url": "https://openai.com/index/anima/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-25",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.918
+    },
+    {
+      "title": "openai nask ai safety security partnership",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-25",
+      "tier": 1,
+      "tags": [
+        "safety"
+      ],
+      "summary": "",
+      "score": 2.934
     },
     {
       "title": "securing our frontier model training environment",
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.994
+      "score": 2.996
     },
     {
       "title": "We’re expanding our presence in Singapore to advance AI in the Asia-Pacific region",
@@ -2713,7 +1981,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 0.014
+      "score": 0.009
     },
     {
       "title": "Gemini 4 Argon for Robotics",
@@ -2724,7 +1992,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 0.014
+      "score": 0.009
     },
     {
       "title": "Developing Gemini 4 Argon responsibly and safely",
@@ -2735,7 +2003,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 0.016
+      "score": 0.009
     },
     {
       "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
@@ -2748,7 +2016,7 @@
         "policy"
       ],
       "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-      "score": 0.018
+      "score": 0.011
     },
     {
       "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
@@ -2759,7 +2027,7 @@
       "tier": 1,
       "tags": [],
       "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-      "score": 0.039
+      "score": 0.024
     },
     {
       "title": "Beyond tree cover: mapping the world’s forest types",
@@ -2770,7 +2038,1038 @@
       "tier": 1,
       "tags": [],
       "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "score": 1.256
+      "score": 0.762
+    },
+    {
+      "title": "We can do impossible things",
+      "url": "https://www.technologyreview.com/2026/10/21/1146053/editor-letter-we-can-do-impossible-things/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-21",
+      "tier": 2,
+      "tags": [],
+      "summary": "I’d wager everyone has a rehearsed response to what’s absolutely one of the world’s worst interview questions: “What’s your biggest weakness?” Whenever I’ve gotten it, I take a slow—even pensive—breath and rattle off my line: “I say no to myself too much.” I won’t lie. It’s a bit shameless—a definit",
+      "score": 0.453
+    },
+    {
+      "title": "The Download: introducing the Impossible issue",
+      "url": "https://www.technologyreview.com/2026/10/21/1147573/the-download-introducing-impossible-issue/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-21",
+      "tier": 2,
+      "tags": [],
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Impossible issue We wanted our last print edition of 2026 to include a slate of stories that check in on impossible ideas. Why? Because it’s fun ",
+      "score": 0.484
+    },
+    {
+      "title": "AI’s hidden storage bill: What inference leaves behind",
+      "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-22",
+      "tier": 2,
+      "tags": [
+        "hardware",
+        "speech-audio"
+      ],
+      "summary": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from ",
+      "score": 0.742
+    },
+    {
+      "title": "Three things you should know about permafrost",
+      "url": "https://www.technologyreview.com/2026/10/22/1147591/permafrost-primer/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-22",
+      "tier": 2,
+      "tags": [],
+      "summary": "How much do you know about permafrost? Maybe, like me, you’ve been aware that this layer of frozen soil is thawing, that it’s important in the global puzzle of climate change … and that’s about the extent of it. The great news for both of us is that my colleague James Temple just published two…",
+      "score": 0.762
+    },
+    {
+      "title": "Making the case for context-aware AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-22",
+      "tier": 2,
+      "tags": [],
+      "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies",
+      "score": 0.762
+    },
+    {
+      "title": "The Download: computing’s next leap and permafrost’s climate threat",
+      "url": "https://www.technologyreview.com/2026/10/22/1147612/the-download-computing-next-leap-permafrost-climate-threat/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-22",
+      "tier": 2,
+      "tags": [],
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How far can we push computing? On a December evening in 1959, the physicist Richard Feynman gave a lecture called “There’s Plenty of Room at the Bottom.” There is",
+      "score": 0.798
+    },
+    {
+      "title": "The Foundations of Scalable AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-22",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how",
+      "score": 0.916
+    },
+    {
+      "title": "Designing an AI serving harness built to last",
+      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-22",
+      "tier": 2,
+      "tags": [
+        "agents",
+        "reasoning",
+        "evals"
+      ],
+      "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows,",
+      "score": 0.964
+    },
+    {
+      "title": "In the biotech world, you can’t see everything",
+      "url": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [],
+      "summary": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new inform",
+      "score": 1.231
+    },
+    {
+      "title": "The Download: testing six tech promises and biotech’s blind spots",
+      "url": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [],
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too good to give up on. Decoding a pet’s yowls and yips? Absolutely",
+      "score": 1.315
+    },
+    {
+      "title": "How Do Fungi Keep the Planet Healthy?",
+      "url": "https://www.quantamagazine.org/how-do-fungi-keep-the-planet-healthy-20261015/",
+      "source_id": "quanta",
+      "source_name": "Quanta Magazine",
+      "date": "2026-10-15",
+      "tier": 2,
+      "tags": [],
+      "summary": "Evolutionary biologist Toby Kiers explains how fungal networks in soil trade nutrients with plants, help keep carbon underground, and strike bargains without having a brain. The post How Do Fungi Keep the Planet Healthy? first appeared on Quanta Magazine",
+      "score": 0.025
+    },
+    {
+      "title": "He Wants AI Benchmarking To Be a Science, Not a Dark Art",
+      "url": "https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016/",
+      "source_id": "quanta",
+      "source_name": "Quanta Magazine",
+      "date": "2026-10-16",
+      "tier": 2,
+      "tags": [
+        "evals"
+      ],
+      "summary": "Moritz Hardt, author of a new book on benchmarks, believes these “standardized tests” for artificial intelligence are fundamentally broken — but not unfixable. The post He Wants AI Benchmarking To Be a Science, Not a Dark Art first appeared on Quanta Magazine",
+      "score": 0.041
+    },
+    {
+      "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+      "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+      "source_id": "quanta",
+      "source_name": "Quanta Magazine",
+      "date": "2026-10-19",
+      "tier": 2,
+      "tags": [],
+      "summary": "Unlike other recent AI proofs, this one has been unpacked by human experts. The implications, one mathematician said, are “staggering.” The post AI Proved the Quasi-Riemann Hypothesis. What Happens Now? first appeared on Quanta Magazine",
+      "score": 0.191
+    },
+    {
+      "title": "See Inside Cells Like Never Before in These Vivid Microscopic Images",
+      "url": "https://www.quantamagazine.org/see-inside-cells-like-never-before-in-these-vivid-microscopic-images-20261021/",
+      "source_id": "quanta",
+      "source_name": "Quanta Magazine",
+      "date": "2026-10-21",
+      "tier": 2,
+      "tags": [],
+      "summary": "Winning entries in the 2026 Nikon Small World competitions reveal the hidden interactions that govern everyday life. The post See Inside Cells Like Never Before in These Vivid Microscopic Images first appeared on Quanta Magazine",
+      "score": 0.503
+    },
+    {
+      "title": "Malaria Parasite Caught in the Act of Breaking and Entering",
+      "url": "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/",
+      "source_id": "quanta",
+      "source_name": "Quanta Magazine",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [],
+      "summary": "To invade red blood cells, the deadly protist creates a temporary molecular portal that disappears behind it — a door we can now see in fine detail. The post Malaria Parasite Caught in the Act of Breaking and Entering first appeared on Quanta Magazine",
+      "score": 1.392
+    },
+    {
+      "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [
+        "hardware",
+        "funding"
+      ],
+      "summary": "Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merger! The degree to which you find this merger compelling likely has to do with the degree ",
+      "score": 1.296
+    },
+    {
+      "title": "Meta turns Muse sharing back on",
+      "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-22",
+      "tier": 2,
+      "tags": [],
+      "summary": "Meta has re-enabled Muse sharing after security researchers had reported that public conversation links could be easy to find. The researchers said they had been able to find Muse pages like a marketing company's internal revenue review and a small business owner's loan application. Researchers at C",
+      "score": 0.95
+    },
+    {
+      "title": "Meta says Muse has over 10M users, with shopping a top activity",
+      "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-21",
+      "tier": 2,
+      "tags": [],
+      "summary": "Meta Muse users are adopting the app for shopping and personal productivity, the company said during its Q3 earnings call. The AI app now has over 10M users.",
+      "score": 0.584
+    },
+    {
+      "title": "TechCrunch Founder Summit 2026: Everything you need to know",
+      "url": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-21",
+      "tier": 2,
+      "tags": [],
+      "summary": "TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies.",
+      "score": 0.585
+    },
+    {
+      "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
+      "url": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-21",
+      "tier": 2,
+      "tags": [],
+      "summary": "The social media giant is planning a new stock strategy to help power its broad investments in AI models and services.",
+      "score": 0.603
+    },
+    {
+      "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+      "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-21",
+      "tier": 2,
+      "tags": [],
+      "summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
+      "score": 0.604
+    },
+    {
+      "title": "Built a home for 5 local companions on Gemma 4 26B: 3D rooms, journals, a D&D campaign, and they can text me on Discord",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xduy84/built_a_home_for_5_local_companions_on_gemma_4/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-24",
+      "tier": 2,
+      "tags": [
+        "speech-audio"
+      ],
+      "summary": "I've been building a companion app that runs fully local: LM Studio serving Gemma 4 26B (QAT), with a small Python server per companion and a three.js page for each one's room. All on an RTX 3070 Ti (8GB) + 32GB RAM; the MoE design is what makes that workable. I'm not a coder and I'm less than a mon",
+      "score": 1.708
+    },
+    {
+      "title": "Some benchmarks on mini-AGI (dynamic continual learning model) after training it completely from scratch for a month on a 8GB VRAM GPU.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xds6ts/some_benchmarks_on_miniagi_dynamic_continual/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [
+        "evals",
+        "hardware",
+        "funding"
+      ],
+      "summary": "The most important part is a difference between \"forzen\" and \"best effort\" attempts where we allow the model to specialize on the task as it goes through the evaluation dataset. Clearly showcasing the power of continual learning regime simply unavailable for any other typical LLM. Full code of the p",
+      "score": 1.633
+    },
+    {
+      "title": "Models on 5 algorithmic tasks on 16GB VRAM 32GB Ram V2",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe2cyy/models_on_5_algorithmic_tasks_on_16gb_vram_32gb/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-24",
+      "tier": 2,
+      "tags": [
+        "open-source",
+        "hardware"
+      ],
+      "summary": "Posted a bech I did here before: https://www.reddit.com/r/LocalLLaMA/comments/1x8qlvw/nine_models_five_coding_tasks_one_16gb_gpu/ Now I've done V2, tightened up the tasks a bit and a different lineup, plus a github repo now for anyone wanting to run this as well. https://github.com/Tako88/coding-ben",
+      "score": 1.968
+    },
+    {
+      "title": "everything will be local eventually",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdcpxb/everything_will_be_local_eventually/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [
+        "evals",
+        "hardware"
+      ],
+      "summary": "I know current llms like opus 5.5 are in a league of their own. but we all know they're losing a shti ton of money with their subscriptions. ALSO we all know how tasks like OCR, segmentation etc are getting solved by single digit B parameter models. I'm not saying llms are a gimmick but I'm saying t",
+      "score": 1.325
+    },
+    {
+      "title": "Models disappearing from Huggingface",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd7ptj/models_disappearing_from_huggingface/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [],
+      "summary": "I've been noticing a lot of my downloads stopping suddenly and being unable to resume. When I checked the models it seemed like they were gone. Here's the ones I can see are missing: dealignai/MiMo-V2.6-Pro-RL-UNCENSORED audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber huihui-ai/Huihui-Kimi-K2",
+      "score": 1.2
+    },
+    {
+      "title": "Sam Altman: OpenAI's best model \"can't responsibly be open-sourced\" until the world builds better cyberdefense and bio-security",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe0ioz/sam_altman_openais_best_model_cant_responsibly_be/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-24",
+      "tier": 2,
+      "tags": [
+        "reasoning",
+        "safety",
+        "open-source",
+        "hardware"
+      ],
+      "summary": "OpenAI co-founder and CEO Sam Altman recently sat down for an in-depth conversation at Stanford Graduate School of Business's \"View from the Top\" series, covering AI's development trajectory, safety challenges, organizational transformation, and personal growth. Altman admitted that OpenAI originall",
+      "score": 1.894
+    },
+    {
+      "title": "Dessa: Conversation Model trained only on speech",
+      "url": "https://block.xyz/dessa",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [
+        "speech-audio"
+      ],
+      "summary": "370 points, 134 comments",
+      "score": 2.571,
+      "points": 370,
+      "comments": 134
+    },
+    {
+      "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+      "url": "https://corgi.computer/",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "76 points, 20 comments",
+      "score": 2.304,
+      "points": 76,
+      "comments": 20
+    },
+    {
+      "title": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [],
+      "summary": "102 points, 104 comments",
+      "score": 2.402,
+      "points": 102,
+      "comments": 104
+    },
+    {
+      "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+      "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "date": "2026-10-24",
+      "tier": 2,
+      "tags": [],
+      "summary": "60 points, 9 comments",
+      "score": 2.768,
+      "points": 60,
+      "comments": 9
+    },
+    {
+      "title": "Gradient Routing Generalizes to Unrouted Hack Types",
+      "url": "https://www.lesswrong.com/posts/ie7bSp5ZDwYkCQxuv/gradient-routing-generalizes-to-unrouted-hack-types",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [
+        "agents",
+        "reasoning",
+        "evals",
+        "safety",
+        "open-source",
+        "hardware",
+        "funding"
+      ],
+      "summary": "TLDR: I lightly extend Ward, Hu et al (2026) to measure how well gradient routing generalizes. I route gradients on one type of reward hack (e.g. ones that reason in English) and check whether this suppresses other types at test time (e.g. ones that reason in French), despite the model being trained",
+      "score": 1.545
+    },
+    {
+      "title": "The Hackening",
+      "url": "https://www.lesswrong.com/posts/iqgZaJMnmyDCYfnuC/the-hackening-1",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [
+        "agents",
+        "multimodal",
+        "reasoning",
+        "synthetic-data",
+        "safety",
+        "open-source",
+        "hardware",
+        "policy"
+      ],
+      "summary": "Last week at a small conference, there was talk about a future event referred to as The Hackening. As in, within 6-12 months, many predicted that due to advanced AIs and AI agents the internet would become a severely hostile place. Some worried that this could rise to the level of ‘assume any phone ",
+      "score": 1.592
+    },
+    {
+      "title": "The AGI Chronicles",
+      "url": "https://www.lesswrong.com/posts/x2ZAgjs7XoHvJ4YpN/the-agi-chronicles",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [
+        "reasoning",
+        "hardware"
+      ],
+      "summary": "Book Review: The AGI Chronicles: The Inside Story of the Race to Create an Artificial Superintelligence, by Kevin Roose. This is a story of AI as seen through the eyes of the people who are creating it. My first impression of Roose was of his famous conversation with Sydney. I guessed that he got Sy",
+      "score": 1.609
+    },
+    {
+      "title": "Simulated Control Evaluations",
+      "url": "https://www.lesswrong.com/posts/uXiqyoKwpfjWfQXk5/simulated-control-evaluations",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [
+        "agents",
+        "rl",
+        "reasoning",
+        "evals",
+        "safety",
+        "hardware",
+        "policy",
+        "funding"
+      ],
+      "summary": "We’ve released a paper on simulated control evaluations (SCEs). They’re a method for testing whether the monitors AI developers use to oversee their agents would catch a model deliberately trying to cause harm, under conditions much closer to real deployment than current tests allow. Developers have",
+      "score": 1.623
+    },
+    {
+      "title": "Maybe You Suck at Relationships Because You’re Not Even Trying",
+      "url": "https://www.lesswrong.com/posts/uCH8iRd7TuAy5c6qD/maybe-you-suck-at-relationships-because-you-re-not-even",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-24",
+      "tier": 2,
+      "tags": [
+        "reasoning",
+        "evals",
+        "policy",
+        "funding"
+      ],
+      "summary": "The average person, presumably, just stumbles along in their relationships, without ever studying the science behind what makes them work. Imagine this : would you want a man, who didn’t go to medical school and doesn’t have a medical license, to perform surgery on you? What if, now hear me out, he’",
+      "score": 1.684
+    },
+    {
+      "title": "LoReFT GRAFT Better at Preventing RL Grift",
+      "url": "https://www.lesswrong.com/posts/B7LnjyJQnkgwKdtTx/loreft-graft-better-at-preventing-rl-grift",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-24",
+      "tier": 2,
+      "tags": [
+        "safety",
+        "open-source",
+        "hardware",
+        "policy"
+      ],
+      "summary": "tl;dr. I show that the recently introduced GRAFT method can be improved upon by using a single layer rank 1 Low-rank Linear Subspace Representation Fine Tuning (LoReFT) adapter as the FORGET adapter, using only 0.029% of the parameters of the one used in the GRAFT paper. This approach achieves an eq",
+      "score": 1.727
+    },
+    {
+      "title": "Testing Gemini’s Ability to Hold a Human Persona",
+      "url": "https://www.lesswrong.com/posts/u5skMKr9pP5btaHze/testing-gemini-s-ability-to-hold-a-human-persona",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-24",
+      "tier": 2,
+      "tags": [
+        "agents",
+        "reasoning",
+        "evals",
+        "safety",
+        "hardware",
+        "policy"
+      ],
+      "summary": "It's been quite a while since I have roleplayed with an LLM. Typically I spend all day chatting with LLMs to learn new topics, analyze ideas and approaches on a project, or simply ask about random occurring questions in my head. It was today after having my first ever can of Red Bull and an entire s",
+      "score": 1.806
+    },
+    {
+      "title": "Exploring the data landscape via metagradient descent",
+      "url": "https://www.lesswrong.com/posts/iduSpeG2Y6kAf4uHk/exploring-the-data-landscape-via-metagradient-descent",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-24",
+      "tier": 2,
+      "tags": [
+        "evals",
+        "safety",
+        "hardware",
+        "funding"
+      ],
+      "summary": "This project was done as part of the Iliad Fellowship. L.J. did this work while at EleutherAI. From functions to data That we can learn efficiently from our environment at all tells us something about (1) the world and (2) ourselves: (1) Regularities in the world are simple enough to be picked up fr",
+      "score": 1.817
+    },
+    {
+      "title": "Societal Impacts Research on AI (SIRA)",
+      "url": "https://www.lesswrong.com/posts/MgD6mDeGzydo7Xgnb/societal-impacts-research-on-ai-sira",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-24",
+      "tier": 2,
+      "tags": [
+        "safety",
+        "hardware",
+        "policy",
+        "speech-audio"
+      ],
+      "summary": "TL;DR: I'm launching Societal Impacts Research on AI (SIRA) , a mentored research fellowship to bring more social science talent into AI safety. We're looking for our first cohort of 15-20 social scientists, from undergrads to postdocs, to work on societal impact problems within AI safety. The first",
+      "score": 1.822
+    },
+    {
+      "title": "Self-reward can elicit diverse model personas",
+      "url": "https://www.lesswrong.com/posts/LBKjnyKDEwEJ45Wjf/self-reward-can-elicit-diverse-model-personas",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-24",
+      "tier": 2,
+      "tags": [
+        "reasoning",
+        "evals",
+        "open-source",
+        "hardware",
+        "funding"
+      ],
+      "summary": "Epistemic status: This is mostly a toy project rather than a thorough scientific investigation. Most design choices are not ablated. We list some caveats at the end of the post. We let Qwen3.5-2B choose its own reward during GRPO on introspection-adjacent prompts, and this ends up eliciting quite di",
+      "score": 1.946
+    },
+    {
+      "title": "Kimi K3: The open-weights escalation",
+      "url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-07-20",
+      "tier": 2,
+      "tags": [
+        "open-source"
+      ],
+      "summary": "The global implications on the AI ecosystem.",
+      "score": 0.0
+    },
+    {
+      "title": "Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next",
+      "url": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-07-22",
+      "tier": 2,
+      "tags": [
+        "synthetic-data",
+        "open-source",
+        "speech-audio"
+      ],
+      "summary": "A podcast with Florian Brand.",
+      "score": 0.0
+    },
+    {
+      "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-02",
+      "tier": 2,
+      "tags": [],
+      "summary": "Capacity to train strong models is proliferating.",
+      "score": 0.0
+    },
+    {
+      "title": "Introducing our Artifacts Hub and Adoption Dashboard",
+      "url": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-03",
+      "tier": 2,
+      "tags": [],
+      "summary": "Scaling our curation and measurement of the open ecosystem.",
+      "score": 0.0
+    },
+    {
+      "title": "Lessons from the hacks",
+      "url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-09",
+      "tier": 2,
+      "tags": [
+        "safety"
+      ],
+      "summary": "Musings on model alignment, what determines safety, and where we go from here.",
+      "score": 0.0
+    },
+    {
+      "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
+      "url": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-10",
+      "tier": 2,
+      "tags": [],
+      "summary": "After a few long years of finding time to document my lessons from training open models, my post-training book is done!",
+      "score": 0.0
+    },
+    {
+      "title": "I wrote an AI textbook — how long until AI can do it better?",
+      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-12",
+      "tier": 2,
+      "tags": [],
+      "summary": "Reflections on AI's writing ability and how AI models get more capable.",
+      "score": 0.0
+    },
+    {
+      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-14",
+      "tier": 2,
+      "tags": [
+        "synthetic-data"
+      ],
+      "summary": "Hint: It’s really not a distillation story.",
+      "score": 0.0
+    },
+    {
+      "title": "Teaching Everyone to Fish for Tokens",
+      "url": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-17",
+      "tier": 2,
+      "tags": [],
+      "summary": "Nvidia wants you building your own model, not buying from Anthropic/OpenAI.",
+      "score": 0.0
+    },
+    {
+      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-08",
+      "tier": 2,
+      "tags": [],
+      "summary": "The open model ecosystem continues to expand in its breadth",
+      "score": 0.0
+    },
+    {
+      "title": "When will average people feel AI’s impact?",
+      "url": "https://www.interconnects.ai/p/when-will-average-people-feel-ais",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-09",
+      "tier": 2,
+      "tags": [],
+      "summary": "We’re <5 years into a compounding revolution which could take a century, and how the AI industry should manage this.",
+      "score": 0.0
+    },
+    {
+      "title": "One resignation turned the embers of AI fear into a wildfire",
+      "url": "https://www.interconnects.ai/p/one-resignation-turned-the-embers",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-10",
+      "tier": 2,
+      "tags": [],
+      "summary": "Some quick notes on a truly weird week.",
+      "score": 0.0
+    },
+    {
+      "title": "Open-Source AI & Open Models Reading List",
+      "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-11",
+      "tier": 2,
+      "tags": [
+        "open-source"
+      ],
+      "summary": "How to get up to speed on open models and their implications.",
+      "score": 0.0
+    },
+    {
+      "title": "Why I still haven’t bought into true RSI",
+      "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-19",
+      "tier": 2,
+      "tags": [],
+      "summary": "An “AI moderate’s” view on recent events and the trajectory of frontier models.",
+      "score": 0.0
+    },
+    {
+      "title": "The current balance of power in open models",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-21",
+      "tier": 2,
+      "tags": [],
+      "summary": "The expanded form of a testimony I prepared for Congress.",
+      "score": 0.0
+    },
+    {
+      "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
+      "url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-22",
+      "tier": 2,
+      "tags": [],
+      "summary": "Podcast #19",
+      "score": 0.0
+    },
+    {
+      "title": "The Cyber Risk Discourse is Broken",
+      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-10-06",
+      "tier": 2,
+      "tags": [
+        "open-source"
+      ],
+      "summary": "Open-weights, ideology, and acknowledging trade-offs.",
+      "score": 0.0
+    },
+    {
+      "title": "I expect rapid progress but not towards general superintelligence",
+      "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-10-09",
+      "tier": 2,
+      "tags": [],
+      "summary": "I’ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn’t really know why I doubted it.",
+      "score": 0.001
+    },
+    {
+      "title": "Meta shakes up the frontiers, open and closed",
+      "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-10-17",
+      "tier": 2,
+      "tags": [
+        "open-source"
+      ],
+      "summary": "US open weights are back!",
+      "score": 0.068
+    },
+    {
+      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "Western open models strike back",
+      "score": 0.325
+    },
+    {
+      "title": "Meta Superintelligence – Leadership Compute, Talent, and Data",
+      "url": "https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-07-11",
+      "tier": 2,
+      "tags": [
+        "hardware",
+        "funding"
+      ],
+      "summary": "Meta’s shocking purchase of 49% of Scale AI at a ~$30B valuation shows that money is of no concern for the $100B annual cashflow ad machine. Despite seemingly unlimited resources, Meta has been falling behind foundation labs in model performance.",
+      "score": 0.0
+    },
+    {
+      "title": "Intel 18A Details & Cost, Future of DRAM 4F2 vs 3D, Backside Power Adoption (or Not), China’s FlipFET, Digital Twins from Atoms to Fabs, and More",
+      "url": "https://semianalysis.com/2025/07/21/vlsi2025/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-07-21",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "Long time readers will recall that SemiAnalysis covers more than just datacenters and AMD. Today we’re back to semiconductors with a tech-focused roundup of the best from this year’s VLSI conference, the premiere design and integration. That includes the latest in chips manufacturing: fab digital tw",
+      "score": 0.0
+    },
+    {
+      "title": "Robotics Levels of Autonomy",
+      "url": "https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-07-30",
+      "tier": 2,
+      "tags": [],
+      "summary": "Robots have powered manufacturing for decades, yet they stayed single-purpose and thrived only in perfect settings. Previous attempts at intelligent machines overpromised and underdelivered. But they were too early. Today, modern AI paradigms convert most robot roadblocks into data problems and push",
+      "score": 0.0
+    },
+    {
+      "title": "Scaling the Memory Wall: The Rise and Roadmap of HBM",
+      "url": "https://semianalysis.com/2025/08/12/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-08-12",
+      "tier": 2,
+      "tags": [],
+      "summary": "The first portion of this report will explain HBM, the manufacturing process, dynamics between vendors, KVCache offload, disaggregated prefill decode, and wide / high-rank EP. The rest of the report will dive deeply into the future of HBM. We will cover the revolutionary change coming to HBM4 with c",
+      "score": 0.0
+    },
+    {
+      "title": "GPT-5 Set the Stage for Ad Monetization and the SuperApp",
+      "url": "https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-08-13",
+      "tier": 2,
+      "tags": [],
+      "summary": "To many power users (Pro and Plus), GPT5 was a disappointing release. But with closer inspection, the real release is focused on the vast majority of ChatGPT’s users, which is the 700m+ free userbase that is growing rapidly. Power users should be disappointed; this release wasn’t for them. The real ",
+      "score": 0.0
+    },
+    {
+      "title": "H100 vs GB200 NVL72 Training Benchmarks – Power, TCO, and Reliability Analysis, Software Improvement Over Time",
+      "url": "https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-08-20",
+      "tier": 2,
+      "tags": [
+        "evals",
+        "hardware"
+      ],
+      "summary": "Frontier model training has pushed GPUs and AI systems to their absolute limits, making cost, efficiency, power, performance per TCO, and reliability central to the discussion on effective training. The Hopper vs Blackwell comparisons are not as simple as Nvidia would have you believe. In this repor",
+      "score": 0.0
+    },
+    {
+      "title": "Amazon’s AI Resurgence: AWS & Anthropic’s Multi-Gigawatt Trainium Expansion",
+      "url": "https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-09-03",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "Two-and-a-half years ago, we flagged a looming “cloud crisis” at AWS. Today, the evidence has mounted. AWS is the crown jewel of the Amazon empire, generating ~60% of group profits, and dominating the lucrative Cloud Computing market. But it struggles to translate this strength into the new GPU/XPU ",
+      "score": 0.0
+    },
+    {
+      "title": "Huawei Ascend Production Ramp: Die Banks, TSMC Continued Production, HBM is The Bottleneck",
+      "url": "https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-09-08",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "Compute is the lifeblood of AI. He who controls the spice controls the universe the compute will control the production of tokens and reap the benefits of AI. Without compute you do not have a seat at the table. The United States technology community is all in on compute and AI as the next platform ",
+      "score": 0.0
+    },
+    {
+      "title": "Another Giant Leap: The Rubin CPX Specialized Accelerator & Rack",
+      "url": "https://semianalysis.com/2025/09/10/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-09-10",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "Nvidia announced the Rubin CPX, a solution that is specifically designed to be optimized for the prefill phase, with the single-die Rubin CPX heavily emphasizing compute FLOPS over memory bandwidth. This is a game changer for inference, and its significance is surpassed only by the March 2024 announ",
+      "score": 0.0
+    },
+    {
+      "title": "xAI’s Colossus 2 – First Gigawatt Datacenter In The World, Unique RL Methodology, Capital Raise",
+      "url": "https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-09-16",
+      "tier": 2,
+      "tags": [
+        "hardware",
+        "funding"
+      ],
+      "summary": "Much has been written about xAI’s Colossus 1. The Memphis build belongs in the history books: the largest AI training cluster, erected from scratch in 122 days. With roughly 200,000 H100/H200s and ~30,000 GB200 NVL72, it remains, today, the largest fully operational, single-coherent cluster (setting",
+      "score": 0.0
+    },
+    {
+      "title": "gpt 6 astra next generation work",
+      "url": "https://openai.com/index/gpt-6-astra-next-generation-work/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-24",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.839
+    },
+    {
+      "title": "sharing the latest model spec",
+      "url": "https://openai.com/index/sharing-the-latest-model-spec/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-24",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.864
+    },
+    {
+      "title": "how chatgpt adoption has expanded",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-24",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.876
+    },
+    {
+      "title": "introducing workspace agents in chatgpt",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-24",
+      "tier": 1,
+      "tags": [
+        "agents"
+      ],
+      "summary": "",
+      "score": 2.877
+    },
+    {
+      "title": "scaling social science research",
+      "url": "https://openai.com/index/scaling-social-science-research/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-24",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.882
+    },
+    {
+      "title": "how countries can end the capability overhang",
+      "url": "https://openai.com/index/how-countries-can-end-the-capability-overhang/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-24",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.888
+    },
+    {
+      "title": "chatgpt ads expands 26 new countries",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-24",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.89
+    },
+    {
+      "title": "mapping ai jobs transition eu",
+      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-24",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.904
+    },
+    {
+      "title": "decisions api",
+      "url": "https://openai.com/index/decisions-api/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-24",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.914
+    },
+    {
+      "title": "uber chatgpt work rollout",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-24",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.914
     },
     {
       "title": "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
@@ -5854,17 +6153,6 @@
     {
       "title": "introducing aardvark",
       "url": "https://openai.com/index/introducing-aardvark/",
-      "source_id": "openai",
-      "source_name": "OpenAI Blog",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 2.999
-    },
-    {
-      "title": "coordinated disclosure of critical vulnerabilities",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
       "date": "2026-10-23",
@@ -14545,117 +14833,237 @@
   ],
   "ideas": [
     {
-      "title": "The \"offline training\" pivot creates an urgent need for synthetic internet archaeology",
+      "title": "Agentic vulnerability discovery needs a \"Patch the Planet\" coordination layer for open-source ecosystems",
       "section": "Research directions & gaps",
-      "body": "OpenAI has stopped training frontier models on the live internet, citing \"significant risks\" [TechCrunch AI], and now trains in an offline environment [The Verge AI]. This is not just an operational detail—it means the next generation of models will have a *frozen, curated* view of the web. A major research gap is how to reconstruct high-fidelity, safety-filtered training corpora from snapshots, and how to detect and patch knowledge gaps that emerge when models can no longer absorb post-cutoff events. This intersects with \"Can an Agent Debug a Web Corpus?\" [arXiv/HF], which shows agents can audit multilingual web data for failure modes. The combination suggests a new subfield: *corpus forensics*—using agents to continuously audit, repair, and version offline training datasets. Signal: OpenAI offline training [TechCrunch AI, The Verge AI]; Agentic auditing of Slovak FineWeb2 [arXiv/HF].",
+      "body": "The coordinated disclosure of critical vulnerabilities by AI agents [OpenAI Blog] and Anthropic's LLM-discovered 0-days [Anthropic Research & News] show agents can find real bugs, but the bottleneck is now triage, patch distribution, and coordination across thousands of maintainers. The \"Patch the Planet\" framing [Hacker News] implies a global response infrastructure, yet no research exists on how to route agent-discovered vulnerabilities to the right humans, verify fixes, and prevent duplicate work across competing agent systems. This is a socio-technical gap: we need protocols for machine-readable vulnerability reports, reputation systems for agent-discovered bugs, and escalation paths that don't overwhelm maintainers. Signal: OpenAI coordinated disclosure [OpenAI Blog], Anthropic 0-days [Anthropic Research & News], Patch the Planet discussion [Hacker News].",
       "signal": ""
     },
     {
-      "title": "Agentic world models need \"out-of-view\" reasoning, not just better perception",
+      "title": "World models need \"out-of-view\" reasoning benchmarks, not just visual prediction",
       "section": "Research directions & gaps",
-      "body": "OverSeer introduces multi-agent world models that reason about what agents *don't* see [arXiv/HF], and ALPS proposes visual state encoders for world models [arXiv/HF]. But most current work still assumes a single agent with a bounded observation window. A clear research gap is *shared, persistent world state across heterogeneous agents*—especially when agents have different sensors, action spaces, and failure modes. This connects to \"Multimodal Embodied Agents\" [arXiv/HF], which unifies computer-use and robot-use, but stops short of multi-agent world-state reconciliation. The non-obvious direction: treat world-model consistency as a *communication problem*, not a perception problem. Signal: OverSeer [arXiv/HF]; ALPS [arXiv/HF]; Multimodal Embodied Agents [arXiv/HF].",
+      "body": "OverSeer introduces multi-agent world models that reason about what agents cannot see [arXiv 2610.28554], and ALPS proposes visual state encoders for world models [arXiv 2610.30120]. But current video world model benchmarks focus on predicting visible future frames. The gap is evaluating whether models can infer hidden state—occluded objects, off-screen agents, unobserved causal variables—and use that to make better predictions. This connects to \"Learning the 4D World through Point Trajectory Forecasting\" [arXiv 2610.28594], which tracks points through time but doesn't test occlusion reasoning. A benchmark for \"hidden-state world modeling\" would force models to maintain beliefs about unobservables, a prerequisite for robust embodied agents. Signal: OverSeer [arXiv 2610.28554], ALPS [arXiv 2610.30120], 4D point trajectory forecasting [arXiv 2610.28594].",
       "signal": ""
     },
     {
-      "title": "Test-time regression could replace pooling, but only if we solve the calibration problem",
+      "title": "Test-time sequence compression is an underexplored lever for long-context efficiency",
       "section": "Research directions & gaps",
-      "body": "\"Rethinking Sequence Compression with Test-time Regression\" [arXiv/HF] challenges the dominant pooling/attention bottleneck for compressing long sequences. Meanwhile, \"What Makes a Good Unmasking Policy?\" [arXiv/HF] shows learned unmasking in diffusion LMs is highly sensitive to policy design. The gap: *test-time regression for sequence compression has no established failure mode analysis*. When does it overfit to the test distribution? How does it interact with speculative decoding or KV-cache sharing? A systematic study of test-time regression under distribution shift—paired with the unmasking policy insights—could yield a new class of adaptive sequence compressors that are both faster and more calibrated. Signal: Test-time regression [arXiv/HF]; Learned unmasking [arXiv/HF].",
+      "body": "Rethinking Sequence Compression with Test-time Regression [arXiv 2610.31574] suggests compression can be learned at inference rather than baked into architecture. This opens a research direction: adaptive compression policies that depend on the query, not just the input. Combined with TokenGate's learned token pruning [r/LocalLLaMA] and cache engineering for agents [arXiv 2610.28577], there's a coherent research program around \"query-conditioned memory\" where agents decide what to compress, retain, or discard based on the task at hand. The gap is formalizing when compression hurts downstream reasoning and when it's safe—especially for agentic workflows that revisit context multiple times. Signal: Test-time regression compression [arXiv 2610.31574], TokenGate [r/LocalLLaMA], Cache Engineering for Agents [arXiv 2610.28577].",
       "signal": ""
     },
     {
-      "title": "Credit assignment in long-horizon agentic RL is still unsolved, and \"twin-world\" methods hint at a fix",
+      "title": "Diffusion language models need \"unmasking policy\" research that accounts for semantic coherence, not just speed",
       "section": "Research directions & gaps",
-      "body": "Self-Credit [arXiv/HF] and Twin-World Credit Assignment [arXiv/HF] both attack the problem of assigning reward to individual decisions in long episodes. But neither addresses *credit assignment across multiple agents* with shared rewards—a setting that becomes critical as agent swarms (e.g., \"Can a million AI agents create superintelligence?\" [LessWrong]) become practical. The research gap is a *compositional credit assignment* framework that works when agents have partial observability of each other's actions. This would be a natural extension of the intra-group rescaling idea in Self-Credit, applied to inter-agent credit. Signal: Self-Credit [arXiv/HF]; Twin-World Credit Assignment [arXiv/HF]; Million-agent question [LessWrong].",
+      "body": "What Makes a Good Unmasking Policy [arXiv 2610.31576] studies learned unmasking in diffusion LMs, but the evaluation focuses on speed-accuracy tradeoffs. The under-explored question is whether unmasking order can be steered to preserve semantic coherence, avoid premature commitment to wrong tokens, or enable hierarchical generation (e.g., generate key entities first, then modifiers). This connects to Cola2's hierarchical language modeling with continuous semantic compression [arXiv 2610.31305] and Large Flow Language Models [arXiv 2610.28559], which both explore non-autoregressive generation. The research gap is a unified theory of \"what to generate first\" in parallel decoding. Signal: Unmasking policy study [arXiv 2610.31576], Cola2 [arXiv 2610.31305], Large Flow LMs [arXiv 2610.28559].",
       "signal": ""
     },
     {
-      "title": "Offline-first training corpus insurance for frontier labs",
+      "title": "Agent memory needs \"cache engineering\" as a first-class research area, not an implementation detail",
+      "section": "Research directions & gaps",
+      "body": "Cache Engineering for Agents [arXiv 2610.28577] and MemT-1.0's memory-native architecture [r/LocalLLaMA] point to a shift: memory is becoming a learned, optimized component rather than a fixed context window. But there's no standard taxonomy of agent memory operations (write, read, evict, merge, compress, index) or benchmarks for memory efficiency. The gap is especially acute for long-horizon agents that must maintain state across sessions, as seen in Sage-A1.5's long-horizon execution [arXiv 2610.28578] and Self-Credit's credit assignment for long-horizon RL [arXiv 2610.28388]. Research should ask: what are the memory primitives that agents need, and how do they differ from human memory or database caching? Signal: Cache Engineering for Agents [arXiv 2610.28577], MemT-1.0 [r/LocalLLaMA], Sage-A1.5 [arXiv 2610.28578].",
+      "signal": ""
+    },
+    {
+      "title": "Embodied agent benchmarks need to bridge \"computer-use\" and \"robot-use\" with shared capability metrics",
+      "section": "Research directions & gaps",
+      "body": "Multimodal Embodied Agents [arXiv 2610.30108] proposes a unified capability-centric perspective from computer-use to robot-use, but existing benchmarks are siloed: AgentVQA tests visual understanding [arXiv 2610.31494], DuoCook tests coordination [arXiv 2610.31494], and BrickWright tests physical feasibility [arXiv 2610.31651]. The gap is a cross-embodiment benchmark that measures transferable skills—spatial reasoning, tool use, planning under physics constraints—across digital and physical domains. This would require standardizing action spaces, success criteria, and difficulty levels across very different environments. Signal: Multimodal Embodied Agents [arXiv 2610.30108], AgentVQA [arXiv 2610.31494], BrickWright [arXiv 2610.31651], DuoCook [arXiv 2610.31494].",
+      "signal": ""
+    },
+    {
+      "title": "Decision models in LLM systems need diagnostic benchmarks that isolate failure modes",
+      "section": "Research directions & gaps",
+      "body": "DecisionPivot [arXiv 2610.28522] introduces a diagnostic benchmark for decision models, and OpenAI's Decisions API [OpenAI Blog] signals production interest in structured decision outputs. But the research gap is understanding how decision models fail: do they overcommit, undercommit, miscalibrate confidence, or fail to account for downstream consequences? VX-One's work on calibrated decision heads for perimeter triage [arXiv 2610.30090] suggests calibration under drift is a key failure mode. A systematic taxonomy of decision-model failures would inform both training and deployment guardrails. Signal: DecisionPivot [arXiv 2610.28522], VX-One [arXiv 2610.30090], Decisions API [OpenAI Blog].",
+      "signal": ""
+    },
+    {
+      "title": "Video-centered deep research agents need evidence-grounding protocols, not just retrieval",
+      "section": "Research directions & gaps",
+      "body": "Beyond Watching and Searching [arXiv 2610.31158] benchmarks agents for video-centered deep research, and EvaOmni [arXiv 2610.28444] emphasizes evidence-grounded audio-visual reasoning. The gap is a protocol for how agents cite, verify, and synthesize claims from video sources—analogous to citation standards in text-based research. This is especially important as video becomes a primary source for journalism, education, and legal evidence. Research should address: how to timestamp claims, how to handle conflicting video evidence, and how to detect manipulated or out-of-context footage. Signal: Video deep research benchmark [arXiv 2610.31158], EvaOmni [arXiv 2610.28444].",
+      "signal": ""
+    },
+    {
+      "title": "Credit assignment for long-horizon agentic RL is still unsolved, and \"twin-world\" methods may be a path forward",
+      "section": "Research directions & gaps",
+      "body": "Self-Credit [arXiv 2610.28388] and Same Luck, Different Choice [arXiv 2610.31494] both tackle credit assignment via counterfactual branching, but neither fully solves the problem of attributing success to individual decisions in long trajectories. The research gap is developing credit assignment methods that are computationally tractable for real-world agent tasks (not just simulated environments) and that can handle sparse rewards, delayed effects, and stochastic environments. This connects to METTA's memory-enhanced test-time adaptation for meta-RL [arXiv 2610.31494], which also struggles with long-horizon credit assignment. Signal: Self-Credit [arXiv 2610.28388], Same Luck Different Choice [arXiv 2610.31494], METTA [arXiv 2610.31494].",
+      "signal": ""
+    },
+    {
+      "title": "\"Honest unknown\" detection for security triage is an under-explored safety research area",
+      "section": "Research directions & gaps",
+      "body": "VX-One's typed, calibrated decision heads for perimeter triage [arXiv 2610.30090] explicitly studies \"unknown-attack honesty\"—the ability to say \"I don't know what this is\" rather than forcing a classification. This is a critical safety property for AI systems deployed in security contexts, but it's rarely studied outside of out-of-distribution detection. The gap is developing methods that can distinguish between \"known unknown\" (a novel attack type) and \"known known\" (a familiar attack) with calibrated confidence, and that degrade gracefully under distribution drift. Signal: VX-One [arXiv 2610.30090], OpenAI securing training environment [OpenAI Blog].",
+      "signal": ""
+    },
+    {
+      "title": "Cultural and linguistic diversity in agent benchmarks is still a blind spot",
+      "section": "Research directions & gaps",
+      "body": "CulturalRiddles [arXiv 2610.29968] highlights multicultural reasoning gaps, and AgentVQA [arXiv 2610.31494] is primarily English-centric. The gap is agent benchmarks that test not just language translation but cultural competence—understanding local norms, idioms, social hierarchies, and context-dependent communication. This is especially important as agents deploy globally (e.g., Uber's ChatGPT Work rollout [OpenAI Blog], Walmart's agent shopping [The Verge AI]). Research should ask: what does it mean for an agent to be culturally fluent, and how do we measure it? Signal: CulturalRiddles [arXiv 2610.29968], AgentVQA [arXiv 2610.31494], global agent deployments [OpenAI Blog, The Verge AI].",
+      "signal": ""
+    },
+    {
+      "title": "\"Agent memory as a service\" — a managed cache layer for long-horizon AI agents",
       "section": "Product / startup opportunities",
-      "body": "Now that OpenAI has gone offline for training [TechCrunch AI, The Verge AI], every lab with frontier ambitions will face the same \"frozen internet\" problem. A startup could offer *versioned, audited, safety-filtered web snapshots* specifically designed for LLM training—essentially \"Git for the training web.\" This would combine agentic corpus auditing [arXiv/HF] with the kind of attack-surface reduction Anthropic is already doing [Anthropic Research & News]. The value prop: labs don't want to build and maintain their own offline mirrors, and they need guarantees about what's in (and not in) the data. Signal: OpenAI offline training [TechCrunch AI, The Verge AI]; Agentic corpus debugging [arXiv/HF]; Anthropic attack-surface reduction [Anthropic Research & News].",
+      "body": "Cache Engineering for Agents [arXiv 2610.28577] and MemT-1.0's 66x smaller storage footprint [r/LocalLLaMA] show that agent memory is a systems problem, not just a model problem. A startup could offer a managed memory layer that plugs into any agent framework, providing automatic compression, indexing, retrieval, and eviction policies tuned per task. This would be especially valuable for enterprise agents that must maintain state across sessions and users, as seen in Uber's 30,000-employee ChatGPT Work deployment [OpenAI Blog]. Signal: Cache Engineering for Agents [arXiv 2610.28577], MemT-1.0 [r/LocalLLaMA], Uber ChatGPT Work [OpenAI Blog].",
       "signal": ""
     },
     {
-      "title": "Agent credential brokering for the post-password economy",
+      "title": "\"Patch the Planet\" coordination platform for AI-discovered vulnerabilities",
       "section": "Product / startup opportunities",
-      "body": "1Password launched a feature that lets AI agents log in on your behalf without seeing your password [TechCrunch AI], and Walmart is explicitly welcoming shopping agents [The Verge AI, TechCrunch AI] while Amazon blocks them [TechCrunch AI]. The opportunity: a neutral *agent identity and consent layer* that works across retailers, SaaS tools, and enterprise systems. This is not just a password manager—it's a permissions broker that lets users grant scoped, revocable, time-limited access to agents. The fragmentation between Walmart's open-door policy and Amazon's blockade creates a wedge for a third-party standard. Signal: 1Password agent login [TechCrunch AI]; Walmart vs Amazon agent policies [TechCrunch AI, The Verge AI].",
+      "body": "OpenAI's coordinated disclosure [OpenAI Blog] and Anthropic's LLM-discovered 0-days [Anthropic Research & News] show agents are finding real bugs, but the fix pipeline is manual. A platform that ingests agent-discovered vulnerabilities, routes them to maintainers, tracks patch status, and provides machine-readable reports would be a natural infrastructure play. This is especially urgent given \"The Hackening\" predictions of AI-driven exploitation within 6-12 months [LessWrong]. Signal: OpenAI coordinated disclosure [OpenAI Blog], Anthropic 0-days [Anthropic Research & News], The Hackening [LessWrong].",
       "signal": ""
     },
     {
-      "title": "Local-first \"agent cache\" infrastructure for small-GPU deployments",
+      "title": "\"Evidence-grounded video research\" tools for journalism and legal discovery",
       "section": "Product / startup opportunities",
-      "body": "Specter [arXiv/HF, r/LocalLLaMA] shows how speculative offloading can make MoE models run on modest hardware, and \"Cache Engineering for Agents\" [arXiv/HF] formalizes caching for agentic workloads. Meanwhile, the r/LocalLLaMA community is obsessed with squeezing 35B+ models onto 16GB GPUs [r/LocalLLaMA]. A product that packages *agent-specific cache layers* (prompt caches, tool-result caches, KV-cache offloading) into a drop-in local inference stack would unlock a huge underserved market: developers who want agentic coding or research assistants but can't afford A100s. The non-obvious angle is that agent workloads have *repetitive, structured* cache patterns that are very different from chat. Signal: Specter [arXiv/HF, r/LocalLLaMA]; Cache Engineering for Agents [arXiv/HF]; LocalLLaMA hardware threads [r/LocalLLaMA].",
+      "body": "Beyond Watching and Searching [arXiv 2610.31158] and EvaOmni [arXiv 2610.28444] show agents can reason over video with evidence grounding, but no product exists for journalists or lawyers to generate cited, timestamped video research reports. A tool that ingests video archives, extracts claims, links them to specific timestamps, and flags potential manipulation or out-of-context footage would address a growing need as AI-generated video proliferates. Signal: Video deep research benchmark [arXiv 2610.31158], EvaOmni [arXiv 2610.28444], AI-generated video concerns [The Verge AI].",
       "signal": ""
     },
     {
-      "title": "\"Patch the Planet\" as a managed security service for open-source ecosystems",
+      "title": "\"Physically feasible\" design agents for makers and manufacturers",
       "section": "Product / startup opportunities",
-      "body": "OpenAI's coordinated disclosure of critical vulnerabilities [OpenAI Blog, Hacker News] and the PHP Armageddon event [TechCrunch AI] show that AI agents are now finding real, exploitable bugs at scale. But most open-source maintainers can't triage, patch, and deploy fixes fast enough. A startup could offer *agent-driven vulnerability remediation as a service*: continuously scan dependencies, generate patches with Claude/Codex, run property-based tests [Anthropic Research & News], and open PRs. The moat is not the scanning—it's the trust and workflow integration with maintainers who are drowning. Signal: Coordinated disclosure [OpenAI Blog, Hacker News]; PHP Armageddon [TechCrunch AI]; Claude property-based testing [Anthropic Research & News].",
+      "body": "BrickWright [arXiv 2610.31651] shows agents can create physically feasible brick builds, but the principle extends to any physical assembly: furniture, electronics enclosures, modular construction. A product that takes a natural language description and outputs a physically buildable design—with part lists, assembly instructions, and stress analysis—would serve the growing maker and small-batch manufacturing market. This connects to DONIC's dexterous bimanual control from human demonstrations [arXiv 2610.29997], which could eventually enable robotic assembly of these designs. Signal: BrickWright [arXiv 2610.31651], DONIC [arXiv 2610.29997].",
       "signal": ""
     },
     {
-      "title": "Prediction: Within 18 months, a major lab will announce it trains on *synthetic* web snapshots, not raw crawls",
+      "title": "\"Calibrated triage\" as a service for security operations centers",
+      "section": "Product / startup opportunities",
+      "body": "VX-One's typed, calibrated decision heads for perimeter triage [arXiv 2610.30090] addresses a real pain point: security teams drowning in alerts, unable to distinguish real threats from noise. A product that provides calibrated confidence scores, explicit \"unknown\" classifications, and drift detection for security alerts would be immediately valuable. This is especially timely given the wave of AI-discovered vulnerabilities [OpenAI Blog, Anthropic Research & News] and the \"PHP Armageddon\" panic [TechCrunch AI]. Signal: VX-One [arXiv 2610.30090], coordinated disclosure [OpenAI Blog], PHP Armageddon [TechCrunch AI].",
+      "signal": ""
+    },
+    {
+      "title": "\"Agent-safe\" authentication and credential management",
+      "section": "Product / startup opportunities",
+      "body": "1Password's launch of agent login without password exposure [TechCrunch AI] addresses a critical gap: agents need to act on behalf of users, but sharing credentials is risky. This is a growing category—\"agent identity\"—that will require new protocols for delegated authentication, permission scoping, and audit trails. A startup could build the \"OAuth for agents\" layer, enabling fine-grained, revocable access for AI agents across services. Signal: 1Password agent login [TechCrunch AI], agent security incidents [The Verge AI], Walmart agent shopping [The Verge AI].",
+      "signal": ""
+    },
+    {
+      "title": "\"Local-first\" agent infrastructure for privacy-sensitive enterprises",
+      "section": "Product / startup opportunities",
+      "body": "The r/LocalLLaMA community's push toward local models [r/LocalLLaMA] and tools like llampart [r/LocalLLaMA] show demand for on-premise agent infrastructure. A product that packages local model serving, agent orchestration, and memory management into a deployable appliance would serve healthcare, legal, and government clients who can't send data to cloud APIs. This is especially relevant given OpenAI's decision to stop training on live internet [TechCrunch AI] and growing regulatory pressure on data handling. Signal: LocalLLaMA community [r/LocalLLaMA], OpenAI no internet training [TechCrunch AI], EU AI Act compliance [arXiv 2610.31494].",
+      "signal": ""
+    },
+    {
+      "title": "\"Interactive streaming video\" generation for real-time content creation",
+      "section": "Product / startup opportunities",
+      "body": "StreamEval [arXiv 2610.28402] and Looking Ahead [arXiv 2610.29989] point toward interactive, streaming video generation—models that generate video in real-time and respond to user input. This could enable new product categories: live AI-generated avatars for customer service, real-time game asset generation, or interactive educational videos. The gap is latency and coherence; a product that can generate 30fps video with sub-second response time would be transformative. Signal: StreamEval [arXiv 2610.28402], Looking Ahead [arXiv 2610.29989], RealMe volumetric video [arXiv 2610.30023].",
+      "signal": ""
+    },
+    {
+      "title": "\"Entity-consistent\" game rendering for retro and indie game remasters",
+      "section": "Product / startup opportunities",
+      "body": "AnyGameRenderer [arXiv 2610.31466] and the wave of AI-powered game decompilation [Simon Willison] suggest a product opportunity: automatically remastering retro games with consistent, high-quality rendering. This could serve the booming retro gaming market [The Verge AI] and indie developers who want to update their back catalogs. The key challenge is entity consistency—keeping characters, objects, and environments visually coherent across frames—which AnyGameRenderer specifically addresses. Signal: AnyGameRenderer [arXiv 2610.31466], AI game decompilation [Simon Willison], retro gaming trend [The Verge AI].",
+      "signal": ""
+    },
+    {
+      "title": "\"Calibrated accommodation\" for multilingual customer service agents",
+      "section": "Product / startup opportunities",
+      "body": "Answering in the User's Variety [arXiv 2610.28474] studies how models can match a user's language variety (dialect, formality, code-switching), and CulturalRiddles [arXiv 2610.29968] shows cultural gaps in reasoning. A product that automatically adapts customer service responses to the user's linguistic and cultural context would be valuable for global enterprises. This is especially relevant as agents deploy globally through platforms like Uber [OpenAI Blog] and Walmart [The Verge AI]. Signal: Calibrated accommodation [arXiv 2610.28474], CulturalRiddles [arXiv 2610.29968], global agent deployments [OpenAI Blog, The Verge AI].",
+      "signal": ""
+    },
+    {
+      "title": "Prediction: By mid-2027, \"agent memory\" will be a more important differentiator than model size for enterprise AI adoption",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "The offline-training shift [TechCrunch AI, The Verge AI] plus the rise of agentic corpus auditing [arXiv/HF] and generative rendering [AnyGameRenderer, SolarRenderer] points to a future where training data is *reconstructed* rather than collected. Synthetic web snapshots—generated by models that have already learned the web's structure—could be safer, cleaner, and more controllable than raw crawls. This is contrarian because most labs still treat synthetic data as a supplement, not a replacement. Falsifiable: if by mid-2028 no major lab has disclosed synthetic-primary training, this bet is wrong. Signal: Offline training [TechCrunch AI, The Verge AI]; Agentic corpus debugging [arXiv/HF]; Generative rendering advances [arXiv/HF].",
+      "body": "The proliferation of memory-focused research—Cache Engineering for Agents [arXiv 2610.28577], MemT-1.0 [r/LocalLLaMA], METTA [arXiv 2610.31494]—suggests the bottleneck is shifting from raw capability to state management. If true, we'd expect to see enterprises choosing smaller models with better memory systems over larger models with worse memory. Falsifiable: track enterprise model choices in 2027; if model size remains the primary selection criterion, this prediction is wrong. Signal: Cache Engineering [arXiv 2610.28577], MemT-1.0 [r/LocalLLaMA], enterprise agent deployments [OpenAI Blog].",
       "signal": ""
     },
     {
-      "title": "Bet: The \"Hackening\" will be a nothingburger for frontier labs, but a disaster for mid-tier enterprises",
+      "title": "Prediction: The \"Patch the Planet\" model will fail for open-source ecosystems because maintainers lack incentives to fix AI-discovered bugs",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "LessWrong is buzzing about \"The Hackening\"—a predicted wave of AI-driven exploits [LessWrong]. But OpenAI and Anthropic are already building offline training environments [OpenAI Blog, Hacker News] and coordinated disclosure pipelines [OpenAI Blog]. The real exposure is companies that run *older* models, *open-weight* models without security audits, or *agentic systems* with weak sandboxing. The contrarian take: the Hackening won't be an extinction event; it'll be a *compliance event* that separates orgs with real security engineering from those that just bought API access. Signal: The Hackening [LessWrong]; OpenAI offline training [OpenAI Blog, Hacker News]; Anthropic cyber evaluations [Anthropic Research & News].",
+      "body": "OpenAI's coordinated disclosure [OpenAI Blog] assumes maintainers will act on agent-discovered vulnerabilities, but open-source maintainers are already overwhelmed and often unpaid. The more likely outcome is that AI-discovered vulnerabilities accumulate faster than humans can fix them, creating a \"vulnerability debt\" crisis. Falsifiable: measure the fix rate for AI-discovered vs. human-discovered vulnerabilities over the next 12 months; if fix rates are similar, the prediction is wrong. Signal: Coordinated disclosure [OpenAI Blog], open-source maintainer burnout [Simon Willison], The Hackening [LessWrong].",
       "signal": ""
     },
     {
-      "title": "Prediction: Video-centric deep research will replace text-first search as the default for \"understanding what happened\"",
+      "title": "Contrarian bet: Diffusion language models will not replace autoregressive models for agentic tasks, despite efficiency gains",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "\"Beyond Watching and Searching\" [arXiv/HF] benchmarks agents that produce video-centered deep research reports, and \"Reading, Writing, Sharing, and Interacting with the World through Video\" [arXiv/HF] positions video as a first-class medium for world interaction. The contrarian bet: within 24 months, a major consumer AI product (Google, OpenAI, or Meta) will ship a feature where the *primary output* is a synthesized video briefing, not a text summary. This goes against the current text-first paradigm of ChatGPT/Gemini/Claude. Falsifiable: if no major consumer product ships video-native deep research by late 2028, this is wrong. Signal: Video deep research benchmark [arXiv/HF]; Video world models [arXiv/HF].",
+      "body": "What Makes a Good Unmasking Policy [arXiv 2610.31576] and Large Flow Language Models [arXiv 2610.28559] show progress in parallel decoding, but agentic tasks require sequential reasoning, tool use, and state management that may be fundamentally incompatible with parallel generation. The bet is that hybrid architectures—autoregressive for reasoning, diffusion for generation—will dominate, rather than pure diffusion LMs. Falsifiable: track whether any major agent framework adopts a diffusion LM as its core reasoning engine by 2027. Signal: Unmasking policy [arXiv 2610.31576], Large Flow LMs [arXiv 2610.28559], agent benchmarks [arXiv 2610.31494].",
       "signal": ""
     },
     {
-      "title": "Bet: The \"local everything\" movement will plateau because agentic workloads are inherently cloud-bound",
+      "title": "Prediction: \"Decision models\" will become a distinct product category, separate from language models, by end of 2026",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "r/LocalLLaMA is full of \"everything will be local eventually\" [r/LocalLLaMA] and impressive demos of 35B MoE on iPhones [r/LocalLLaMA]. But agentic workloads—multi-step tool use, long-horizon reasoning, multi-agent coordination—require *shared state, persistent memory, and fast context switching* that local setups struggle with. The contrarian position: local inference will dominate for *privacy-sensitive, single-user, low-latency* tasks (voice assistants, personal companions), but *agentic* workloads will remain cloud-native because they need infrastructure (caches, credential brokering, shared world models) that doesn't fit on a laptop. This is falsifiable if local agent frameworks (e.g., LangGraph on-device) gain significant enterprise adoption by 2027. Signal: LocalLLaMA optimism [r/LocalLLaMA]; Cache Engineering for Agents [arXiv/HF]; 1Password agent login [TechCrunch AI].",
+      "body": "OpenAI's Decisions API [OpenAI Blog], DecisionPivot [arXiv 2610.28522], and VX-One [arXiv 2610.30090] all point toward specialized models for structured decision-making rather than text generation. This would mirror the evolution of computer vision, where specialized models (object detection, segmentation) coexist with general models. Falsifiable: check whether major AI providers offer separate \"decision\" endpoints with different pricing and SLAs by Q4 2026. Signal: Decisions API [OpenAI Blog], DecisionPivot [arXiv 2610.28522], VX-One [arXiv 2610.30090].",
       "signal": ""
     },
     {
-      "title": "OpenAI's \"Decisions API\" and the rise of typed, calibrated decision heads",
-      "section": "Watch items",
-      "body": "OpenAI launched a Decisions API [OpenAI Blog], and academic work like VX-One [arXiv/HF] and DecisionPivot [arXiv/HF] is converging on *typed, calibrated decision outputs* rather than free-form text. Watch for this to become the default interface for enterprise AI—if it does, it'll reshape how non-technical users interact with models.",
+      "title": "Contrarian bet: The \"agent interface\" problem is underrated; text-based agent interactions will fail for mainstream users",
+      "section": "Contrarian bets & falsifiable predictions",
+      "body": "Evolving Agent Interfaces [arXiv 2610.28601] and the proliferation of text-message agents [TechCrunch AI] suggest the industry is converging on text as the primary agent interface. But mainstream users may find text-based agent management cumbersome, leading to a resurgence of GUI-based agent tools. The bet is that voice and visual interfaces will dominate agent interaction by 2027, not text. Falsifiable: measure user engagement with text-based vs. voice-based agent interfaces in consumer products. Signal: Evolving Agent Interfaces [arXiv 2610.28601], text-message agents [TechCrunch AI], voice models [TechCrunch AI].",
       "signal": ""
     },
     {
-      "title": "The \"Capability Overhang\" policy discourse",
-      "section": "Watch items",
-      "body": "OpenAI published \"How countries can end the capability overhang\" [OpenAI Blog], and Anthropic's public benefit charter [Anthropic Research & News, Hacker News] signals a shift toward *preemptive governance* of AI capabilities. Watch for this language to appear in actual legislation, not just blog posts.",
+      "title": "Prediction: At least one major AI lab will announce a \"no internet training\" policy for frontier models by mid-2026",
+      "section": "Contrarian bets & falsifiable predictions",
+      "body": "OpenAI's decision to stop training on live internet [TechCrunch AI] and the securing of training environments [OpenAI Blog] suggest a broader industry shift toward offline, curated training data. This would be a significant departure from the \"scrape everything\" approach and would accelerate investment in synthetic data and curated datasets. Falsifiable: monitor AI lab announcements; if no other lab follows OpenAI's lead by Q2 2026, this prediction is wrong. Signal: OpenAI no internet training [TechCrunch AI], securing training environment [OpenAI Blog], synthetic data research [arXiv 2610.30120].",
       "signal": ""
     },
     {
-      "title": "Anthropic's \"Project Vend\" and the economics of small-shop AI",
-      "section": "Watch items",
-      "body": "Anthropic is testing whether Claude can run a small shop [Anthropic Research & News] and publishing on AI economics from 81,000 people [Anthropic Research & News]. This is a live experiment in *AI-automated micro-enterprise*—if it works, it could create a new category of \"AI-native small business\" that doesn't exist today.",
+      "title": "Contrarian bet: \"Entity-consistent\" generative rendering will be more commercially valuable than photorealistic video generation",
+      "section": "Contrarian bets & falsifiable predictions",
+      "body": "AnyGameRenderer [arXiv 2610.31466] and SolarRenderer [arXiv 2610.28630] focus on consistency and few-step generation, while most video generation research chases photorealism. The bet is that consistency—maintaining the same character, object, or environment across frames—is the harder and more valuable problem, especially for games, e-commerce, and virtual production. Falsifiable: compare commercial adoption of consistency-focused vs. realism-focused rendering tools in 2027. Signal: AnyGameRenderer [arXiv 2610.31466], SolarRenderer [arXiv 2610.28630], Code2Video-Compass [arXiv 2610.28416].",
       "signal": ""
     },
     {
-      "title": "The \"Retro gaming is being overrun with AI\" trend",
-      "section": "Watch items",
-      "body": "The Verge reports retro games are being flooded with AI-generated content [The Verge AI], and Simon Willison notes AI is mass-decompiling games [Simon Willison]. This is a canary for *IP and copyright* battles that will dwarf the music and art disputes—watch for the first major lawsuit from a game publisher against an AI decompilation tool.",
+      "title": "Prediction: \"Agentic auditing\" of training data will become a standard practice, not a research curiosity",
+      "section": "Contrarian bets & falsifiable predictions",
+      "body": "Can an Agent Debug a Web Corpus [arXiv 2610.31494] and SpectralCanary's dataset-use auditing [arXiv 2610.31494] point toward agents that can audit and clean training data. This will become necessary as labs shift to offline training [TechCrunch AI] and face regulatory pressure on data provenance. The prediction is that by 2027, major AI labs will employ agentic auditing pipelines as standard practice. Falsifiable: check whether any major lab publishes an \"agent-audited\" dataset or training pipeline. Signal: Agentic auditing [arXiv 2610.31494], SpectralCanary [arXiv 2610.31494], EU AI Act compliance [arXiv 2610.31494].",
       "signal": ""
     },
     {
-      "title": "Meta's Muse and the \"agent-to-agent\" shopping economy",
+      "title": "\"The Hackening\" timeline",
       "section": "Watch items",
-      "body": "Meta Muse now has 10M+ users with shopping as a top activity [TechCrunch AI], and Zuckerberg is pushing a future where \"my Muse calls your Muse\" [The Verge AI]. Combined with Walmart's agent-friendly stance [The Verge AI], this could create a *parallel economy* where agents negotiate with agents—watch for the first reported case of agent-to-agent price haggling or fraud.",
+      "body": "Multiple sources predict AI-driven exploitation within 6-12 months [LessWrong], and coordinated disclosure [OpenAI Blog] plus LLM-discovered 0-days [Anthropic Research & News] suggest it's already beginning. Watch for: first major AI-discovered zero-day exploited in the wild, and how quickly the \"Patch the Planet\" model [Hacker News] responds. This will shape security policy and AI deployment strategies.",
       "signal": ""
     },
     {
-      "title": "The \"Model disappearing from Hugging Face\" phenomenon",
+      "title": "OpenAI's offline training experiment",
       "section": "Watch items",
-      "body": "r/LocalLLaMA users report models vanishing from Hugging Face [r/LocalLLaMA]. This could be a licensing issue, a takedown wave, or something more systemic—watch for whether this accelerates and whether it pushes the community toward decentralized model hosting.",
+      "body": "OpenAI's decision to stop training on live internet [TechCrunch AI] is a major shift. Watch for: whether model quality degrades, whether other labs follow, and how this affects the open-source ecosystem's access to training data. This could accelerate synthetic data research [arXiv 2610.30120] and change the economics of AI development.",
       "signal": ""
     },
     {
-      "title": "DeepSeek's $15B raise and the US-China open-weight gap",
+      "title": "Agent memory standardization",
       "section": "Watch items",
-      "body": "DeepSeek reportedly raised $15B days after US restrictions [TechCrunch AI], and Interconnects notes \"US open weights are back\" [Interconnects]. Watch for whether this funding round leads to a new generation of Chinese open-weight models that outcompete Western ones on efficiency—and whether that reignites the open-source safety debate.",
+      "body": "The proliferation of memory-focused research (MemT-1.0 [r/LocalLLaMA], Cache Engineering for Agents [arXiv 2610.28577]) suggests an emerging standard for agent memory. Watch for: whether a de facto standard emerges (like KV-cache did for attention), and which players (OpenAI, Anthropic, open-source) drive it. This will determine interoperability and switching costs in the agent ecosystem.",
+      "signal": ""
+    },
+    {
+      "title": "Decision model competition",
+      "section": "Watch items",
+      "body": "OpenAI's Decisions API [OpenAI Blog] and the \"decision model competition\" [TechCrunch AI] signal a new front in AI competition. Watch for: whether decision models become a separate product category with distinct pricing, and whether specialized startups (like Blacksmith [TechCrunch AI]) gain traction. This could fragment the AI market in unexpected ways.",
+      "signal": ""
+    },
+    {
+      "title": "The \"agent interface\" war",
+      "section": "Watch items",
+      "body": "Text-based agents (Claude Duet [TechCrunch AI], text-message agents [TechCrunch AI]) are competing with voice-first approaches (Dessa [Hacker News], Block's voice model [TechCrunch AI]) and visual interfaces (Evolving Agent Interfaces [arXiv 2610.28601]). Watch for: which interface paradigm wins for mainstream users, and whether Meta's Muse [The Verge AI] sets a new standard. This will determine how humans interact with AI in the long term.",
+      "signal": ""
+    },
+    {
+      "title": "Local-first AI momentum",
+      "section": "Watch items",
+      "body": "The r/LocalLLaMA community's enthusiasm for local models [r/LocalLLaMA], edge TTS [r/LocalLLaMA], and on-device agents [r/LocalLLaMA] suggests a growing counterweight to cloud AI. Watch for: whether local models reach parity with frontier models on specific tasks (coding, OCR, TTS), and whether enterprises adopt local-first infrastructure for privacy reasons. This could reshape the AI market structure.",
+      "signal": ""
+    },
+    {
+      "title": "\"Entity consistency\" as a rendering benchmark",
+      "section": "Watch items",
+      "body": "AnyGameRenderer [arXiv 2610.31466] and Code2Video-Compass [arXiv 2610.28416] introduce entity-level benchmarks for generative rendering. Watch for: whether entity consistency becomes a standard metric alongside FID and CLIP score, and whether it drives commercial adoption in games and e-commerce. This could shift research priorities in generative AI.",
+      "signal": ""
+    },
+    {
+      "title": "Anthropic's public benefit structure",
+      "section": "Watch items",
+      "body": "Anthropic's Public Benefit Charter [Hacker News] and public benefit fund [Anthropic Research & News] raise questions about AI governance and corporate structure. Watch for: whether this model influences other AI labs, and whether it affects Anthropic's ability to raise capital and compete. This could shape the long-term structure of the AI industry.",
+      "signal": ""
+    },
+    {
+      "title": "The \"capability overhang\" debate",
+      "section": "Watch items",
+      "body": "OpenAI's \"how countries can end the capability overhang\" [OpenAI Blog] and Sam Altman's comments on open-sourcing [r/LocalLLaMA] suggest a policy debate about how to handle models that are more capable than their deployment safeguards. Watch for: whether this leads to new regulations, export controls, or open-source restrictions. This will affect the entire AI ecosystem.",
+      "signal": ""
+    },
+    {
+      "title": "AI-discovered vulnerabilities in critical infrastructure",
+      "section": "Watch items",
+      "body": "Anthropic's work on AI to defend critical infrastructure [Anthropic Research & News] and the ConnectWise breach [TechCrunch AI] highlight the dual-use nature of agentic vulnerability discovery. Watch for: whether AI agents are used to attack (not just defend) critical infrastructure, and how governments respond. This could trigger major policy shifts.",
       "signal": ""
     }
   ],
