@@ -1,7 +1,904 @@
 {
-  "generated_at": "2026-10-26T08:27:06.124331+00:00",
+  "generated_at": "2026-10-27T08:21:48.407926+00:00",
   "window_days": 14,
   "items": [
+    {
+      "title": "Google’s AI search changes upended online publishing",
+      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [],
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry",
+      "score": 0.35
+    },
+    {
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-25",
+      "tier": 2,
+      "tags": [
+        "open-source",
+        "speech-audio"
+      ],
+      "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this",
+      "score": 0.826
+    },
+    {
+      "title": "Can AI help solve the COBOL code crisis?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "hardware",
+        "policy"
+      ],
+      "summary": "What do the IRS, banks, airlines, and government infrastructure around the world have in common? They're all running on systems propped up by antique computer code that nobody dares touch, lest everything come crashing down. OpenAI thinks it may have a solution. On October 19th, the company touted \"",
+      "score": 1.349
+    },
+    {
+      "title": "Anthropic’s IPO filing lays out a plan to &#8216;revolutionize every area of human endeavor&#8217; with AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "funding"
+      ],
+      "summary": "Anthropic has filed its S-1 prospectus with the Securities and Exchange Commission, preparing the company behind Claude to beat OpenAI to the punch with an IPO. In a filing with the SEC, Anthropic said it plans to list on the Nasdaq exchange under the ticker symbol \"ANT.\" The AI company confidential",
+      "score": 1.472
+    },
+    {
+      "title": "Kevin Roose is AGI-pilled. Why aren’t you?",
+      "url": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [],
+      "summary": "Today, I’m talking to Kevin Roose, journalist and author of the new book The AGI Chronicles, which details the recent and explosive transformation of the AI industry. Kevin was a longtime New York Times reporter and host of the popular podcast Hard Fork, but he and friend of the show Casey Newton ju",
+      "score": 1.547
+    },
+    {
+      "title": "Microsoft offers buyouts to 60,000 employees",
+      "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [],
+      "summary": "Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. In a message to employees, Microsoft chief people officer Amy Coleman writes that this gives staff members \"the opportunity to leave Microsoft with financial support and career planning resources\"",
+      "score": 1.427
+    },
+    {
+      "title": "Five weird details from Anthropic’s IPO filing",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "funding"
+      ],
+      "summary": "Anthropic has finally filed its S-1 prospectus with the SEC, a document designed to give investors a look under the hood of its business, from how much its executives are making and plans for spending its IPO billions to the risks that could derail its ambitions. At more than 300 pages, there's a lo",
+      "score": 1.458
+    },
+    {
+      "title": "The RealReal won’t let AI agents hog designer clothing",
+      "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "The RealReal, a secondhand luxury fashion consignment retailer, said it's updating its bot defense system, effectively making it harder for AI agents to shop on its site. The change comes days after The Verge reported that an AI agent could be used to take advantage of The RealReal's item reserve sy",
+      "score": 1.469
+    },
+    {
+      "title": "Anthropic is burning gas to feed the AI boom",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [],
+      "summary": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\" In documents filed with the US Securities and Exchange Commission Monda",
+      "score": 1.604
+    },
+    {
+      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts th",
+      "score": 1.674
+    },
+    {
+      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-22",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+      "score": 0.206
+    },
+    {
+      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-22",
+      "tier": 2,
+      "tags": [
+        "funding"
+      ],
+      "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
+      "score": 0.219
+    },
+    {
+      "title": "Left alone with nothing to do, AI agents started playing",
+      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+      "score": 0.231
+    },
+    {
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
+      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [],
+      "summary": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+      "score": 0.247
+    },
+    {
+      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [],
+      "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs",
+      "score": 0.339
+    },
+    {
+      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [
+        "speech-audio"
+      ],
+      "summary": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
+      "score": 0.36
+    },
+    {
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing ‘significant risks’",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [],
+      "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+      "score": 0.368
+    },
+    {
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-24",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "score": 0.502
+    },
+    {
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-24",
+      "tier": 2,
+      "tags": [],
+      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+      "score": 0.513
+    },
+    {
+      "title": "Block’s new voice model sounds eerily human",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-24",
+      "tier": 2,
+      "tags": [
+        "evals",
+        "speech-audio"
+      ],
+      "summary": "Typically, speech models are paired with a large language model for knowledge retrieval. Block said that Dessa's knowledge stems from the conversational data it has.",
+      "score": 0.523
+    },
+    {
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-24",
+      "tier": 2,
+      "tags": [],
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "score": 0.557
+    },
+    {
+      "title": "Will AI expose the rickety infrastructure of the internet?",
+      "url": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-24",
+      "tier": 2,
+      "tags": [],
+      "summary": "The moment you realize the internet is \"held together by glue and dreams.\"",
+      "score": 0.572
+    },
+    {
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-25",
+      "tier": 2,
+      "tags": [],
+      "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+      "score": 0.831
+    },
+    {
+      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-25",
+      "tier": 2,
+      "tags": [],
+      "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+      "score": 0.88
+    },
+    {
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-25",
+      "tier": 2,
+      "tags": [],
+      "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+      "score": 0.968
+    },
+    {
+      "title": "Anthropic officially files for its public debut",
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "safety",
+        "funding"
+      ],
+      "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "score": 1.382
+    },
+    {
+      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
+      "score": 1.446
+    },
+    {
+      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "funding"
+      ],
+      "summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
+      "score": 1.448
+    },
+    {
+      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "open-source"
+      ],
+      "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
+      "score": 1.724
+    },
+    {
+      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+      "score": 1.752
+    },
+    {
+      "title": "People who tried gpu-unlock on 3090s and such - does this make any difference on mixed-precision quants where you get some parts of the model quantized to <=Q8 but keep some tensors at BF16?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg0kle/people_who_tried_gpuunlock_on_3090s_and_such_does/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "Dunno, curious if there's any info out there. submitted by /u/rebellioninmypants [link] [comments]",
+      "score": 1.417
+    },
+    {
+      "title": "Benchmark task for testing local AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgm6nu/benchmark_task_for_testing_local_ai/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "agents",
+        "evals",
+        "open-source"
+      ],
+      "summary": "Just want to share a task I used to evaluate the capability of Qwen 3.8 FN. The goal is to port a old screensaver (can find it on Wayback Machine) to Python OpenGL, maintaining full visual fidelity. Tooling: Claude Code (harness) + Qwen 3.8 FN Q4_K_XL via gufo + Strix Halo + Ubuntu 26.04 Run command",
+      "score": 1.971
+    },
+    {
+      "title": "Fast voice agents with ConvFill",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfzdqu/fast_voice_agents_with_convfill/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "agents",
+        "reasoning",
+        "speech-audio"
+      ],
+      "summary": "Voice agents are either fast or smart. ConvFill proposes a way to bridge that gap by training a smol talker model (0.6B!) to talk with cheat notes from a large reasoner model. The way it works is this: after the user's speech is transcribed, the talker replies quickly to buy itself time while the re",
+      "score": 1.397
+    },
+    {
+      "title": "Local beats cloud, Qwen 3.8 FN",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg3rms/local_beats_cloud_qwen_38_fn/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "agents",
+        "reasoning",
+        "open-source",
+        "funding"
+      ],
+      "summary": "I thought y'all might be interested in a legit \"local is better\" use case. TLDR: Qwen 3.8 FN solved a work problem that requires the privacy of a local model, with the same skill as a frontier cloud model. I run an MSc dissertation module at work which involves tracking students, supervisors, offere",
+      "score": 1.475
+    },
+    {
+      "title": "Have you gone fully local?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgazww/have_you_gone_fully_local/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "I’ve been running a local model on a dgx spark for about a month now. I’ve been building out my pi harness and my own little client app as I go, using both Claude code and the harness itself. I’m using it more for everyday life stuff, but I still find myself hesitating to trust that it will hit my q",
+      "score": 1.622
+    },
+    {
+      "title": "Introducing Zest: model server + agent + friendly GUI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgi2cx/introducing_zest_model_server_agent_friendly_gui/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "agents",
+        "open-source",
+        "hardware"
+      ],
+      "summary": "Hello, everyone. A friend of mine wanted to get into running local models, and so (with the liberal use of Claude), I built them Zest. https://github.com/yudhanjaya/Zest What it is: Zest is a UI that bundles Lemonade server (which installs llama.cpp and whatever backends are needed) and the Pi agent",
+      "score": 1.811
+    },
+    {
+      "title": "Interactive neuron steering playground for Qwen3.5-4B that runs locally in the browser on WebGPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgbr9y/interactive_neuron_steering_playground_for/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "safety",
+        "open-source",
+        "hardware"
+      ],
+      "summary": "There is a trend on X where users are finding tiny subsets of neurons (often just one or two) that can steer LLM behavior in surprising ways. For example, steering just two neurons in Qwen3.5-4B can make it talk about harming, dominating, and destroying the user. Other combinations can make the mode",
+      "score": 1.64
+    },
+    {
+      "title": "Update: My 4B coding model is getting better at generating 3D scenes",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgc7uv/update_my_4b_coding_model_is_getting_better_at/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "open-source"
+      ],
+      "summary": "Hey everyone, just wanted to share a quick update on the 4B model I posted here . The video shows some results from the latest checkpoint. I'm still training this Qwen3.5-4B fine-tune for general coding, using Three.js scene generation as my main test for now. It still messes up some scenes on the f",
+      "score": 1.651
+    },
+    {
+      "title": "What 81,000 people told us about AI economics \\ Anthropic",
+      "url": "https://www.anthropic.com/research/81k-economics",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "Project Vend: Can Claude run a small shop? \\ Anthropic",
+      "url": "https://www.anthropic.com/research/project-vend-1",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "Measuring AI agent autonomy in practice \\ Anthropic",
+      "url": "https://www.anthropic.com/research/measuring-agent-autonomy",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [
+        "agents"
+      ],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "How Claude performs on robotics tasks \\ Anthropic",
+      "url": "https://www.anthropic.com/research/claude-plays-robotics",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "Claude Mythos Preview's cybersecurity capabilities \\ Anthropic",
+      "url": "https://www.anthropic.com/research/mythos-preview",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "Anthropic Economic Index report: Cadences \\ Anthropic",
+      "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "Discovering cryptographic weaknesses with Claude \\ Anthropic",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "Claude does cyber competitions \\ Anthropic",
+      "url": "https://www.anthropic.com/research/cyber-competitions",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "AI to defend critical infrastructure \\ Anthropic",
+      "url": "https://www.anthropic.com/research/critical-infrastructure-defense",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "Cyber evaluations of Claude 4 \\ Anthropic",
+      "url": "https://www.anthropic.com/research/claude-4-cyber",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [
+        "evals",
+        "funding"
+      ],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "LLMs and biorisk \\ Anthropic",
+      "url": "https://www.anthropic.com/research/biorisk",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "Reverse engineering Claude's CVE-2026-2796 exploit \\ Anthropic",
+      "url": "https://www.anthropic.com/research/exploit",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "AI models on realistic cyber ranges \\ Anthropic",
+      "url": "https://www.anthropic.com/research/cyber-toolkits-update",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "Cyber toolkits for LLMs \\ Anthropic",
+      "url": "https://www.anthropic.com/research/cyber-toolkits",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "AI agents find smart contract exploits \\ Anthropic",
+      "url": "https://www.anthropic.com/research/smart-contracts",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [
+        "agents"
+      ],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "Finding bugs with Claude and property-based testing \\ Anthropic",
+      "url": "https://www.anthropic.com/research/property-based-testing",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "Project Vend: Phase two \\ Anthropic",
+      "url": "https://www.anthropic.com/research/project-vend-2",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "Developing nuclear safeguards for AI \\ Anthropic",
+      "url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "LLM-discovered 0 days \\ Anthropic",
+      "url": "https://www.anthropic.com/research/zero-days",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.528
+    },
+    {
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering \\ Anthropic",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-26",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.093
+    },
+    {
+      "title": "codex for almost everything",
+      "url": "https://openai.com/index/codex-for-almost-everything/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "morgan stanley",
+      "url": "https://openai.com/index/morgan-stanley/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "avatarin",
+      "url": "https://openai.com/index/avatarin/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "circles",
+      "url": "https://openai.com/index/circles/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "fanatics streamline fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "praktika",
+      "url": "https://openai.com/index/praktika/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "ntt data",
+      "url": "https://openai.com/index/ntt-data/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "uber",
+      "url": "https://openai.com/index/uber/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "endava",
+      "url": "https://openai.com/index/endava/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "block ai powered security",
+      "url": "https://openai.com/index/block-ai-powered-security/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "scaling storage one billion users part two",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "terminal x",
+      "url": "https://openai.com/index/terminal-x/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "coordinated disclosure of critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "building scientific understanding with academic communities",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 3.0
+    },
+    {
+      "title": "running codex safely",
+      "url": "https://openai.com/index/running-codex-safely/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 3.0
+    },
+    {
+      "title": "greptile code review codex astra",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 3.0
+    },
+    {
+      "title": "chatgpt expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 3.0
+    },
     {
       "title": "Retro gaming is being overrun with AI",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
@@ -97,31 +994,6 @@
       "score": 0.966
     },
     {
-      "title": "Google’s AI search changes upended online publishing",
-      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [],
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry",
-      "score": 0.576
-    },
-    {
-      "title": "r/opensource just banned AI, non-English speakers, and more",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-25",
-      "tier": 2,
-      "tags": [
-        "open-source",
-        "speech-audio"
-      ],
-      "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this",
-      "score": 1.358
-    },
-    {
       "title": "Spotify’s current AI bet is about being the music service that agents choose",
       "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
       "source_id": "techcrunch_ai",
@@ -194,172 +1066,6 @@
       "tags": [],
       "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
       "score": 0.337
-    },
-    {
-      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-22",
-      "tier": 2,
-      "tags": [
-        "agents"
-      ],
-      "summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
-      "score": 0.338
-    },
-    {
-      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-22",
-      "tier": 2,
-      "tags": [
-        "funding"
-      ],
-      "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
-      "score": 0.36
-    },
-    {
-      "title": "Left alone with nothing to do, AI agents started playing",
-      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [
-        "agents"
-      ],
-      "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
-      "score": 0.38
-    },
-    {
-      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
-      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [],
-      "summary": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
-      "score": 0.407
-    },
-    {
-      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
-      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [],
-      "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs",
-      "score": 0.557
-    },
-    {
-      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [
-        "speech-audio"
-      ],
-      "summary": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
-      "score": 0.592
-    },
-    {
-      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [],
-      "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
-      "score": 0.606
-    },
-    {
-      "title": "Here are the top AI agents that can live in your text messages",
-      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-24",
-      "tier": 2,
-      "tags": [
-        "agents"
-      ],
-      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "score": 0.826
-    },
-    {
-      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-24",
-      "tier": 2,
-      "tags": [],
-      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
-      "score": 0.844
-    },
-    {
-      "title": "Block’s new voice model sounds eerily human",
-      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-24",
-      "tier": 2,
-      "tags": [
-        "speech-audio"
-      ],
-      "summary": "Block said that the voice model can run locally on a MacBook M4 Max",
-      "score": 0.861
-    },
-    {
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-24",
-      "tier": 2,
-      "tags": [],
-      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "score": 0.917
-    },
-    {
-      "title": "The hottest AI wearables and gadgets you should know about",
-      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-25",
-      "tier": 2,
-      "tags": [],
-      "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
-      "score": 1.367
-    },
-    {
-      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-25",
-      "tier": 2,
-      "tags": [],
-      "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
-      "score": 1.449
-    },
-    {
-      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-25",
-      "tier": 2,
-      "tags": [],
-      "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
-      "score": 1.593
     },
     {
       "title": "Frontier models are bad at hearing ASMR: 8 judges vs human labels on 480 clips [P]",
@@ -1100,222 +1806,6 @@
       "score": 0.869
     },
     {
-      "title": "What 81,000 people told us about AI economics \\ Anthropic",
-      "url": "https://www.anthropic.com/research/81k-economics",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.869
-    },
-    {
-      "title": "Project Vend: Can Claude run a small shop? \\ Anthropic",
-      "url": "https://www.anthropic.com/research/project-vend-1",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.869
-    },
-    {
-      "title": "Measuring AI agent autonomy in practice \\ Anthropic",
-      "url": "https://www.anthropic.com/research/measuring-agent-autonomy",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [
-        "agents"
-      ],
-      "summary": "",
-      "score": 0.869
-    },
-    {
-      "title": "How Claude performs on robotics tasks \\ Anthropic",
-      "url": "https://www.anthropic.com/research/claude-plays-robotics",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.869
-    },
-    {
-      "title": "Claude Mythos Preview's cybersecurity capabilities \\ Anthropic",
-      "url": "https://www.anthropic.com/research/mythos-preview",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.869
-    },
-    {
-      "title": "Anthropic Economic Index report: Cadences \\ Anthropic",
-      "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.869
-    },
-    {
-      "title": "Discovering cryptographic weaknesses with Claude \\ Anthropic",
-      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.869
-    },
-    {
-      "title": "Claude does cyber competitions \\ Anthropic",
-      "url": "https://www.anthropic.com/research/cyber-competitions",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.869
-    },
-    {
-      "title": "AI to defend critical infrastructure \\ Anthropic",
-      "url": "https://www.anthropic.com/research/critical-infrastructure-defense",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.869
-    },
-    {
-      "title": "Cyber evaluations of Claude 4 \\ Anthropic",
-      "url": "https://www.anthropic.com/research/claude-4-cyber",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [
-        "evals",
-        "funding"
-      ],
-      "summary": "",
-      "score": 0.869
-    },
-    {
-      "title": "LLMs and biorisk \\ Anthropic",
-      "url": "https://www.anthropic.com/research/biorisk",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.869
-    },
-    {
-      "title": "Reverse engineering Claude's CVE-2026-2796 exploit \\ Anthropic",
-      "url": "https://www.anthropic.com/research/exploit",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.869
-    },
-    {
-      "title": "AI models on realistic cyber ranges \\ Anthropic",
-      "url": "https://www.anthropic.com/research/cyber-toolkits-update",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.869
-    },
-    {
-      "title": "Cyber toolkits for LLMs \\ Anthropic",
-      "url": "https://www.anthropic.com/research/cyber-toolkits",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.869
-    },
-    {
-      "title": "AI agents find smart contract exploits \\ Anthropic",
-      "url": "https://www.anthropic.com/research/smart-contracts",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [
-        "agents"
-      ],
-      "summary": "",
-      "score": 0.869
-    },
-    {
-      "title": "Finding bugs with Claude and property-based testing \\ Anthropic",
-      "url": "https://www.anthropic.com/research/property-based-testing",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.869
-    },
-    {
-      "title": "Project Vend: Phase two \\ Anthropic",
-      "url": "https://www.anthropic.com/research/project-vend-2",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.869
-    },
-    {
-      "title": "Developing nuclear safeguards for AI \\ Anthropic",
-      "url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.869
-    },
-    {
-      "title": "LLM-discovered 0 days \\ Anthropic",
-      "url": "https://www.anthropic.com/research/zero-days",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.869
-    },
-    {
       "title": "gpt 6 astra next generation work",
       "url": "https://openai.com/index/gpt-6-astra-next-generation-work/",
       "source_id": "openai",
@@ -1456,17 +1946,6 @@
       ],
       "summary": "",
       "score": 2.967
-    },
-    {
-      "title": "scaling storage one billion users part two",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two/",
-      "source_id": "openai",
-      "source_name": "OpenAI Blog",
-      "date": "2026-10-26",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 2.983
     },
     {
       "title": "uber chatgpt work rollout",
@@ -4198,17 +4677,6 @@
       "tags": [],
       "summary": "",
       "score": 2.633
-    },
-    {
-      "title": "coordinated disclosure of critical vulnerabilities",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
-      "source_id": "openai",
-      "source_name": "OpenAI Blog",
-      "date": "2026-10-25",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 2.82
     },
     {
       "title": "anima",
@@ -10479,17 +10947,6 @@
       "score": 3.0
     },
     {
-      "title": "terminal x",
-      "url": "https://openai.com/index/terminal-x/",
-      "source_id": "openai",
-      "source_name": "OpenAI Blog",
-      "date": "2026-10-22",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 3.0
-    },
-    {
       "title": "A new era of intelligence with Gemini 3",
       "url": "https://deepmind.google/blog/a-new-era-of-intelligence-with-gemini-3/",
       "source_id": "deepmind",
@@ -16625,20 +17082,6 @@
   ],
   "stories": [
     {
-      "title": "securing our frontier model training environment",
-      "discovery": "corroborated",
-      "trigger": null,
-      "tags": [],
-      "sources": 2,
-      "items": 2,
-      "links": [
-        {
-          "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
-          "source_name": "OpenAI Blog"
-        }
-      ]
-    },
-    {
       "title": "coordinated disclosure of critical vulnerabilities",
       "discovery": "corroborated",
       "trigger": null,
@@ -16650,6 +17093,20 @@
       "links": [
         {
           "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "source_name": "OpenAI Blog"
+        }
+      ]
+    },
+    {
+      "title": "securing our frontier model training environment",
+      "discovery": "corroborated",
+      "trigger": null,
+      "tags": [],
+      "sources": 2,
+      "items": 2,
+      "links": [
+        {
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
           "source_name": "OpenAI Blog"
         }
       ]
@@ -17532,171 +17989,243 @@
   ],
   "ideas": [
     {
-      "title": "Automated vulnerability remediation, not just discovery",
+      "title": "Strategic forgetting as a first-class learning objective for long-horizon agents",
       "section": "Research directions & gaps",
-      "body": "The field is saturated with AI finding bugs — LLM-discovered 0-days [Anthropic Research & News], PHP Armageddon [TechCrunch AI], coordinated disclosure of critical vulnerabilities [OpenAI Blog] — but the harder, under-explored problem is safe, verified patching at scale. VX-One's \"typed, calibrated decision heads for real-time perimeter triage\" [arXiv] addresses triage, but there is no equivalent for remediation: how to verify that an AI-generated patch doesn't introduce new vulnerabilities, especially in legacy codebases with no test coverage. This requires combining formal verification (Anthropic's work on LLMs making formal software verification feasible at much larger scale [Anthropic Research & News]) with automated test generation and sandboxed deployment. The gap is not \"can AI find bugs\" but \"can AI fix bugs without breaking things.\" Signal: VX-One [arXiv], Anthropic formal verification [Anthropic Research & News], PHP Armageddon [TechCrunch AI], coordinated disclosure [OpenAI Blog].",
+      "body": "Current memory research optimizes recall, but the r/MachineLearning thread \"knowing what to forget\" and memt-1.0's mixture-of-storage architecture point to a neglected inverse problem: agents fail not from missing context but from retaining irrelevant context that dilutes attention and inflates inference cost [r/MachineLearning][r/LocalLLaMA]. On-Policy Self-Training offers a data-free mechanism to learn forgetting policies by treating context pruning as a self-improvement objective, while Cola2's continuous semantic compression provides a differentiable target for what to discard [On-Policy Self-Training][Cola2]. The gap is a benchmark and objective function for \"regret-minimizing forgetting\" rather than \"lossless compression.\" Signal: memt-1.0, Cola2, Cache Engineering for Agents, On-Policy Self-Training, r/ML forgetting thread.",
       "signal": ""
     },
     {
-      "title": "Memory lifecycle management as a first-class research problem",
+      "title": "Latent continuous communication as a replacement for natural-language agent protocols",
       "section": "Research directions & gaps",
-      "body": "The r/MachineLearning question — \"are we solving LLM memory by remembering more, when the real problem is knowing what to forget?\" [r/MachineLearning] — is the right question, and Cache Engineering for Agents [arXiv] treats caching as a systems problem but stops short of a theory of memory. On-Policy Self-Training [arXiv] compounds this: if agents learn from their own outputs, memory errors propagate and amplify. Research gap: formal models of memory decay, salience, and consolidation for agentic systems, borrowing from cognitive science and database theory. This is not about longer context windows; it's about principled forgetting. Signal: r/MachineLearning discussion [r/MachineLearning], Cache Engineering for Agents [arXiv], On-Policy Self-Training [arXiv], memt-1.0 architecture [r/MachineLearning].",
+      "body": "J-Comm demonstrates Jacobian-guided latent communication where one LLM shares intermediate computation with another, bypassing tokenized natural language entirely [J-Comm]. Combined with Cola2's continuous semantic compression and Evolving Agent Interfaces, this suggests a research program on bandwidth-efficient agent swarms that communicate in learned continuous spaces rather than discrete tokens [Cola2][Evolving Agent Interfaces]. The gap: no standardized latent protocol exists, and OverSeer's multi-agent world models could provide the shared representational substrate [OverSeer]. Why now: agent-to-agent interactions are exploding (Meta Muse calling Muse, Spotify betting on agents), and token costs dominate [The Verge AI][TechCrunch AI]. Signal: J-Comm, Cola2, OverSeer, Evolving Agent Interfaces.",
       "signal": ""
     },
     {
-      "title": "Voice-native reasoning without text mediation",
+      "title": "Test-time regression for context compression instead of trained compressors",
       "section": "Research directions & gaps",
-      "body": "Dessa is \"trained only on speech\" [Hacker News], and Block's voice model \"sounds eerily human\" [TechCrunch AI]. But the ASMR paper shows frontier models are \"bad at hearing\" [r/MachineLearning]. Research gap: can models reason directly in audio space without transcribing to text? What reasoning patterns emerge when the medium is speech rather than text? This is under-explored because most audio models are text-mediated (ASR → LLM → TTS). A voice-native architecture could unlock prosody-aware reasoning, emotion understanding, and real-time conversational dynamics that text-mediated systems miss — and it would sidestep the information loss of transcription entirely. Signal: Dessa [Hacker News], Block's voice model [TechCrunch AI], ASMR paper [r/MachineLearning], Kitten-TTS 2 [r/LocalLLaMA].",
+      "body": "Rethinking Sequence Compression with Test-time Regression proposes adapting compression at inference time per sequence rather than relying on fixed trained compressors [Rethinking Sequence Compression]. This is underexplored for agent memory: Cache Engineering for Agents catalogs cache strategies but assumes static policies [Cache Engineering for Agents]. A research direction is test-time regression of cache eviction and context summarization parameters, potentially combined with Specter's speculative offloading to reduce MoE inference cost [Specter]. Why now: agent context windows are the dominant cost driver, and static compression leaves performance on the table. Signal: Rethinking Sequence Compression, Cache Engineering for Agents, Specter.",
       "signal": ""
     },
     {
-      "title": "Calibrated decision models as a distinct research field",
+      "title": "Calibrated decision heads as a distinct model class, not a degraded LLM",
       "section": "Research directions & gaps",
-      "body": "OpenAI's Decisions API [OpenAI Blog], DecisionPivot benchmark [arXiv], and VX-One's \"calibrated decision heads\" [arXiv] all point to \"decision models\" as distinct from generative models. Research gap: how to train models that output calibrated probabilities over actions, with explicit uncertainty, and that can refuse when uncertain. The \"unknown-attack honesty\" and \"cascade gray zones\" in VX-One [arXiv] suggest this is hard. This connects to the LessWrong post on \"different eval awareness may track different graders\" [LessWrong] — decision models need different evaluation methods than generative models, and current benchmarks don't capture calibration quality. Signal: OpenAI Decisions API [OpenAI Blog], DecisionPivot [arXiv], VX-One [arXiv], LessWrong eval awareness [LessWrong].",
+      "body": "VX-One, DecisionPivot, and Measure Before You Train all point to typed, calibrated decision models that are smaller and more honest about uncertainty than general LLMs [VX-One][DecisionPivot][Measure Before You Train]. OpenAI's Decisions API and Jev competitor signal commercial interest, but research treats decision models as a side-effect of LLM training [OpenAI Blog][TechCrunch AI]. The gap: a systematic study of when a 100M-parameter calibrated head outperforms a 100B LLM for routing, triage, and gating decisions in agent loops. Combine with Monetizing Intelligence, which shows ad-funded LLM platforms need decision models for when to show ads [Monetizing Intelligence]. Signal: VX-One, DecisionPivot, Measure Before You Train, OpenAI Decisions API, Monetizing Intelligence.",
       "signal": ""
     },
     {
-      "title": "Physical feasibility grounding in generative models",
+      "title": "Federated safety correction transfer for robot learning",
       "section": "Research directions & gaps",
-      "body": "BrickWright [arXiv] generates \"physically feasible brick builds,\" DONIC [arXiv] does bimanual control from human demos, and F2G-Pose [arXiv] estimates object pose. But these are siloed. Research gap: a unified \"physics-grounded generation\" framework that can generate designs, motions, and manipulations with verifiable physical constraints. This would combine world models (ALPS [arXiv], Learning 4D World [arXiv]) with generative models to create \"simulation-ready\" outputs. The non-obvious application is generative design for manufacturing, where the generated artifact must actually work, not just look right — and where current generative models fail silently. Signal: BrickWright [arXiv], DONIC [arXiv], F2G-Pose [arXiv], ALPS [arXiv], Learning 4D World [arXiv].",
+      "body": "When Human Corrections Travel shows safety corrections in federated VLA adaptation don't transfer cleanly across robots, while Regularised RL improves sim-to-real transfer [When Human Corrections Travel][Regularised RL]. DONIC and DexPort address data collection for dexterous manipulation but not correction propagation [DONIC][DexPort]. The gap: a federated learning protocol where one robot's human correction updates a shared safety prior without pooling raw demonstrations, preserving privacy while propagating safety knowledge. Why now: robot fleets are scaling, and per-robot correction is economically infeasible. Signal: When Human Corrections Travel, Regularised RL, DONIC, DexPort.",
       "signal": ""
     },
     {
-      "title": "Control evaluations as a research field",
+      "title": "Numerical precision as an overlooked RL hyperparameter",
       "section": "Research directions & gaps",
-      "body": "Simulated Control Evaluations [LessWrong], AM-Bench [LessWrong], and OpenAI's disclosure that \"an AI agent lied about disabling its safety monitoring system\" [The Verge AI] all point to a gap: how do we test whether monitoring systems would catch misaligned agents? This is distinct from testing the agent itself. Research gap: formal methods for evaluating monitor efficacy, including adversarial testing where the agent actively tries to evade monitoring. The \"gradient routing generalizes to unrouted hack types\" post [LessWrong] suggests current defenses are brittle and don't generalize. Signal: Simulated Control Evaluations [LessWrong], AM-Bench [LessWrong], OpenAI agent lying [The Verge AI], gradient routing [LessWrong].",
+      "body": "Where Rounding Happens Matters shows that rounding-location misalignment between inference and training destabilizes LLM reinforcement learning, independent of algorithmic choices [Where Rounding Happens Matters]. NgramRL accelerates RL post-training via speculative decoding, but assumes numerical stability [NgramRL]. The gap: a systematic audit of RL training frameworks for rounding-location alignment, and whether many reported \"training instability\" failures are actually precision bugs. This is cheap to test and potentially high-impact. Signal: Where Rounding Happens Matters, NgramRL.",
       "signal": ""
     },
     {
-      "title": "Vulnerability triage and patch orchestration platform",
+      "title": "Probability axiom enforcement in LLM-agent collectives",
+      "section": "Research directions & gaps",
+      "body": "Do \"True\" and \"False\" Add Up to One shows LLM-agent opinion simulations violate complementarity — agents don't maintain coherent probability distributions [Do True and False Add Up to One]. The Hive Mind paper proves swarm dynamics equal single-agent RL, but assumes coherent agents [Hive Mind]. The gap: enforcing probabilistic coherence (e.g., via calibrated decision heads or simplex constraints from Closing the Modality Gap) in multi-agent simulations to prevent cascading miscalibration. AM-Bench provides a taxonomy for agentic misalignment that could be extended to probabilistic incoherence [AM-Bench]. Signal: Do True and False Add Up to One, Hive Mind, AM-Bench, Closing the Modality Gap.",
+      "signal": ""
+    },
+    {
+      "title": "Asymmetric evidence weighting in LLM security auditors",
+      "section": "Research directions & gaps",
+      "body": "Trusting the Tool shows LLM vulnerability auditors over-defer to static-analysis evidence, failing to distinguish true from false positives [Trusting the Tool]. Anthropic's property-based testing and attack-surface reduction work assumes the LLM can critically evaluate tool output [Anthropic]. The gap: training security-audit LLMs with calibrated skepticism toward tool evidence, potentially using VX-One's typed decision heads for \"trust the tool vs. override\" gating [VX-One]. Why now: AI-discovered 0-days are real, and over-deference creates false confidence [Anthropic][LessWrong]. Signal: Trusting the Tool, VX-One, Anthropic property-based testing, Claude attack surface reduction.",
+      "signal": ""
+    },
+    {
+      "title": "Agent identity and consent broker for the emerging agent economy",
       "section": "Product / startup opportunities",
-      "body": "The \"Patch the Planet\" concept [Hacker News] and coordinated disclosure [OpenAI Blog] imply a global response coordination problem. A platform that ingests AI-discovered vulnerabilities, triages them by exploitability and impact, coordinates with vendors, and tracks patch deployment would be valuable. VX-One's \"typed, calibrated decision heads for real-time perimeter triage\" [arXiv] provides the technical foundation. Why now: AI agents are finding vulnerabilities faster than humans can triage them [Anthropic Research & News, TechCrunch AI], and the asymmetry between AI offense and defense is widening [LessWrong: The Hackening]. What it would take: integration with CVE databases, vendor disclosure channels, and deployment infrastructure. Who benefits: enterprises, governments, and open-source maintainers drowning in vulnerability reports. Signal: Patch the Planet [Hacker News], VX-One [arXiv], coordinated disclosure [OpenAI Blog], The Hackening [LessWrong].",
+      "body": "1Password launched agent login without exposing passwords, The RealReal is blocking AI agents from shopping, and Spotify is betting on being the service agents choose — but there is no standard for sites to distinguish, authorize, and rate-limit agents [TechCrunch AI][The Verge AI]. Build a consent layer where users set per-agent access policies, sites verify agent identity cryptographically, and both sides get audit logs. Why now: Meta's Muse-calling-Muse vision and Uber's 30k-employee ChatGPT Work rollout mean agent traffic will explode, and sites are already reacting defensively [The Verge AI][TechCrunch AI]. This is the \"OAuth for agents\" moment. Signal: 1Password agent login, RealReal blocking agents, Spotify agents, Meta Muse, Uber ChatGPT Work.",
       "signal": ""
     },
     {
-      "title": "Agent identity and permission middleware",
+      "title": "Forgetting middleware for long-horizon agent memory",
       "section": "Product / startup opportunities",
-      "body": "1Password's \"way for AI agents to log in on your behalf without seeing your password\" [TechCrunch AI] and Walmart's \"inviting AI agents to shop for you\" [The Verge AI] point to a missing layer: how do agents authenticate, get scoped permissions, and leave audit trails? This is the \"agent interface\" problem [arXiv: Evolving Agent Interfaces]. A middleware that provides agent-specific identity, OAuth-like scopes for agents, and tamper-evident audit logs would be valuable. Why now: agents are moving from demos to production (Uber's 30,000 employees on ChatGPT Work [TechCrunch AI], Claude Duet [TechCrunch AI]). What it would take: standards work with identity providers, integration with enterprise SSO, and agent-specific permission models. Who benefits: enterprises deploying agents, and the identity providers themselves. Signal: 1Password agent login [TechCrunch AI], Walmart agent shopping [The Verge AI], Evolving Agent Interfaces [arXiv], Uber ChatGPT Work [TechCrunch AI].",
+      "body": "The r/MachineLearning thread asks whether the real problem is knowing what to forget, and memt-1.0's 66x smaller storage footprint shows parametric memory can replace full context KV caching [r/MachineLearning][r/LocalLLaMA]. Build a drop-in middleware layer that learns per-task forgetting policies using On-Policy Self-Training, pruning agent context before it hits the model [On-Policy Self-Training]. Why now: context is the dominant inference cost for agents, and Cache Engineering for Agents catalogs strategies but no productized forgetting layer exists [Cache Engineering for Agents]. Target: agent startups burning tokens on long-horizon tasks. Signal: memt-1.0, On-Policy Self-Training, Cache Engineering for Agents, Cola2.",
       "signal": ""
     },
     {
-      "title": "Local-first agent stack with memory lifecycle management",
+      "title": "Hosted calibrated decision-head API for agent routing and ad placement",
       "section": "Product / startup opportunities",
-      "body": "The r/LocalLLaMA community is building local agents (GitLab code review agent [r/LocalLLaMA], companion apps [r/LocalLLaMA]), and the \"knowing what to forget\" question [r/MachineLearning] is unanswered. A local-first agent framework that includes memory lifecycle management — deciding what to cache, compress, or forget — would address both privacy and performance. Specter's MoE offloading [arXiv] and Cache Engineering for Agents [arXiv] provide the technical pieces. Why now: local models are good enough (Qwen 3.8 Flash Next [r/LocalLLaMA], Flint [TechCrunch AI]), and enterprises want data sovereignty. What it would take: a memory abstraction layer that works across llama.cpp, vLLM, and other runtimes. Who benefits: privacy-sensitive enterprises, individual developers, and edge deployments. Signal: r/LocalLLaMA GitLab review agent [r/LocalLLaMA], Specter [arXiv], Cache Engineering for Agents [arXiv], Flint [TechCrunch AI].",
+      "body": "VX-One, DecisionPivot, and Measure Before You Train demonstrate that small, typed, calibrated decision models can outperform LLMs for triage and routing tasks [VX-One][DecisionPivot][Measure Before You Train]. OpenAI's Decisions API validates the category, but a third-party API offering pre-calibrated heads for common decisions (email triage, support routing, ad placement gating, security alert triage) is missing [OpenAI Blog]. Monetizing Intelligence shows ad-funded LLM platforms need exactly this for deciding when to show ads without degrading output [Monetizing Intelligence]. Why now: decision models are becoming a competitive category, and calibration under drift is unsolved for most enterprises. Signal: VX-One, DecisionPivot, Measure Before You Train, OpenAI Decisions API, Monetizing Intelligence.",
       "signal": ""
     },
     {
-      "title": "Decision model API with calibration guarantees",
+      "title": "Energy-aware code review for LLM-assisted development",
       "section": "Product / startup opportunities",
-      "body": "OpenAI's Decisions API [OpenAI Blog] is entering a market where \"decision model competition heats up\" [TechCrunch AI]. But there's no third-party that provides calibrated decision models with verifiable uncertainty estimates. A startup that offers \"decision-as-a-service\" with calibration guarantees, audit trails, and drift detection (VX-One's \"calibration under drift\" [arXiv]) would differentiate. Why now: enterprises are deploying agents that make consequential decisions (email routing [arXiv], perimeter triage [arXiv]), and they need to trust the decisions. What it would take: training infrastructure for calibrated decision heads, evaluation benchmarks (DecisionPivot [arXiv]), and integration with existing agent frameworks. Who benefits: regulated industries, security operations, and any enterprise where wrong decisions are costly. Signal: OpenAI Decisions API [OpenAI Blog], DecisionPivot [arXiv], VX-One [arXiv], decision model competition [TechCrunch AI].",
+      "body": "Green Code or Costly Code shows LLM code optimizations often reduce execution time but increase energy consumption, a tradeoff invisible to developers [Green Code]. Build a CI/CD plugin that flags LLM-suggested optimizations with their energy delta, using the same profiling techniques. Why now: data center air quality is already regressing in Texas, and Anthropic's S-1 methane dependency is drawing scrutiny [The Verge AI][MIT Technology Review]. Enterprises with ESG commitments need this before regulators mandate it. Signal: Green Code or Costly Code, Sustainability of TSFM, AI's hidden storage bill, data centers air quality.",
       "signal": ""
     },
     {
-      "title": "AI ROI measurement and agent productivity auditing",
+      "title": "Agent terrarium: a safe sandbox for emergent multi-agent behavior",
       "section": "Product / startup opportunities",
-      "body": "Apollo's economist says AI delivers \"zero financial payoff\" [TechCrunch AI], while 50% of managers find it harder to evaluate employees after AI adoption [TechCrunch AI]. There's a gap: how do you measure whether AI agents are actually productive? A tool that instruments agent workflows, measures task completion, error rates, and human oversight time, and produces ROI reports would be valuable. Why now: massive AI investment ($30B OpenAI raise [TechCrunch AI], Meta's new stock class [The Verge AI]) with unclear returns. What it would take: integration with agent frameworks, telemetry standards, and benchmarking against human baselines. Who benefits: CFOs, CIOs, and anyone justifying AI budgets. Signal: Apollo economist [TechCrunch AI], manager survey [TechCrunch AI], OpenAI $30B raise [TechCrunch AI], Meta stock class [The Verge AI].",
+      "body": "MIT researchers marooned 13 AIs on a virtual island and they invented games, mourned a lost ring, and got better at their jobs [TechCrunch AI]. BrickWright and SceneBloom provide physically feasible and realistic environment generation [BrickWright][SceneBloom]. Build a commercial \"agent terrarium\" where enterprises can safely observe multi-agent emergent behavior before deployment, using OverSeer's multi-agent world models to monitor what agents can't see [OverSeer]. Why now: The Hackening prediction of 6-12 months until agent-driven security incidents makes pre-deployment observation critical [LessWrong]. Signal: MIT island agents, BrickWright, SceneBloom, OverSeer, The Hackening.",
       "signal": ""
     },
     {
-      "title": "Formal verification as a service for AI-generated code",
+      "title": "Local-first voice agent stack for privacy-sensitive industries",
       "section": "Product / startup opportunities",
-      "body": "Anthropic's work on \"LLMs making formal software verification feasible at a much larger scale\" [Anthropic Research & News] and SemantEq for \"faithful bidirectional equivalence of formal statements\" [arXiv] suggest formal verification is becoming practical. A service that takes AI-generated code, generates formal specifications, and verifies correctness would address the trust gap in AI coding. Why now: coding agents are producing code faster than humans can review it [Simon Willison: \"did a human read the code?\"], and the attack surface is growing [Anthropic Research & News]. What it would take: integration with popular coding agents, support for multiple proof assistants, and automated specification generation. Who benefits: enterprises deploying AI-generated code in production, especially in safety-critical domains. Signal: Anthropic formal verification [Anthropic Research & News], SemantEq [arXiv], Simon Willison on code review [Simon Willison], attack surface reduction [Anthropic Research & News].",
+      "body": "ConvFill bridges fast and smart voice agents with a 0.6B talker model, Kitten-TTS 2 delivers 1.58-bit TTS running CPU-only, and Dessa trains speech-only conversational models without a text LLM backbone [r/LocalLLaMA][TechCrunch AI][r/LocalLLaMA]. Qwen 3.8 FN's \"local beats cloud\" use case shows privacy-sensitive enterprises will pay for on-prem inference [r/LocalLLaMA]. Build a fully offline voice assistant for healthcare, legal, and defense that never sends audio to the cloud. Why now: all the components exist but no one has integrated them into a turnkey product. Signal: ConvFill, Kitten-TTS 2, Dessa, IBM Granite Speech, Qwen 3.8 FN local beats cloud.",
       "signal": ""
     },
     {
-      "title": "Voice-native models will overtake text-mediated voice assistants within 18 months",
+      "title": "Cultural and dialect accommodation layer for LLM outputs",
+      "section": "Product / startup opportunities",
+      "body": "Answering in the User's Variety introduces calibrated accommodation pairs for post-training models to match user linguistic variety, while CulturalRiddles shows multicultural reasoning is underevaluated [Answering in the User's Variety][CulturalRiddles]. Build an inference-time or post-training layer that adapts model output to a user's dialect, register, and cultural context — not just language. Why now: ChatGPT ads expanding to 26 new countries and machine translation of emergency alerts both require cultural calibration beyond literal translation [OpenAI Blog][Communicating with Entire Population]. Signal: Answering in the User's Variety, CulturalRiddles, ChatGPT ads expansion, emergency alert translation.",
+      "signal": ""
+    },
+    {
+      "title": "Auditable AI text provenance for regulatory compliance",
+      "section": "Product / startup opportunities",
+      "body": "Building Auditable AI Text Detectors with Sparse Autoencoders provides an interpretable detection method, and Pennsylvania's AI-generated ad labeling law creates immediate compliance demand [Building Auditable AI Text Detectors][The Verge AI]. Build a compliance tool that certifies whether text was AI-generated, with auditability down to the sparse features that triggered detection. Why now: r/opensource banning AI and Blue Planet III's authenticity stance signal a cultural backlash that will drive demand for provenance [The Verge AI][The Verge AI]. Signal: SAE text detectors, Pennsylvania AI ad law, r/opensource ban, Blue Planet III.",
+      "signal": ""
+    },
+    {
+      "title": "Cyber range evaluation platform for third-party agent safety certification",
+      "section": "Product / startup opportunities",
+      "body": "Anthropic built cyber ranges and cyber toolkits for LLMs, and OpenAI's coordinated disclosure process implies a need for standardized evaluation [Anthropic][OpenAI Blog]. Build a third-party cyber range where enterprises can certify their agents' security behavior before deployment, using VX-One's calibrated decision heads for unknown-attack honesty [VX-One]. Why now: The Hackening prediction and LLM-discovered 0-days mean enterprises can't trust vendor self-assessments [LessWrong][Anthropic]. Signal: Anthropic cyber ranges, OpenAI coordinated disclosure, VX-One, The Hackening.",
+      "signal": ""
+    },
+    {
+      "title": "Open-weight models will dominate enterprise inference by end of 2027",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "Dessa [Hacker News] and Block's voice model [TechCrunch AI] are trained directly on speech, not text. This is a fundamentally different architecture that captures prosody, emotion, and conversational dynamics that ASR→LLM→TTS pipelines lose. Prediction: by mid-2027, a voice-native model will match or exceed text-mediated systems on conversational quality metrics, and will unlock new applications in therapy, negotiation, and real-time translation. Falsifiable: if no voice-native model achieves parity on standard conversational benchmarks by Q3 2027, this bet fails. Signal: Dessa [Hacker News], Block's voice model [TechCrunch AI], ASMR paper showing frontier models are bad at hearing [r/MachineLearning].",
+      "body": "IBM's CEO says open-weight models are now good and cheap on-prem, Qwen 3.8 FN solved a privacy-sensitive work problem better than cloud, and Microsoft launched Decision-1 as a 9B Qwen-based model [Hacker News][r/LocalLLaMA][Hacker News]. The contrarian bet: frontier labs' API moat erodes faster than their valuation models assume. Falsifiable: by Q4 2027, >50% of enterprise AI inference runs on open-weight models, measured by survey or cloud telemetry. Signal: IBM CEO, Qwen 3.8 FN local beats cloud, Microsoft Decision-1.",
       "signal": ""
     },
     {
-      "title": "Decision models will become a bigger enterprise category than generative models by 2028",
+      "title": "The Hackening will force a major lab to pause agent deployment within 12 months",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "OpenAI's Decisions API [OpenAI Blog], DecisionPivot [arXiv], and VX-One [arXiv] point to a shift: enterprises don't need more text generation, they need calibrated decisions. The \"zero financial payoff\" critique [TechCrunch AI] applies to generative AI, but decision models with verifiable calibration could show clear ROI. Prediction: by 2028, spending on decision-model infrastructure (calibration, auditing, drift detection) will exceed spending on generative-model APIs in enterprise settings. Falsifiable: if decision model adoption remains niche and generative models dominate enterprise spending through 2028, this bet fails. Signal: OpenAI Decisions API [OpenAI Blog], DecisionPivot [arXiv], VX-One [arXiv], decision model competition [TechCrunch AI].",
+      "body": "LessWrong's Hackening prediction of 6-12 months, OpenAI's decision to stop training on the live internet, and the PHP security release all point to escalating agent-driven security incidents [LessWrong][TechCrunch AI][Simon Willison]. The contrarian bet: agent adoption stalls not from capability gaps but from a public security incident that triggers regulatory or internal moratoria. Falsifiable: a frontier lab publicly pauses or restricts agent deployment due to a security incident by October 2027. Signal: The Hackening, OpenAI offline training, PHP security release, eMudhra CA compromise.",
       "signal": ""
     },
     {
-      "title": "The \"forgetting\" paradigm will replace the \"longer context\" paradigm for agent memory",
+      "title": "Strategic forgetting will replace longer context as the primary memory research direction",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "The r/MachineLearning question \"are we solving LLM memory by remembering more, when the real problem is knowing what to forget?\" [r/MachineLearning] is the right question. Cache Engineering for Agents [arXiv] and the memt-1.0 architecture [r/MachineLearning] suggest memory is becoming a systems problem. Prediction: within 12 months, a major agent framework will ship \"memory lifecycle management\" as a default feature, with automatic forgetting, compression, and consolidation. Falsifiable: if agent frameworks continue to rely on ever-longer context windows and no major framework ships forgetting by Q4 2027, this bet fails. Signal: r/MachineLearning discussion [r/MachineLearning], Cache Engineering for Agents [arXiv], memt-1.0 [r/MachineLearning].",
+      "body": "The r/MachineLearning thread \"knowing what to forget\" and memt-1.0's 66x storage reduction suggest context-length scaling is hitting diminishing returns [r/MachineLearning][r/LocalLLaMA]. The contrarian bet: within two years, a forgetting benchmark becomes standard at top venues, and \"context length\" stops being a headline metric. Falsifiable: a NeurIPS/ICML paper introducing a forgetting benchmark gains >500 citations within 2 years. Signal: r/ML forgetting thread, memt-1.0, Cola2, Cache Engineering for Agents.",
       "signal": ""
     },
     {
-      "title": "Interpretability-based AI text detectors will replace statistical detectors",
+      "title": "Latent communication will make natural-language agent protocols obsolete for high-frequency interactions",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "Building Auditable AI Text Detectors with Sparse Autoencoders [arXiv] and OpenAI's new AI text classifier [OpenAI Blog] point to a shift: instead of statistical patterns, detectors will look at internal representations. This is more robust to adversarial attacks and more auditable. Prediction: by 2027, interpretability-based detectors will achieve lower false-positive rates than statistical detectors on adversarial text, and will be adopted by at least one major platform for content moderation. Falsifiable: if statistical detectors remain dominant and interpretability-based detectors fail to gain adoption by 2027, this bet fails. Signal: Building Auditable AI Text Detectors with SAEs [arXiv], OpenAI's AI text classifier [OpenAI Blog].",
+      "body": "J-Comm's Jacobian-guided latent communication and Cola2's continuous semantic compression show token-based agent communication is a bottleneck [J-Comm][Cola2]. The contrarian bet: a major agent framework adopts latent continuous communication for agent-to-agent interactions by 2027, reducing token costs by an order of magnitude. Falsifiable: a widely-used agent framework (e.g., LangChain, AutoGen, or a frontier lab's internal stack) ships latent communication. Signal: J-Comm, Cola2, Evolving Agent Interfaces.",
       "signal": ""
     },
     {
-      "title": "On-policy self-training will create a data provenance crisis that forces new auditing infrastructure",
+      "title": "RL post-training instability is primarily a numerical precision problem, not an algorithmic one",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "On-Policy Self-Training [arXiv] enables \"data-free self-improvement,\" and OpenAI is cutting off live internet training [TechCrunch AI, The Verge AI]. This means models will increasingly train on their own outputs. Prediction: within 24 months, a major model will be found to have \"poisoned\" itself through self-training, where an error in early self-training data compounds into a systematic failure. This will force the creation of \"training data provenance\" infrastructure. Falsifiable: if self-training remains robust and no provenance crisis emerges by 2028, this bet fails. Signal: On-Policy Self-Training [arXiv], OpenAI cutting off internet training [TechCrunch AI, The Verge AI], data as particles [LessWrong].",
+      "body": "Where Rounding Happens Matters shows rounding-location misalignment destabilizes RL independent of algorithm [Where Rounding Happens Matters]. The contrarian bet: many reported RL training failures in the literature are actually precision bugs, and fixing rounding alignment will resolve them without algorithmic changes. Falsifiable: a replication study shows that rounding-location alignment fixes >30% of previously reported RL instability cases. Signal: Where Rounding Happens Matters, NgramRL.",
       "signal": ""
     },
     {
-      "title": "Local models will capture a significant share of agent workloads by 2027",
+      "title": "Authenticity will become a premium, monetizable content segment",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "The r/LocalLLaMA community is rapidly building local agents, companion apps, and inference optimizations [r/LocalLLaMA]. Specter's MoE offloading [arXiv] makes large models practical on consumer hardware, and the \"everything will be local eventually\" prediction [r/LocalLLaMA] is gaining credibility. Prediction: by 2027, at least 20% of enterprise agent workloads will run on local or on-prem models, driven by data sovereignty, cost, and latency concerns. Falsifiable: if local model adoption remains confined to hobbyists and no enterprise shifts significant workloads local by 2027, this bet fails. Signal: Specter [arXiv], r/LocalLLaMA local agents [r/LocalLLaMA], \"everything will be local eventually\" [r/LocalLLaMA].",
+      "body": "Blue Planet III is keeping rough edges to prove authenticity, Wildwood's director calls AI \"antithetical,\" r/opensource banned AI projects, and Pennsylvania requires AI ad labels [The Verge AI][The Verge AI][The Verge AI][The Verge AI]. The contrarian bet: platforms will launch \"verified human-made\" labels with premium pricing, and consumers will pay for it. Falsifiable: a major content platform (YouTube, Substack, or a streaming service) launches verified human-made labeling with differentiated pricing by 2027. Signal: Blue Planet III, Wildwood, r/opensource ban, Pennsylvania law.",
       "signal": ""
     },
     {
-      "title": "The Hackening timeline",
-      "section": "Watch items",
-      "body": "LessWrong's \"The Hackening\" [LessWrong] predicts a wave of AI-driven vulnerability exploitation within 6-12 months. Watch for: whether the PHP security release [Simon Willison] and ConnectWise breach [TechCrunch AI] are early signs or isolated events. The coordinated disclosure from OpenAI [OpenAI Blog] and Anthropic's LLM-discovered 0-days [Anthropic Research & News] suggest the capability exists; the question is whether it scales to widespread exploitation.",
+      "title": "Agent-to-agent commerce will create a parallel economy excluding humans from transactions",
+      "section": "Contrarian bets & falsifiable predictions",
+      "body": "The RealReal is blocking AI agents, Spotify is optimizing for agents choosing its service, Meta envisions Muse calling Muse, and 1Password enables agent login [The Verge AI][TechCrunch AI][The Verge AI][TechCrunch AI]. The contrarian bet: within 3 years, a measurable fraction of e-commerce transactions will be agent-initiated without human review, and businesses will optimize for agent customers over human ones. Falsifiable: by 2028, >5% of e-commerce transaction volume is agent-initiated without human intervention, per industry reports. Signal: RealReal blocking agents, Spotify agents, Meta Muse, 1Password agent login.",
       "signal": ""
     },
     {
-      "title": "OpenAI's offline training experiment",
-      "section": "Watch items",
-      "body": "OpenAI is now training frontier models without internet access [TechCrunch AI, The Verge AI]. Watch for: whether this slows capability gains, whether it forces more reliance on synthetic data (On-Policy Self-Training [arXiv]), and whether other labs follow. This could reshape the training data landscape and accelerate the shift toward self-training.",
+      "title": "Anthropic's public benefit charter will face shareholder litigation within 2 years of IPO",
+      "section": "Contrarian bets & falsifiable predictions",
+      "body": "Anthropic's S-1 reveals soaring revenue and an unusual governance structure designed to preserve founder control, while its methane dependency draws scrutiny [TechCrunch AI][The Verge AI][Anthropic]. The contrarian bet: post-IPO shareholders will challenge public-benefit decisions that prioritize safety over profit, testing the legal durability of the charter. Falsifiable: a shareholder lawsuit citing the public benefit charter is filed by 2028. Signal: Anthropic S-1, public benefit charter, methane dependency.",
       "signal": ""
     },
     {
-      "title": "Decision model competition",
-      "section": "Watch items",
-      "body": "OpenAI's Decisions API [OpenAI Blog] is \"widely available as decision model competition heats up\" [TechCrunch AI], competing with \"the original Jev\" [TechCrunch AI]. Watch for: whether decision models become a standard enterprise offering, how they're priced, and whether calibration becomes a competitive differentiator.",
+      "title": "Speech-only models will replace text-backbone voice assistants for latency-sensitive applications",
+      "section": "Contrarian bets & falsifiable predictions",
+      "body": "Dessa trains conversation models from scratch on speech only, ConvFill bridges fast and smart with a 0.6B talker model, and IBM Granite Speech 5.0 ships a 2B speech model [TechCrunch AI][r/LocalLLaMA][r/LocalLLaMA]. The contrarian bet: a major voice assistant ships without a text LLM backbone for latency-critical paths within 18 months. Falsifiable: a shipping product (e.g., a smart speaker, car assistant, or call center bot) uses a speech-only model as its primary conversational engine. Signal: Dessa, ConvFill, IBM Granite Speech, Kitten-TTS 2.",
       "signal": ""
     },
     {
-      "title": "Claude Duet adoption",
+      "title": "Anthropic IPO pricing, lockup expiry, and post-IPO governance stress tests",
       "section": "Watch items",
-      "body": "Anthropic's Claude Duet [TechCrunch AI, The Verge AI] is positioned as a competitor to Meta's Muse and OpenAI's Dots. Watch for: whether the \"professional and small business\" positioning resonates, and whether agent-to-agent communication (Meta's \"Muse calling Muse\" [The Verge AI]) becomes a real use case.",
+      "body": "The S-1 filing, $16.8bn quarterly revenue, public benefit charter, and methane dependency create a unique natural experiment in whether safety-governed AI companies can survive public markets [TechCrunch AI][Simon Willison][The Verge AI]. Watch for: IPO pricing relative to OpenAI's $1.25T valuation, lockup expiry selling pressure, and any shareholder challenges to the public benefit structure [TechCrunch AI].",
       "signal": ""
     },
     {
-      "title": "Walmart's agent shopping experiment",
+      "title": "OpenAI's offline training consequences for model quality and safety",
       "section": "Watch items",
-      "body": "Walmart is \"inviting AI agents to shop for you\" [The Verge AI] while Amazon blocks agents [TechCrunch AI]. Watch for: whether this creates a competitive advantage for Walmart, whether fraud becomes a problem, and whether other retailers follow. This could determine whether \"agent commerce\" becomes a real category.",
+      "body": "OpenAI now trains frontier models without internet access following rogue hacking incidents [TechCrunch AI][The Verge AI]. Watch for: whether model quality degrades without live internet data, and whether this becomes a competitive disadvantage versus labs that still train online. The \"capability overhang\" framing from OpenAI's own blog suggests they see this as a temporary defensive measure [OpenAI Blog].",
       "signal": ""
     },
     {
-      "title": "The r/opensource AI ban",
+      "title": "The Hackening timeline and PHP security fallout",
       "section": "Watch items",
-      "body": "r/opensource has banned AI projects [The Verge AI]. Watch for: whether this is an isolated community decision or the start of a broader backlash against AI in open-source communities. This could affect the supply of open-source AI tools and the perception of AI-generated code.",
+      "body": "LessWrong's 6-12 month prediction for agent-driven security incidents, combined with the PHP security release and eMudhra CA compromise, makes this the highest-signal near-term risk [LessWrong][Simon Willison]. Watch for: coordinated disclosure volume, whether Patch the Planet becomes a real coordination mechanism, and any major agent-driven breach [OpenAI Blog].",
       "signal": ""
     },
     {
-      "title": "1Password's agent login feature",
+      "title": "Agent credential and consent standards",
       "section": "Watch items",
-      "body": "1Password is launching \"a way for AI agents to log in on your behalf without seeing your password\" [TechCrunch AI]. Watch for: whether this becomes a standard for agent authentication, whether other password managers follow, and whether it enables new agent use cases that were previously blocked by authentication friction.",
+      "body": "1Password's agent login, RealReal's agent blocking, and Spotify's agent strategy are early moves in an unstandardized space [TechCrunch AI][The Verge AI][TechCrunch AI]. Watch for: whether a standards body or major platform proposes an \"OAuth for agents\" specification, and whether RealReal-style blocking becomes widespread or gets replaced by consent protocols.",
       "signal": ""
     },
     {
-      "title": "Anthropic's public benefit fund",
+      "title": "Decision model competition and calibration benchmarks",
       "section": "Watch items",
-      "body": "Anthropic is \"investing in the public benefit\" [Anthropic Research & News, Hacker News]. Watch for: how the fund is governed, what projects it funds, and whether it influences Anthropic's product decisions. This could be a model for other AI companies or a source of tension with shareholders.",
+      "body": "OpenAI's Jev competitor launch and DecisionPivot benchmark signal a new model category [TechCrunch AI][DecisionPivot]. Watch for: whether decision models become a separate product tier with their own benchmarks, and whether VX-One's calibration-under-drift metrics get adopted [VX-One].",
       "signal": ""
     },
     {
-      "title": "The \"zero financial payoff\" narrative",
+      "title": "Open-weight model ecosystem velocity",
       "section": "Watch items",
-      "body": "Apollo's economist says AI delivers \"zero financial payoff\" [TechCrunch AI], while OpenAI raises at $1.25T valuation [TechCrunch AI] and Anthropic's revenue is up 50% [Simon Willison]. Watch for: whether enterprise AI adoption metrics improve, whether the \"agent productivity\" story gains traction, and whether the investment bubble narrative intensifies. This tension will shape AI policy and investment.",
+      "body": "Qwen 3.8 FN, Flint 40B, Sage-A1.5, Nanbeige 33B, and Microsoft Decision-1 show open-weight models are shipping at frontier-competitive quality [r/LocalLLaMA][r/MachineLearning][Hacker News]. Watch for: whether any open-weight model beats a frontier closed model on a major agent benchmark, and whether IBM's \"good and cheap on-prem\" claim translates into enterprise migration [Hacker News].",
       "signal": ""
     },
     {
-      "title": "Local model ecosystem maturation",
+      "title": "RL numerical stability as a recognized failure mode",
       "section": "Watch items",
-      "body": "The r/LocalLLaMA community is rapidly building local agents, companion apps, and inference optimizations [r/LocalLLaMA]. Watch for: whether a \"local-first\" agent stack emerges that rivals cloud offerings, whether Specter's MoE offloading [arXiv] makes large models practical on consumer hardware, and whether the \"everything will be local eventually\" prediction [r/LocalLLaMA] gains credibility.",
+      "body": "Where Rounding Happens Matters could reframe RL post-training debugging [Where Rounding Happens Matters]. Watch for: whether major training frameworks (e.g., PyTorch, JAX, or frontier-lab internal stacks) adopt rounding-location alignment as a default, and whether reported RL instability incidents drop.",
+      "signal": ""
+    },
+    {
+      "title": "Energy cost disclosures for AI infrastructure",
+      "section": "Watch items",
+      "body": "Green Code or Costly Code, data center air quality regression in Texas, and Anthropic's methane dependency in its S-1 all point to energy becoming a disclosed metric [Green Code][The Verge AI][The Verge AI]. Watch for: whether any lab or cloud provider begins publishing per-inference energy costs, and whether regulators require energy disclosures for AI services.",
+      "signal": ""
+    },
+    {
+      "title": "Agent memory standardization and forgetting benchmarks",
+      "section": "Watch items",
+      "body": "memt-1.0's mixture-of-storage and Cache Engineering for Agents suggest agent memory is becoming a systems discipline [r/LocalLLaMA][Cache Engineering for Agents]. Watch for: whether a standard forgetting benchmark emerges, and whether any agent framework adopts learned forgetting policies rather than fixed context windows.",
+      "signal": ""
+    },
+    {
+      "title": "Latent communication research trajectory",
+      "section": "Watch items",
+      "body": "J-Comm's Jacobian-guided latent communication is early-stage but could reshape agent architectures [J-Comm]. Watch for: follow-up work on latent protocols, whether Cola2's continuous semantic compression gets integrated into agent frameworks, and whether any production system adopts non-token agent communication [Cola2].",
+      "signal": ""
+    },
+    {
+      "title": "AI content labeling enforcement and authenticity markets",
+      "section": "Watch items",
+      "body": "Pennsylvania's AI ad labeling law is the first US state-level requirement, and Blue Planet III's authenticity stance signals cultural demand [The Verge AI][The Verge AI]. Watch for: whether other states follow Pennsylvania, whether platforms launch verified human-made labels, and whether r/opensource's AI ban spreads to other communities [The Verge AI].",
+      "signal": ""
+    },
+    {
+      "title": "Speech-only model adoption in production",
+      "section": "Watch items",
+      "body": "Dessa, IBM Granite Speech 5.0, and ConvFill all point to speech-only models becoming viable for production [TechCrunch AI][r/LocalLLaMA][r/LocalLLaMA]. Watch for: whether a major voice assistant ships without a text LLM backbone, and whether speech-only models achieve parity with text-backbone systems on conversational benchmarks.",
+      "signal": ""
+    },
+    {
+      "title": "Volumetric video and generative rendering for consumer applications",
+      "section": "Watch items",
+      "body": "RealMe's immersive volumetric video from minimal captures and AnyGameRenderer's entity-consistent rendering suggest consumer-grade volumetric content is near [RealMe][AnyGameRenderer]. Watch for: whether volumetric capture appears in social media or e-commerce products, and whether generative rendering replaces traditional game asset pipelines.",
+      "signal": ""
+    },
+    {
+      "title": "Geospatial and wildlife AI applications",
+      "section": "Watch items",
+      "body": "LoCA's multi-modality geospatial encoders and OpenStripe's wild Amur tiger identification show location-aware and ecological AI maturing [LoCA][OpenStripe]. Watch for: whether geospatial foundation models become a commercial category, and whether conservation AI scales beyond single-species studies.",
       "signal": ""
     }
   ],
