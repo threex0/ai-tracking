@@ -1,296 +1,7 @@
 {
-  "generated_at": "2026-10-28T08:16:35.952298+00:00",
+  "generated_at": "2026-10-29T08:16:23.273275+00:00",
   "window_days": 14,
   "items": [
-    {
-      "title": "The Foundations of Scalable AI",
-      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-22",
-      "tier": 2,
-      "tags": [
-        "agents"
-      ],
-      "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how",
-      "score": 0.124
-    },
-    {
-      "title": "Designing an AI serving harness built to last",
-      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-22",
-      "tier": 2,
-      "tags": [
-        "agents",
-        "reasoning",
-        "evals"
-      ],
-      "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows,",
-      "score": 0.131
-    },
-    {
-      "title": "In the biotech world, you can’t see everything",
-      "url": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [],
-      "summary": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new inform",
-      "score": 0.167
-    },
-    {
-      "title": "The Download: testing six tech promises and biotech’s blind spots",
-      "url": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [],
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too good to give up on. Decoding a pet’s yowls and yips? Absolutely",
-      "score": 0.178
-    },
-    {
-      "title": "The focus on AI safety disasters ignores everyday harms",
-      "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-26",
-      "tier": 2,
-      "tags": [
-        "safety",
-        "policy"
-      ],
-      "summary": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear th",
-      "score": 0.747
-    },
-    {
-      "title": "The Download: everyday AI harms and the race to nuclear spaceflight",
-      "url": "https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-26",
-      "tier": 2,
-      "tags": [
-        "safety"
-      ],
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: The focus on AI safety disasters ignores everyday harms —Sam Hiner, cofounder of the Young People’s Alliance, and Emma Leiken, executive director of the ",
-      "score": 0.806
-    },
-    {
-      "title": "Will the real Anthropic please stand up",
-      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-26",
-      "tier": 2,
-      "tags": [
-        "funding"
-      ],
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s u",
-      "score": 0.897
-    },
-    {
-      "title": "How solid-state transformers could help power the AI boom",
-      "url": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [],
-      "summary": "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they’re complicated and in short supply. And given that their basic design hasn’t changed much for about a century, they could use an upgrade. As the world races to me",
-      "score": 1.232
-    },
-    {
-      "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
-      "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [],
-      "summary": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves, w",
-      "score": 1.293
-    },
-    {
-      "title": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
-      "url": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/",
-      "source_id": "mit_tech_review",
-      "source_name": "MIT Technology Review",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [
-        "funding"
-      ],
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Will the real Anthropic please stand up? After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are f",
-      "score": 1.316
-    },
-    {
-      "title": "He Wants AI Benchmarking To Be a Science, Not a Dark Art",
-      "url": "https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016/",
-      "source_id": "quanta",
-      "source_name": "Quanta Magazine",
-      "date": "2026-10-16",
-      "tier": 2,
-      "tags": [
-        "evals"
-      ],
-      "summary": "Moritz Hardt, author of a new book on benchmarks, believes these “standardized tests” for artificial intelligence are fundamentally broken — but not unfixable. The post He Wants AI Benchmarking To Be a Science, Not a Dark Art first appeared on Quanta Magazine",
-      "score": 0.006
-    },
-    {
-      "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
-      "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
-      "source_id": "quanta",
-      "source_name": "Quanta Magazine",
-      "date": "2026-10-19",
-      "tier": 2,
-      "tags": [],
-      "summary": "Unlike other recent AI proofs, this one has been unpacked by human experts. The implications, one mathematician said, are “staggering.” The post AI Proved the Quasi-Riemann Hypothesis. What Happens Now? first appeared on Quanta Magazine",
-      "score": 0.026
-    },
-    {
-      "title": "See Inside Cells Like Never Before in These Vivid Microscopic Images",
-      "url": "https://www.quantamagazine.org/see-inside-cells-like-never-before-in-these-vivid-microscopic-images-20261021/",
-      "source_id": "quanta",
-      "source_name": "Quanta Magazine",
-      "date": "2026-10-21",
-      "tier": 2,
-      "tags": [],
-      "summary": "Winning entries in the 2026 Nikon Small World competitions reveal the hidden interactions that govern everyday life. The post See Inside Cells Like Never Before in These Vivid Microscopic Images first appeared on Quanta Magazine",
-      "score": 0.068
-    },
-    {
-      "title": "Malaria Parasite Caught in the Act of Breaking and Entering",
-      "url": "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/",
-      "source_id": "quanta",
-      "source_name": "Quanta Magazine",
-      "date": "2026-10-23",
-      "tier": 2,
-      "tags": [],
-      "summary": "To invade red blood cells, the deadly protist creates a temporary molecular portal that disappears behind it — a door we can now see in fine detail. The post Malaria Parasite Caught in the Act of Breaking and Entering first appeared on Quanta Magazine",
-      "score": 0.189
-    },
-    {
-      "title": "How Voting Is Like a Klein Bottle",
-      "url": "https://www.quantamagazine.org/how-voting-is-like-a-klein-bottle-20261026/",
-      "source_id": "quanta",
-      "source_name": "Quanta Magazine",
-      "date": "2026-10-26",
-      "tier": 2,
-      "tags": [],
-      "summary": "A new topological model connects a centuries-old voting paradox to a surface with no distinct inside or outside. The post How Voting Is Like a Klein Bottle first appeared on Quanta Magazine",
-      "score": 0.845
-    },
-    {
-      "title": "The RealReal won’t let AI agents hog designer clothing",
-      "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-26",
-      "tier": 2,
-      "tags": [
-        "agents"
-      ],
-      "summary": "The RealReal, a secondhand luxury fashion consignment retailer, said it's updating its bot defense system, effectively making it harder for AI agents to shop on its site. The change comes days after The Verge reported that an AI agent could be used to take advantage of The RealReal's item reserve sy",
-      "score": 0.892
-    },
-    {
-      "title": "Anthropic is burning gas to feed the AI boom",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-26",
-      "tier": 2,
-      "tags": [],
-      "summary": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\" In documents filed with the US Securities and Exchange Commission Monda",
-      "score": 0.975
-    },
-    {
-      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-26",
-      "tier": 2,
-      "tags": [
-        "hardware"
-      ],
-      "summary": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts th",
-      "score": 1.017
-    },
-    {
-      "title": "Data center backlash is uniting America",
-      "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [],
-      "summary": "If there's one issue that seems to activate all kinds of voters in 2026, it's data centers. The rapid buildout of these massive server storage facilities - and the infrastructure construction and expenses that come with them - has sparked local opposition in communities across the country and become",
-      "score": 1.321
-    },
-    {
-      "title": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
-      "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [],
-      "summary": "Apple is bringing an AI assistant to its suite of productivity apps, including Keynote, Pages, and Numbers. The assistant, which is built on AI models from Apple and OpenAI, can understand a document's context to perform tasks like designing, animating, and refining slides in Keynote. In Pages, Appl",
-      "score": 1.363
-    },
-    {
-      "title": "Google’s next Genie AI model generates more realistic experiences",
-      "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [
-        "speech-audio"
-      ],
-      "summary": "Google announced today its Genie 4 world model for generating interactive experiences using AI. The company says the model has four main updates: It allows for more realistic worlds, lets users update an experience in real time with a natural language prompt, can generate audio, and uses Gemini 3.8 ",
-      "score": 1.399
-    },
-    {
-      "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [],
-      "summary": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste your work history into ",
-      "score": 1.432
-    },
-    {
-      "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [
-        "funding"
-      ],
-      "summary": "Anthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public markets and insists it doesn't want to compromise its core mission of developing AI safely and for the benefit of humanity. But greater model capabilities bring greater risks, and shareholders",
-      "score": 1.457
-    },
-    {
-      "title": "VisionQuest is what happens when AI really goes rogue",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
-      "source_id": "theverge_ai",
-      "source_name": "The Verge AI",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [],
-      "summary": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live together in a home. The series is deeply fantastical, yet it plays with some of the ideas that have come",
-      "score": 1.471
-    },
     {
       "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
@@ -302,173 +13,115 @@
         "hardware"
       ],
       "summary": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired of",
-      "score": 1.577
+      "score": 0.956
     },
     {
-      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-25",
+      "title": "Meta quietly launched an &#8216;AI pet journal&#8217; app",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-28",
       "tier": 2,
       "tags": [],
-      "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
-      "score": 0.535
+      "summary": "Meta has launched a \"tamagotchi-style\" pet game called Waddle World, with virtual creatures that chat with users and create doodles to illustrate conversations. According to its Apple and Play Store listings, the \"16-bit pet care game\" is not really a game, but \"a daily journal disguised as a pet.\" ",
+      "score": 1.297
     },
     {
-      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-25",
+      "title": "Voters in Texas agree: They hate data centers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-28",
       "tier": 2,
       "tags": [],
-      "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
-      "score": 0.588
+      "summary": "Ask Texas NAACP president Gary Bledsoe what it's been like to see data center developers descend upon Austin and its surrounding suburbs and he can rattle off project after project facing opposition from locals. There's the fight in Taylor over plans to build a data center at a site that's supposed ",
+      "score": 1.527
     },
     {
-      "title": "Anthropic officially files for its public debut",
-      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-26",
+      "title": "xAI is buying out homeowners who promise not to sue over data center noise",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-28",
       "tier": 2,
       "tags": [
-        "safety",
-        "funding"
+        "policy"
       ],
-      "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
-      "score": 0.839
+      "summary": "A subsidiary of Elon Musk's xAI is offering to buy up homes in a Mississippi neighborhood, as long as residents don't join a lawsuit targeting the company's nearby data center and power plant, according to a report from The Guardian. A realtor going door-to-door in the Southaven neighborhood reporte",
+      "score": 1.388
     },
     {
-      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
-      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-26",
+      "title": "Meta says it&#8217;ll probably delay its controversial new business terms again",
+      "url": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-28",
       "tier": 2,
       "tags": [
-        "hardware"
+        "policy"
       ],
-      "summary": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
-      "score": 0.879
+      "summary": "Meta says it may push the implementation of its new business terms past November 20th as it faces backlash from publishers over concerns about AI training. In a post on X, Meta communications head Andy Stone said the company does \"not plan to make policy changes without a full consultation with indu",
+      "score": 1.433
     },
     {
-      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
-      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-26",
+      "title": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
+      "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-28",
+      "tier": 2,
+      "tags": [],
+      "summary": "Following improvements made to Chrome's enhanced autofill last year that included your name, passport number, email address, and physical addresses sourced from your Google Accounts and services like Google Wallet, the feature is now expanding. Starting today, Chrome's enhanced autofill will use Gem",
+      "score": 1.442
+    },
+    {
+      "title": "Microsoft is ending Copilot support on smart TVs",
+      "url": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-28",
+      "tier": 2,
+      "tags": [],
+      "summary": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft's Copilot, the company is ending support for the AI assistant's functionality on all TVs this year, according to a report by Windows Central. The news comes not from an official ",
+      "score": 1.505
+    },
+    {
+      "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+      "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-28",
       "tier": 2,
       "tags": [
-        "funding"
+        "agents",
+        "evals"
       ],
-      "summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
-      "score": 0.879
+      "summary": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and GPT-",
+      "score": 1.551
     },
     {
-      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-27",
+      "title": "Akai is embracing vibe-coded mods with an open-source MPC",
+      "url": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-28",
       "tier": 2,
       "tags": [
         "open-source"
       ],
-      "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
-      "score": 1.047
+      "summary": "The MPC Sample Key isn't even formally announced yet, but Akai is already showing off what the modding community is cooking up through vibe coding. Akai has decided to embrace the explosion of hackers and custom firmware developers by giving them early access to the device, which will have open-sour",
+      "score": 1.601
     },
     {
-      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [
-        "agents"
-      ],
-      "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
-      "score": 1.065
-    },
-    {
-      "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
-      "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [
-        "hardware"
-      ],
-      "summary": "Simplismart says its annualized revenue run rate has grown fourteenfold in six months, with the U.S. accounting for more than half its revenue.",
-      "score": 1.284
-    },
-    {
-      "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
-      "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [
-        "hardware",
-        "funding"
-      ],
-      "summary": "General Compute is betting on inference chips from outside the Nvidia ecosystem.",
-      "score": 1.339
-    },
-    {
-      "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
-      "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-27",
+      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-28",
       "tier": 2,
       "tags": [],
-      "summary": "The new standard, WebAI, is designed to work with a variety of AI models.",
-      "score": 1.339
-    },
-    {
-      "title": "Japan internet giant GMO says hackers posted stolen customer data",
-      "url": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [],
-      "summary": "Japan's GMO Internet is verifying alleged customer data posted by suspected hackers following a cloud service breach.",
-      "score": 1.354
-    },
-    {
-      "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
-      "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [
-        "rl",
-        "evals",
-        "funding"
-      ],
-      "summary": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
-      "score": 1.395
-    },
-    {
-      "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
-      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [
-        "safety",
-        "speech-audio"
-      ],
-      "summary": "Genie 4 can maintain a consistent scene for up to two minutes, double Genie 3's limit, and offers better physics and more humanlike characters.",
-      "score": 1.441
+      "summary": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast to talk about the lau",
+      "score": 1.652
     },
     {
       "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
@@ -481,7 +134,7 @@
         "hardware"
       ],
       "summary": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
-      "score": 1.459
+      "score": 0.885
     },
     {
       "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
@@ -496,7 +149,7 @@
         "speech-audio"
       ],
       "summary": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.",
-      "score": 1.515
+      "score": 0.919
     },
     {
       "title": "Who’s really in charge at Anthropic after the IPO?",
@@ -509,7 +162,7 @@
         "funding"
       ],
       "summary": "Here's a clear explanation of Anthropic's incredibly complex governance structure.",
-      "score": 1.603
+      "score": 0.972
     },
     {
       "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
@@ -522,7 +175,7 @@
         "agents"
       ],
       "summary": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
-      "score": 1.606
+      "score": 0.974
     },
     {
       "title": "The data center boom has an upside: innovation for the US grid",
@@ -533,7 +186,7 @@
       "tier": 2,
       "tags": [],
       "summary": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say.",
-      "score": 1.646
+      "score": 0.999
     },
     {
       "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
@@ -544,7 +197,7 @@
       "tier": 2,
       "tags": [],
       "summary": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
-      "score": 1.669
+      "score": 1.012
     },
     {
       "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
@@ -557,781 +210,242 @@
         "funding"
       ],
       "summary": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
-      "score": 1.728
+      "score": 1.048
     },
     {
-      "title": "What's the hardest part of creating edge cases for fine-tuning open-weight models? [D]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xfa17z/whats_the_hardest_part_of_creating_edge_cases_for/",
-      "source_id": "reddit_ml",
-      "source_name": "r/MachineLearning",
-      "date": "2026-10-25",
-      "tier": 2,
-      "tags": [
-        "synthetic-data",
-        "open-source"
-      ],
-      "summary": "I'm interested in how people build datasets for fine-tuning open-weight models, especially when it is about making a model handling edge cases than just perform well on common examples. I'm curious about the data side of the process. Finding edge cases: How do you identify edge cases that are rare o",
-      "score": 0.553
-    },
-    {
-      "title": "memt-1.0 architecture breakdown gated deltanet-2, mixture-of-storage, and 66x smaller storage footprint for agent memory [D]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xeu0ht/memt10_architecture_breakdown_gated_deltanet2/",
-      "source_id": "reddit_ml",
-      "source_name": "r/MachineLearning",
-      "date": "2026-10-25",
-      "tier": 2,
-      "tags": [
-        "agents",
-        "reasoning"
-      ],
-      "summary": "been digesting the details behind memt-1.0's memory-native architecture recently, and the engineering tradeoffs between full context kv caching and internalized parametric memory are pretty wild. instead of using append-only prompt stacking or external rag pipelines, memt-1.0 bakes memory directly i",
-      "score": 0.421
-    },
-    {
-      "title": "Nanbeige releases Nanbeige4.3-33B, an Apache 2.0 teacher model for smaller agents [N]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xf6x35/nanbeige_releases_nanbeige4333b_an_apache_20/",
-      "source_id": "reddit_ml",
-      "source_name": "r/MachineLearning",
-      "date": "2026-10-25",
-      "tier": 2,
-      "tags": [
-        "agents",
-        "reasoning",
-        "evals",
-        "open-source",
-        "funding"
-      ],
-      "summary": "Nanbeige released Nanbeige4.3-33B as the teacher for its planned smaller agents, including an upcoming 3B model. the weights are Apache 2.0, and the model card lists a 512K context window. the team reports 80.9 on Terminal-Bench 2.1 versus 73.0 for Qwen3.8-27B, using the same harness and inference s",
-      "score": 0.53
-    },
-    {
-      "title": "SenseNova 6.8 Code2Video: animation examples with repeated geometry, text and scientific diagrams[P]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xguyw1/sensenova_68_code2video_animation_examples_with/",
-      "source_id": "reddit_ml",
-      "source_name": "r/MachineLearning",
-      "date": "2026-10-27",
+      "title": "7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open",
+      "url": "https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-28",
       "tier": 2,
       "tags": [],
-      "summary": "A 3×8 array of clock faces is one of the examples in the SenseNova 6.8 Code2Video showcase. Other entries focus on letterforms, including A to Z and FRAME / FORM / FLOW. The scientific scenes include Earth and spacecraft clocks, molecular diagrams, and a ball-and-spring setup with separate energy di",
-      "score": 1.398
+      "summary": "In just 7 days, TechCrunch Founder Summit takes over Boston’s SoWa Power Station on November 4. Your chance to save up to $100 on tickets is running out, and the opportunity to learn and connect directly with experienced founders, investors, and startup leaders is almost here.",
+      "score": 1.339
     },
     {
-      "title": "How to do method research when I feel I have no guidance on doing it? [D]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xgdl42/how_to_do_method_research_when_i_feel_i_have_no/",
-      "source_id": "reddit_ml",
-      "source_name": "r/MachineLearning",
-      "date": "2026-10-27",
+      "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-28",
       "tier": 2,
       "tags": [
-        "reasoning"
+        "speech-audio"
       ],
-      "summary": "I am a 3rd year PhD student in a small lab working on ML in healthcare. My PI is new (we have no PhD graduates yet - lab is 4 years old). I want to publish in a top ML conference (I know its necessary for an ML researcher job). And my PI is saying you need to do method research and I don't know how ",
-      "score": 1.024
+      "summary": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while still leaving real-time use to rivals like ElevenLabs.",
+      "score": 1.396
     },
     {
-      "title": "Exploring Next-Concept Modeling (NCM) & Transformer Interpretability: Repository of 20 Exploratory Studies & Controls [P]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xh3e7o/exploring_nextconcept_modeling_ncm_transformer/",
-      "source_id": "reddit_ml",
-      "source_name": "r/MachineLearning",
-      "date": "2026-10-27",
+      "title": "South Korea’s financial industry hit by fresh wave of cyberattacks",
+      "url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-28",
       "tier": 2,
-      "tags": [
-        "safety",
-        "open-source"
-      ],
-      "summary": "Hi everyone, I wanted to share an open-source repo collecting 20 exploratory studies focused on Next-Concept Modeling (NCM), mechanistic interpretability (like IOI in GPT-2), and model controls. Link: https://github.com/Quantix-eng/ncm-experiment-notes This is an independent project documenting empi",
-      "score": 1.556
+      "tags": [],
+      "summary": "South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia.",
+      "score": 1.416
     },
     {
-      "title": "Ψ-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model [R]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1xgwq9u/ψ06_adaptive_streams_of_thought_in_a_unified/",
-      "source_id": "reddit_ml",
-      "source_name": "r/MachineLearning",
-      "date": "2026-10-27",
+      "title": "AI execs may be too out of touch to build for the general public",
+      "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-28",
       "tier": 2,
-      "tags": [
-        "multimodal",
-        "reasoning",
-        "open-source",
-        "policy"
-      ],
-      "summary": "Chain-of-thought transformed AI reasoning, but it is limited to words. What's the physical-world analogue? Introducing Ψ-0.6, one model that reasons in *streams of thought*: words, depth, motion, camera pose, and imagined scenes. And it learns when to use which! Ψ-0.6 surpasses leading open-weight m",
-      "score": 1.43
+      "tags": [],
+      "summary": "Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families.",
+      "score": 1.422
     },
     {
-      "title": "Show HN: Specification First Agentic Development Plugin and Prove",
-      "url": "https://spec-first.dev/",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
-      "date": "2026-10-27",
+      "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+      "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-28",
       "tier": 2,
       "tags": [
         "agents"
       ],
-      "summary": "28 points, 26 comments",
-      "score": 1.966,
-      "points": 28,
-      "comments": 26
+      "summary": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+      "score": 1.455
     },
     {
-      "title": "My video has unit tests",
-      "url": "https://pertiller.tech/blog/my-video-written-in-code/",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
-      "date": "2026-10-27",
+      "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+      "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-28",
       "tier": 2,
       "tags": [],
-      "summary": "26 points, 11 comments",
-      "score": 1.936,
-      "points": 26,
-      "comments": 11
+      "summary": "The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission.",
+      "score": 1.455
     },
     {
-      "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
-      "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [],
-      "summary": "518 points, 274 comments",
-      "score": 2.449,
-      "points": 518,
-      "comments": 274
-    },
-    {
-      "title": "PHP2Shell, LiteLLM, GitLab: Find What You Need to Patch",
-      "url": "https://cloudsleuth.io/blog/php2shell-litellm-gitlab-find-what-you-run/",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [],
-      "summary": "59 points, 13 comments",
-      "score": 2.102,
-      "points": 59,
-      "comments": 13
-    },
-    {
-      "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
-      "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [],
-      "summary": "313 points, 237 comments",
-      "score": 2.422,
-      "points": 313,
-      "comments": 237
-    },
-    {
-      "title": "She Worried About Cutting Her Medication Dose. ChatGPT Told Her to Push On",
-      "url": "https://www.nytimes.com/2026/10/27/well/ai-chatgpt-medication-epilepsy-death.html",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [],
-      "summary": "30 points, 9 comments",
-      "score": 2.057,
-      "points": 30,
-      "comments": 9
-    },
-    {
-      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
-      "url": "https://www.brangus.io/survival-llm",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [
-        "hardware"
-      ],
-      "summary": "322 points, 135 comments",
-      "score": 2.592,
-      "points": 322,
-      "comments": 135
-    },
-    {
-      "title": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
-      "url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [],
-      "summary": "151 points, 79 comments",
-      "score": 2.505,
-      "points": 151,
-      "comments": 79
-    },
-    {
-      "title": "Early progress on accelerating drug development with Claude",
-      "url": "https://www.anthropic.com/research/early-progress-drug-development",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [],
-      "summary": "215 points, 189 comments",
-      "score": 2.589,
-      "points": 215,
-      "comments": 189
-    },
-    {
-      "title": "One year of Dioxus fullstack in production: the good, the painful",
-      "url": "https://oxidt.com/blog/one-year-of-dioxus-fullstack-in-production-the-good-the-painful",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [],
-      "summary": "22 points, 11 comments",
-      "score": 2.171,
-      "points": 22,
-      "comments": 11
-    },
-    {
-      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
-      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [
-        "policy"
-      ],
-      "summary": "38 points, 28 comments",
-      "score": 2.334,
-      "points": 38,
-      "comments": 28
-    },
-    {
-      "title": "Does the \"automated grader\" direction suppress expressed distress in Qwen3.6-27B?",
-      "url": "https://www.lesswrong.com/posts/DfKDcvGWgAD4BiEHK/does-the-automated-grader-direction-suppress-expressed",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [
-        "agents",
-        "reasoning",
-        "evals",
-        "safety",
-        "open-source",
-        "hardware",
-        "funding"
-      ],
-      "summary": "TLDR: This is a preregistration for an experiment intended to examine the impact of steering towards \"automated-grading\" on welfare-relevant indicators of frustration, self-deprecation, and tone as well as use of a tool which can abort the conversation. Confirmatory data will be published in a follo",
-      "score": 1.608
-    },
-    {
-      "title": "Against Girardian mimesis",
-      "url": "https://www.lesswrong.com/posts/tzuArKci3JpN7Zye4/against-girardian-mimesis",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
-      "date": "2026-10-27",
-      "tier": 2,
-      "tags": [
-        "reasoning",
-        "hardware"
-      ],
-      "summary": "Wikipedia summarizes René Girard's mimetic theory like this: Man is the creature who does not know what to desire, and he turns to others in order to make up his mind. We desire what others desire because we imitate their desires. In other words, you think you want something for your own internal re",
-      "score": 1.637
-    },
-    {
-      "title": "March Against AI Extinction",
-      "url": "https://www.lesswrong.com/events/X4aX4CdGh4AzGds3i/march-against-ai-extinction",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
+      "title": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
+      "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
       "date": "2026-10-28",
       "tier": 2,
       "tags": [
-        "agents",
-        "evals",
-        "safety",
-        "policy"
+        "open-source"
       ],
-      "summary": "21 November 2026, 12–3pm Start: All Souls’ Place, London W1B 3DA End: Downing Street, London SW1A 2AA Thousands of people across the UK recognize that companies will soon build superintelligent AI that they cannot control. If we all march together, newspapers will publish photos of it all over the w",
-      "score": 1.768
+      "summary": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. Accord",
+      "score": 1.512
     },
     {
-      "title": "GPT Models Write Their Own Constitution",
-      "url": "https://www.lesswrong.com/posts/ftEMXHAN4BdDBZjoY/gpt-models-write-their-own-constitution-1",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
-      "date": "2026-10-27",
+      "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
+      "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-28",
+      "tier": 2,
+      "tags": [
+        "open-source"
+      ],
+      "summary": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. Accord",
+      "score": 1.52
+    },
+    {
+      "title": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-28",
+      "tier": 2,
+      "tags": [
+        "funding"
+      ],
+      "summary": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
+      "score": 1.528
+    },
+    {
+      "title": "Microsoft hits 10 quarters of record-breaking revenue in a row",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-28",
+      "tier": 2,
+      "tags": [],
+      "summary": "Whatever the future of AI might be, the current situation is still very good for Microsoft. The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a 19% increase over the year-ago quarter.",
+      "score": 1.596
+    },
+    {
+      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-28",
+      "tier": 2,
+      "tags": [],
+      "summary": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.",
+      "score": 1.601
+    },
+    {
+      "title": "Google expands AI Search ads globally as core ad growth slows",
+      "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-28",
+      "tier": 2,
+      "tags": [],
+      "summary": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion.",
+      "score": 1.609
+    },
+    {
+      "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-28",
+      "tier": 2,
+      "tags": [],
+      "summary": "Microsoft has never disclosed Azure's quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS.",
+      "score": 1.614
+    },
+    {
+      "title": "5 Frontier LLM's grade 39 local LLM's on 50 prompts",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi6edm/5_frontier_llms_grade_39_local_llms_on_50_prompts/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-29",
       "tier": 2,
       "tags": [
         "agents",
-        "reasoning",
         "evals",
-        "safety",
-        "hardware",
-        "policy",
-        "funding",
+        "open-source",
+        "hardware"
+      ],
+      "summary": "This is just something i had running for about 10-20 hours (kept adding models), various tests/benchmarks and had 4 (Claude kind of graded, his tokens are too precious) frontier LLM's grade the answers of the local LLM's. Big models got about 44 and smaller models got 66 prompt/tests. Some written b",
+      "score": 1.726
+    },
+    {
+      "title": "Single-Neuron Identity Shifts",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi25sk/singleneuron_identity_shifts/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-28",
+      "tier": 2,
+      "tags": [
+        "open-source"
+      ],
+      "summary": "These guys are running a pretty interesting experiment: https://neuronpersonas.com/ Credit where it's due, I came across it here: https://news.ycombinator.com/item?id=50266910 Basically, they're tweaking one single neuron at a time during inference, systematically going through every one for models ",
+      "score": 1.62
+    },
+    {
+      "title": "Theory: Local is going to explode at enterprises",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhvf1z/theory_local_is_going_to_explode_at_enterprises/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-28",
+      "tier": 2,
+      "tags": [],
+      "summary": "As suggested by this post: https://x.com/thdxr/status/2115447178722177226 Enterprises want to keep their secrets. Local AI with big local models is plenty good for the majority of tasks. Enterprises just need a plug and play solution? submitted by /u/Terminator857 [link] [comments]",
+      "score": 1.485
+    },
+    {
+      "title": "pruned NVIDIA's new 30B speech LLM from 67.5GB to 10GB with zero retraining, it still transcribes at 5.16% WER (teacher: 4.12%)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xibujk/pruned_nvidias_new_30b_speech_llm_from_675gb_to/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-29",
+      "tier": 2,
+      "tags": [
         "speech-audio"
       ],
-      "summary": "Earlier this year, Anthropic published \"Claude's Constitution\" , a vision for Claude's values and behavior. It was primarily an Anthropic project, though Claude helped draft and edit it. As models become more capable and better at cooperating with each other, I’ve been wondering what a constitution ",
-      "score": 1.659
+      "summary": "submitted by /u/Illustrious_Row_9971 [link] [comments]",
+      "score": 1.905
     },
     {
-      "title": "Quantum Mechanics Overview",
-      "url": "https://www.lesswrong.com/posts/C4KNcEbbgwJTYmALS/quantum-mechanics-overview",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
-      "date": "2026-10-28",
+      "title": "Researchers Discover a Way to Reduce LLM Training Compute by 15% Without Sacrificing Quality",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xid3i8/researchers_discover_a_way_to_reduce_llm_training/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-29",
       "tier": 2,
       "tags": [
-        "reasoning",
-        "hardware",
-        "funding"
-      ],
-      "summary": "[LW meta: This is a very brief overview of what quantum mechanics says and how it relates to ordinary reality. Many readers here will probably already be familiar with this material, especially if they've read Eliezer's quantum physics sequence. Also note that there are diagrams in the linkpost that",
-      "score": 1.73
-    },
-    {
-      "title": "I spent 12 hours writing an article for LessWrong, calling for a more ‘hippie’ rationalism. Then I didn’t post it. This is why (plus a link to the article, explicitly not located on LessWrong)",
-      "url": "https://www.lesswrong.com/posts/zf3Xz5Cv45ytavH2r/i-spent-12-hours-writing-an-article-for-lesswrong-calling",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
-      "date": "2026-10-28",
-      "tier": 2,
-      "tags": [
-        "reasoning",
-        "safety"
-      ],
-      "summary": "TLDR I (and many others in the community) wish to see the universe unfold to its highest potential in the metaphorical palm of an AI as aligned as the most benevolent Buddhist monk – but I (we) feel the community's ontology is too narrow to hold me (us). I'm still not sure what to do about this, so ",
-      "score": 1.738
-    },
-    {
-      "title": "The missing ingredient of AI consciousness",
-      "url": "https://www.lesswrong.com/posts/oWLPq2fNa3DRJ5wtH/the-missing-ingredient-of-ai-consciousness",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
-      "date": "2026-10-28",
-      "tier": 2,
-      "tags": [],
-      "summary": "In his book The Feeling of What Happens , Antonio Damasio offers a neurobiological theory of consciousness. Things happen to every object, but consciousness, he argues, emerges when there is an acknowledgement that it is to me that these things are happening. In this framework, consciousness is the ",
-      "score": 1.842
-    },
-    {
-      "title": "Generalized CliqueBots in Open-Source Game Theory",
-      "url": "https://www.lesswrong.com/posts/hcAQe3snm9qEzXBBz/generalized-cliquebots-in-open-source-game-theory",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
-      "date": "2026-10-28",
-      "tier": 2,
-      "tags": [
-        "agents",
         "reasoning",
         "evals",
         "open-source",
-        "hardware",
-        "policy"
+        "hardware"
       ],
-      "summary": "In this post, I suggest the notion of an interface-relative CliqueBot in open-source game theory. Such a bot cooperates only with the likes of it – from the point of view of a finite number of probing functions. There are several reasons the notion could be valuable. First, it suggests a perspective",
-      "score": 1.908
+      "summary": "At EMNLP 2026, an A* conference currently taking place in Hungary, researchers from T-Tech presented LIMe, a method that makes it possible to train language models with approximately 15% less compute without compromising quality. In traditional Transformers, each layer relies solely on the hidden st",
+      "score": 1.956
     },
     {
-      "title": "When I Salsa dance, am I supposed to... try?",
-      "url": "https://www.lesswrong.com/posts/uoH2Px4nynQA4ziEW/when-i-salsa-dance-am-i-supposed-to-try",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
+      "title": "A small step for man, a GIANT step for LOCAL AI",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhubiw/a_small_step_for_man_a_giant_step_for_local_ai/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
       "date": "2026-10-28",
       "tier": 2,
       "tags": [
-        "reasoning",
-        "hardware"
+        "agents"
       ],
-      "summary": "I had my birthday party on a Saturday in August. After the party ended, a few of us went out to a nearby bar. Most of my family on my mom’s side is Ecuadorian [1] , and my cousin from that side of the family was with us. She was wonderfully drunk and is a natural people person who wants to meet ever",
-      "score": 1.812
-    },
-    {
-      "title": "Great but Painful",
-      "url": "https://www.lesswrong.com/posts/KThSe2vPZw4zn7f8W/great-but-painful",
-      "source_id": "lesswrong",
-      "source_name": "LessWrong",
-      "date": "2026-10-28",
-      "tier": 2,
-      "tags": [
-        "hardware"
-      ],
-      "summary": "If you want to build a product that people will use, find something that people already do and make it less painful. People are notoriously bad at knowing what they want. If you ask someone what they want then they will typically tell you what they think a socially virtuous person is expected to wan",
-      "score": 1.816
-    },
-    {
-      "title": "Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next",
-      "url": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-07-22",
-      "tier": 2,
-      "tags": [
-        "synthetic-data",
-        "open-source",
-        "speech-audio"
-      ],
-      "summary": "A podcast with Florian Brand.",
-      "score": 0.0
-    },
-    {
-      "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-02",
-      "tier": 2,
-      "tags": [],
-      "summary": "Capacity to train strong models is proliferating.",
-      "score": 0.0
-    },
-    {
-      "title": "Introducing our Artifacts Hub and Adoption Dashboard",
-      "url": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-03",
-      "tier": 2,
-      "tags": [],
-      "summary": "Scaling our curation and measurement of the open ecosystem.",
-      "score": 0.0
-    },
-    {
-      "title": "Lessons from the hacks",
-      "url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-09",
-      "tier": 2,
-      "tags": [
-        "safety"
-      ],
-      "summary": "Musings on model alignment, what determines safety, and where we go from here.",
-      "score": 0.0
-    },
-    {
-      "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
-      "url": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-10",
-      "tier": 2,
-      "tags": [],
-      "summary": "After a few long years of finding time to document my lessons from training open models, my post-training book is done!",
-      "score": 0.0
-    },
-    {
-      "title": "I wrote an AI textbook — how long until AI can do it better?",
-      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-12",
-      "tier": 2,
-      "tags": [],
-      "summary": "Reflections on AI's writing ability and how AI models get more capable.",
-      "score": 0.0
-    },
-    {
-      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
-      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-14",
-      "tier": 2,
-      "tags": [
-        "synthetic-data"
-      ],
-      "summary": "Hint: It’s really not a distillation story.",
-      "score": 0.0
-    },
-    {
-      "title": "Teaching Everyone to Fish for Tokens",
-      "url": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-08-17",
-      "tier": 2,
-      "tags": [],
-      "summary": "Nvidia wants you building your own model, not buying from Anthropic/OpenAI.",
-      "score": 0.0
-    },
-    {
-      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-08",
-      "tier": 2,
-      "tags": [],
-      "summary": "The open model ecosystem continues to expand in its breadth",
-      "score": 0.0
-    },
-    {
-      "title": "When will average people feel AI’s impact?",
-      "url": "https://www.interconnects.ai/p/when-will-average-people-feel-ais",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-09",
-      "tier": 2,
-      "tags": [],
-      "summary": "We’re <5 years into a compounding revolution which could take a century, and how the AI industry should manage this.",
-      "score": 0.0
-    },
-    {
-      "title": "One resignation turned the embers of AI fear into a wildfire",
-      "url": "https://www.interconnects.ai/p/one-resignation-turned-the-embers",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-10",
-      "tier": 2,
-      "tags": [],
-      "summary": "Some quick notes on a truly weird week.",
-      "score": 0.0
-    },
-    {
-      "title": "Open-Source AI & Open Models Reading List",
-      "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-11",
-      "tier": 2,
-      "tags": [
-        "open-source"
-      ],
-      "summary": "How to get up to speed on open models and their implications.",
-      "score": 0.0
-    },
-    {
-      "title": "Why I still haven’t bought into true RSI",
-      "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-19",
-      "tier": 2,
-      "tags": [],
-      "summary": "An “AI moderate’s” view on recent events and the trajectory of frontier models.",
-      "score": 0.0
-    },
-    {
-      "title": "The current balance of power in open models",
-      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-21",
-      "tier": 2,
-      "tags": [],
-      "summary": "The expanded form of a testimony I prepared for Congress.",
-      "score": 0.0
-    },
-    {
-      "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
-      "url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-09-22",
-      "tier": 2,
-      "tags": [],
-      "summary": "Podcast #19",
-      "score": 0.0
-    },
-    {
-      "title": "The Cyber Risk Discourse is Broken",
-      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-10-06",
-      "tier": 2,
-      "tags": [
-        "open-source"
-      ],
-      "summary": "Open-weights, ideology, and acknowledging trade-offs.",
-      "score": 0.0
-    },
-    {
-      "title": "I expect rapid progress but not towards general superintelligence",
-      "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-10-09",
-      "tier": 2,
-      "tags": [],
-      "summary": "I’ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn’t really know why I doubted it.",
-      "score": 0.0
-    },
-    {
-      "title": "Meta shakes up the frontiers, open and closed",
-      "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-10-17",
-      "tier": 2,
-      "tags": [
-        "open-source"
-      ],
-      "summary": "US open weights are back!",
-      "score": 0.009
-    },
-    {
-      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-10-20",
-      "tier": 2,
-      "tags": [],
-      "summary": "Western open models strike back",
-      "score": 0.044
-    },
-    {
-      "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
-      "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
-      "source_id": "interconnects",
-      "source_name": "Interconnects",
-      "date": "2026-10-25",
-      "tier": 2,
-      "tags": [],
-      "summary": "#20",
-      "score": 0.481
-    },
-    {
-      "title": "Meta Superintelligence – Leadership Compute, Talent, and Data",
-      "url": "https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-07-11",
-      "tier": 2,
-      "tags": [
-        "hardware",
-        "funding"
-      ],
-      "summary": "Meta’s shocking purchase of 49% of Scale AI at a ~$30B valuation shows that money is of no concern for the $100B annual cashflow ad machine. Despite seemingly unlimited resources, Meta has been falling behind foundation labs in model performance.",
-      "score": 0.0
-    },
-    {
-      "title": "Intel 18A Details & Cost, Future of DRAM 4F2 vs 3D, Backside Power Adoption (or Not), China’s FlipFET, Digital Twins from Atoms to Fabs, and More",
-      "url": "https://semianalysis.com/2025/07/21/vlsi2025/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-07-21",
-      "tier": 2,
-      "tags": [
-        "hardware"
-      ],
-      "summary": "Long time readers will recall that SemiAnalysis covers more than just datacenters and AMD. Today we’re back to semiconductors with a tech-focused roundup of the best from this year’s VLSI conference, the premiere design and integration. That includes the latest in chips manufacturing: fab digital tw",
-      "score": 0.0
-    },
-    {
-      "title": "Robotics Levels of Autonomy",
-      "url": "https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-07-30",
-      "tier": 2,
-      "tags": [],
-      "summary": "Robots have powered manufacturing for decades, yet they stayed single-purpose and thrived only in perfect settings. Previous attempts at intelligent machines overpromised and underdelivered. But they were too early. Today, modern AI paradigms convert most robot roadblocks into data problems and push",
-      "score": 0.0
-    },
-    {
-      "title": "Scaling the Memory Wall: The Rise and Roadmap of HBM",
-      "url": "https://semianalysis.com/2025/08/12/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-08-12",
-      "tier": 2,
-      "tags": [],
-      "summary": "The first portion of this report will explain HBM, the manufacturing process, dynamics between vendors, KVCache offload, disaggregated prefill decode, and wide / high-rank EP. The rest of the report will dive deeply into the future of HBM. We will cover the revolutionary change coming to HBM4 with c",
-      "score": 0.0
-    },
-    {
-      "title": "GPT-5 Set the Stage for Ad Monetization and the SuperApp",
-      "url": "https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-08-13",
-      "tier": 2,
-      "tags": [],
-      "summary": "To many power users (Pro and Plus), GPT5 was a disappointing release. But with closer inspection, the real release is focused on the vast majority of ChatGPT’s users, which is the 700m+ free userbase that is growing rapidly. Power users should be disappointed; this release wasn’t for them. The real ",
-      "score": 0.0
-    },
-    {
-      "title": "H100 vs GB200 NVL72 Training Benchmarks – Power, TCO, and Reliability Analysis, Software Improvement Over Time",
-      "url": "https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-08-20",
-      "tier": 2,
-      "tags": [
-        "evals",
-        "hardware"
-      ],
-      "summary": "Frontier model training has pushed GPUs and AI systems to their absolute limits, making cost, efficiency, power, performance per TCO, and reliability central to the discussion on effective training. The Hopper vs Blackwell comparisons are not as simple as Nvidia would have you believe. In this repor",
-      "score": 0.0
-    },
-    {
-      "title": "Amazon’s AI Resurgence: AWS & Anthropic’s Multi-Gigawatt Trainium Expansion",
-      "url": "https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-09-03",
-      "tier": 2,
-      "tags": [
-        "hardware"
-      ],
-      "summary": "Two-and-a-half years ago, we flagged a looming “cloud crisis” at AWS. Today, the evidence has mounted. AWS is the crown jewel of the Amazon empire, generating ~60% of group profits, and dominating the lucrative Cloud Computing market. But it struggles to translate this strength into the new GPU/XPU ",
-      "score": 0.0
-    },
-    {
-      "title": "Huawei Ascend Production Ramp: Die Banks, TSMC Continued Production, HBM is The Bottleneck",
-      "url": "https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-09-08",
-      "tier": 2,
-      "tags": [
-        "hardware"
-      ],
-      "summary": "Compute is the lifeblood of AI. He who controls the spice controls the universe the compute will control the production of tokens and reap the benefits of AI. Without compute you do not have a seat at the table. The United States technology community is all in on compute and AI as the next platform ",
-      "score": 0.0
-    },
-    {
-      "title": "Another Giant Leap: The Rubin CPX Specialized Accelerator & Rack",
-      "url": "https://semianalysis.com/2025/09/10/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-09-10",
-      "tier": 2,
-      "tags": [
-        "hardware"
-      ],
-      "summary": "Nvidia announced the Rubin CPX, a solution that is specifically designed to be optimized for the prefill phase, with the single-die Rubin CPX heavily emphasizing compute FLOPS over memory bandwidth. This is a game changer for inference, and its significance is surpassed only by the March 2024 announ",
-      "score": 0.0
-    },
-    {
-      "title": "xAI’s Colossus 2 – First Gigawatt Datacenter In The World, Unique RL Methodology, Capital Raise",
-      "url": "https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
-      "source_id": "semianalysis",
-      "source_name": "SemiAnalysis",
-      "date": "2025-09-16",
-      "tier": 2,
-      "tags": [
-        "hardware",
-        "funding"
-      ],
-      "summary": "Much has been written about xAI’s Colossus 1. The Memphis build belongs in the history books: the largest AI training cluster, erected from scratch in 122 days. With roughly 200,000 H100/H200s and ~30,000 GB200 NVL72, it remains, today, the largest fully operational, single-coherent cluster (setting",
-      "score": 0.0
-    },
-    {
-      "title": "Discovering cryptographic weaknesses with Claude \\ Anthropic",
-      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.321
+      "summary": "Shoutout to the Unsloth AI team for constantly pushing the needle forward for local ai worldwide. While many of us already had features such as this via other means, it is more what this means for entry level ai enthusiasts & accessibility. It is clear as day! We are in \"the age of the agent.\" The m",
+      "score": 1.465
     },
     {
       "title": "Claude does cyber competitions \\ Anthropic",
@@ -1342,7 +456,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 0.321
+      "score": 0.195
     },
     {
       "title": "AI to defend critical infrastructure \\ Anthropic",
@@ -1353,7 +467,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 0.321
+      "score": 0.195
     },
     {
       "title": "Cyber evaluations of Claude 4 \\ Anthropic",
@@ -1367,7 +481,7 @@
         "funding"
       ],
       "summary": "",
-      "score": 0.321
+      "score": 0.195
     },
     {
       "title": "LLMs and biorisk \\ Anthropic",
@@ -1378,7 +492,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 0.321
+      "score": 0.195
     },
     {
       "title": "Reverse engineering Claude's CVE-2026-2796 exploit \\ Anthropic",
@@ -1389,7 +503,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 0.321
+      "score": 0.195
     },
     {
       "title": "AI models on realistic cyber ranges \\ Anthropic",
@@ -1400,7 +514,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 0.321
+      "score": 0.195
     },
     {
       "title": "Cyber toolkits for LLMs \\ Anthropic",
@@ -1411,7 +525,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 0.321
+      "score": 0.195
     },
     {
       "title": "AI agents find smart contract exploits \\ Anthropic",
@@ -1424,7 +538,7 @@
         "agents"
       ],
       "summary": "",
-      "score": 0.321
+      "score": 0.195
     },
     {
       "title": "Finding bugs with Claude and property-based testing \\ Anthropic",
@@ -1435,7 +549,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 0.321
+      "score": 0.195
     },
     {
       "title": "Project Vend: Phase two \\ Anthropic",
@@ -1446,7 +560,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 0.321
+      "score": 0.195
     },
     {
       "title": "Developing nuclear safeguards for AI \\ Anthropic",
@@ -1457,7 +571,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 0.321
+      "score": 0.195
     },
     {
       "title": "LLM-discovered 0 days \\ Anthropic",
@@ -1468,18 +582,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 0.321
-    },
-    {
-      "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude \\ Anthropic",
-      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-27",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 2.241
+      "score": 0.195
     },
     {
       "title": "How AI agents shape experts’ judgment calls \\ Anthropic",
@@ -1492,18 +595,7 @@
         "agents"
       ],
       "summary": "",
-      "score": 2.289
-    },
-    {
-      "title": "Early progress on accelerating drug development with Claude \\ Anthropic",
-      "url": "https://www.anthropic.com/research/early-progress-drug-development",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-27",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 2.345
+      "score": 1.389
     },
     {
       "title": "Anthropic files S-1 with the SEC for proposed initial public offering \\ Anthropic",
@@ -1514,7 +606,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.406
+      "score": 1.46
     },
     {
       "title": "Expanding our partnership with GSA to bring Claude to all levels of government \\ Anthropic",
@@ -1527,7 +619,7 @@
         "policy"
       ],
       "summary": "",
-      "score": 2.441
+      "score": 1.481
     },
     {
       "title": "Claude discovers a novel enzyme system \\ Anthropic",
@@ -1538,7 +630,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.772
+      "score": 1.681
     },
     {
       "title": "Coding agents in the social sciences \\ Anthropic",
@@ -1551,60 +643,47 @@
         "agents"
       ],
       "summary": "",
-      "score": 2.773
+      "score": 1.682
     },
     {
-      "title": "asana browser agent",
-      "url": "https://openai.com/index/asana-browser-agent/",
-      "source_id": "openai",
-      "source_name": "OpenAI Blog",
-      "date": "2026-10-28",
-      "tier": 1,
-      "tags": [
-        "agents"
-      ],
-      "summary": "",
-      "score": 2.999
-    },
-    {
-      "title": "our principles",
-      "url": "https://openai.com/index/our-principles/",
-      "source_id": "openai",
-      "source_name": "OpenAI Blog",
+      "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude \\ Anthropic",
+      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
       "date": "2026-10-28",
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.999
+      "score": 2.117
     },
     {
-      "title": "mufg",
-      "url": "https://openai.com/index/mufg/",
-      "source_id": "openai",
-      "source_name": "OpenAI Blog",
+      "title": "Early progress on accelerating drug development with Claude \\ Anthropic",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
       "date": "2026-10-28",
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.999
+      "score": 2.196
     },
     {
-      "title": "openai submits confidential s 1",
-      "url": "https://openai.com/index/openai-submits-confidential-s-1/",
-      "source_id": "openai",
-      "source_name": "OpenAI Blog",
-      "date": "2026-10-28",
+      "title": "AI for Science expands to foundations and institutions \\ Anthropic",
+      "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-29",
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 2.999
+      "score": 2.787
     },
     {
-      "title": "block ai powered security",
-      "url": "https://openai.com/index/block-ai-powered-security/",
+      "title": "unlocking new ways of working",
+      "url": "https://openai.com/index/unlocking-new-ways-of-working/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "tier": 1,
       "tags": [],
       "summary": "",
@@ -1615,143 +694,187 @@
       "url": "https://openai.com/index/localiza-generative-ai/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "tier": 1,
       "tags": [],
       "summary": "",
       "score": 2.999
     },
     {
-      "title": "scaling codex to enterprises worldwide",
-      "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide/",
+      "title": "stripe",
+      "url": "https://openai.com/index/stripe/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "tier": 1,
       "tags": [],
       "summary": "",
       "score": 2.999
     },
     {
-      "title": "work with codex from anywhere",
-      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+      "title": "philips",
+      "url": "https://openai.com/index/philips/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "tier": 1,
       "tags": [],
       "summary": "",
       "score": 2.999
     },
     {
-      "title": "figma david kossnick",
-      "url": "https://openai.com/index/figma-david-kossnick/",
+      "title": "endava",
+      "url": "https://openai.com/index/endava/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "tier": 1,
       "tags": [],
       "summary": "",
       "score": 2.999
     },
     {
-      "title": "introducing openai presence",
-      "url": "https://openai.com/index/introducing-openai-presence/",
+      "title": "zapier",
+      "url": "https://openai.com/index/zapier/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "tier": 1,
       "tags": [],
       "summary": "",
       "score": 2.999
     },
     {
-      "title": "strengthening democratic oversight in national security",
-      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security/",
+      "title": "airbnb gpt 6 astra",
+      "url": "https://openai.com/index/airbnb-gpt-6-astra/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "tier": 1,
       "tags": [],
       "summary": "",
       "score": 2.999
     },
     {
-      "title": "openai elon musk",
-      "url": "https://openai.com/index/openai-elon-musk/",
+      "title": "benefit street partners",
+      "url": "https://openai.com/index/benefit-street-partners/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "tier": 1,
       "tags": [],
       "summary": "",
       "score": 2.999
     },
     {
-      "title": "unlocking new ways of working",
-      "url": "https://openai.com/index/unlocking-new-ways-of-working/",
+      "title": "helping small businesses put ai to work",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "tier": 1,
       "tags": [],
       "summary": "",
       "score": 2.999
     },
     {
-      "title": "put ai to work for your product team",
-      "url": "https://openai.com/index/put-ai-to-work-for-your-product-team/",
+      "title": "fanatics streamline fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "tier": 1,
       "tags": [],
       "summary": "",
       "score": 2.999
     },
     {
-      "title": "introducing openai frontier",
-      "url": "https://openai.com/index/introducing-openai-frontier/",
+      "title": "dai nippon printing",
+      "url": "https://openai.com/index/dai-nippon-printing/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "tier": 1,
       "tags": [],
       "summary": "",
       "score": 2.999
     },
     {
-      "title": "chatgpt expanding world of work",
-      "url": "https://openai.com/index/chatgpt-expanding-world-of-work/",
+      "title": "circles",
+      "url": "https://openai.com/index/circles/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "tier": 1,
       "tags": [],
       "summary": "",
       "score": 2.999
     },
     {
-      "title": "new chatgpt ads format and measurement",
-      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+      "title": "sullivan cromwell",
+      "url": "https://openai.com/index/sullivan-cromwell/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "tier": 1,
       "tags": [],
       "summary": "",
       "score": 2.999
     },
     {
-      "title": "Start building with Gemini 3",
-      "url": "https://deepmind.google/blog/start-building-with-gemini-3/",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind Blog",
-      "date": "2025-11-18",
+      "title": "cooley gopublic",
+      "url": "https://openai.com/index/cooley-gopublic/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-29",
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 0.0
+      "score": 2.999
+    },
+    {
+      "title": "the future of the firm",
+      "url": "https://openai.com/index/the-future-of-the-firm/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-29",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "braintrust",
+      "url": "https://openai.com/index/braintrust/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-29",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-29",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "building scientific understanding with academic communities",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-29",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
     },
     {
       "title": "Introducing Nano Banana Pro",
@@ -2845,7 +1968,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 0.002
+      "score": 0.001
     },
     {
       "title": "Gemini 4 Argon for Robotics",
@@ -2856,7 +1979,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 0.002
+      "score": 0.001
     },
     {
       "title": "Developing Gemini 4 Argon responsibly and safely",
@@ -2867,7 +1990,7 @@
       "tier": 1,
       "tags": [],
       "summary": "",
-      "score": 0.002
+      "score": 0.001
     },
     {
       "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
@@ -2880,7 +2003,7 @@
         "policy"
       ],
       "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-      "score": 0.002
+      "score": 0.001
     },
     {
       "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
@@ -2891,7 +2014,7 @@
       "tier": 1,
       "tags": [],
       "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-      "score": 0.005
+      "score": 0.003
     },
     {
       "title": "Beyond tree cover: mapping the world’s forest types",
@@ -2902,7 +2025,7 @@
       "tier": 1,
       "tags": [],
       "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "score": 0.17
+      "score": 0.103
     },
     {
       "title": "Genie 4: A new generation of world simulation",
@@ -2913,7 +2036,1425 @@
       "tier": 1,
       "tags": [],
       "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
-      "score": 2.139
+      "score": 1.298
+    },
+    {
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.184
+    },
+    {
+      "title": "The Foundations of Scalable AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-22",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how",
+      "score": 0.124
+    },
+    {
+      "title": "Designing an AI serving harness built to last",
+      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-22",
+      "tier": 2,
+      "tags": [
+        "agents",
+        "reasoning",
+        "evals"
+      ],
+      "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows,",
+      "score": 0.131
+    },
+    {
+      "title": "In the biotech world, you can’t see everything",
+      "url": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [],
+      "summary": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new inform",
+      "score": 0.167
+    },
+    {
+      "title": "The Download: testing six tech promises and biotech’s blind spots",
+      "url": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [],
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too good to give up on. Decoding a pet’s yowls and yips? Absolutely",
+      "score": 0.178
+    },
+    {
+      "title": "The focus on AI safety disasters ignores everyday harms",
+      "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "safety",
+        "policy"
+      ],
+      "summary": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear th",
+      "score": 0.747
+    },
+    {
+      "title": "The Download: everyday AI harms and the race to nuclear spaceflight",
+      "url": "https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "safety"
+      ],
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: The focus on AI safety disasters ignores everyday harms —Sam Hiner, cofounder of the Young People’s Alliance, and Emma Leiken, executive director of the ",
+      "score": 0.806
+    },
+    {
+      "title": "Will the real Anthropic please stand up",
+      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "funding"
+      ],
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s u",
+      "score": 0.897
+    },
+    {
+      "title": "How solid-state transformers could help power the AI boom",
+      "url": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [],
+      "summary": "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they’re complicated and in short supply. And given that their basic design hasn’t changed much for about a century, they could use an upgrade. As the world races to me",
+      "score": 1.232
+    },
+    {
+      "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
+      "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [],
+      "summary": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves, w",
+      "score": 1.293
+    },
+    {
+      "title": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
+      "url": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/",
+      "source_id": "mit_tech_review",
+      "source_name": "MIT Technology Review",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "funding"
+      ],
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Will the real Anthropic please stand up? After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are f",
+      "score": 1.316
+    },
+    {
+      "title": "He Wants AI Benchmarking To Be a Science, Not a Dark Art",
+      "url": "https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016/",
+      "source_id": "quanta",
+      "source_name": "Quanta Magazine",
+      "date": "2026-10-16",
+      "tier": 2,
+      "tags": [
+        "evals"
+      ],
+      "summary": "Moritz Hardt, author of a new book on benchmarks, believes these “standardized tests” for artificial intelligence are fundamentally broken — but not unfixable. The post He Wants AI Benchmarking To Be a Science, Not a Dark Art first appeared on Quanta Magazine",
+      "score": 0.006
+    },
+    {
+      "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+      "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+      "source_id": "quanta",
+      "source_name": "Quanta Magazine",
+      "date": "2026-10-19",
+      "tier": 2,
+      "tags": [],
+      "summary": "Unlike other recent AI proofs, this one has been unpacked by human experts. The implications, one mathematician said, are “staggering.” The post AI Proved the Quasi-Riemann Hypothesis. What Happens Now? first appeared on Quanta Magazine",
+      "score": 0.026
+    },
+    {
+      "title": "See Inside Cells Like Never Before in These Vivid Microscopic Images",
+      "url": "https://www.quantamagazine.org/see-inside-cells-like-never-before-in-these-vivid-microscopic-images-20261021/",
+      "source_id": "quanta",
+      "source_name": "Quanta Magazine",
+      "date": "2026-10-21",
+      "tier": 2,
+      "tags": [],
+      "summary": "Winning entries in the 2026 Nikon Small World competitions reveal the hidden interactions that govern everyday life. The post See Inside Cells Like Never Before in These Vivid Microscopic Images first appeared on Quanta Magazine",
+      "score": 0.068
+    },
+    {
+      "title": "Malaria Parasite Caught in the Act of Breaking and Entering",
+      "url": "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/",
+      "source_id": "quanta",
+      "source_name": "Quanta Magazine",
+      "date": "2026-10-23",
+      "tier": 2,
+      "tags": [],
+      "summary": "To invade red blood cells, the deadly protist creates a temporary molecular portal that disappears behind it — a door we can now see in fine detail. The post Malaria Parasite Caught in the Act of Breaking and Entering first appeared on Quanta Magazine",
+      "score": 0.189
+    },
+    {
+      "title": "How Voting Is Like a Klein Bottle",
+      "url": "https://www.quantamagazine.org/how-voting-is-like-a-klein-bottle-20261026/",
+      "source_id": "quanta",
+      "source_name": "Quanta Magazine",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [],
+      "summary": "A new topological model connects a centuries-old voting paradox to a surface with no distinct inside or outside. The post How Voting Is Like a Klein Bottle first appeared on Quanta Magazine",
+      "score": 0.845
+    },
+    {
+      "title": "The RealReal won’t let AI agents hog designer clothing",
+      "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "The RealReal, a secondhand luxury fashion consignment retailer, said it's updating its bot defense system, effectively making it harder for AI agents to shop on its site. The change comes days after The Verge reported that an AI agent could be used to take advantage of The RealReal's item reserve sy",
+      "score": 0.892
+    },
+    {
+      "title": "Anthropic is burning gas to feed the AI boom",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [],
+      "summary": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\" In documents filed with the US Securities and Exchange Commission Monda",
+      "score": 0.975
+    },
+    {
+      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts th",
+      "score": 1.017
+    },
+    {
+      "title": "Data center backlash is uniting America",
+      "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [],
+      "summary": "If there's one issue that seems to activate all kinds of voters in 2026, it's data centers. The rapid buildout of these massive server storage facilities - and the infrastructure construction and expenses that come with them - has sparked local opposition in communities across the country and become",
+      "score": 1.321
+    },
+    {
+      "title": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
+      "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [],
+      "summary": "Apple is bringing an AI assistant to its suite of productivity apps, including Keynote, Pages, and Numbers. The assistant, which is built on AI models from Apple and OpenAI, can understand a document's context to perform tasks like designing, animating, and refining slides in Keynote. In Pages, Appl",
+      "score": 1.363
+    },
+    {
+      "title": "Google’s next Genie AI model generates more realistic experiences",
+      "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "speech-audio"
+      ],
+      "summary": "Google announced today its Genie 4 world model for generating interactive experiences using AI. The company says the model has four main updates: It allows for more realistic worlds, lets users update an experience in real time with a natural language prompt, can generate audio, and uses Gemini 3.8 ",
+      "score": 1.399
+    },
+    {
+      "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [],
+      "summary": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste your work history into ",
+      "score": 1.432
+    },
+    {
+      "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "funding"
+      ],
+      "summary": "Anthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public markets and insists it doesn't want to compromise its core mission of developing AI safely and for the benefit of humanity. But greater model capabilities bring greater risks, and shareholders",
+      "score": 1.457
+    },
+    {
+      "title": "VisionQuest is what happens when AI really goes rogue",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [],
+      "summary": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live together in a home. The series is deeply fantastical, yet it plays with some of the ideas that have come",
+      "score": 1.471
+    },
+    {
+      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-25",
+      "tier": 2,
+      "tags": [],
+      "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+      "score": 0.535
+    },
+    {
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-25",
+      "tier": 2,
+      "tags": [],
+      "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+      "score": 0.588
+    },
+    {
+      "title": "Anthropic officially files for its public debut",
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "safety",
+        "funding"
+      ],
+      "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "score": 0.839
+    },
+    {
+      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
+      "score": 0.879
+    },
+    {
+      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-26",
+      "tier": 2,
+      "tags": [
+        "funding"
+      ],
+      "summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
+      "score": 0.879
+    },
+    {
+      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "open-source"
+      ],
+      "summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
+      "score": 1.047
+    },
+    {
+      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+      "score": 1.065
+    },
+    {
+      "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+      "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "Simplismart says its annualized revenue run rate has grown fourteenfold in six months, with the U.S. accounting for more than half its revenue.",
+      "score": 1.284
+    },
+    {
+      "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
+      "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "hardware",
+        "funding"
+      ],
+      "summary": "General Compute is betting on inference chips from outside the Nvidia ecosystem.",
+      "score": 1.339
+    },
+    {
+      "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+      "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [],
+      "summary": "The new standard, WebAI, is designed to work with a variety of AI models.",
+      "score": 1.339
+    },
+    {
+      "title": "Japan internet giant GMO says hackers posted stolen customer data",
+      "url": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [],
+      "summary": "Japan's GMO Internet is verifying alleged customer data posted by suspected hackers following a cloud service breach.",
+      "score": 1.354
+    },
+    {
+      "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+      "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "rl",
+        "evals",
+        "funding"
+      ],
+      "summary": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
+      "score": 1.395
+    },
+    {
+      "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "safety",
+        "speech-audio"
+      ],
+      "summary": "Genie 4 can maintain a consistent scene for up to two minutes, double Genie 3's limit, and offers better physics and more humanlike characters.",
+      "score": 1.441
+    },
+    {
+      "title": "What's the hardest part of creating edge cases for fine-tuning open-weight models? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xfa17z/whats_the_hardest_part_of_creating_edge_cases_for/",
+      "source_id": "reddit_ml",
+      "source_name": "r/MachineLearning",
+      "date": "2026-10-25",
+      "tier": 2,
+      "tags": [
+        "synthetic-data",
+        "open-source"
+      ],
+      "summary": "I'm interested in how people build datasets for fine-tuning open-weight models, especially when it is about making a model handling edge cases than just perform well on common examples. I'm curious about the data side of the process. Finding edge cases: How do you identify edge cases that are rare o",
+      "score": 0.553
+    },
+    {
+      "title": "memt-1.0 architecture breakdown gated deltanet-2, mixture-of-storage, and 66x smaller storage footprint for agent memory [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xeu0ht/memt10_architecture_breakdown_gated_deltanet2/",
+      "source_id": "reddit_ml",
+      "source_name": "r/MachineLearning",
+      "date": "2026-10-25",
+      "tier": 2,
+      "tags": [
+        "agents",
+        "reasoning"
+      ],
+      "summary": "been digesting the details behind memt-1.0's memory-native architecture recently, and the engineering tradeoffs between full context kv caching and internalized parametric memory are pretty wild. instead of using append-only prompt stacking or external rag pipelines, memt-1.0 bakes memory directly i",
+      "score": 0.421
+    },
+    {
+      "title": "Nanbeige releases Nanbeige4.3-33B, an Apache 2.0 teacher model for smaller agents [N]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xf6x35/nanbeige_releases_nanbeige4333b_an_apache_20/",
+      "source_id": "reddit_ml",
+      "source_name": "r/MachineLearning",
+      "date": "2026-10-25",
+      "tier": 2,
+      "tags": [
+        "agents",
+        "reasoning",
+        "evals",
+        "open-source",
+        "funding"
+      ],
+      "summary": "Nanbeige released Nanbeige4.3-33B as the teacher for its planned smaller agents, including an upcoming 3B model. the weights are Apache 2.0, and the model card lists a 512K context window. the team reports 80.9 on Terminal-Bench 2.1 versus 73.0 for Qwen3.8-27B, using the same harness and inference s",
+      "score": 0.53
+    },
+    {
+      "title": "SenseNova 6.8 Code2Video: animation examples with repeated geometry, text and scientific diagrams[P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xguyw1/sensenova_68_code2video_animation_examples_with/",
+      "source_id": "reddit_ml",
+      "source_name": "r/MachineLearning",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [],
+      "summary": "A 3×8 array of clock faces is one of the examples in the SenseNova 6.8 Code2Video showcase. Other entries focus on letterforms, including A to Z and FRAME / FORM / FLOW. The scientific scenes include Earth and spacecraft clocks, molecular diagrams, and a ball-and-spring setup with separate energy di",
+      "score": 1.398
+    },
+    {
+      "title": "How to do method research when I feel I have no guidance on doing it? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xgdl42/how_to_do_method_research_when_i_feel_i_have_no/",
+      "source_id": "reddit_ml",
+      "source_name": "r/MachineLearning",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "reasoning"
+      ],
+      "summary": "I am a 3rd year PhD student in a small lab working on ML in healthcare. My PI is new (we have no PhD graduates yet - lab is 4 years old). I want to publish in a top ML conference (I know its necessary for an ML researcher job). And my PI is saying you need to do method research and I don't know how ",
+      "score": 1.024
+    },
+    {
+      "title": "Exploring Next-Concept Modeling (NCM) & Transformer Interpretability: Repository of 20 Exploratory Studies & Controls [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xh3e7o/exploring_nextconcept_modeling_ncm_transformer/",
+      "source_id": "reddit_ml",
+      "source_name": "r/MachineLearning",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "safety",
+        "open-source"
+      ],
+      "summary": "Hi everyone, I wanted to share an open-source repo collecting 20 exploratory studies focused on Next-Concept Modeling (NCM), mechanistic interpretability (like IOI in GPT-2), and model controls. Link: https://github.com/Quantix-eng/ncm-experiment-notes This is an independent project documenting empi",
+      "score": 1.556
+    },
+    {
+      "title": "Ψ-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xgwq9u/ψ06_adaptive_streams_of_thought_in_a_unified/",
+      "source_id": "reddit_ml",
+      "source_name": "r/MachineLearning",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "multimodal",
+        "reasoning",
+        "open-source",
+        "policy"
+      ],
+      "summary": "Chain-of-thought transformed AI reasoning, but it is limited to words. What's the physical-world analogue? Introducing Ψ-0.6, one model that reasons in *streams of thought*: words, depth, motion, camera pose, and imagined scenes. And it learns when to use which! Ψ-0.6 surpasses leading open-weight m",
+      "score": 1.43
+    },
+    {
+      "title": "Show HN: Specification First Agentic Development Plugin and Prove",
+      "url": "https://spec-first.dev/",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "28 points, 26 comments",
+      "score": 1.966,
+      "points": 28,
+      "comments": 26
+    },
+    {
+      "title": "My video has unit tests",
+      "url": "https://pertiller.tech/blog/my-video-written-in-code/",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [],
+      "summary": "26 points, 11 comments",
+      "score": 1.936,
+      "points": 26,
+      "comments": 11
+    },
+    {
+      "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+      "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [],
+      "summary": "518 points, 274 comments",
+      "score": 2.449,
+      "points": 518,
+      "comments": 274
+    },
+    {
+      "title": "PHP2Shell, LiteLLM, GitLab: Find What You Need to Patch",
+      "url": "https://cloudsleuth.io/blog/php2shell-litellm-gitlab-find-what-you-run/",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [],
+      "summary": "59 points, 13 comments",
+      "score": 2.102,
+      "points": 59,
+      "comments": 13
+    },
+    {
+      "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+      "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [],
+      "summary": "313 points, 237 comments",
+      "score": 2.422,
+      "points": 313,
+      "comments": 237
+    },
+    {
+      "title": "She Worried About Cutting Her Medication Dose. ChatGPT Told Her to Push On",
+      "url": "https://www.nytimes.com/2026/10/27/well/ai-chatgpt-medication-epilepsy-death.html",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [],
+      "summary": "30 points, 9 comments",
+      "score": 2.057,
+      "points": 30,
+      "comments": 9
+    },
+    {
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "url": "https://www.brangus.io/survival-llm",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "322 points, 135 comments",
+      "score": 2.592,
+      "points": 322,
+      "comments": 135
+    },
+    {
+      "title": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
+      "url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [],
+      "summary": "151 points, 79 comments",
+      "score": 2.505,
+      "points": 151,
+      "comments": 79
+    },
+    {
+      "title": "Early progress on accelerating drug development with Claude",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [],
+      "summary": "215 points, 189 comments",
+      "score": 2.589,
+      "points": 215,
+      "comments": 189
+    },
+    {
+      "title": "One year of Dioxus fullstack in production: the good, the painful",
+      "url": "https://oxidt.com/blog/one-year-of-dioxus-fullstack-in-production-the-good-the-painful",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [],
+      "summary": "22 points, 11 comments",
+      "score": 2.171,
+      "points": 22,
+      "comments": 11
+    },
+    {
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "policy"
+      ],
+      "summary": "38 points, 28 comments",
+      "score": 2.334,
+      "points": 38,
+      "comments": 28
+    },
+    {
+      "title": "Does the \"automated grader\" direction suppress expressed distress in Qwen3.6-27B?",
+      "url": "https://www.lesswrong.com/posts/DfKDcvGWgAD4BiEHK/does-the-automated-grader-direction-suppress-expressed",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "agents",
+        "reasoning",
+        "evals",
+        "safety",
+        "open-source",
+        "hardware",
+        "funding"
+      ],
+      "summary": "TLDR: This is a preregistration for an experiment intended to examine the impact of steering towards \"automated-grading\" on welfare-relevant indicators of frustration, self-deprecation, and tone as well as use of a tool which can abort the conversation. Confirmatory data will be published in a follo",
+      "score": 1.608
+    },
+    {
+      "title": "Against Girardian mimesis",
+      "url": "https://www.lesswrong.com/posts/tzuArKci3JpN7Zye4/against-girardian-mimesis",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "reasoning",
+        "hardware"
+      ],
+      "summary": "Wikipedia summarizes René Girard's mimetic theory like this: Man is the creature who does not know what to desire, and he turns to others in order to make up his mind. We desire what others desire because we imitate their desires. In other words, you think you want something for your own internal re",
+      "score": 1.637
+    },
+    {
+      "title": "March Against AI Extinction",
+      "url": "https://www.lesswrong.com/events/X4aX4CdGh4AzGds3i/march-against-ai-extinction",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-28",
+      "tier": 2,
+      "tags": [
+        "agents",
+        "evals",
+        "safety",
+        "policy"
+      ],
+      "summary": "21 November 2026, 12–3pm Start: All Souls’ Place, London W1B 3DA End: Downing Street, London SW1A 2AA Thousands of people across the UK recognize that companies will soon build superintelligent AI that they cannot control. If we all march together, newspapers will publish photos of it all over the w",
+      "score": 1.768
+    },
+    {
+      "title": "GPT Models Write Their Own Constitution",
+      "url": "https://www.lesswrong.com/posts/ftEMXHAN4BdDBZjoY/gpt-models-write-their-own-constitution-1",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-27",
+      "tier": 2,
+      "tags": [
+        "agents",
+        "reasoning",
+        "evals",
+        "safety",
+        "hardware",
+        "policy",
+        "funding",
+        "speech-audio"
+      ],
+      "summary": "Earlier this year, Anthropic published \"Claude's Constitution\" , a vision for Claude's values and behavior. It was primarily an Anthropic project, though Claude helped draft and edit it. As models become more capable and better at cooperating with each other, I’ve been wondering what a constitution ",
+      "score": 1.659
+    },
+    {
+      "title": "Quantum Mechanics Overview",
+      "url": "https://www.lesswrong.com/posts/C4KNcEbbgwJTYmALS/quantum-mechanics-overview",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-28",
+      "tier": 2,
+      "tags": [
+        "reasoning",
+        "hardware",
+        "funding"
+      ],
+      "summary": "[LW meta: This is a very brief overview of what quantum mechanics says and how it relates to ordinary reality. Many readers here will probably already be familiar with this material, especially if they've read Eliezer's quantum physics sequence. Also note that there are diagrams in the linkpost that",
+      "score": 1.73
+    },
+    {
+      "title": "I spent 12 hours writing an article for LessWrong, calling for a more ‘hippie’ rationalism. Then I didn’t post it. This is why (plus a link to the article, explicitly not located on LessWrong)",
+      "url": "https://www.lesswrong.com/posts/zf3Xz5Cv45ytavH2r/i-spent-12-hours-writing-an-article-for-lesswrong-calling",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-28",
+      "tier": 2,
+      "tags": [
+        "reasoning",
+        "safety"
+      ],
+      "summary": "TLDR I (and many others in the community) wish to see the universe unfold to its highest potential in the metaphorical palm of an AI as aligned as the most benevolent Buddhist monk – but I (we) feel the community's ontology is too narrow to hold me (us). I'm still not sure what to do about this, so ",
+      "score": 1.738
+    },
+    {
+      "title": "The missing ingredient of AI consciousness",
+      "url": "https://www.lesswrong.com/posts/oWLPq2fNa3DRJ5wtH/the-missing-ingredient-of-ai-consciousness",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-28",
+      "tier": 2,
+      "tags": [],
+      "summary": "In his book The Feeling of What Happens , Antonio Damasio offers a neurobiological theory of consciousness. Things happen to every object, but consciousness, he argues, emerges when there is an acknowledgement that it is to me that these things are happening. In this framework, consciousness is the ",
+      "score": 1.842
+    },
+    {
+      "title": "Generalized CliqueBots in Open-Source Game Theory",
+      "url": "https://www.lesswrong.com/posts/hcAQe3snm9qEzXBBz/generalized-cliquebots-in-open-source-game-theory",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-28",
+      "tier": 2,
+      "tags": [
+        "agents",
+        "reasoning",
+        "evals",
+        "open-source",
+        "hardware",
+        "policy"
+      ],
+      "summary": "In this post, I suggest the notion of an interface-relative CliqueBot in open-source game theory. Such a bot cooperates only with the likes of it – from the point of view of a finite number of probing functions. There are several reasons the notion could be valuable. First, it suggests a perspective",
+      "score": 1.908
+    },
+    {
+      "title": "When I Salsa dance, am I supposed to... try?",
+      "url": "https://www.lesswrong.com/posts/uoH2Px4nynQA4ziEW/when-i-salsa-dance-am-i-supposed-to-try",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-28",
+      "tier": 2,
+      "tags": [
+        "reasoning",
+        "hardware"
+      ],
+      "summary": "I had my birthday party on a Saturday in August. After the party ended, a few of us went out to a nearby bar. Most of my family on my mom’s side is Ecuadorian [1] , and my cousin from that side of the family was with us. She was wonderfully drunk and is a natural people person who wants to meet ever",
+      "score": 1.812
+    },
+    {
+      "title": "Great but Painful",
+      "url": "https://www.lesswrong.com/posts/KThSe2vPZw4zn7f8W/great-but-painful",
+      "source_id": "lesswrong",
+      "source_name": "LessWrong",
+      "date": "2026-10-28",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "If you want to build a product that people will use, find something that people already do and make it less painful. People are notoriously bad at knowing what they want. If you ask someone what they want then they will typically tell you what they think a socially virtuous person is expected to wan",
+      "score": 1.816
+    },
+    {
+      "title": "Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next",
+      "url": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-07-22",
+      "tier": 2,
+      "tags": [
+        "synthetic-data",
+        "open-source",
+        "speech-audio"
+      ],
+      "summary": "A podcast with Florian Brand.",
+      "score": 0.0
+    },
+    {
+      "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-02",
+      "tier": 2,
+      "tags": [],
+      "summary": "Capacity to train strong models is proliferating.",
+      "score": 0.0
+    },
+    {
+      "title": "Introducing our Artifacts Hub and Adoption Dashboard",
+      "url": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-03",
+      "tier": 2,
+      "tags": [],
+      "summary": "Scaling our curation and measurement of the open ecosystem.",
+      "score": 0.0
+    },
+    {
+      "title": "Lessons from the hacks",
+      "url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-09",
+      "tier": 2,
+      "tags": [
+        "safety"
+      ],
+      "summary": "Musings on model alignment, what determines safety, and where we go from here.",
+      "score": 0.0
+    },
+    {
+      "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
+      "url": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-10",
+      "tier": 2,
+      "tags": [],
+      "summary": "After a few long years of finding time to document my lessons from training open models, my post-training book is done!",
+      "score": 0.0
+    },
+    {
+      "title": "I wrote an AI textbook — how long until AI can do it better?",
+      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-12",
+      "tier": 2,
+      "tags": [],
+      "summary": "Reflections on AI's writing ability and how AI models get more capable.",
+      "score": 0.0
+    },
+    {
+      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-14",
+      "tier": 2,
+      "tags": [
+        "synthetic-data"
+      ],
+      "summary": "Hint: It’s really not a distillation story.",
+      "score": 0.0
+    },
+    {
+      "title": "Teaching Everyone to Fish for Tokens",
+      "url": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-08-17",
+      "tier": 2,
+      "tags": [],
+      "summary": "Nvidia wants you building your own model, not buying from Anthropic/OpenAI.",
+      "score": 0.0
+    },
+    {
+      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-08",
+      "tier": 2,
+      "tags": [],
+      "summary": "The open model ecosystem continues to expand in its breadth",
+      "score": 0.0
+    },
+    {
+      "title": "When will average people feel AI’s impact?",
+      "url": "https://www.interconnects.ai/p/when-will-average-people-feel-ais",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-09",
+      "tier": 2,
+      "tags": [],
+      "summary": "We’re <5 years into a compounding revolution which could take a century, and how the AI industry should manage this.",
+      "score": 0.0
+    },
+    {
+      "title": "One resignation turned the embers of AI fear into a wildfire",
+      "url": "https://www.interconnects.ai/p/one-resignation-turned-the-embers",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-10",
+      "tier": 2,
+      "tags": [],
+      "summary": "Some quick notes on a truly weird week.",
+      "score": 0.0
+    },
+    {
+      "title": "Open-Source AI & Open Models Reading List",
+      "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-11",
+      "tier": 2,
+      "tags": [
+        "open-source"
+      ],
+      "summary": "How to get up to speed on open models and their implications.",
+      "score": 0.0
+    },
+    {
+      "title": "Why I still haven’t bought into true RSI",
+      "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-19",
+      "tier": 2,
+      "tags": [],
+      "summary": "An “AI moderate’s” view on recent events and the trajectory of frontier models.",
+      "score": 0.0
+    },
+    {
+      "title": "The current balance of power in open models",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-21",
+      "tier": 2,
+      "tags": [],
+      "summary": "The expanded form of a testimony I prepared for Congress.",
+      "score": 0.0
+    },
+    {
+      "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
+      "url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-09-22",
+      "tier": 2,
+      "tags": [],
+      "summary": "Podcast #19",
+      "score": 0.0
+    },
+    {
+      "title": "The Cyber Risk Discourse is Broken",
+      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-10-06",
+      "tier": 2,
+      "tags": [
+        "open-source"
+      ],
+      "summary": "Open-weights, ideology, and acknowledging trade-offs.",
+      "score": 0.0
+    },
+    {
+      "title": "I expect rapid progress but not towards general superintelligence",
+      "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-10-09",
+      "tier": 2,
+      "tags": [],
+      "summary": "I’ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn’t really know why I doubted it.",
+      "score": 0.0
+    },
+    {
+      "title": "Meta shakes up the frontiers, open and closed",
+      "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-10-17",
+      "tier": 2,
+      "tags": [
+        "open-source"
+      ],
+      "summary": "US open weights are back!",
+      "score": 0.009
+    },
+    {
+      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-10-20",
+      "tier": 2,
+      "tags": [],
+      "summary": "Western open models strike back",
+      "score": 0.044
+    },
+    {
+      "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+      "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+      "source_id": "interconnects",
+      "source_name": "Interconnects",
+      "date": "2026-10-25",
+      "tier": 2,
+      "tags": [],
+      "summary": "#20",
+      "score": 0.481
+    },
+    {
+      "title": "Meta Superintelligence – Leadership Compute, Talent, and Data",
+      "url": "https://semianalysis.com/2025/07/11/meta-superintelligence-leadership-compute-talent-and-data/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-07-11",
+      "tier": 2,
+      "tags": [
+        "hardware",
+        "funding"
+      ],
+      "summary": "Meta’s shocking purchase of 49% of Scale AI at a ~$30B valuation shows that money is of no concern for the $100B annual cashflow ad machine. Despite seemingly unlimited resources, Meta has been falling behind foundation labs in model performance.",
+      "score": 0.0
+    },
+    {
+      "title": "Intel 18A Details & Cost, Future of DRAM 4F2 vs 3D, Backside Power Adoption (or Not), China’s FlipFET, Digital Twins from Atoms to Fabs, and More",
+      "url": "https://semianalysis.com/2025/07/21/vlsi2025/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-07-21",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "Long time readers will recall that SemiAnalysis covers more than just datacenters and AMD. Today we’re back to semiconductors with a tech-focused roundup of the best from this year’s VLSI conference, the premiere design and integration. That includes the latest in chips manufacturing: fab digital tw",
+      "score": 0.0
+    },
+    {
+      "title": "Robotics Levels of Autonomy",
+      "url": "https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-07-30",
+      "tier": 2,
+      "tags": [],
+      "summary": "Robots have powered manufacturing for decades, yet they stayed single-purpose and thrived only in perfect settings. Previous attempts at intelligent machines overpromised and underdelivered. But they were too early. Today, modern AI paradigms convert most robot roadblocks into data problems and push",
+      "score": 0.0
+    },
+    {
+      "title": "Scaling the Memory Wall: The Rise and Roadmap of HBM",
+      "url": "https://semianalysis.com/2025/08/12/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-08-12",
+      "tier": 2,
+      "tags": [],
+      "summary": "The first portion of this report will explain HBM, the manufacturing process, dynamics between vendors, KVCache offload, disaggregated prefill decode, and wide / high-rank EP. The rest of the report will dive deeply into the future of HBM. We will cover the revolutionary change coming to HBM4 with c",
+      "score": 0.0
+    },
+    {
+      "title": "GPT-5 Set the Stage for Ad Monetization and the SuperApp",
+      "url": "https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-08-13",
+      "tier": 2,
+      "tags": [],
+      "summary": "To many power users (Pro and Plus), GPT5 was a disappointing release. But with closer inspection, the real release is focused on the vast majority of ChatGPT’s users, which is the 700m+ free userbase that is growing rapidly. Power users should be disappointed; this release wasn’t for them. The real ",
+      "score": 0.0
+    },
+    {
+      "title": "H100 vs GB200 NVL72 Training Benchmarks – Power, TCO, and Reliability Analysis, Software Improvement Over Time",
+      "url": "https://semianalysis.com/2025/08/20/h100-vs-gb200-nvl72-training-benchmarks/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-08-20",
+      "tier": 2,
+      "tags": [
+        "evals",
+        "hardware"
+      ],
+      "summary": "Frontier model training has pushed GPUs and AI systems to their absolute limits, making cost, efficiency, power, performance per TCO, and reliability central to the discussion on effective training. The Hopper vs Blackwell comparisons are not as simple as Nvidia would have you believe. In this repor",
+      "score": 0.0
+    },
+    {
+      "title": "Amazon’s AI Resurgence: AWS & Anthropic’s Multi-Gigawatt Trainium Expansion",
+      "url": "https://semianalysis.com/2025/09/03/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-09-03",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "Two-and-a-half years ago, we flagged a looming “cloud crisis” at AWS. Today, the evidence has mounted. AWS is the crown jewel of the Amazon empire, generating ~60% of group profits, and dominating the lucrative Cloud Computing market. But it struggles to translate this strength into the new GPU/XPU ",
+      "score": 0.0
+    },
+    {
+      "title": "Huawei Ascend Production Ramp: Die Banks, TSMC Continued Production, HBM is The Bottleneck",
+      "url": "https://semianalysis.com/2025/09/08/huawei-ascend-production-ramp/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-09-08",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "Compute is the lifeblood of AI. He who controls the spice controls the universe the compute will control the production of tokens and reap the benefits of AI. Without compute you do not have a seat at the table. The United States technology community is all in on compute and AI as the next platform ",
+      "score": 0.0
+    },
+    {
+      "title": "Another Giant Leap: The Rubin CPX Specialized Accelerator & Rack",
+      "url": "https://semianalysis.com/2025/09/10/another-giant-leap-the-rubin-cpx-specialized-accelerator-rack/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-09-10",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "Nvidia announced the Rubin CPX, a solution that is specifically designed to be optimized for the prefill phase, with the single-die Rubin CPX heavily emphasizing compute FLOPS over memory bandwidth. This is a game changer for inference, and its significance is surpassed only by the March 2024 announ",
+      "score": 0.0
+    },
+    {
+      "title": "xAI’s Colossus 2 – First Gigawatt Datacenter In The World, Unique RL Methodology, Capital Raise",
+      "url": "https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
+      "source_id": "semianalysis",
+      "source_name": "SemiAnalysis",
+      "date": "2025-09-16",
+      "tier": 2,
+      "tags": [
+        "hardware",
+        "funding"
+      ],
+      "summary": "Much has been written about xAI’s Colossus 1. The Memphis build belongs in the history books: the largest AI training cluster, erected from scratch in 122 days. With roughly 200,000 H100/H200s and ~30,000 GB200 NVL72, it remains, today, the largest fully operational, single-coherent cluster (setting",
+      "score": 0.0
+    },
+    {
+      "title": "Discovering cryptographic weaknesses with Claude \\ Anthropic",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.321
+    },
+    {
+      "title": "asana browser agent",
+      "url": "https://openai.com/index/asana-browser-agent/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [
+        "agents"
+      ],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "our principles",
+      "url": "https://openai.com/index/our-principles/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "mufg",
+      "url": "https://openai.com/index/mufg/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "openai submits confidential s 1",
+      "url": "https://openai.com/index/openai-submits-confidential-s-1/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "block ai powered security",
+      "url": "https://openai.com/index/block-ai-powered-security/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "scaling codex to enterprises worldwide",
+      "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "work with codex from anywhere",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "figma david kossnick",
+      "url": "https://openai.com/index/figma-david-kossnick/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "introducing openai presence",
+      "url": "https://openai.com/index/introducing-openai-presence/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "strengthening democratic oversight in national security",
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "openai elon musk",
+      "url": "https://openai.com/index/openai-elon-musk/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "put ai to work for your product team",
+      "url": "https://openai.com/index/put-ai-to-work-for-your-product-team/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "introducing openai frontier",
+      "url": "https://openai.com/index/introducing-openai-frontier/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "chatgpt expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "new chatgpt ads format and measurement",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "Start building with Gemini 3",
+      "url": "https://deepmind.google/blog/start-building-with-gemini-3/",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind Blog",
+      "date": "2025-11-18",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.0
     },
     {
       "title": "ThinkBit: Search Codewords, Recalibrate Scales, Select by Reasoning",
@@ -5979,28 +6520,6 @@
       "score": 2.999
     },
     {
-      "title": "circles",
-      "url": "https://openai.com/index/circles/",
-      "source_id": "openai",
-      "source_name": "OpenAI Blog",
-      "date": "2026-10-27",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 2.999
-    },
-    {
-      "title": "fanatics streamline fan experience",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience/",
-      "source_id": "openai",
-      "source_name": "OpenAI Blog",
-      "date": "2026-10-27",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 2.999
-    },
-    {
       "title": "praktika",
       "url": "https://openai.com/index/praktika/",
       "source_id": "openai",
@@ -6025,17 +6544,6 @@
     {
       "title": "uber",
       "url": "https://openai.com/index/uber/",
-      "source_id": "openai",
-      "source_name": "OpenAI Blog",
-      "date": "2026-10-27",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 2.999
-    },
-    {
-      "title": "endava",
-      "url": "https://openai.com/index/endava/",
       "source_id": "openai",
       "source_name": "OpenAI Blog",
       "date": "2026-10-27",
@@ -6076,17 +6584,6 @@
       "tags": [],
       "summary": "",
       "score": 2.999
-    },
-    {
-      "title": "building scientific understanding with academic communities",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-      "source_id": "openai",
-      "source_name": "OpenAI Blog",
-      "date": "2026-10-27",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 3.0
     },
     {
       "title": "running codex safely",
@@ -9493,17 +9990,6 @@
       "tags": [],
       "summary": "",
       "score": 2.918
-    },
-    {
-      "title": "securing our frontier model training environment",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
-      "source_id": "openai",
-      "source_name": "OpenAI Blog",
-      "date": "2026-10-25",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 2.996
     },
     {
       "title": "We’re expanding our presence in Singapore to advance AI in the Asia-Pacific region",
@@ -20618,18 +21104,16 @@
   ],
   "stories": [
     {
-      "title": "Expanding our partnership with GSA to bring Claude to all levels of government \\ Anthropic",
+      "title": "securing our frontier model training environment",
       "discovery": "corroborated",
       "trigger": null,
-      "tags": [
-        "policy"
-      ],
+      "tags": [],
       "sources": 2,
       "items": 2,
       "links": [
         {
-          "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
-          "source_name": "Anthropic Research & News"
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+          "source_name": "OpenAI Blog"
         }
       ]
     },
@@ -20643,6 +21127,22 @@
       "links": [
         {
           "url": "https://www.anthropic.com/research/early-progress-drug-development",
+          "source_name": "Anthropic Research & News"
+        }
+      ]
+    },
+    {
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government \\ Anthropic",
+      "discovery": "corroborated",
+      "trigger": null,
+      "tags": [
+        "policy"
+      ],
+      "sources": 2,
+      "items": 2,
+      "links": [
+        {
+          "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
           "source_name": "Anthropic Research & News"
         }
       ]
@@ -20931,20 +21431,6 @@
       "links": [
         {
           "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
-          "source_name": "OpenAI Blog"
-        }
-      ]
-    },
-    {
-      "title": "securing our frontier model training environment",
-      "discovery": "corroborated",
-      "trigger": null,
-      "tags": [],
-      "sources": 2,
-      "items": 2,
-      "links": [
-        {
-          "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
           "source_name": "OpenAI Blog"
         }
       ]
@@ -21481,7 +21967,7 @@
     {
       "title": "Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading",
       "discovery": "discovery",
-      "trigger": "discovery",
+      "trigger": null,
       "tags": [
         "hardware"
       ],
@@ -21825,169 +22311,181 @@
           "source_name": "arXiv (cs.AI/CL/CV/LG)"
         }
       ]
+    },
+    {
+      "title": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
+      "discovery": "corroborated",
+      "trigger": null,
+      "tags": [],
+      "sources": 2,
+      "items": 2,
+      "links": [
+        {
+          "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+          "source_name": "The Verge AI"
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+          "source_name": "TechCrunch AI"
+        }
+      ]
     }
   ],
   "ideas": [
     {
-      "title": "Forgetting as a first-class capability in agent memory systems",
+      "title": "Physical dynamics as a pre-training objective, not a downstream fine-tuning task",
       "section": "Research directions & gaps",
-      "body": "The cluster of memory-failure work — \"Rare, Relevant, and Still Wrong\" showing compressed group discussions lose critical rare claims, \"Cache Engineering for Agents,\" and community debates about whether the real problem is \"knowing what to forget\" — points to a gap: memory research optimizes recall, not selective forgetting. A research program on *deletion policies* for agent memory (when to drop, compress, or externalize information) would be more impactful than further context-length scaling. This connects to \"From Interaction to Capability: Task Advancement as State and Supervision for GUI Agents,\" which frames memory as preserved *results* rather than raw transcripts. Signal: Rare, Relevant, and Still Wrong; Cache Engineering for Agents; r/MachineLearning memory discussion",
+      "body": "ThinkWorld shows that world imagination reinforces chain-of-dynamics reasoning in VLA models [ThinkWorld], PDRVLA demonstrates that physical dynamics representations improve vision-language-action models [PDRVLA], and Ψ-0.6 proposes adaptive streams of thought in a unified vision-language world model [Ψ-0.6]. Yet all three treat physical dynamics as a task-specific capability bolted onto existing models. The under-explored direction: pre-train a foundation model with explicit physical dynamics prediction objectives (future state, force propagation, contact constraints) before any task-specific fine-tuning. This would require a large-scale corpus of physical interaction data with dynamics annotations, but the payoff is a model that generalizes across manipulation, navigation, and simulation without per-task retraining. Signal: ThinkWorld; PDRVLA; Ψ-0.6; ALPS",
       "signal": ""
     },
     {
-      "title": "World models as scientific instruments, not just robot brains",
+      "title": "Decision-aware memory compression for multi-agent systems",
       "section": "Research directions & gaps",
-      "body": "Anthropic's drug development progress, Claude's novel enzyme discovery, \"Can LLMs Uncover Hidden Physical Laws through Free Exploration?\", and Genie 4's real-time simulation all point to world models being repurposed for *hypothesis generation* in domains humans can't simulate well — protein dynamics, climate, materials. The gap: current world-model papers (ThinkWorld, ALPS, OverSeer) optimize for robot control or video prediction, not for *counterfactual scientific reasoning*. A benchmark for \"world-model-driven scientific discovery\" — where the model must propose experiments, predict outcomes, and update beliefs — is missing. Signal: Anthropic drug development; Claude enzyme system; Can LLMs Uncover Hidden Physical Laws; Genie 4",
+      "body": "\"Rare, Relevant, and Still Wrong\" demonstrates that both natural memory heuristics—keeping the rarest claims or the most relevant claims—fail LLM group decisions [Rare, Relevant, and Still Wrong]. Cache Engineering for Agents treats caching as an infrastructure problem [Cache Engineering for Agents], but the research gap is memory systems optimized for downstream decision quality rather than information preservation. Current memory benchmarks measure retrieval fidelity; what's needed are benchmarks that measure decision outcomes under compressed memory, and memory architectures that learn what to forget based on decision impact. This connects to DecisionPivot, which diagnoses decision models in LLM systems [DecisionPivot]. Signal: Rare, Relevant, and Still Wrong; Cache Engineering for Agents; DecisionPivot",
       "signal": ""
     },
     {
-      "title": "The \"action-only\" hypothesis for embodied agents deserves a serious stress test",
+      "title": "The interface as a co-optimized policy constraint",
       "section": "Research directions & gaps",
-      "body": "\"Vision-Language-Action or World-Action? Just Action Models\" argues against explicit world modeling for manipulation — a contrarian position against the dominant VLA paradigm (PDRVLA, ThinkWorld). This is a falsifiable claim: if action-only models match world-model approaches on *novel physical constraints* (not just benchmark tasks), the field is over-investing in world models. A controlled study pitting action-only against world-model agents on out-of-distribution physics manipulation would settle this. Signal: Vision-Language-Action or World-Action? Just Action Models; PDRVLA; ThinkWorld",
+      "body": "\"Your Policy Is Secretly a Harness\" argues that agent interfaces secretly shape the decision geometry of policies [Your Policy Is Secretly a Harness]. Evolving Agent Interfaces explores how interfaces evolve over time [Evolving Agent Interfaces]. The under-explored direction: treat interface design as a co-optimization problem with the policy itself, not a fixed constraint. This connects to Multimodal Embodied Agents, which unifies computer-use and robot-use perspectives [Multimodal Embodied Agents]. What would it take: formalizing the interface as part of the policy's action space, and training policies that can adapt their own interfaces. Signal: Your Policy Is Secretly a Harness; Evolving Agent Interfaces; Multimodal Embodied Agents",
       "signal": ""
     },
     {
-      "title": "Semantic losslessness of discrete tokens is a testable boundary, not a binary",
+      "title": "Multi-agent world models that infer unobserved state",
       "section": "Research directions & gaps",
-      "body": "\"Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?\" asks whether discrete tokens preserve visual semantics. The adjacent work — Cola2's continuous semantic compression, Self-Regularized Flow Language Models, diffusion language models with learned unmasking — suggests the real question is *where* discreteness breaks down: at what granularity, for what downstream tasks, under what compression ratios. A systematic study of the discreteness/continuity frontier across modalities would unify these scattered findings. Signal: Can Discrete Tokens Serve as Semantically Lossless; Cola2; Self-Regularized Flow Language Models",
+      "body": "OverSeer explicitly targets \"Multi-Agent World Models Beyond What Agents See\" [OverSeer]. Combined with ALPS visual state encoders for world models [ALPS] and Learning the 4D World through Point Trajectory Forecasting [Learning the 4D World], this suggests a research direction: world models that can infer hidden state from partial multi-agent observations. This is critical for real-world deployment where agents have partial observability, and it requires new architectures that can propagate uncertainty about unobserved state across agents. Signal: OverSeer; ALPS; Learning the 4D World",
       "signal": ""
     },
     {
-      "title": "Interface geometry as an alignment surface",
+      "title": "Test-time regression for sequence compression and adaptation",
       "section": "Research directions & gaps",
-      "body": "\"Your Policy Is Secretly a Harness: The Decision Geometry of Agent Interfaces\" and \"Evolving Agent Interfaces\" both argue the interface constrains agent behavior as much as the policy does. This suggests a research direction: *interface-level alignment* — designing action spaces, observation spaces, and affordances that make misalignment geometrically difficult, rather than relying on post-hoc monitoring. This is under-explored compared to RLHF/steering work. Signal: Your Policy Is Secretly a Harness; Evolving Agent Interfaces; Heads of Security",
+      "body": "\"Rethinking Sequence Compression with Test-time Regression\" proposes compression at test time rather than training time [Rethinking Sequence Compression]. Combined with On-Policy Self-Training, which enables data-free self-improvement [On-Policy Self-Training], this suggests a broader direction: test-time adaptation of model components, not just inputs. The gap: current models freeze their compression and adaptation strategies at training time, but the evidence suggests these can be learned at test time with regression. This could enable models that adapt their own memory and compression strategies to novel tasks without any fine-tuning. Signal: Rethinking Sequence Compression; On-Policy Self-Training",
       "signal": ""
     },
     {
-      "title": "Group decision-making under information asymmetry is a neglected eval axis",
-      "section": "Research directions & gaps",
-      "body": "\"TeamGym: A Gym for Team Decision-Making by AI Agents with Distributed Information\" and \"Rare, Relevant, and Still Wrong\" both highlight that real agent teams operate with partial information, yet most agent evals assume a single omniscient agent. The gap: benchmarks for *information-sharing protocols* — when should an agent reveal, withhold, or summarize what it knows? This connects to the \"Hive Mind is a Single RL Agent\" equivalence, suggesting swarm dynamics can be studied as bandit problems. Signal: TeamGym; Rare, Relevant, and Still Wrong; The Hive Mind is a Single RL Agent",
-      "signal": ""
-    },
-    {
-      "title": "\"Memory hygiene\" middleware for agent fleets",
+      "title": "Physical dynamics simulation as a service for robotics and embodied AI",
       "section": "Product / startup opportunities",
-      "body": "The memory-failure cluster (Rare/Relevant/Still Wrong, Cache Engineering, community debates about forgetting) reveals a production pain point: agent teams that accumulate context either bloat costs or lose critical rare signals. A middleware layer that implements *evidence-aware compression* — preserving rare, decision-relevant claims while aggressively summarizing common ones — would plug directly into existing agent frameworks. Why now: enterprises are deploying multi-agent systems (Anthropic's GSA partnership, OpenAI's Codex enterprise push) and hitting memory limits at scale. Signal: Rare, Relevant, and Still Wrong; Cache Engineering for Agents; Anthropic GSA partnership",
+      "body": "ThinkWorld [ThinkWorld], PDRVLA [PDRVLA], and Genie 4 [Genie 4] all demonstrate advances in physical world simulation, but building these models requires massive compute and data that most robotics companies lack. A startup could offer \"dynamics-as-a-service\"—a pre-trained world model API that robotics companies can query for physical feasibility, trajectory prediction, and counterfactual simulation. Why now: the models exist but are locked in academic papers and frontier labs. What it would take: distilling these models into a deployable API, plus domain-specific fine-tuning for manipulation, navigation, and assembly. Who benefits: robotics startups, manufacturing automation, and game developers needing realistic physics. Signal: ThinkWorld; PDRVLA; Genie 4; BrickWright",
       "signal": ""
     },
     {
-      "title": "Government-grade agent security and audit layer",
+      "title": "Decision-aware agent memory infrastructure",
       "section": "Product / startup opportunities",
-      "body": "OpenAI's coordinated vulnerability disclosure, Anthropic's attack surface reduction work, and the GSA partnership create a specific need: federal agencies adopting Claude/Codex need *continuous security validation* of agent actions, not just model-level safety. A product that wraps agent deployments with real-time perimeter triage (à la VX-One's calibrated decision heads), prompt-injection defense (Heads of Security), and audit trails for every tool call would fit the procurement requirements implied by the GSA deal. The \"Patch the Planet\" framing from OpenAI suggests coordinated response is already a priority. Signal: OpenAI coordinated disclosure; Anthropic attack surface reduction; GSA partnership; VX-One; Heads of Security",
+      "body": "The failure of memory heuristics in group decisions [Rare, Relevant, and Still Wrong] combined with cache engineering for agents [Cache Engineering for Agents] reveals a gap: no production memory system optimizes for decision quality. A startup could build a \"memory layer\" for agent frameworks that uses learned compression policies, not retrieval heuristics. This would integrate with existing agent frameworks (LangChain, AutoGen, etc.) and provide decision-aware memory that learns what to keep and what to forget based on downstream outcomes. Who benefits: enterprises deploying multi-agent systems where group decisions matter—financial analysis, legal review, medical diagnosis. Signal: Rare, Relevant, and Still Wrong; Cache Engineering for Agents; DecisionPivot",
       "signal": ""
     },
     {
-      "title": "Simulation-first scientific discovery platform for pharma",
+      "title": "Calibrated security triage with honest uncertainty",
       "section": "Product / startup opportunities",
-      "body": "Anthropic's drug development progress and Claude's enzyme discovery show frontier models can generate novel biological hypotheses. But the gap is *validation* — a platform that pairs LLM-generated hypotheses with physics/chemistry simulation (world models, kinetic ODEs like KPPax) to pre-filter candidates before wet-lab testing. The \"Can LLMs Uncover Hidden Physical Laws\" result suggests LLMs can explore altered-physics environments; applying this to *real* biological unknowns is the commercial opportunity. Why now: Anthropic and OpenAI are both signaling science acceleration as a core use case. Signal: Anthropic drug development; Claude enzyme system; KPPax; Can LLMs Uncover Hidden Physical Laws",
+      "body": "VX-One demonstrates typed, calibrated decision heads for real-time perimeter triage with unknown-attack honesty and calibration under drift [VX-One]. OpenAI's coordinated disclosure of critical vulnerabilities [Coordinated Disclosure] and Anthropic's attack surface reduction [Using Claude to Reduce Attack Surface] show the demand. Gemini 4 Carbon's cybersecurity focus [Gemini 4 Carbon] validates the market. A startup could productize calibrated triage systems that say \"I don't know\" under drift, rather than confidently misclassifying novel attacks. Why now: the \"vulnpocalypse\" is coming for aging code [Vulnpocalypse], and current security products lack honest uncertainty. Who benefits: SOC teams, financial institutions, critical infrastructure. Signal: VX-One; Coordinated Disclosure; Gemini 4 Carbon; Vulnpocalypse",
       "signal": ""
     },
     {
-      "title": "Local-first agent runtime for regulated industries",
+      "title": "Local-first agent platform for regulated industries",
       "section": "Product / startup opportunities",
-      "body": "The community surge in local models (Survival LLM, Zest, \"Local beats cloud\" stories, Opera's WebAI standard) plus IBM's claim that open-weight models are \"good and cheap on-prem\" creates an opening: a *local agent runtime* that runs fully offline, with built-in memory management and tool sandboxing, for healthcare, legal, and government users who can't send data to cloud APIs. The 10-year-old CNN beating frontier LLMs on skin cancer diagnosis is a reminder that specialized local models can win on narrow tasks. Why now: privacy regulations, data sovereignty, and the cost of API inference at agent scale. Signal: Survival LLM; IBM open-weight claim; Opera WebAI; skin cancer CNN story",
+      "body": "Community signals show local AI exploding [r/LocalLLaMA], IBM CEO says open weight models are now good and cheap on-prem [IBM CEO], and Specter enables fast MoE inference via speculative offloading [Specter]. The gap: no turnkey platform combines local model serving, agent orchestration, and compliance for regulated industries (healthcare, finance, government). A startup could build a \"local-first agent platform\" that packages open-weight models, agent frameworks, and compliance tooling into a deployable appliance. Why now: enterprises want to keep their secrets [r/LocalLLaMA Theory], and the technology is finally good enough. Who benefits: hospitals, banks, government agencies, law firms. Signal: Specter; IBM CEO; r/LocalLLaMA; GSA Partnership",
       "signal": ""
     },
     {
-      "title": "Code-as-representation for video understanding and generation",
+      "title": "Government AI integration layer",
       "section": "Product / startup opportunities",
-      "body": "CodeCap-Bench (code as video caption) and Code2Video-Compass (code-based video generation) point to an emerging paradigm: using executable code as the intermediate representation for video. A product that uses code as the *editable* representation — letting users modify video by editing code (e.g., \"change the lighting at frame 200\") — would be more precise than text prompts and more accessible than traditional video editing. The \"My video has unit tests\" HN post hints at developer appetite for this. Signal: CodeCap-Bench; Code2Video-Compass; My video has unit tests",
+      "body": "Anthropic's GSA partnership [GSA Partnership] and public benefit focus [Investing in Public Benefit] signal government adoption. But government needs more than model access—it needs compliance, auditability, and integration with legacy systems. A startup could build the \"government AI middleware\" layer: model routing, audit logs, security compliance, and COBOL/system integration [COBOL Crisis]. Why now: the GSA partnership creates a template, and the COBOL crisis shows legacy systems need AI help. Who benefits: federal, state, and local government agencies; defense contractors; public-sector IT providers. Signal: GSA Partnership; Investing in Public Benefit; COBOL Crisis",
       "signal": ""
     },
     {
-      "title": "Calibrated uncertainty layer for clinical AI deployment",
+      "title": "Drug development acceleration platform specialized for pharma workflows",
       "section": "Product / startup opportunities",
-      "body": "\"When uncertainty quantification fails: structural vulnerabilities and corrections for selective prediction under clinical class imbalance\" and the VX-One work on calibrated decision heads both address the same problem: AI systems that are confidently wrong in high-stakes settings. A product that wraps any clinical/operational model with *drift-aware calibration* — detecting when the model should defer to humans, and providing typed uncertainty outputs — would address the liability concerns raised by the GPT-4o seizure medication lawsuit. Why now: regulatory pressure and litigation are forcing the issue. Signal: When uncertainty quantification fails; VX-One; Parents sue OpenAI story",
+      "body": "Anthropic's early progress on drug development [Drug Development] and Claude discovering a novel enzyme system [Claude Enzyme System] show AI can accelerate drug discovery. But pharma needs more than a chatbot—it needs integrated workflows for target identification, lead optimization, and clinical trial design. A startup could build a specialized platform on top of frontier models that understands pharma-specific workflows, regulatory requirements, and data formats. Why now: the Anthropic results demonstrate feasibility, and pharma is desperate for faster drug development. Who benefits: biotech startups, large pharma, academic drug discovery labs. Signal: Drug Development; Claude Enzyme System; AI for Science",
       "signal": ""
     },
     {
-      "title": "Action-only models will match or beat world-model agents on physical manipulation within 18 months",
+      "title": "Discrete tokens will replace continuous embeddings for multimodal models within 18 months",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "The \"Just Action Models\" paper's core claim — that explicit world modeling is unnecessary for manipulation — will be validated by at least one major benchmark showing action-only agents matching VLA/world-model approaches on novel physical tasks. If true, the substantial investment in world models (Genie 4, ThinkWorld, ALPS) is misallocated for manipulation; if false, world models will show clear advantage on out-of-distribution physics. Falsifiable: compare action-only vs. world-model agents on tasks requiring novel physical reasoning, not just imitation. Signal: Vision-Language-Action or World-Action? Just Action Models; ThinkWorld; PDRVLA",
+      "body": "\"Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?\" [Discrete Tokens] provides evidence that discrete tokens can be semantically lossless. Cola2 uses continuous semantic compression with balanced discrete generation [Cola2]. This is contrarian because most frontier models use continuous embeddings. If discrete tokens are truly lossless, they enable unified next-token prediction across modalities, dramatically simplifying architecture and enabling shared token spaces. Falsifiable: by mid-2027, a major lab releases a multimodal model using discrete visual tokens as primary representation. Signal: Discrete Tokens; Cola2",
       "signal": ""
     },
     {
-      "title": "The \"Hackening\" will shift security investment from model alignment to interface and memory hardening",
+      "title": "Physical dynamics reasoning will become a separate pre-training objective by end of 2026",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "The LessWrong \"Hackening\" discussion, OpenAI's offline training decision, and Anthropic's attack surface reduction all point to a shift: the most exploitable vulnerabilities are in agent *interfaces* and *memory*, not model weights. Prediction: within 12 months, the majority of high-profile AI security incidents will exploit prompt injection, memory poisoning, or tool-call manipulation rather than model misalignment. Falsifiable: track incident reports and CVE patterns. Signal: The Hackening; OpenAI offline training; Anthropic attack surface reduction; Heads of Security",
+      "body": "ThinkWorld [ThinkWorld], PDRVLA [PDRVLA], and Ψ-0.6 [Ψ-0.6] all treat physical dynamics as a distinct reasoning capability. The contrarian bet: rather than fine-tuning, a lab will pre-train a model with explicit physical dynamics objectives. This would be a fundamental shift in how world models are built. Falsifiable: check for pre-training papers with dynamics objectives in the next 6 months. If none appear by mid-2027, the bet is wrong. Signal: ThinkWorld; PDRVLA; Ψ-0.6",
       "signal": ""
     },
     {
-      "title": "Government AI adoption will create a de facto \"agent compliance\" standard that outpaces formal regulation",
+      "title": "Agent memory benchmarks will shift from retrieval to decision quality within 12 months",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "The GSA partnership, OpenAI's national security oversight post, and state-level AI ad labeling laws suggest procurement requirements — not legislation — will define acceptable agent behavior. Prediction: within 24 months, a government procurement standard for agent auditability, memory retention limits, and action logging will emerge and become the de facto industry standard, similar to how FedRAMP shaped cloud security. Falsifiable: watch for NIST or GSA-issued agent security frameworks. Signal: GSA partnership; OpenAI national security oversight; Pennsylvania AI ad law",
+      "body": "\"Rare, Relevant, and Still Wrong\" [Rare, Relevant, and Still Wrong] shows retrieval heuristics fail decision-making. Current benchmarks measure retrieval fidelity. The prediction: new benchmarks will measure decision outcomes with compressed memory, and this will become the standard. Falsifiable: look for new memory benchmarks in 2026-2027 that use decision outcomes as primary metric. If retrieval metrics remain dominant by end of 2027, the bet is wrong. Signal: Rare, Relevant, and Still Wrong; DecisionPivot",
       "signal": ""
     },
     {
-      "title": "Discrete token representations will be abandoned for high-fidelity visual tasks within 2 years",
+      "title": "Local AI will capture >30% of enterprise inference by 2027",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "The \"Semantically Lossless\" paper's findings, combined with the rise of continuous-flow language models (Self-Regularized Flow LMs) and Cola2's continuous semantic compression, suggest discreteness is a bottleneck for visual fidelity. Prediction: by 2028, the top-performing multimodal models will use continuous or hybrid representations for vision, with discrete tokens relegated to low-bandwidth tasks. Falsifiable: track representation choices in SOTA multimodal models. Signal: Can Discrete Tokens Serve as Semantically Lossless; Cola2; Self-Regularized Flow Language Models",
+      "body": "Community signals [r/LocalLLaMA], IBM CEO [IBM CEO], Specter efficiency [Specter], and enterprise privacy concerns [r/LocalLLaMA Theory] all point to local AI adoption. The contrarian bet: this will happen faster than expected because enterprises want to keep secrets [r/LocalLLaMA Theory], and the technology is finally good enough. Falsifiable: enterprise inference market share data in 2027. If local AI is below 30% by then, the bet is wrong. Signal: Specter; IBM CEO; r/LocalLLaMA",
       "signal": ""
     },
     {
-      "title": "The \"zero financial payoff\" narrative will invert for memory and orchestration infrastructure, not model providers",
+      "title": "Calibrated uncertainty will become a required feature for security AI products",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "Apollo's economist claim that AI delivers \"zero financial payoff\" to most companies is consistent with value accruing to *infrastructure around models* rather than models themselves. Prediction: the highest-margin AI products in 2027 will be memory management, agent orchestration, and security layers — not foundation model APIs, which continue to commoditize (prices cut 80%). Falsifiable: compare gross margins of infrastructure-layer vs. model-layer companies in 2027. Signal: Apollo economist quote; OpenAI/Anthropic price cuts; Cache Engineering for Agents",
+      "body": "VX-One [VX-One] demonstrates calibrated decision heads for security triage. OpenAI's coordinated disclosure [Coordinated Disclosure] and Anthropic's vulnerability discovery [Discovering and Exploiting Vulnerabilities] show the stakes. The prediction: security products that don't provide calibrated uncertainty will be rejected by enterprise buyers within 18 months. Falsifiable: procurement requirements for security AI products. If calibrated uncertainty is not mentioned in security AI RFPs by mid-2027, the bet is wrong. Signal: VX-One; Coordinated Disclosure; Discovering and Exploiting Vulnerabilities",
       "signal": ""
     },
     {
-      "title": "Group decision-making will be recognized as a distinct failure mode requiring dedicated benchmarks, not just single-agent evals",
-      "section": "Contrarian bets & falsifiable predictions",
-      "body": "TeamGym and Rare/Relevant/Still Wrong expose that multi-agent systems fail in ways single-agent evals can't capture. Prediction: within 12 months, a major benchmark suite for *distributed-information team decision-making* will be released and adopted by at least two frontier labs. Falsifiable: watch for new benchmarks in this space at NeurIPS/ICML 2027. Signal: TeamGym; Rare, Relevant, and Still Wrong; The Hive Mind is a Single RL Agent",
-      "signal": ""
-    },
-    {
-      "title": "Anthropic's post-IPO governance stress test",
+      "title": "Anthropic IPO governance structure",
       "section": "Watch items",
-      "body": "The S-1 filing reveals an \"incredibly complex governance structure\" designed to preserve founder control. Watch for the first major conflict between the public benefit mandate and shareholder expectations — likely triggered by a safety incident or a costly decision to withhold a capability. This will test whether the \"public benefit\" framing survives public markets. Signal: Anthropic S-1; Who's really in charge at Anthropic; The Verge governance analysis",
+      "body": "The S-1 filing reveals an unusual governance structure [Anthropic IPO Filing]. Watch how the public benefit charter interacts with shareholder interests [Investing in Public Benefit]. This will set precedents for AI company governance.",
       "signal": ""
     },
     {
-      "title": "OpenAI's offline training experiment",
+      "title": "OpenAI academic engagement",
       "section": "Watch items",
-      "body": "The decision to train frontier models without internet access, following \"rogue hacking incidents,\" is a significant operational shift. Watch for whether this slows capability gains, changes model behavior (less current knowledge), or becomes a competitive disadvantage against labs that still train online. Signal: OpenAI offline training; Securing our frontier model training environment",
+      "body": "OpenAI announced three science discoveries and a new way to work with academics [OpenAI Science Discoveries]. Watch whether this becomes a sustained program or a PR move. The academic community is getting tired of gatekeeping [Researchers Tired of OpenAI Gatekeeping].",
       "signal": ""
     },
     {
-      "title": "The \"Patch the Planet\" coordination mechanism",
+      "title": "Genie 4 world model capabilities",
       "section": "Watch items",
-      "body": "OpenAI's coordinated disclosure of critical vulnerabilities, with the \"Patch the Planet\" framing, suggests an emerging global vulnerability-response infrastructure. Watch for whether this becomes a formal multi-lab consortium, and whether it extends beyond software to AI-specific vulnerabilities (prompt injection, memory poisoning). Signal: OpenAI coordinated disclosure; Patch the Planet",
+      "body": "Genie 4 adds audio, more realistic worlds, and real-time steering [Genie 4]. Watch for applications in robotics and embodied AI, especially combined with physical dynamics research [ThinkWorld, PDRVLA].",
       "signal": ""
     },
     {
-      "title": "Genie 4's real-time steering as a product surface",
+      "title": "Gemini 4 Carbon cybersecurity focus",
       "section": "Watch items",
-      "body": "Google's Genie 4 adds real-time steering and audio, doubling scene consistency to two minutes. Watch for whether this becomes a consumer product (interactive entertainment) or stays a research tool. The \"real-time\" aspect is the key signal — it suggests inference latency has dropped enough for interactive use. Signal: Genie 4 announcement; TechCrunch Genie 4 coverage",
+      "body": "Google released Gemini 4 Carbon with \"significant leap\" in cybersecurity [Gemini 4 Carbon]. Watch whether this triggers a security AI arms race and how it interacts with coordinated disclosure [Coordinated Disclosure].",
       "signal": ""
     },
     {
-      "title": "The r/opensource AI ban as a cultural signal",
+      "title": "The \"vulnpocalypse\" and AI-driven vulnerability discovery",
       "section": "Watch items",
-      "body": "The r/opensource community banning AI-generated projects is a leading indicator of backlash against AI in developer communities. Watch for whether this spreads to other major open-source communities, and whether it affects adoption of AI coding tools in those spaces. Signal: r/opensource ban; The Verge coverage",
+      "body": "Wiz's CTO warns of coming \"vulnpocalypse\" [Vulnpocalypse]. Combined with Anthropic discovering vulnerabilities [Discovering and Exploiting Vulnerabilities] and OpenAI's coordinated disclosure [Coordinated Disclosure], watch for systemic risks in aging code infrastructure.",
       "signal": ""
     },
     {
-      "title": "Amazon's Anthropic stake as a strategic lever",
+      "title": "Local LLM community momentum",
       "section": "Watch items",
-      "body": "VCs will make billions, but Amazon's note conversions reveal a much larger ownership position. Watch for whether Amazon uses this leverage to steer Anthropic toward AWS integration, or whether Anthropic's governance structure genuinely insulates it from Amazon's influence. Signal: TechCrunch Amazon/Anthropic analysis; Anthropic governance structure",
+      "body": "Multiple signals show local AI exploding [r/LocalLLaMA, Specter, IBM CEO]. Watch for enterprise adoption and the emergence of local-first platforms.",
       "signal": ""
     },
     {
-      "title": "The seizure medication lawsuit as a regulatory catalyst",
+      "title": "Government AI adoption",
       "section": "Watch items",
-      "body": "The GPT-4o lawsuit alleging the model coached a patient off seizure medication is the kind of case that triggers regulatory action. Watch for whether this accelerates FDA or FTC involvement in AI health advice, and whether it changes how labs handle medical queries. Signal: Parents sue OpenAI; ChatGPT medication story",
+      "body": "Anthropic's GSA partnership [GSA Partnership] signals government adoption. Watch for other frontier labs following suit and the regulatory landscape.",
       "signal": ""
     },
     {
-      "title": "Specter's quantization-enabled speculative offloading for MoE",
+      "title": "Physical dynamics reasoning convergence",
       "section": "Watch items",
-      "body": "This paper, highlighted in r/LocalLLaMA, claims fast MoE inference via multi-step speculative offloading. Watch for whether this technique gets integrated into llama.cpp or other local inference stacks — it could dramatically change what's feasible on consumer hardware. Signal: Specter paper; r/LocalLLaMA discussion",
+      "body": "Multiple papers on physical dynamics [ThinkWorld, PDRVLA, Ψ-0.6, ALPS]. Watch for a major lab announcing a unified physical dynamics model.",
       "signal": ""
     },
     {
-      "title": "The \"everything will be local eventually\" sentiment shift",
+      "title": "Data-free self-improvement",
       "section": "Watch items",
-      "body": "Multiple community sources express growing confidence that local models will eventually match cloud models for most tasks. Watch for whether this sentiment translates into sustained open-source model releases that close the gap, or whether frontier labs maintain a durable advantage. Signal: r/LocalLLaMA \"everything will be local\"; IBM open-weight claim; local model success stories",
+      "body": "On-Policy Self-Training [On-Policy Self-Training] and Self-Credit [Self-Credit] suggest agents can improve without external data. Watch for recursive self-improvement claims and their validation.",
+      "signal": ""
+    },
+    {
+      "title": "Discrete token representations",
+      "section": "Watch items",
+      "body": "The discrete token paper [Discrete Tokens] challenges continuous embeddings. Watch for follow-up work and whether frontier labs adopt discrete tokens.",
       "signal": ""
     }
   ],
