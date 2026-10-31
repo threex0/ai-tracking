@@ -1,7 +1,830 @@
 {
-  "generated_at": "2026-10-30T08:17:08.745138+00:00",
+  "generated_at": "2026-10-31T08:12:56.914341+00:00",
   "window_days": 14,
   "items": [
+    {
+      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+      "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [
+        "policy"
+      ],
+      "summary": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, it says, could either ",
+      "score": 1.432
+    },
+    {
+      "title": "Maine’s data center revolt will decide who controls the Senate",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [],
+      "summary": "Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short. \"I'm terrified,\" a man shouted. \"AI data centers are destroying our climate. They are poisoning our water.\" Collins brushed off the outburst,",
+      "score": 1.388
+    },
+    {
+      "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [],
+      "summary": "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the company's stockpile of ",
+      "score": 1.355
+    },
+    {
+      "title": "Silicon Valley wants you to invest in miracles",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring forth an age of miracle",
+      "score": 1.603
+    },
+    {
+      "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\"",
+      "score": 1.405
+    },
+    {
+      "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [],
+      "summary": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital me",
+      "score": 1.477
+    },
+    {
+      "title": "Google&#8217;s satellite AI server transmits its first response to Earth",
+      "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: B",
+      "score": 1.499
+    },
+    {
+      "title": "The biggest names in AI are backing a new way to opt out of scraping",
+      "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [
+        "policy"
+      ],
+      "summary": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setti",
+      "score": 1.62
+    },
+    {
+      "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [],
+      "summary": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented on AI's impact on math, Altman said: \"A lo",
+      "score": 1.578
+    },
+    {
+      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "source_id": "theverge_ai",
+      "source_name": "The Verge AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [],
+      "summary": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for D",
+      "score": 1.636
+    },
+    {
+      "title": "Granola crunches up a dictation feature to compete with Wispr",
+      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-29",
+      "tier": 2,
+      "tags": [
+        "speech-audio"
+      ],
+      "summary": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
+      "score": 0.901
+    },
+    {
+      "title": "Meta quietly launches an AI fashion app called Style Sketch",
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-29",
+      "tier": 2,
+      "tags": [],
+      "summary": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
+      "score": 0.926
+    },
+    {
+      "title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-29",
+      "tier": 2,
+      "tags": [],
+      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
+      "score": 0.94
+    },
+    {
+      "title": "Rivian expands joint venture with VW to include AI assistant",
+      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-29",
+      "tier": 2,
+      "tags": [],
+      "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
+      "score": 0.943
+    },
+    {
+      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-29",
+      "tier": 2,
+      "tags": [
+        "reasoning"
+      ],
+      "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+      "score": 0.944
+    },
+    {
+      "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-29",
+      "tier": 2,
+      "tags": [],
+      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+      "score": 1.016
+    },
+    {
+      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [],
+      "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+      "score": 1.052
+    },
+    {
+      "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+      "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [],
+      "summary": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
+      "score": 1.341
+    },
+    {
+      "title": "5 days left: Your last chance to connect, scale, and save at TechCrunch Founder Summit 2026",
+      "url": "https://techcrunch.com/2026/10/30/5-days-left-your-last-chance-to-connect-scale-and-save-at-techcrunch-founder-summit-2026/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [],
+      "summary": "5 days to save up to $100, plus a second pass for free to TechCrunch Founder Summit 2026 in Boston on November 4. Register now.",
+      "score": 1.341
+    },
+    {
+      "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+      "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "DoorDash said that it is open to working with third-party agent makers.",
+      "score": 1.366
+    },
+    {
+      "title": "Skip the small talk: Make game-changing connections at TechCrunch Founder Summit with Braindate",
+      "url": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [],
+      "summary": "At TechCrunch Founder Summit 2026, happening November 4 at SoWa Power Station in Boston, networking powered by Braindate is designed to make those conversations easier to find, whether they are in 1:1 or small-group on-site meetings. Register before the event starts to save up to $100 on your pass, ",
+      "score": 1.369
+    },
+    {
+      "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
+      "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [
+        "funding"
+      ],
+      "summary": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
+      "score": 1.429
+    },
+    {
+      "title": "Google’s first data center satellite is online and writing poetry",
+      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
+      "score": 1.457
+    },
+    {
+      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+      "score": 1.481
+    },
+    {
+      "title": "Cracks are emerging in the AI spending boom",
+      "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [],
+      "summary": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
+      "score": 1.594
+    },
+    {
+      "title": "Last-minute Halloween costumes for tech nerds",
+      "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [
+        "agents"
+      ],
+      "summary": "No Halloween costume? Just be a deceptively cute AI agent icon, a PHP vulnerability, or sleepy time Bryan Johnson.",
+      "score": 1.599
+    },
+    {
+      "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [
+        "funding"
+      ],
+      "summary": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
+      "score": 1.613
+    },
+    {
+      "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+      "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [
+        "policy"
+      ],
+      "summary": "Intel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise.",
+      "score": 1.614
+    },
+    {
+      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [],
+      "summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "score": 1.649
+    },
+    {
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "source_id": "techcrunch_ai",
+      "source_name": "TechCrunch AI",
+      "date": "2026-10-31",
+      "tier": 2,
+      "tags": [
+        "hardware"
+      ],
+      "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "score": 1.734
+    },
+    {
+      "title": "A few predictions on Qwen4 HC and Quantization while we wait",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjy0uv/a_few_predictions_on_qwen4_hc_and_quantization/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-31",
+      "tier": 2,
+      "tags": [
+        "open-source",
+        "hardware"
+      ],
+      "summary": "I previously wrote about the shift to 4-way HC. Traditionally, optimization has focused primarily on FFN and Attention. With the HC architecture, however, residual stream mixing and information preservation must also be taken into account when optimizing for quality, model size, and speed. NVFP4 may",
+      "score": 1.757
+    },
+    {
+      "title": "Koboldcpp v1.124 released",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk1vyk/koboldcpp_v1124_released/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-31",
+      "tier": 2,
+      "tags": [],
+      "summary": "submitted by /u/Fcking_Chuck [link] [comments]",
+      "score": 1.887
+    },
+    {
+      "title": "Copium Prediction: Google and other major labs will drop new local models over the next few days so they can lead on benchmarks until Qwen 4 sweeps them next week.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjigxg/copium_prediction_google_and_other_major_labs/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-30",
+      "tier": 2,
+      "tags": [
+        "evals",
+        "open-source"
+      ],
+      "summary": "We saw this earlier when Gemma 4 dropped just a few days before a previous Qwen release. I feel like a few other labs did the same. Everybody wants that moment in the spotlight where they can lead the benchmarks for at least a day or two before the next Qwen comes in and mops the floor with them. I ",
+      "score": 1.412
+    },
+    {
+      "title": "Lawyer with too many GPUs, part 3: DeepSeek-V4.1-Flash on 2x DGX Spark + an old 3090 box. 2,600+ tok/s prefill to 256K, 322 tok/s structured output, full stack and raw data published",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk20x5/lawyer_with_too_many_gpus_part_3_deepseekv41flash/",
+      "source_id": "reddit_localllama",
+      "source_name": "r/LocalLLaMA",
+      "date": "2026-10-31",
+      "tier": 2,
+      "tags": [
+        "reasoning",
+        "evals",
+        "open-source",
+        "hardware"
+      ],
+      "summary": "Update from the lawyer with the V100 server. I went and got two DGX Sparks, because of course I did. The mid-life crisis remains on schedule. Same deal as before: still a lawyer, still driving the whole thing through Claude Code, and Claude Code also ran the benchmarks, built these tables and helped",
+      "score": 1.892
+    },
+    {
+      "title": "LLMs and biorisk \\ Anthropic",
+      "url": "https://www.anthropic.com/research/biorisk",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.072
+    },
+    {
+      "title": "Reverse engineering Claude's CVE-2026-2796 exploit \\ Anthropic",
+      "url": "https://www.anthropic.com/research/exploit",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.072
+    },
+    {
+      "title": "AI models on realistic cyber ranges \\ Anthropic",
+      "url": "https://www.anthropic.com/research/cyber-toolkits-update",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.072
+    },
+    {
+      "title": "Cyber toolkits for LLMs \\ Anthropic",
+      "url": "https://www.anthropic.com/research/cyber-toolkits",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.072
+    },
+    {
+      "title": "AI agents find smart contract exploits \\ Anthropic",
+      "url": "https://www.anthropic.com/research/smart-contracts",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [
+        "agents"
+      ],
+      "summary": "",
+      "score": 0.072
+    },
+    {
+      "title": "Finding bugs with Claude and property-based testing \\ Anthropic",
+      "url": "https://www.anthropic.com/research/property-based-testing",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.072
+    },
+    {
+      "title": "Project Vend: Phase two \\ Anthropic",
+      "url": "https://www.anthropic.com/research/project-vend-2",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.072
+    },
+    {
+      "title": "Developing nuclear safeguards for AI \\ Anthropic",
+      "url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.072
+    },
+    {
+      "title": "LLM-discovered 0 days \\ Anthropic",
+      "url": "https://www.anthropic.com/research/zero-days",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-23",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.072
+    },
+    {
+      "title": "How AI agents shape experts’ judgment calls \\ Anthropic",
+      "url": "https://www.anthropic.com/research/agents-judgment-calls",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [
+        "agents"
+      ],
+      "summary": "",
+      "score": 0.512
+    },
+    {
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering \\ Anthropic",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-27",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.538
+    },
+    {
+      "title": "Claude discovers a novel enzyme system \\ Anthropic",
+      "url": "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.619
+    },
+    {
+      "title": "Coding agents in the social sciences \\ Anthropic",
+      "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [
+        "agents"
+      ],
+      "summary": "",
+      "score": 0.62
+    },
+    {
+      "title": "Early progress on accelerating drug development with Claude \\ Anthropic",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-28",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 0.809
+    },
+    {
+      "title": "AI for Science expands to foundations and institutions \\ Anthropic",
+      "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-29",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 1.027
+    },
+    {
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government \\ Anthropic",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-29",
+      "tier": 1,
+      "tags": [
+        "policy"
+      ],
+      "summary": "",
+      "score": 1.33
+    },
+    {
+      "title": "Claude Code Best Practices \\ Anthropic",
+      "url": "https://www.anthropic.com/research/claude-code-best-practices",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-29",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 1.343
+    },
+    {
+      "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude \\ Anthropic",
+      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-30",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.115
+    },
+    {
+      "title": "Scaling Managed Agents with stable interfaces \\ Anthropic",
+      "url": "https://www.anthropic.com/research/managed-agents",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-30",
+      "tier": 1,
+      "tags": [
+        "agents"
+      ],
+      "summary": "",
+      "score": 2.134
+    },
+    {
+      "title": "Enabling independent research on how people use Claude \\ Anthropic",
+      "url": "https://www.anthropic.com/research/enabling-independent-research",
+      "source_id": "anthropic",
+      "source_name": "Anthropic Research & News",
+      "date": "2026-10-31",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.672
+    },
+    {
+      "title": "fanatics streamline fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-31",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.991
+    },
+    {
+      "title": "openai to acquire orchestra bio",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-31",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.991
+    },
+    {
+      "title": "ai literacy resources for teens and parents",
+      "url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-31",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.992
+    },
+    {
+      "title": "edu for countries",
+      "url": "https://openai.com/index/edu-for-countries/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-31",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.992
+    },
+    {
+      "title": "update on the openai foundation",
+      "url": "https://openai.com/index/update-on-the-openai-foundation/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-31",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.992
+    },
+    {
+      "title": "eu text provenance",
+      "url": "https://openai.com/index/eu-text-provenance/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-31",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.994
+    },
+    {
+      "title": "fighting nyt user privacy invasion",
+      "url": "https://openai.com/index/fighting-nyt-user-privacy-invasion/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-31",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.994
+    },
+    {
+      "title": "red teaming network",
+      "url": "https://openai.com/index/red-teaming-network/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-31",
+      "tier": 1,
+      "tags": [
+        "safety"
+      ],
+      "summary": "",
+      "score": 2.994
+    },
+    {
+      "title": "openai cut incident investigation",
+      "url": "https://openai.com/index/openai-cut-incident-investigation/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-31",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.995
+    },
+    {
+      "title": "chatgpt for teens",
+      "url": "https://openai.com/index/chatgpt-for-teens/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-31",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.996
+    },
+    {
+      "title": "building standards next phase ai",
+      "url": "https://openai.com/index/building-standards-next-phase-ai/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-31",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.996
+    },
+    {
+      "title": "what parameter golf taught us",
+      "url": "https://openai.com/index/what-parameter-golf-taught-us/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-31",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.996
+    },
+    {
+      "title": "supporting independent journalism in ukraine",
+      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-31",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.996
+    },
+    {
+      "title": "disrupting malicious uses of ai trolling stone",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-trolling-stone/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-31",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.998
+    },
+    {
+      "title": "snowflake partnership",
+      "url": "https://openai.com/index/snowflake-partnership/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-31",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
+    {
+      "title": "disrupting malicious uses of ai helgoland bite",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-helgoland-bite/",
+      "source_id": "openai",
+      "source_name": "OpenAI Blog",
+      "date": "2026-10-31",
+      "tier": 1,
+      "tags": [],
+      "summary": "",
+      "score": 2.999
+    },
     {
       "title": "DeepSeek-R1-0528 Release | DeepSeek API Docs",
       "url": "https://api-docs.deepseek.com/news/news250528",
@@ -1079,87 +1902,6 @@
       "score": 1.456
     },
     {
-      "title": "Granola crunches up a dictation feature to compete with Wispr",
-      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-29",
-      "tier": 2,
-      "tags": [
-        "speech-audio"
-      ],
-      "summary": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
-      "score": 1.483
-    },
-    {
-      "title": "Meta quietly launches an AI fashion app called Style Sketch",
-      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-29",
-      "tier": 2,
-      "tags": [],
-      "summary": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
-      "score": 1.525
-    },
-    {
-      "title": "OpenAI-backed Thrive Holdings acquires ADT",
-      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-29",
-      "tier": 2,
-      "tags": [],
-      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
-      "score": 1.547
-    },
-    {
-      "title": "Rivian expands joint venture with VW to include AI assistant",
-      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-29",
-      "tier": 2,
-      "tags": [],
-      "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
-      "score": 1.553
-    },
-    {
-      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
-      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-29",
-      "tier": 2,
-      "tags": [
-        "reasoning"
-      ],
-      "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
-      "score": 1.554
-    },
-    {
-      "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
-      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-29",
-      "tier": 2,
-      "tags": [],
-      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
-      "score": 1.674
-    },
-    {
-      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
-      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
-      "source_id": "techcrunch_ai",
-      "source_name": "TechCrunch AI",
-      "date": "2026-10-30",
-      "tier": 2,
-      "tags": [],
-      "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
-      "score": 1.732
-    },
-    {
       "title": "Exploring Next-Concept Modeling (NCM) & Transformer Interpretability: Repository of 20 Exploratory Studies & Controls [P]",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1xh3e7o/exploring_nextconcept_modeling_ncm_transformer/",
       "source_id": "reddit_ml",
@@ -1853,236 +2595,6 @@
       ],
       "summary": "",
       "score": 0.118
-    },
-    {
-      "title": "LLMs and biorisk \\ Anthropic",
-      "url": "https://www.anthropic.com/research/biorisk",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.118
-    },
-    {
-      "title": "Reverse engineering Claude's CVE-2026-2796 exploit \\ Anthropic",
-      "url": "https://www.anthropic.com/research/exploit",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.118
-    },
-    {
-      "title": "AI models on realistic cyber ranges \\ Anthropic",
-      "url": "https://www.anthropic.com/research/cyber-toolkits-update",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.118
-    },
-    {
-      "title": "Cyber toolkits for LLMs \\ Anthropic",
-      "url": "https://www.anthropic.com/research/cyber-toolkits",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.118
-    },
-    {
-      "title": "AI agents find smart contract exploits \\ Anthropic",
-      "url": "https://www.anthropic.com/research/smart-contracts",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [
-        "agents"
-      ],
-      "summary": "",
-      "score": 0.118
-    },
-    {
-      "title": "Finding bugs with Claude and property-based testing \\ Anthropic",
-      "url": "https://www.anthropic.com/research/property-based-testing",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.118
-    },
-    {
-      "title": "Project Vend: Phase two \\ Anthropic",
-      "url": "https://www.anthropic.com/research/project-vend-2",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.118
-    },
-    {
-      "title": "Developing nuclear safeguards for AI \\ Anthropic",
-      "url": "https://www.anthropic.com/research/nuclear-safeguards-for-ai",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.118
-    },
-    {
-      "title": "LLM-discovered 0 days \\ Anthropic",
-      "url": "https://www.anthropic.com/research/zero-days",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-23",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.118
-    },
-    {
-      "title": "How AI agents shape experts’ judgment calls \\ Anthropic",
-      "url": "https://www.anthropic.com/research/agents-judgment-calls",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-27",
-      "tier": 1,
-      "tags": [
-        "agents"
-      ],
-      "summary": "",
-      "score": 0.842
-    },
-    {
-      "title": "Anthropic files S-1 with the SEC for proposed initial public offering \\ Anthropic",
-      "url": "https://www.anthropic.com/news/s1-sec",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-27",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 0.885
-    },
-    {
-      "title": "Claude discovers a novel enzyme system \\ Anthropic",
-      "url": "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-28",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 1.02
-    },
-    {
-      "title": "Coding agents in the social sciences \\ Anthropic",
-      "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-28",
-      "tier": 1,
-      "tags": [
-        "agents"
-      ],
-      "summary": "",
-      "score": 1.02
-    },
-    {
-      "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude \\ Anthropic",
-      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-28",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 1.284
-    },
-    {
-      "title": "Early progress on accelerating drug development with Claude \\ Anthropic",
-      "url": "https://www.anthropic.com/research/early-progress-drug-development",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-28",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 1.332
-    },
-    {
-      "title": "AI for Science expands to foundations and institutions \\ Anthropic",
-      "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-29",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 1.691
-    },
-    {
-      "title": "Expanding our partnership with GSA to bring Claude to all levels of government \\ Anthropic",
-      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-29",
-      "tier": 1,
-      "tags": [
-        "policy"
-      ],
-      "summary": "",
-      "score": 2.19
-    },
-    {
-      "title": "Scaling Managed Agents with stable interfaces \\ Anthropic",
-      "url": "https://www.anthropic.com/research/managed-agents",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-29",
-      "tier": 1,
-      "tags": [
-        "agents"
-      ],
-      "summary": "",
-      "score": 2.209
-    },
-    {
-      "title": "Claude Code Best Practices \\ Anthropic",
-      "url": "https://www.anthropic.com/research/claude-code-best-practices",
-      "source_id": "anthropic",
-      "source_name": "Anthropic Research & News",
-      "date": "2026-10-29",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 2.211
-    },
-    {
-      "title": "fanatics streamline fan experience",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience/",
-      "source_id": "openai",
-      "source_name": "OpenAI Blog",
-      "date": "2026-10-30",
-      "tier": 1,
-      "tags": [],
-      "summary": "",
-      "score": 2.999
     },
     {
       "title": "ropes gray ai diligence",
@@ -11089,19 +11601,6 @@
       "date": "2026-10-26",
       "tier": 1,
       "tags": [],
-      "summary": "",
-      "score": 2.964
-    },
-    {
-      "title": "red teaming network",
-      "url": "https://openai.com/index/red-teaming-network/",
-      "source_id": "openai",
-      "source_name": "OpenAI Blog",
-      "date": "2026-10-26",
-      "tier": 1,
-      "tags": [
-        "safety"
-      ],
       "summary": "",
       "score": 2.964
     },
@@ -26072,165 +26571,111 @@
   ],
   "ideas": [
     {
-      "title": "World models as verifiable reasoning substrates, not just simulators",
+      "title": "Unified tokenization for multimodal world models via role-coupled discrete tokens",
       "section": "Research directions & gaps",
-      "body": "ThinkWorld shows that world imagination reinforces chain-of-dynamics reasoning, while Ψ-0.6 unifies vision-language world models with adaptive streams of thought [ThinkWorld, Ψ-0.6]. Yet no work connects world-model simulation to formal verification. VeriCUA demonstrates verification-as-agentic-exploration for computer-using agents, and FARMS provides verifiable foundations for computational science [VeriCUA, FARMS]. The gap: a world model that can simulate a hypothesis, then formally verify the simulation's consistency with observed dynamics. This would give agents a \"mental sandbox\" where they can test plans before execution, with the simulation itself serving as evidence. Why now: world models (Genie 4, L3G-World) are reaching real-time fidelity, while verification infrastructure (VeriCUA, DecisionPivot) is maturing independently. What it would take: coupling a differentiable world model to a proof checker or consistency validator, and training agents to treat simulation divergence as a learning signal. Signal: ThinkWorld, Ψ-0.6, VeriCUA, FARMS, Genie 4",
+      "body": "Role-coupled tokenization reduces token count in pixel-space generative transformers [arXiv], while separate work questions whether discrete tokens can be semantically lossless for visual signals [arXiv] and Ψ-0.6 reasons in adaptive streams of thought across modalities [arXiv]. The gap is whether role-coupled discrete tokens can serve as a common currency for vision, language, and action inside a single world model, preserving physical entity identity rather than just appearance. A concrete study would test role-coupled tokens on PhysCount, which distinguishes visual appearances from physical entities [arXiv]. Signal: Read, Allocate, Route; Can Discrete Tokens Serve as Semantically Lossless Representations; Ψ-0.6; PhysCount.",
       "signal": ""
     },
     {
-      "title": "The agent interface is the policy: formalizing harness design as alignment",
+      "title": "Spatially indexed agent memory instead of token-indexed context",
       "section": "Research directions & gaps",
-      "body": "\"Your Policy Is Secretly a Harness\" argues that the decision geometry of agent interfaces secretly encodes policy choices [Your Policy Is Secretly a Harness]. \"Evolving Agent Interfaces\" and \"Cache Engineering for Agents\" both treat interface design as a first-class research object [Evolving Agent Interfaces, Cache Engineering for Agents]. Yet alignment research still focuses almost entirely on model weights and training data. The gap: a formal theory of interface-mediated alignment — how the structure of tool access, memory, and action spaces shapes agent behavior independently of the underlying model. This matters because Anthropic is now \"Scaling Managed Agents with stable interfaces\" [Anthropic], suggesting industry is converging on interface standards without understanding their alignment implications. Why now: agent interfaces are becoming standardized (Agent Skills donation, stable interfaces), creating a window to study them before they ossify. Signal: Your Policy Is Secretly a Harness, Evolving Agent Interfaces, Cache Engineering for Agents, Scaling Managed Agents",
+      "body": "Rare, Relevant, and Still Wrong shows LLM group decisions fail specifically on rare relevant items, implicating memory retrieval rather than reasoning [arXiv]. Retrieval as Traversal proposes value-indexed memory for stateful long-context agents [arXiv], and Cache Engineering for Agents treats memory as a first-class engineering problem [arXiv]. L3G-World’s latent 3D Gaussian memory suggests spatial indexing can maintain consistency over long horizons [arXiv]. The under-explored direction is to combine these into an agent memory that indexes by world state or location, not sequence position, and evaluate on long-horizon embodied tasks. Signal: Rare, Relevant, and Still Wrong; Retrieval as Traversal; Cache Engineering for Agents; L3G-World.",
       "signal": ""
     },
     {
-      "title": "Active forgetting: memory systems that prune by decision relevance, not retrieval similarity",
+      "title": "Difficulty-calibrated benchmarks for agentic decision-making",
       "section": "Research directions & gaps",
-      "body": "\"Rare, Relevant, and Still Wrong\" shows that LLM memory fails specifically when rare but decision-relevant information is needed in group decisions [Rare, Relevant, and Still Wrong]. \"Retrieval as Traversal\" proposes value-indexed memory for stateful agents [Retrieval as Traversal]. \"Rethinking Sequence Compression with Test-time Regression\" reframes compression as a test-time optimization [Rethinking Sequence Compression]. The gap: no one has built a memory system that actively forgets information based on its expected decision value, rather than its semantic similarity to the current query. This is the difference between a library and a strategist. Why now: long-context models can hold millions of tokens, but the failure mode is not capacity — it's prioritization. What it would take: training a value estimator that predicts which memories will change downstream decisions, and using it to gate retention. Signal: Rare Relevant and Still Wrong, Retrieval as Traversal, Rethinking Sequence Compression",
+      "body": "Your Benchmark Is an Empirical Measure Over Difficulty argues benchmarks should report performance as a function of difficulty, not just average accuracy [arXiv]. DecisionPivot provides a diagnostic benchmark for decision models in LLM systems [arXiv], and AgentVQA exposes gaps in agentic visual understanding [arXiv]. The gap is a benchmark suite that uses item response theory or similar to map model competence across difficulty levels for agent decisions, enabling better model selection and failure prediction. Signal: Your Benchmark Is an Empirical Measure Over Difficulty; DecisionPivot; AgentVQA.",
       "signal": ""
     },
     {
-      "title": "Flow language models as a genuine autoregressive replacement",
+      "title": "Generator self-reranking for long-context retrieval agents",
       "section": "Research directions & gaps",
-      "body": "\"Large Flow Language Models\" and \"Self-Regularized Flow Language Models\" both push flow-based generation for language, while \"An ODE-based Sampler for Discrete Diffusion Models\" provides the sampling theory [Large Flow Language Models, Self-Regularized Flow Language Models, An ODE-based Sampler]. The gap: flow models currently lack the inference-time reasoning capabilities (chain-of-thought, tool use) that make autoregressive models useful. No one has demonstrated a flow model that can do multi-step reasoning or agentic tool calling. Why now: flow models offer parallel decoding and potentially better sample quality, but they need to clear the reasoning bar. What it would take: a flow model trained with RL on reasoning traces, or a hybrid architecture that uses flow for generation and autoregressive for deliberation. Signal: Large Flow Language Models, Self-Regularized Flow Language Models, An ODE-based Sampler",
+      "body": "Glance shows the generator can act as its own reranker [arXiv], and A Broader Look into MLLM’s Retrieval Heads identifies internal retrieval heads that could be repurposed [arXiv]. The non-obvious research direction is to use a model’s own retrieval heads to rerank candidate passages during agent memory access, eliminating external rerankers and reducing latency/cost. Study calibration under distribution shift and rare-item recall, tying into the memory failure findings above. Signal: Glance; A Broader Look into MLLM’s Retrieval Heads; Rare, Relevant, and Still Wrong.",
       "signal": ""
     },
     {
-      "title": "Role-coupled tokenization as a new multimodal representation paradigm",
+      "title": "World models with physical dynamics as reward generators for RL",
       "section": "Research directions & gaps",
-      "body": "\"Read, Allocate, Route\" shows that pixel-space transformers can use role-specialized tokens to capture fine detail without exploding token counts [Read, Allocate, Route]. \"Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?\" asks whether discrete tokens can be semantically lossless [Can Discrete Tokens]. The gap: no one has applied role-coupled tokenization to video, 3D, or audio, where the token budget problem is even more severe. Why now: L3G-World and Genie 4 are pushing real-time world generation, but token efficiency is the bottleneck. What it would take: extending role-coupled tokenization to spatiotemporal and volumetric data, and testing whether role-specialized tokens improve downstream reasoning. Signal: Read Allocate Route, Can Discrete Tokens, L3G-World, Genie 4",
+      "body": "ThinkWorld reinforces chain-of-dynamics reasoning by imagining world states [arXiv], PDRVLA adds physical dynamics representations to vision-language-action models [arXiv], and ALPS provides visual state encoders for world models [arXiv]. The gap is using these world models to generate imagined trajectories as synthetic data or reward signals for reinforcement learning, reducing real-world interaction. Test on BURGER, a benchmark for robotic generalization via embodied drawing [arXiv], or Gym-Anything for scalable physical simulation [arXiv]. Signal: ThinkWorld; PDRVLA; ALPS; BURGER; Gym-Anything.",
       "signal": ""
     },
     {
-      "title": "Speech-native models that bypass text entirely",
+      "title": "Code as executable intermediate for video understanding and generation",
       "section": "Research directions & gaps",
-      "body": "Dessa is a conversation model trained only on speech [Hacker News], and Arc does ASR-NL in one step without a second model [r/MachineLearning]. ConvFill trains a 0.6B \"talker\" model with cheat notes from a large reasoner [r/LocalLLaMA]. The gap: no one has built a speech-native agent that reasons directly in audio space, without a text intermediate. This would preserve prosody, emotion, and non-verbal information that text transcription destroys. Why now: speech models are reaching competitive quality (Dessa, Nvidia's open transcription model), and voice AI infrastructure is consolidating (Deepgram acquiring Pipecat). What it would take: a speech-native world model or reasoning architecture that can deliberate without converting to text. Signal: Dessa, Arc, ConvFill, Deepgram/Pipecat",
+      "body": "CodeCap-Bench asks whether code can serve as a good video caption [arXiv], and Code2Video-Compass benchmarks code-based video generation across T2V, I2V, and V2V [arXiv]. Community experiments like “My video has unit tests” [Hacker News] suggest code could be the lingua franca for video editing and verification. The gap is a unified framework where video captions, edits, and generation are all represented as executable code, enabling version control, unit tests, and agentic automation. Signal: CodeCap-Bench; Code2Video-Compass; Hacker News.",
       "signal": ""
     },
     {
-      "title": "Runtime verification for computer-using agents as a distinct research area",
-      "section": "Research directions & gaps",
-      "body": "VeriCUA frames verification as agentic exploration for computer-using agents [VeriCUA]. \"Pre-Crime for Agents\" probes when a recruited agent gives in to rule-breaking [Pre-Crime for Agents]. MIT Technology Review urgently calls for real-time monitoring of AI agents' actions [MIT Technology Review]. The gap: current verification is either post-hoc (output filters) or environment-specific (test harnesses). No one has built a general runtime monitor that watches agent actions in real time and intervenes before harm. Why now: agents are being deployed in production (OpenAI's Asana browser agent, Claude Code), and the failure modes are becoming visible. What it would take: a monitor that can predict the consequences of an agent's next action from its trajectory, similar to how VX-One does perimeter triage for security [VX-One]. Signal: VeriCUA, Pre-Crime for Agents, MIT Technology Review, VX-One",
-      "signal": ""
-    },
-    {
-      "title": "The headless MCP layer: rebuild products as agent-accessible APIs",
+      "title": "Local-first agent memory and orchestration layer for regulated enterprises",
       "section": "Product / startup opportunities",
-      "body": "Simon Willison quotes Ben Hylak: \"every product i use should just be a headless mcp, that feeds into an agent\" [Simon Willison]. Chrome's autofill now pulls from Gmail to fill forms — a primitive version of this [TechCrunch AI]. Wabi, the AI agent that builds mini apps, is valued at $1.25B [TechCrunch AI]. The gap: no one is systematically rebuilding existing SaaS products as headless MCP endpoints. This is the \"API-ification\" of software, but for agents instead of developers. Why now: agents are becoming the primary interface for many tasks, and products that require human UI interaction are becoming bottlenecks. What it would take: a platform that wraps existing products in MCP-compatible interfaces, handling auth, state, and rate limiting. Who benefits: any enterprise with agent workflows that currently break at the \"human must click this button\" step. Signal: Simon Willison, Chrome autofill, Wabi",
+      "body": "IBM’s CEO says open weight models are now good and cheap on-prem [Hacker News], and enterprise users increasingly want to keep secrets local [r/LocalLLaMA]. Cache Engineering for Agents [arXiv] and Retrieval as Traversal [arXiv] provide the technical foundation for a self-hosted memory server with spatial/semantic indexing, audit logs, and role-based access. Build this as an open-source or commercial layer that plugs into llama.cpp/Ollama and agent frameworks. Why now: local models are capable enough, and data sovereignty pressure is rising. Who benefits: healthcare, finance, government, legal. Signal: IBM CEO; r/LocalLLaMA; Cache Engineering; Retrieval as Traversal.",
       "signal": ""
     },
     {
-      "title": "Enterprise local AI deployment stack, not just models",
+      "title": "AI patch triage and provenance service for the open-source “vulnpocalypse”",
       "section": "Product / startup opportunities",
-      "body": "IBM's CEO says open weight models are \"good and cheap on-prem\" [Hacker News]. Local AI is \"going to explode at enterprises\" because they want to keep secrets [r/LocalLLaMA]. Opera is introducing WebAI for local browser deployment [TechCrunch AI]. The gap: models exist, but the deployment stack (orchestration, monitoring, security, compliance) for local AI is fragmented. This is the \"Red Hat for local AI\" opportunity. Why now: open-weight models (Kimi K3.1 Pro, Mistral trillion-parameter, Nanbeige4.3-33B) are reaching frontier-adjacent quality, and enterprises are hitting data sovereignty walls. What it would take: a turnkey platform that handles model serving, fine-tuning, agent orchestration, and audit logging on-premises or in VPC. Who benefits: regulated industries (finance, healthcare, government) and any enterprise with proprietary data. Signal: IBM CEO, r/LocalLLaMA, Opera WebAI, Kimi K3.1 Pro, Mistral",
+      "body": "PHP2Shell critical bugs [TechCrunch AI] and Wiz’s CTO warning of a coming “vulnpocalypse” [TechCrunch AI] create urgent demand. Anthropic is reducing attack surface with Claude [Anthropic], OpenAI is coordinating disclosure of critical vulnerabilities [OpenAI Blog], and Mistral released a trillion-parameter model targeting cybersecurity [TechCrunch AI]. A product that automates CVE triage, generates minimal patches, and verifies them with provenance would help maintainers and enterprises. Why now: the cleanup is massive and AI can scale patch generation. Who benefits: open-source maintainers, enterprises, government agencies. Signal: PHP2Shell; Wiz; Anthropic; OpenAI Blog; Mistral.",
       "signal": ""
     },
     {
-      "title": "AI vulnerability remediation as a service: the \"Patch the Planet\" business",
+      "title": "Real-time infinite world generation engine for game studios",
       "section": "Product / startup opportunities",
-      "body": "OpenAI's coordinated disclosure of critical vulnerabilities and the \"Patch the Planet\" framing [OpenAI Blog] coincide with the \"vulnpocalypse\" — two critical PHP bugs affecting 70% of websites [TechCrunch AI]. Anthropic is \"Using Claude to reduce the attack surface of code\" [Anthropic]. The gap: no one is offering a continuous, AI-driven vulnerability discovery and remediation service for running production systems. This is different from static code scanning — it's an agent that actively probes, finds, and patches vulnerabilities in live infrastructure. Why now: AI agents are discovering vulnerabilities faster than humans can patch them, and the attack surface is expanding (PHP2Shell, LiteLLM, GitLab). What it would take: an agent platform with safe sandboxing, automated patch generation, and deployment pipelines with human approval gates. Who benefits: any organization running legacy or open-source infrastructure. Signal: OpenAI coordinated disclosure, Wiz vulnpocalypse, Anthropic attack surface reduction",
+      "body": "L3G-World achieves real-time infinite world generation with latent 3D Gaussian memory [arXiv], Fight World Model enables customizable combat through visual interaction proxies [arXiv], AnyGameRenderer provides entity-consistent generative rendering across games [arXiv], and BrickWright creates physically feasible brick builds [arXiv]. A developer API/SDK that generates persistent, physically plausible game worlds from prompts, with entity consistency and editable mechanics, would be valuable to indie studios and modding communities. Why now: real-time consistency and physical feasibility are solved enough to productize. Signal: L3G-World; Fight World Model; AnyGameRenderer; BrickWright.",
       "signal": ""
     },
     {
-      "title": "Agent monitoring and audit infrastructure as a standalone product",
+      "title": "Code-native video editor with unit tests and agentic edits",
       "section": "Product / startup opportunities",
-      "body": "MIT Technology Review argues \"we urgently need to monitor AI agents' actions in real time\" [MIT Technology Review]. VeriCUA and Pre-Crime for Agents provide the technical foundations [VeriCUA, Pre-Crime for Agents]. The gap: no commercial product exists that monitors agent actions, predicts harmful trajectories, and provides audit logs for compliance. This is the \"Datadog for agents\" opportunity. Why now: enterprises are deploying agents (Claude Code, Codex, Asana browser agent) without visibility into what they're doing. Regulatory pressure is building (Bank of America warning about AI agent access). What it would take: a runtime monitor that hooks into agent frameworks, tracks actions, and uses a predictive model to flag risky trajectories before they complete. Who benefits: compliance teams, security teams, and any enterprise with agent deployments. Signal: MIT Technology Review, VeriCUA, Pre-Crime for Agents, Bank of America",
+      "body": "Arsaze is described as “Cursor for video editing” with tab-complete and agent edits [Hacker News]. CodeCap-Bench [arXiv] and Code2Video-Compass [arXiv] show code can represent video content, and “My video has unit tests” [Hacker News] demonstrates the value of testable video. Build a video editor where edits are code diffs, enabling version control, CI, and agentic automation for repetitive edits. Why now: code-based video generation benchmarks and vibe coding make this feasible. Who benefits: YouTubers, marketing teams, film editors. Signal: Arsaze; CodeCap-Bench; Code2Video-Compass; Hacker News.",
       "signal": ""
     },
     {
-      "title": "Domain-specific world models for physical industries",
+      "title": "Geospatial digital twin generation for construction and insurance",
       "section": "Product / startup opportunities",
-      "body": "Dream, founded by ex-Palantir execs with $17M from a16z, builds AI world models for construction grounded in real physics and building standards [TechCrunch AI]. Gym-Anything scales physical simulations with digital agents [Gym-Anything]. Fight World Model creates customizable combat through visual interaction proxies [Fight World Model]. The gap: construction is just one vertical. Manufacturing, logistics, agriculture, and healthcare all need world models that respect domain-specific physics and regulations. Why now: general world models (Genie 4, L3G-World) are impressive but not grounded in industry-specific constraints. What it would take: domain-specific training data (like Dream's 100M square feet of building data) and integration with existing CAD/BIM/ERP systems. Who benefits: any industry where \"what happens if we change this?\" is expensive to answer physically. Signal: Dream, Gym-Anything, Fight World Model, Genie 4",
+      "body": "LoCA enables multi-modality in geospatial location encoders [arXiv], Dream builds AI world models for construction grounded in physics and building standards [TechCrunch AI], ALPS provides visual state encoders for world models [arXiv], and F2G-Pose handles RGB-D category-level object pose estimation [arXiv]. A product that generates real-time 3D digital twins from satellite/drone imagery for construction progress, damage assessment, and code compliance would serve insurers, construction firms, and municipalities. Why now: geospatial encoders and world models have matured. Signal: LoCA; Dream; ALPS; F2G-Pose.",
       "signal": ""
     },
     {
-      "title": "The \"human-verified\" service tier for AI-resistant markets",
+      "title": "On-device voice agent stack for privacy-sensitive industries",
       "section": "Product / startup opportunities",
-      "body": "A University of Kentucky administrator earned a religious exemption from using AI at work [TechCrunch AI]. Adam Mosseri says negativity around AI is \"going to get worse\" [The Verge AI]. AI execs are \"too out of touch to build for the general public\" [TechCrunch AI]. The gap: no one is building products that explicitly market themselves as AI-free or human-verified. This is the \"organic food\" of software. Why now: AI resistance is becoming institutionalized (religious exemptions, college students booing tech CEOs), and there's a growing trust deficit. What it would take: certification infrastructure for human-verified outputs, similar to fair trade or organic certification. Who benefits: legal, medical, and financial services where human accountability is legally required, plus consumers who want human judgment. Signal: TechCrunch religious exemption, Adam Mosseri, AI execs out of touch",
+      "body": "Arc is a ~70MB streaming speech model that transcribes and links names/metadata in one step [r/MachineLearning], ConvFill bridges fast and smart voice agents with a small talker and large reasoner [r/LocalLLaMA], and Deepgram acquired Pipecat-maker Daily to bolster voice AI infrastructure [TechCrunch AI]. Local models on DGX Spark now run at thousands of tokens per second [r/LocalLLaMA]. A fully on-device voice agent for healthcare intake, legal dictation, or field service would meet privacy requirements while remaining responsive. Why now: small speech models and local LLMs are good enough. Who benefits: clinics, law firms, field technicians. Signal: Arc; ConvFill; Deepgram; r/LocalLLaMA.",
       "signal": ""
     },
     {
-      "title": "Government AI procurement and auditing tools",
-      "section": "Product / startup opportunities",
-      "body": "Anthropic is expanding its GSA partnership to bring Claude to all levels of government [Anthropic]. OpenAI is \"strengthening democratic oversight in national security\" [OpenAI Blog]. Anthropic's public benefit charter and S-1 create governance complexity [Anthropic, MIT Technology Review]. The gap: no one is building the tools governments need to actually audit, monitor, and hold AI vendors accountable. This is the \"GAO for AI\" opportunity. Why now: federal AI adoption is accelerating (GSA partnership), but oversight infrastructure is nonexistent. What it would take: an independent platform that logs model behavior, tracks compliance with procurement requirements, and provides transparency reports. Who benefits: government agencies, watchdog organizations, and vendors who want to demonstrate compliance. Signal: Anthropic GSA, OpenAI democratic oversight, Anthropic public benefit",
-      "signal": ""
-    },
-    {
-      "title": "Flow models will replace autoregressive decoding for generation within 18 months",
+      "title": "Discrete tokens will fail as semantically lossless for physical reasoning; continuous latent world models will dominate embodied AI",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "The convergence of Large Flow Language Models, Self-Regularized Flow Language Models, and ODE-based samplers suggests flow models are approaching parity [Large Flow Language Models, Self-Regularized Flow Language Models, An ODE-based Sampler]. The contrarian bet: the next major architecture shift is not a bigger autoregressive model but a flow-based one that decouples generation from sequential decoding. Falsifiable: if no major lab releases a flow-based model that matches autoregressive reasoning by mid-2027, this bet fails. Why it's contrarian: the entire industry is invested in autoregressive infrastructure (KV caches, speculative decoding, etc.), and switching costs are enormous. Signal: Large Flow Language Models, Self-Regularized Flow Language Models, An ODE-based Sampler",
+      "body": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals? raises the question [arXiv], Ψ-0.6 uses adaptive streams of thought rather than fixed discrete tokens [arXiv], and PhysCount shows MLLMs confuse visual appearances with physical entities [arXiv]. Prediction: on physical entity tasks like BURGER or PhysCount, discrete-token models will underperform continuous latent models by more than 10%. Falsifiable with new benchmarks that explicitly test physical entity identity. Signal: Can Discrete Tokens; Ψ-0.6; PhysCount; BURGER.",
       "signal": ""
     },
     {
-      "title": "Local models will beat cloud for most enterprise use cases by 2027",
+      "title": "Agent memory failures are interface/indexing problems, not context capacity problems",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "IBM's CEO, the local AI enterprise explosion, and Opera's WebAI all point to a shift toward local deployment [Hacker News, r/LocalLLaMA, TechCrunch AI]. The contrarian bet: the economics of local inference (no per-token costs, data sovereignty, no latency) will outweigh the quality gap as open-weight models approach frontier performance. Falsifiable: if enterprise cloud AI spending continues to grow faster than on-prem AI spending through 2027, this bet fails. Why it's contrarian: the hyperscalers (AWS, Azure, GCP) are betting trillions on cloud AI dominance. Signal: IBM CEO, r/LocalLLaMA, Opera WebAI, AWS $1T bet",
+      "body": "Rare, Relevant, and Still Wrong shows memory fails on rare relevant items [arXiv], Retrieval as Traversal argues for value-indexed memory [arXiv], Cache Engineering for Agents treats memory as an engineering layer [arXiv], and Your Policy Is Secretly a Harness shows interface geometry shapes policy [arXiv]. Prediction: increasing context length to 1M tokens will not reduce group decision errors unless memory is restructured around relevance and decision geometry. Testable by comparing group decision accuracy across context lengths with and without memory restructuring. Signal: Rare, Relevant, and Still Wrong; Retrieval as Traversal; Cache Engineering; Your Policy Is Secretly a Harness.",
       "signal": ""
     },
     {
-      "title": "The \"vulnpocalypse\" will create a new cybersecurity paradigm where AI agents are both attack and defense",
+      "title": "AI-generated patches will create a new attack surface: patch injection",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "Wiz's CTO predicts a \"vulnpocalypse\" for aging code [TechCrunch AI]. OpenAI's coordinated disclosure and \"Patch the Planet\" framing suggest AI-driven vulnerability discovery is accelerating [OpenAI Blog]. The contrarian bet: within 12 months, the majority of new vulnerabilities will be discovered by AI agents, not humans, and the only viable defense will be AI agents that patch faster than attackers can exploit. Falsifiable: if human-discovered vulnerabilities still dominate CVE reports in late 2027, this bet fails. Why it's contrarian: the security industry still assumes human expertise is the bottleneck. Signal: Wiz vulnpocalypse, OpenAI coordinated disclosure, Anthropic vulnerability discovery",
+      "body": "The PHP2Shell cleanup [TechCrunch AI], Anthropic’s attack surface reduction [Anthropic], OpenAI’s coordinated vulnerability disclosure [OpenAI Blog], and Wiz’s “vulnpocalypse” warning [TechCrunch AI] all point to AI-assisted patching at scale. Prediction: by late 2027, the majority of critical open-source patches will be AI-assisted, and a new class of “patch injection” attacks will emerge where malicious code is hidden in plausible AI-generated patches. Falsifiable by tracking patch provenance and incident reports. Signal: PHP2Shell; Anthropic; OpenAI Blog; Wiz.",
       "signal": ""
     },
     {
-      "title": "World models will become the primary training substrate for embodied AI, not real-world data",
+      "title": "Local model adoption in enterprises will be driven by regulatory/insurance pressure, not cost",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "Genie 4, L3G-World, and Dream all show world models reaching real-time fidelity [Genie 4, L3G-World, Dream]. Sensorimotor Alignment proposes a \"Platonic proxy\" for embodied policy success [Sensorimotor Alignment]. The contrarian bet: by 2028, most embodied AI training will happen in world models, with real-world data used only for fine-tuning and validation. Falsifiable: if real-world robot data remains the primary training source for deployed embodied systems through 2028, this bet fails. Why it's contrarian: the robotics industry still believes in the \"sim-to-real gap\" as a fundamental barrier. Signal: Genie 4, L3G-World, Dream, Sensorimotor Alignment",
+      "body": "IBM’s CEO says open weight models are good and cheap on-prem [Hacker News], and enterprise users want to keep secrets local [r/LocalLLaMA]. Sam Altman argues RAM belongs in data centers, not on desks [The Verge AI], suggesting cloud economics still favor centralized compute. Prediction: by 2027, more than 30% of regulated industries (health, finance, government) will mandate on-prem inference for certain workloads, despite cloud being cheaper, due to data sovereignty and insurance requirements. Falsifiable via enterprise surveys and procurement data. Signal: IBM CEO; r/LocalLLaMA; The Verge AI.",
       "signal": ""
     },
     {
-      "title": "Agent interfaces will become a formal alignment target, not just an engineering concern",
+      "title": "World models will replace chatbots as the next consumer AI interface",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "\"Your Policy Is Secretly a Harness\" argues that interfaces encode policy [Your Policy Is Secretly a Harness]. Anthropic is \"Scaling Managed Agents with stable interfaces\" and donating Agent Skills to a foundation [Anthropic]. The contrarian bet: within 2 years, interface design will be recognized as a first-class alignment problem, with formal methods for verifying that interfaces don't enable harmful agent behavior. Falsifiable: if interface design remains an engineering afterthought in alignment research through 2027, this bet fails. Why it's contrarian: alignment research is overwhelmingly focused on weights and training data, not the interface layer. Signal: Your Policy Is Secretly a Harness, Scaling Managed Agents, Donating Agent Skills",
+      "body": "L3G-World enables real-time infinite world generation [arXiv], Ψ-0.6 is a unified vision-language world model [arXiv], ThinkWorld reinforces chain-of-dynamics reasoning [arXiv], OverSeer builds multi-agent world models beyond what agents see [arXiv], and Simon Willison notes an inflection point for vibe game development [Simon Willison]. Prediction: the next major consumer product from a frontier lab will be an interactive world simulator, not a text chatbot. Falsifiable by product releases within 18 months. Signal: L3G-World; Ψ-0.6; ThinkWorld; OverSeer; Simon Willison.",
       "signal": ""
     },
     {
-      "title": "The \"AI-free\" market will be larger than the AI-powered market for high-stakes decisions",
+      "title": "Data-free self-improvement will plateau without environmental feedback",
       "section": "Contrarian bets & falsifiable predictions",
-      "body": "The religious exemption story, Adam Mosseri's negativity prediction, and the \"AI execs out of touch\" critique all signal growing AI resistance [TechCrunch AI, The Verge AI]. The contrarian bet: by 2028, there will be a multi-billion-dollar market for explicitly human-verified services in legal, medical, and financial domains, and it will grow faster than AI-powered alternatives in those same domains. Falsifiable: if AI-powered services continue to gain market share in high-stakes domains through 2028, this bet fails. Why it's contrarian: the tech industry assumes AI adoption is inevitable and resistance is temporary. Signal: TechCrunch religious exemption, Adam Mosseri, AI execs out of touch",
-      "signal": ""
-    },
-    {
-      "title": "Anthropic IPO and governance structure",
-      "section": "Watch items",
-      "body": "Anthropic has filed its S-1 and is asking Wall Street to believe in AGI [The Verge AI, TechCrunch AI]. The governance structure is \"incredibly complex\" [TechCrunch AI]. Watch for: how the public market reacts to a company explicitly optimizing for AGI rather than quarterly profits, and whether the public benefit charter survives post-IPO pressure. This will set the template for other frontier lab IPOs (OpenAI's confidential S-1 is already filed). Signal: Anthropic S-1, The Verge AI, TechCrunch AI",
-      "signal": ""
-    },
-    {
-      "title": "Gemini 4 Carbon's cybersecurity claims",
-      "section": "Watch items",
-      "body": "Google claims Gemini 4 Carbon offers \"significant gains\" in cybersecurity [The Verge AI]. Watch for: independent verification of these claims, and whether this triggers a security-focused model arms race. If Gemini 4 Carbon can actually discover and patch vulnerabilities at scale, it validates the \"AI as both attack and defense\" paradigm. Signal: Gemini 4 Carbon, The Verge AI",
-      "signal": ""
-    },
-    {
-      "title": "Kimi K3.1 Pro open weights release (Nov 4, 2026)",
-      "section": "Watch items",
-      "body": "Moonshot promises full model weights by Nov 4 [Simon Willison]. Watch for: whether the open weights match the API performance, and how this shifts the open-source vs. closed-source balance. If Kimi K3.1 Pro is competitive with frontier models, it accelerates the local AI enterprise trend. Signal: Simon Willison, Kimi K3.1 Pro",
-      "signal": ""
-    },
-    {
-      "title": "The \"Hackening\" prediction",
-      "section": "Watch items",
-      "body": "LessWrong reports a prediction of \"The Hackening\" — within 6-12 months, advanced AI agents will dramatically increase cyberattack frequency and sophistication [LessWrong]. Watch for: whether this materializes as predicted, and whether the coordinated disclosure infrastructure (OpenAI, Anthropic) can keep pace. This is a testable prediction about AI-driven security dynamics. Signal: LessWrong, OpenAI coordinated disclosure",
-      "signal": ""
-    },
-    {
-      "title": "Data center backlash and grid innovation",
-      "section": "Watch items",
-      "body": "Voters in Texas hate data centers [The Verge AI]. xAI is buying out homeowners who promise not to sue over noise [The Verge AI]. The data center boom has an upside: innovation for the US grid [TechCrunch AI]. Watch for: whether data center opposition becomes a national political issue, and whether solid-state transformers and other grid innovations actually deploy at scale. This constrains AI infrastructure growth. Signal: The Verge AI, TechCrunch AI",
-      "signal": ""
-    },
-    {
-      "title": "Reddit's shift to logged-in experience",
-      "section": "Watch items",
-      "body": "Reddit is shifting to a logged-in experience as search traffic dries up due to AI [TechCrunch AI]. Watch for: whether this accelerates the \"walled garden\" trend for user-generated content, and whether it creates a data scarcity problem for AI training. This is a leading indicator of how AI is reshaping the open web. Signal: TechCrunch AI, Reddit",
-      "signal": ""
-    },
-    {
-      "title": "The \"vulnpocalypse\" timeline",
-      "section": "Watch items",
-      "body": "Wiz's CTO predicts a \"vulnpocalypse\" for aging code [TechCrunch AI]. PHP2Shell, LiteLLM, and GitLab vulnerabilities are already being exploited [Hacker News, Simon Willison]. Watch for: whether the pace of critical vulnerability discovery accelerates as predicted, and whether AI-driven patching (Anthropic's attack surface reduction, OpenAI's coordinated disclosure) can keep up. This is a race between AI attack and AI defense. Signal: Wiz, TechCrunch AI, Hacker News, Simon Willison",
+      "body": "On-Policy Self-Training claims data-free self-improvement [arXiv], LongZero enhances long-context reasoning from zero data [arXiv], and Evolving with Open Worlds explores recursive self-improvement for future forecasting [arXiv]. Prediction: pure data-free self-improvement will hit a ceiling on reasoning benchmarks; the next breakthrough will require coupling with world models or verifiers that provide environmental feedback. Falsifiable by tracking improvements on reasoning benchmarks over the next year. Signal: On-Policy Self-Training; LongZero; Evolving with Open Worlds.",
       "signal": ""
     }
   ],
